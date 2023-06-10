@@ -156,5 +156,5 @@
  :ui/show-brackets? true
  :journal/page-title-format "E, yyyy/MM/dd"
  :journal/file-name-format "yyyy-MM-dd"
- :favorites ["react hot module reloading" "jsplay"]
+ :favorites ["我の日誌" "react hot module reloading" "jsplay"]
  :graph/settings {:builtin-pages? false}}
