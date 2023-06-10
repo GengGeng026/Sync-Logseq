@@ -151,7 +151,7 @@
 
  :markdown/version 2
  :shortcuts {:ui/toggle-contents "meta+shift+c"}
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :default-home {:page "Contents"}
  :ui/show-brackets? true
  :journal/page-title-format "E, yyyy/MM/dd"
