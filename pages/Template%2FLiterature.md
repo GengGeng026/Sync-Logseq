@@ -1,4 +1,5 @@
 - {{query (property template) }}
+  collapsed:: true
 -
 - #[[📅 Resonance Calendar]]
   template:: Literature_Template
