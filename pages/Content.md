@@ -4,7 +4,7 @@
 # 配置
 	- 请看 [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]]
 -
-	- 简悦自动导出到 Logseq 后发布到 Github Page 的例子。
+	- >简悦自动导出到 Logseq 后发布到 Github Page 的例子。
 	- {{query [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]] }}
 	  query-properties:: [:page :block]
 -
