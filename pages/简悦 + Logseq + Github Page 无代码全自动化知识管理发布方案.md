@@ -1,8 +1,10 @@
 > 在简悦标注，自动生成符合 Logseq 的标注文件，然后发布到 Github Page 的无代码化全自动方案。
 
 - # 感谢
+  collapsed:: true
 	- [@tiensonqin](https://twitter.com/tiensonqin) 提供了这么棒的双链笔记 Logseq，得益于 [@pengx17](https://twitter.com/pengx17) 发布的 [Logseq Publish GitHub Action](https://pengx17.github.io/knowledge-garden/#/page/logseq publish github action)，可以非常方便的使用 Logseq 编写，使用 Git 发布它。
 - # 流程
+  collapsed:: true
   	> 整个工作流包含两种方案
 	- 当你在 Logseq 页面的任何改动都会自动发布到你的 Github Page 上面， 你看到的 [这篇教程](https://kenshin.wang/knowledge-garden/) 就是此方式发布的。
 	  id:: 61fdfac4-f85b-4d3a-a8eb-2f094ceb90ca
@@ -25,14 +27,17 @@
 		  id:: 61fdf259-0e0d-4c14-9364-d567abae56a6
 		  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 # 为什么是 Logseq
+collapsed:: true
 	- Logseq 支持 outliner 层级结构，类似 Workflowy / Roam Research 的效果，每层都可以延伸为一个「新的 Page」，非常适合「知识的生长」。
 	- 虽然 Obsidian Publish 也提供发布功能，但定制化程度不如 Logseq 且只能 Host 在它的服务器上面。
 	- 基于 Local first，因此非常适合跟简悦搭配一起做知识管理。
 # 平台
+collapsed:: true
 	- 简悦（含同步助手）
 	- Logseq
 	- Github Page +  [Logseq Publish GitHub Action](https://pengx17.github.io/knowledge-garden/#/page/logseq publish github action)
 - # 配置
+  collapsed:: true
 	- #+BEGIN_TIP
 	  关于 Github Page + Logseq + Logseq Publish GitHub Action 的配置。
 	  #+END_TIP
@@ -82,6 +87,7 @@
 		  
 		  ![image-20220204145601034](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/typora/20220204_1643957761.png)
 - # 自动化
+  collapsed:: true
 	- #+BEGIN_TIP
 	  当 `page` 文件夹有改动时，自动 Push Github。
 	  #+END_TIP
@@ -103,6 +109,7 @@
 			  如果你没有 Hazel 的话，也可以使用 `crontab` 方案，也就是每隔 xxx 时间自动调用上面这个 bash 文件，如何使用可以看 [这篇文章](https://mp.weixin.qq.com/s/w6-LQLAApN7HhXaBwslegw) 。
 			  #+END_NOTE
 - # 简悦设置
+  collapsed:: true
 	- #+BEGIN_TIP
 	  利用简悦的 [自动化](http://ksria.com/simpread/docs/#/自动化) 与 同步助手的 [增强导出](https://kb.simpread.pro/#/page/增强导出) 功能。
 	  #+END_TIP
@@ -138,6 +145,7 @@
 		  将 Hazel 监控 Chrome 下载文件夹，当遇到 `xxxx@annote.md` 文件时，自动转移到 `pages` 文件夹即可。
 		  #+END_TIP
 - # 至此
+  collapsed:: true
 	- id:: 61fdf55a-23b9-429d-996d-797c43827be9
 	  > 全部配置结束，上述配置包含
 		- ((61fdfac4-f85b-4d3a-a8eb-2f094ceb90ca))
@@ -145,6 +153,7 @@
 		- ((61fdfb06-622e-417f-9047-7bb17d9a25a9))
 		  id:: 61fdf55a-1fd9-4ee7-a05b-b36acb897b16
 - # 此方案的优缺点
+  collapsed:: true
 	- ## 优点
 		- 无代码化的全自动操作方案。
 		- 一次配置即可。
@@ -157,6 +166,7 @@
 		- Logseq 并不是属于标准的 Markdown 结构（细节 [看这里](https://www.markdownguide.org/tools/logseq/)），所以再加上双链的话，迁移有一定成本。（可适度使用 Logseq [导出功能](((61fdf55a-0377-4d51-8d83-d98ef4f785fa))) 改善此问题）
 		  id:: 61fdf259-3039-4977-8772-fd84e9207f76
 - # 附录
+  collapsed:: true
 	- ## 导出为 Markdown
 	  id:: 61fdf55a-0377-4d51-8d83-d98ef4f785fa
 		- Logseq 自带了导出功能，可根据下图所示的方式导出为 Markdown，因为对 [部分 Markdown 语法的不支持](https://www.markdownguide.org/tools/logseq/)，尤其是 `Ordered Lists` 所以导入的 Markdown 还需要手动修改。
