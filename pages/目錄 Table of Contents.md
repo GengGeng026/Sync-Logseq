@@ -1,14 +1,13 @@
 - # 工作
 	- [[工作日報]]
+		-
 	- [[工作復盤]]
 	- [[項目 A]]
-	-
 -
 - # 生活
 	- [[財務]]
 	- [[日記]]
 	- [[心情]]
-	-
 -
 - # 娛樂
 	- [[遊戲]]
@@ -17,7 +16,12 @@
 	- [[The Legend of Zelda : BOTW]]
 	- [[Super Smash Bro Ultimate]]
 	- [[Overcooked 3 : All you can eat]]
+	- [[Nintendo Sports]]
 	-
+- # 學習
+	- [[心理學]]
+	-
+-
 -
 - > 此文档建立在 Logseq 上面，感谢 [@tiensonqin](https://twitter.com/tiensonqin) 提供了这么棒的双链笔记，得益于 [@pengx17](https://twitter.com/pengx17) 发布的 [Logseq Publish GitHub Action](https://pengx17.github.io/knowledge-garden/#/page/logseq%20publish%20github%20action)，可以非常方便的使用 Logseq 编写，使用 Git 发布它。
 - # 样式
