@@ -18,7 +18,7 @@
 		  Jalan Profesor Diraja Ungku Aziz,
 		  59100 Kuala Lumpur
 			- Tel. No: +60 03-79492179 / 2193
--
+			-
 - # **Appointment-Based Clinic (ABC)**
 	- New system fully implemented starting from 1st March 2022.
 	  collapsed:: true
@@ -27,16 +27,19 @@
 		-
 	-
 	- ## **Patients can**
-		- book their #[[walk-in appointment]]  prior to their visit to primary care clinic
+		- #### book their #[[walk-in appointment]]  prior to their visit to primary care clinic
 		  logseq.order-list-type:: number
-		- through [WeHealth ( iOS )](https://apps.apple.com/my/app/wehealth/id1370251043)   or  [UMMC ( PPUM ) 官網](https://www.ummc.edu.my)
+		- #### through [WeHealth ( iOS )](https://apps.apple.com/my/app/wehealth/id1370251043)   or  [UMMC ( PPUM ) 官網](https://www.ummc.edu.my)
 		  logseq.order-list-type:: number
 	-
 	- ## **Benefits**
-		- Patients’ visits can be planned and staggered using the appointment time slot, 
+	  collapsed:: true
+		- #### Patients’ visits can be planned and staggered using the appointment time slot,
 		  logseq.order-list-type:: number
-		- Prevent crowding at the registration and waiting area. 
+		- #### Prevent crowding at the registration and waiting area.
 		  logseq.order-list-type:: number
-		- Avoid unnecessary visits to the hospital and be turned away should the clinic is closed.
+		- #### Avoid unnecessary visits to the hospital and be turned away should the clinic is closed.
 		  logseq.order-list-type:: number
+-
+-
 -
