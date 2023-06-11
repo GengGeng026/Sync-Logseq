@@ -5,9 +5,14 @@
 -
 - # 工作
 	- [[工作日報]]
+	  collapsed:: true
 		-
 	- [[工作復盤]]
+	  collapsed:: true
+		-
 	- [[項目 A]]
+	  collapsed:: true
+		-
 -
 - # 娛樂
 	- [[遊戲]]
