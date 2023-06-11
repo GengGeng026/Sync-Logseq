@@ -163,3 +163,13 @@
 		  ![](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/simpered/article/SCR-20220205-gft.png)
 	- ## 更多例子
 		- {{embed ((61fe1b3a-8356-4f20-b8f1-f5f4ed21ee7b))}}
+- # 附录
+  query-table:: true
+  query-sort-by:: block
+  query-sort-desc:: true
+	- ## 导出为 Markdown
+		- Logseq 自带了导出功能，可根据下图所示的方式导出为 Markdown，因为对 [部分 Markdown 语法的不支持](https://www.markdownguide.org/tools/logseq/)，尤其是 `Ordered Lists` 所以导入的 Markdown 还需要手动修改。
+		  ![](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/simpered/article/SCR-20220205-gft.png)
+	- ## 更多例子
+		- {{embed ((61fe1b3a-8356-4f20-b8f1-f5f4ed21ee7b))}}
+		-
