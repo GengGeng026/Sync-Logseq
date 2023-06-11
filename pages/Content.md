@@ -5,6 +5,9 @@
 	- 请看 [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]]
 -
 	- >简悦自动导出到 Logseq 后发布到 Github Page 的例子。
-	- {{query [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]] }}
+	- [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]]
 	  query-properties:: [:page :block]
 -
+	- [[践行极简理念，高效数字生活]]
+	- [[哥斯拉]]
+	- 更多例子 [Kenshin's Note](https://kenshin.wang/note)
