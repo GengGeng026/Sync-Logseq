@@ -1,3 +1,4 @@
+-
 - #[[📅 Resonance Calendar]]
 	- Categories: #
 	- Date: {{{date}}}
@@ -7,4 +8,6 @@
 	- Status: #[[✅ Edit Later]]
 	- Keywords:
 	- Goals:
-	-
+	- #[[📑 Literature Notes]]
+-
+	- Contents
