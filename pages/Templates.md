@@ -1,0 +1,5 @@
+- Literature_Template
+	- Title:
+	- Author:
+	- Date:
+	- Date Read
