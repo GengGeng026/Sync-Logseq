@@ -2,7 +2,7 @@
   collapsed:: true
 -
 - #[[📅 Resonance Calendar]]
-  template:: Literature_Template
+  template:: Literature
   template-including-parent:: false
 	- Type: #book
 	- Categories: #

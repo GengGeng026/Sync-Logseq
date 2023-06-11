@@ -1,5 +1,5 @@
 - Type: #book
-- Categories: #
+- Categories: #Article #Video
 - Status: TODO
 - Date: {{{date}}}
 - Date Read:
