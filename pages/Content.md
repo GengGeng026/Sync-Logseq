@@ -4,7 +4,10 @@
 # 配置
 -
 	- 简悦自动导出到 Logseq 后发布到 Github Page 的例子。
-	- #+附录 >
+	- [[]]
+	  :PROPERTIES:
+	  :作者:
+	  :END:
 	- [[简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案]]
 	  query-properties:: [:page :block]
 - {{embed ((61fe1b3a-8356-4f20-b8f1-f5f4ed21ee7b))}}
