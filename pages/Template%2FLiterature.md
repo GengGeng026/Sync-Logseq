@@ -4,7 +4,9 @@
 - #[[📅 Resonance Calendar]]
   template:: Literature_Template
   template-including-parent:: false
+	- Type: #book
 	- Categories: #
+	- Status: TODO
 	- Date: {{{date}}}
 	- Date Read:
 	- Author:
