@@ -1,5 +1,8 @@
+- {{query (property template) }}
 -
 - #[[📅 Resonance Calendar]]
+  template:: Literature_Template
+  template-including-parent:: false
 	- Categories: #
 	- Date: {{{date}}}
 	- Date Read:
