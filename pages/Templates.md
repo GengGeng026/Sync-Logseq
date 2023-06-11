@@ -1,5 +1,10 @@
-- Literature_Template
-	- Title:
+- #[[📅 Resonance Calendar]]
+	- Categories: #
+	- Date: {{{date}}}
+	- Date Read:
 	- Author:
-	- Date:
-	- Date Read
+	- Source:
+	- Status: #[[✅ Edit Later]]
+	- Keywords:
+	- Goals:
+	-
