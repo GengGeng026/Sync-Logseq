@@ -9,6 +9,4 @@ title:: 馬來亞大學醫院 UMMC ( PPUM )
 -
 	- ## 專屬 App
 		- ### [[WeHealth]]  #WeHealth
-		- {{embed ((64866531-99ba-4eeb-842e-453addfe5f50))}}
--
--
+		-
