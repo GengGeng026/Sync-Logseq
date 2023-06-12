@@ -63,7 +63,7 @@
 			      
 			  > 打开 Logseq 并进入 logseq dev theme 后会看到如下的截图内容，说明样式设置成功。
 			  
-			  ![image-20220204123647416](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/typora/20220204_1643949407.png)
+			  ![image-20220204123647416](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/typora/20220204_1643949407.png){:height 547, :width 619}
 		- 将全部文件提交到 Github，当提交后会自动进行 Actions 操作，会有下图所示的效果。
 			- ![image-20220204145022733](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/typora/20220204_1643957422.png)
 			      
