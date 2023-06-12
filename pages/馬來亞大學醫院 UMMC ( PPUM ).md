@@ -6,5 +6,6 @@ title:: 馬來亞大學醫院 UMMC ( PPUM )
 		- [UMMC( PPUM ) ](https://www.ummc.edu.my)
 -
 	- ## 專屬 App
+		- 下載方式
 		- ### [[WeHealth]]  #WeHealth
 		-
