@@ -3,7 +3,9 @@ type:: logseq theme
 
 - # 一級標題
 - ## 二級標題
-- 三級
+- ### 三級標題
+- #### 四級標題
+- TODO 這是一個 TODO
 # H1 Title
 ## H2 Sub Title
 ### H3 Section Title
