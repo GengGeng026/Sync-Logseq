@@ -1,8 +1,8 @@
 src:: [pengx17/logseq-dev-theme: logseq](https://github.com/pengx17/logseq-dev-theme)
 type:: logseq theme
 
-# H1 Title
-id:: 64837917-c2dc-4608-8c46-d383eeebf16f
+- # H1 Title /sync
+  id:: 64837917-c2dc-4608-8c46-d383eeebf16f
 - ## H2 Sub Title
   id:: 64837917-4e2d-4afb-b089-43437f65c475
 - ### H3 Section Title
