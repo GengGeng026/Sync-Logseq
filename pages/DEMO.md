@@ -28,7 +28,7 @@ type:: logseq theme
 		  now:: 1624459089292
 - Progress Bar [:progress {:max 10 :value 3}]
 - Block ref  [[logseq]] ((60d34662-6747-46cd-a790-6dcb691b0256))
-id:: fcfa8264-6af8-47fe-aa9b-290c05724243
+  id:: fcfa8264-6af8-47fe-aa9b-290c05724243
 # ((610173e1-6229-4cc1-85d9-b652d28d888a))
 - Embedded block
 	- {{embed ((60d34662-6747-46cd-a790-6dcb691b0256))}}
