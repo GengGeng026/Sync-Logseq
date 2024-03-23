@@ -50,3 +50,5 @@
 		- [[哥斯拉]]
 		- 更多例子 [Kenshin's Note](https://kenshin.wang/note)
 - **16:41** [[quick capture]]:  ![2024-03-19-16-41-35](../assets/2024-03-19-16-41-35.png)
+- **20:01** [[quick capture]]: https://www.xiaoyuzhoufm.com/episode/6493fc60932f350aaed4fc23?s=eyJ1IjogIjVmY2JlNGNjZTBmNWU3MjNiYjQ2ODRjMyJ9
+-
