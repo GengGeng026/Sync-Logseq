@@ -1,13 +1,11 @@
 ## 🔖 Articles
 	- ### HR 为什么不喜欢职场空窗期
-	  collapsed:: true
 	  producer:: [[天才编辑部]]
 	  input:: [[articles]]
 	  link:: https://mp.weixin.qq.com/s?__biz=Mzg5NjY0MTU1MA%3D%3D&chksm=c07cacebf70b25fd84800b163917c03f5a87894a0ffac8e901aae0b86c8583827a1719954d14&idx=1&mid=2247488394&scene=21&sn=94731474517266a77d3312c37432a56d
 	  source:: [[Omnivore imports]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 1-3个月：
 			  在这期间调整了一下自己的状态，并且期间重新思考了自己的职业规划。复盘了以往工作给我带来的成长，总结了自己的优劣势，并且在此期间，提升了之前没精力学习的工作新技能。
 			  目前我有更好的工作状态和思路，所以我觉得我能胜任这个岗位。
