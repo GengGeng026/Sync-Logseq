@@ -6,7 +6,8 @@
 	  source:: [[Omnivore imports]]
 	  tags::
 		- ### Highlights
-			- > **0** **2**
+			- id:: bf828345-4141-4b2a-bbd2-12659b578b50
+			  > **0** **2**
 			  > 
 			  ****面试中空窗期如何回答？**
 			  > 
