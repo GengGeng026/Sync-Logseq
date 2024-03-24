@@ -1,2 +1,2 @@
-- label:\"Sent to Logseq\"
+-
 -
