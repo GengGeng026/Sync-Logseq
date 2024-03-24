@@ -1,11 +1,13 @@
 ## 🔖 Articles
 	- ### HR 为什么不喜欢职场空窗期
+	  collapsed:: true
 	  producer:: [[天才编辑部]]
 	  input:: [[articles]]
 	  link:: https://mp.weixin.qq.com/s?__biz=Mzg5NjY0MTU1MA%3D%3D&chksm=c07cacebf70b25fd84800b163917c03f5a87894a0ffac8e901aae0b86c8583827a1719954d14&idx=1&mid=2247488394&scene=21&sn=94731474517266a77d3312c37432a56d
 	  source:: [[Omnivore imports]]
 	  tags::
 		- ### Highlights
+		  collapsed:: true
 			- id:: bf828345-4141-4b2a-bbd2-12659b578b50
 			  > **0** **2**
 			  > 
@@ -23,7 +25,7 @@
 			  > 
 			  如果你确实是因为家庭、身体原因有了较长的空窗期，比如生育、求学、照顾家人等等，可以坦白地告诉面试官。
 			  > 
-			  核心是要告诉面试官这段时间完成了自己在那个阶段无法兼顾工作的人生大事，而这些事情现在已经告一段落了，目前自己可以全身心的投入工作。
+			  [[核心]]是要告诉面试官这段时间完成了自己在那个阶段无法兼顾工作的人生大事，而这些事情现在已经告一段落了，目前自己可以全身心的投入工作。
 			  > 
 			  **1年甚至更长：**
 			  > 
