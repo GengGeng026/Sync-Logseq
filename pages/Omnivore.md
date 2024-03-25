@@ -29,7 +29,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-			-
+			- $$抑郁患者不适合做的6类工作，千万不要尝试！ - 知乎$$
 			- id:: a49aaac5-7af8-476d-a392-21dddd7eb3d5
 			  > 1、长时间的脑力劳动的工作
 			  > 
