@@ -1,5 +1,6 @@
 ## 🔖 Articles
 	- ### 道理都懂，如何才能勇敢地出去找工作？-壹心理
+	  collapsed:: true
 	  input:: [[articles]]
 	  link:: https://www.xinli001.com/qa/100827382?from=shouye&sourceFlag=weixin
 	  source:: [[Omnivore]]
@@ -42,6 +43,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 	  id:: f19b742f-2779-480c-9103-1ed005a3bfe6
+	  collapsed:: true
 		- ### Highlights
 			- id:: 660155f9-f493-4f41-be31-53f401d62599
 			  $$完美主义者要面对的风险与危机$$
