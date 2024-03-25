@@ -6,7 +6,6 @@
 	  source:: [[Omnivore]] 
 	  tags:: [[空窗期]], [[求職]], [[面試]]
 		- ### Highlights
-		  collapsed:: true
 			- id:: bf828345-4141-4b2a-bbd2-12659b578b50
 			  > $$02$$
 			  > 
