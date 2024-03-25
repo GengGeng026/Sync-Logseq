@@ -1,12 +1,10 @@
 ## 🔖 Articles
 	- ### 道理都懂，如何才能勇敢地出去找工作？-壹心理
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: https://www.xinli001.com/qa/100827382?from=shouye&sourceFlag=weixin
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 1、接纳自己目前的状态，暂停一下
 			  目前停下来一段时间，不纠结于具体的选择，不急于一个答案，进一步察觉自己内心的真实想法，让方向和真正的问题慢慢地出现。关键是告诉自己：你可以难过，可以失败，也可以暂时停下来。
 			  2、制定很细微，但很明确的目标
