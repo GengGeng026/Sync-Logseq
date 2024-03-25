@@ -47,13 +47,11 @@
 			  >
 			  #Omnivore
 	- ### 憂鬱症適合的工作是什麼？憂鬱症無法工作補助如何請領？ - 昕晴診所
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: https://www.moodclinic.com.tw/depression-friendly-jobs/
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 關於憂鬱症無法工作補助，你需要了解的事
 			  對於病情嚴重到影響生活、工作能力的患者，如果失去經濟來源，那生活中的種種花費也是一件很頭痛的事，更何況也有一些患者憂鬱症的起因跟金錢壓力也是有掛鉤的。
 			  如果想申請憂鬱症無法工作補助，這時候就可以去申請一些政府的相關補助，像是健保、勞保，而如果自己原來有一些私人保險，或許也是有給付的。
@@ -70,7 +68,6 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- id:: 6601408f-41c8-45f5-bc2c-d64794b40362
 			  $$關於憂鬱症無法工作補助，你需要了解的事$$
 			- id:: 2ecf67a0-c535-4488-85d2-b48f68750d14
