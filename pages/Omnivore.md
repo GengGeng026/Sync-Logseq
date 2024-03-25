@@ -81,7 +81,6 @@
 	  source:: [[Omnivore]]
 	  tags::
 	  id:: f19b742f-2779-480c-9103-1ed005a3bfe6
-	  collapsed:: true
 		- ### Highlights
 			- id:: 660155f9-f493-4f41-be31-53f401d62599
 			  $$完美主义者要面对的风险与危机$$
