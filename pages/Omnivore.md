@@ -5,6 +5,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
+		  collapsed:: true
 			- id:: 6601408f-41c8-45f5-bc2c-d64794b40362
 			  $$關於憂鬱症無法工作補助，你需要了解的事$$
 			- id:: 2ecf67a0-c535-4488-85d2-b48f68750d14
@@ -23,6 +24,7 @@
 			  >
 			  #Omnivore
 	- ### 抑郁患者不适合做的6类工作，千万不要尝试！ - 知乎
+	  collapsed:: true
 	  producer:: [[精神心理医生彭军​医师资格证书持证人​关注她]]
 	  input:: [[articles]]
 	  link:: https://zhuanlan.zhihu.com/p/566996699
@@ -65,6 +67,7 @@
 	  source:: [[Omnivore]] 
 	  tags:: [[空窗期]], [[求職]], [[面試]]
 		- ### Highlights
+		  collapsed:: true
 			- id:: bf828345-4141-4b2a-bbd2-12659b578b50
 			  > $$02$$
 			  > 
