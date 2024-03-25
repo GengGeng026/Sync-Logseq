@@ -1,7 +1,7 @@
 ## 🔖 Articles
 	- ### 道理都懂，如何才能勇敢地出去找工作？-壹心理
 	  input:: [[articles]]
-	  link:: https://www.xinli001.com/qa/100827382?from=shouye&sourceFlag=weixin
+	  link:: https://www.xinli001.com/qa/100827382?from=shouye&sourceFlag=weixin 
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
