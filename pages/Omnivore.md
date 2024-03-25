@@ -37,14 +37,12 @@
 			  >
 			  #Omnivore
 	- ### 完美主义者要面对的风险与危机 - BBC 英伦网
-	  collapsed:: true
 	  producer:: [[BBC 英伦网]]
 	  input:: [[articles]]
 	  link:: https://www.bbc.com/ukchina/simp/vert-fut-44896055
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 完美主义可分为适应性良好或健康的完美主义与不适应或不健康的完美主义两种。前者以人生标准高，活力十足以及善于自律为特征，后者当竭尽全力也无法做到最好，或达不到目标时会倍感挫折。
 			  #Omnivore
 			- > 适应性不良的完美主义者可能缺乏天赋
