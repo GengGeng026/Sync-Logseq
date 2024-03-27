@@ -160,4 +160,5 @@
  :graph/settings {:builtin-pages? false, :journal? false}
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? true}
- :ref/unlinked-references-collapsed-threshold 0
+ :ref/default-open-blocks-level 0
+ :ref/linked-references-collapsed-threshold 0
