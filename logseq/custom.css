@@ -11,3 +11,7 @@
 .genshin {
   font-family: Genshin;
 }
+
+.mt-6.page-unlinked {
+  display: none;
+}
