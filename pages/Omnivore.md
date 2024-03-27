@@ -1,10 +1,10 @@
 ## 🔖 Articles
-	- ### 道理都懂，如何才能勇敢地出去找工作？-壹心理
-	  collapsed:: true
+	- ### 道理都懂，如何才可以勇敢地出去找工作？-壹心理
 	  input:: [[articles]]
 	  link:: https://www.xinli001.com/qa/100827382?from=shouye&sourceFlag=weixin
 	  source:: [[Omnivore]]
 	  tags::
+	  collapsed:: true
 		- ### Highlights
 			- id:: 20df0fa1-86a5-4d46-873d-a62ef3a6c267
 			  $$道理都懂，如何才能勇敢地出去找工作？—~~知乎$$
