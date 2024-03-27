@@ -15,5 +15,5 @@
 .foldable-title h2,
 .foldable-title .rotating-arrow {
 opacity: .90;  /* or whatever */
-color: white;
+color: white !important
 }
