@@ -1,2 +1,3 @@
 -
 - {{renderer :tocgen2, [[omnivore]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[tue, 19-03-2024]], calc(100vh - 135px)}}
