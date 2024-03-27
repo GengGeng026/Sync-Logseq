@@ -12,6 +12,20 @@
   font-family: Genshin;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+}
+.page > div:nth-child(1){
+    order: 0;
+}
+.page > div:nth-child(2){
+    order: 2;
+}
+.page > div:nth-child(3){
+    order: 1;
+}
+
 .foldable-title h1,
 .foldable-title .rotating-arrow {
 opacity: .90;  /* or whatever */
