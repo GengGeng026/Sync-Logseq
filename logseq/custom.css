@@ -31,3 +31,8 @@
 opacity: .90;  /* or whatever */
 color: white !important;
 }
+
+.mt-6.page-unlinked {
+opacity: .04;  /* or whatever */
+color: grey !important;
+}
