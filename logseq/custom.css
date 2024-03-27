@@ -13,7 +13,7 @@
 }
 
 .foldable-title h2, 
-.mt-6.page-unlinked {
+.foldable-title .rotating-arrow {
 opacity: .2;
 color: white !important;
 }
