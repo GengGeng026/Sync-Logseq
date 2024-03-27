@@ -21,6 +21,7 @@
 	- [[軟件]]
 -
 - # 娛樂
+  collapsed:: true
 	- [[遊戲]]
 	- [[Ring Fit Adventure]]
 	- [[Monster Hunter Rise : Sunbreak]]

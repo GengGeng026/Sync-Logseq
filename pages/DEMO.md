@@ -15,6 +15,7 @@ type:: logseq theme
 - ##### H5 mini title
 - `Inline Code` ^^Highlighted^^ Normal Text,  _italic texts_ and tag #[[Logseq theme]]
 - Some text that will be referenced
+  collapsed:: true
 	- LATER [#A] high priority task
 	  waiting:: 1624459006771
 	  later:: 1624459014212
