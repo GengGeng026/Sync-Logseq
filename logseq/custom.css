@@ -32,6 +32,7 @@ opacity: .90;  /* or whatever */
 color: white !important;
 }
 
+.foldable-title h1,
 .mt-6.page-unlinked {
 opacity: .20;  /* or whatever */
 color: silver !important;
