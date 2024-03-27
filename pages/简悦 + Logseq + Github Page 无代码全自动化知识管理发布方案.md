@@ -24,11 +24,11 @@
 		  id:: 61fdf55a-2cf2-4e79-b3f4-f5b14d86611e
 		  id:: 61fdf259-0e0d-4c14-9364-d567abae56a6
 		  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-# 为什么是 Logseq
+- # 为什么是 Logseq
 	- Logseq 支持 outliner 层级结构，类似 Workflowy / Roam Research 的效果，每层都可以延伸为一个「新的 Page」，非常适合「知识的生长」。
 	- 虽然 Obsidian Publish 也提供发布功能，但定制化程度不如 Logseq 且只能 Host 在它的服务器上面。
 	- 基于 Local first，因此非常适合跟简悦搭配一起做知识管理。
-# 平台
+- # 平台
 	- 简悦（含同步助手）
 	- Logseq
 	- Github Page +  [Logseq Publish GitHub Action](https://pengx17.github.io/knowledge-garden/#/page/logseq publish github action)
@@ -162,4 +162,4 @@
 		- Logseq 自带了导出功能，可根据下图所示的方式导出为 Markdown，因为对 [部分 Markdown 语法的不支持](https://www.markdownguide.org/tools/logseq/)，尤其是 `Ordered Lists` 所以导入的 Markdown 还需要手动修改。
 		  ![](https://cdn.jsdelivr.net/gh/23784148/upload-images@main/simpered/article/SCR-20220205-gft.png)
 	- ## 更多例子
-		- {{embed ((61fe1b3a-8356-4f20-b8f1-f5f4ed21ee7b))}}
+		- > 简悦自动导出到 Logseq 后发布到 Github Page 的例子。
