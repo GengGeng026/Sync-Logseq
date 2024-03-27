@@ -11,3 +11,9 @@
 .genshin {
   font-family: Genshin;
 }
+
+.foldable-title h2, 
+.foldable-title .rotating-arrow {
+opacity: .2
+color: gray;
+}
