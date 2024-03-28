@@ -5,6 +5,7 @@
 	  source:: [[Omnivore]]
 	  tags:: [[判斷]], [[內在驅動力 ]], [[內驅力]], [[自我期望值 ]], [[關係偏好]], [[反思能力]]
 	  id:: 86d6cd28-a4ea-4050-bfef-70071b7434ea
+	  collapsed:: true
 		- ### Highlights
 		  collapsed:: true
 			- id:: a559c1da-78d0-436a-960b-d124f197e38f
