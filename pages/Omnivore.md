@@ -1,7 +1,7 @@
 ## 🔖 Articles
 	- ### 面试一个人，只问这四个问题就够
 	  input:: [[articles]]
-	  link:: https://pmthinking.com/%E9%9D%A2%E8%AF%95%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%8F%AA%E9%97%AE%E8%BF%99%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98%E5%B0%B1%E5%A4%9F
+	  link:: [面试一个人，只问这四个问题就够](https://pmthinking.com/%E9%9D%A2%E8%AF%95%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%8F%AA%E9%97%AE%E8%BF%99%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98%E5%B0%B1%E5%A4%9F)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
