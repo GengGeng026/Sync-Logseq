@@ -3,7 +3,7 @@
 	  input:: [[articles]]
 	  link:: [面试一个人，只问这四个问题就够](https://pmthinking.com/%E9%9D%A2%E8%AF%95%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%8F%AA%E9%97%AE%E8%BF%99%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98%E5%B0%B1%E5%A4%9F)
 	  source:: [[Omnivore]]
-	  tags::
+	  tags:: #判斷人的內在驅動力 #判斷人的自我期望值 #判斷人的關係偏好 #判斷人的反思能力
 		- ### Highlights
 			- > **1\. 判斷人的內在驅動力**
 			  如果你突然有半個月的帶薪休假，只有一個條件，就是必須研究一個事兒，你會研究什麼?
