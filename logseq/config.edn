@@ -156,7 +156,7 @@
  :ui/show-brackets? true
  :journal/page-title-format "E, dd-MM-yyyy"
  :journal/file-name-format "yyyy-MM-dd"
- :favorites ["目錄 Table of Contents" "我の日誌" "react hot module reloading" "jsplay"]
+ :favorites ["Omnivore" "目錄 Table of Contents" "我の日誌" "react hot module reloading" "jsplay"]
  :graph/settings {:builtin-pages? false, :journal? false}
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? true}
