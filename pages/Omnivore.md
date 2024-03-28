@@ -7,6 +7,7 @@
 	  id:: 86d6cd28-a4ea-4050-bfef-70071b7434ea
 	  collapsed:: true
 		- ### Highlights
+		  collapsed:: true
 			- > **1\. 判斷人的內在驅動力**
 			  如果你突然有半個月的帶薪休假，只有一個條件，就是必須研究一個事兒，你會研究什麼?
 			  <br />
