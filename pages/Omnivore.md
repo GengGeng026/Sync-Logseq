@@ -5,8 +5,8 @@
 	  source:: [[Omnivore]]
 	  tags::
 	  id:: 2ced8e2d-6a39-48b1-a8ad-49a9e93eeb3e
+	  collapsed:: true
 		- ### Highlights
-		  collapsed:: true
 			- id:: dfa4157a-eaff-48dc-ba45-fd7c54dc9a27
 			  > $$ 识别兩种状态  ×  四个区域 $$
 			  <br />
