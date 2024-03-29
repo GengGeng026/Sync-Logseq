@@ -1,13 +1,11 @@
 ## 🔖 Articles
 	- ### 精力管理：能量审计
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [精力管理：能量审计](https://pmthinking.com/database/%E7%B2%BE%E9%80%89%E9%9B%86/%E8%83%BD%E9%87%8F%E5%AE%A1%E8%AE%A1)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
-			- $$识别两种状态 & 四个区域$$
+			- $$识别两种状态 & 四个区域$
 			- 如果一件事情不是让你乐在其中，那么多数时候就是在消耗能量。而做能量审计的关键是要把他们识别出来，客观地分析，给出明确的解决方案，而不是得到一个感性的结论。
 			  <br />
 			  **具体步骤如下：**
