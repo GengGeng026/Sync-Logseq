@@ -6,7 +6,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 	  collapsed:: true
-		-
+		- collapsed:: true
 		- ### Highlights
 			- id:: dfa4157a-eaff-48dc-ba45-fd7c54dc9a27
 			  > $$ 识别兩种状态  ×  四个区域 $$
