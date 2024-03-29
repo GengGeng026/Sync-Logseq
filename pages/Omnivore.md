@@ -1,4 +1,49 @@
 ## 🔖 Articles
+	- ### 复工后，为什么比放假前还累？ - 四千周 - 豆瓣
+	  collapsed:: true
+	  input:: [[articles]]
+	  link:: [复工后，为什么比放假前还累？（四千周）书评](https://m.douban.com/book/review/14701988/)
+	  source:: [[Omnivore]]
+	  tags::
+		- ### Highlights
+		  collapsed:: true
+			- > 告别被迫内卷
+			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
+			  01  先定时间
+			  先定好每天的工作时间，再列“待办清单”。而不是先列清单，再排时间。
+			  02  专注
+			  专注一个项目，最多两个，不要强求多管齐下。
+			  03  短板
+			  你永远有短板，因而决定哪项工作不做、少做、慢点做，很重要。
+			  04  已办清单
+			  关注“已办清单”，会让你更有动力。
+			  05  有效拖延
+			  不要急着提前做完那些还没截止的任务。
+	- ### 心理學無所不在 :: 林岱葳臨床心理師
+	  collapsed:: true
+	  input:: [[articles]]
+	  link:: [心理學無所不在 :: 林岱葳臨床心理師](https://lindaiweilinchuangxinlishi.webnode.tw/%E5%BF%83%E7%90%86%E5%AD%B8%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/)
+	  source:: [[Omnivore]]
+	  tags::
+		- ### Highlights
+		  collapsed:: true
+			- > 讓我們再看另一個行為表現，也是過度解釋的跡象：
+			  場景：同事早上請你幫買咖啡，但你覺得時間不夠，所以拒絕
+			  其實簡單一句：「我時間上可能沒辦法」就可以讓同事理解
+			  結果你覺得直接拒絕有點尷尬所以你就把家裡狗生病、棘手客戶、昨天睡不夠...所有的事情都拿出來講
+			  這也是一種過度解釋。
+			  以心理學的角度，這是幼年創傷(Childhood trauma)沒有得到處理的後遺症
+	- ### 写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅
+	  collapsed:: true
+	  producer:: [[网易]]
+	  input:: [[articles]]
+	  link:: [写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅](https://www.163.com/dy/article/IL50PSPS0516DS3U.html)
+	  source:: [[Omnivore]]
+	  tags::
+		- ### Highlights
+		  collapsed:: true
+			- > 并不是因为我很糟糕，才需要通过努力不断改变自己。
+			  而是我之所以这么努力，是因为我足够好，我值得这世界上最好的一切。
 	- ### 面试一个人，只问这四个问题就够
 	  input:: [[articles]]
 	  link:: [面试一个人，只问这四个问题就够](https://pmthinking.com/%E9%9D%A2%E8%AF%95%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%8F%AA%E9%97%AE%E8%BF%99%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98%E5%B0%B1%E5%A4%9F)
