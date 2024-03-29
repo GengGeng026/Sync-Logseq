@@ -5,7 +5,6 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > ▎**识别**
 			- > **状态 & 四个区域**
 			  > 
