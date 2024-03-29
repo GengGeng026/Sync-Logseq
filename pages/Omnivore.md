@@ -4,7 +4,6 @@
 	  link:: [精力管理：能量审计](https://pmthinking.com/database/%E7%B2%BE%E9%80%89%E9%9B%86/%E8%83%BD%E9%87%8F%E5%AE%A1%E8%AE%A1)
 	  source:: [[Omnivore]]
 	  tags::
-	  collapsed:: true
 		- ### Highlights
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
