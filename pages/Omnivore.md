@@ -20,6 +20,7 @@
 			  05  有效拖延
 			  不要急着提前做完那些还没截止的任务。
 	- ### 心理學無所不在 :: 林岱葳臨床心理師
+	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [心理學無所不在 :: 林岱葳臨床心理師](https://lindaiweilinchuangxinlishi.webnode.tw/%E5%BF%83%E7%90%86%E5%AD%B8%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/)
 	  source:: [[Omnivore]]
