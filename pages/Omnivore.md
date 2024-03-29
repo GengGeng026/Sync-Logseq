@@ -1,5 +1,6 @@
 ## 🔖 Articles
 	- ### 精力管理：能量审计
+	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [精力管理：能量审计](https://pmthinking.com/database/%E7%B2%BE%E9%80%89%E9%9B%86/%E8%83%BD%E9%87%8F%E5%AE%A1%E8%AE%A1)
 	  source:: [[Omnivore]]
@@ -30,6 +31,7 @@
 			- > 己
 			- > 喜欢，以至于做这些事情时很容易进入心流（设计产品）
 	- ### 复工后，为什么比放假前还累？ - 四千周 - 豆瓣
+	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [复工后，为什么比放假前还累？（四千周）书评](https://m.douban.com/book/review/14701988/)
 	  source:: [[Omnivore]]
