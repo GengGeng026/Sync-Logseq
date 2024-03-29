@@ -20,13 +20,11 @@
 			  05  有效拖延
 			  不要急着提前做完那些还没截止的任务。
 	- ### 心理學無所不在 :: 林岱葳臨床心理師
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [心理學無所不在 :: 林岱葳臨床心理師](https://lindaiweilinchuangxinlishi.webnode.tw/%E5%BF%83%E7%90%86%E5%AD%B8%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 讓我們再看另一個行為表現，也是過度解釋的跡象：
 			  場景：同事早上請你幫買咖啡，但你覺得時間不夠，所以拒絕
 			  其實簡單一句：「我時間上可能沒辦法」就可以讓同事理解
@@ -34,6 +32,7 @@
 			  這也是一種過度解釋。
 			  以心理學的角度，這是幼年創傷(Childhood trauma)沒有得到處理的後遺症
 	- ### 写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅
+	  collapsed:: true
 	  producer:: [[网易]]
 	  input:: [[articles]]
 	  link:: [写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅](https://www.163.com/dy/article/IL50PSPS0516DS3U.html)
