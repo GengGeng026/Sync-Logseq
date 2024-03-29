@@ -1,5 +1,6 @@
 ## 🔖 Articles
 	- ### 复工后，为什么比放假前还累？ - 四千周 - 豆瓣
+	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [复工后，为什么比放假前还累？（四千周）书评](https://m.douban.com/book/review/14701988/)
 	  source:: [[Omnivore]]
