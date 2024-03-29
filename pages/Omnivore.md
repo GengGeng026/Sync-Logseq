@@ -34,14 +34,12 @@
 			  這也是一種過度解釋。
 			  以心理學的角度，這是幼年創傷(Childhood trauma)沒有得到處理的後遺症
 	- ### 写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅
-	  collapsed:: true
 	  producer:: [[网易]]
 	  input:: [[articles]]
 	  link:: [写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅](https://www.163.com/dy/article/IL50PSPS0516DS3U.html)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 并不是因为我很糟糕，才需要通过努力不断改变自己。
 			  而是我之所以这么努力，是因为我足够好，我值得这世界上最好的一切。
 	- ### 面试一个人，只问这四个问题就够
