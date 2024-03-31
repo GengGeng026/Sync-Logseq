@@ -159,4 +159,4 @@
  :favorites ["Omnivore" "目錄 Table of Contents" "我の日誌" "react hot module reloading" "jsplay"]
  :graph/settings {:builtin-pages? false, :journal? false}
  :zotero/settings-v2 {"default" {:type-id ""}}
- :editor/logical-outdenting? true}
+ :editor/logical-outdenting? false}
