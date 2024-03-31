@@ -1,2 +1,0 @@
--
-- **07:05** [[quick capture]]: 這是最後的結尾 ![7a7f52d6-df5b-4a21-a9dc-85f7cb8fc7e4](../assets/7a7f52d6-df5b-4a21-a9dc-85f7cb8fc7e4.aac)
