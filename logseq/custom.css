@@ -37,3 +37,13 @@ color: white !important;
 opacity: .90;  /* or whatever */
 color: silver !important;
 }
+
+:root {
+  --fht-footer-text: var(--ls-page-inline-code-color);
+  --fht-hightlight: var(--ls-page-mark-bg-color);
+  --fht-label-text: var(--ls-page-inline-code-color);
+  --fht-active: var(--ls-quaternary-background-color);
+  --fht-active-text: var(--ls-secondary-text-color);
+  --fht-scrollbar-thumb: color-mix(in srgb, var(--ls-scrollbar-thumb-hover-color) 50%, transparent);
+  --fht-scrollbar-thumb-hover: var(--ls-scrollbar-thumb-hover-color);
+}
