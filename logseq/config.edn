@@ -138,10 +138,12 @@
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
 :commands
- [
-     ["psy client session                                             [.]"
-         [[:editor/input "{{renderer :template, psy → session, :page [[client ]], :online}}" {:backward-pos 13}]] ],
- ]
+[
+  ;; 定義一個命令，用於將選定的文本拆分成兩個不同的區塊
+  ["split-block" "Split Block"]
+]
+
+
 
  ;; Macros replace texts and will make you more productive.
  ;; For example:
