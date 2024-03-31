@@ -97,6 +97,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
+		  collapsed:: true
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
 			  01  先定时间
