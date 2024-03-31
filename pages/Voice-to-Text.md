@@ -1,7 +1,6 @@
 -
 - # Voice-to-Text
 - 現場來做一個測試這是我今天一個想法就是說關於在校也算是努力了這樣的一個想法呢我想這個年紀起來想法的背景大概就是可能是起床後再想到的想法原本是那一天曾經在曬陽光的時候看書 ![aae6bd1d-8184-4aaa-ab50-90a57cdccd2d](../assets/aae6bd1d-8184-4aaa-ab50-90a57cdccd2d.aac)
-	- 關於費排骨一個章節可能就是轉移[[注意力]]的焦點這一個章節 ![](../assets/a29f198e-f4d1-4b82-ad86-aa1e7808d8c9.aac)
-	- {{renderer :media-timestamp, 0.1}}
+	- 關於費排骨一個章節可能就是轉移[[注意力]]的焦點這一個章節 ![](../assets/a29f198e-f4d1-4b82-ad86-aa1e7808d8c9.aac) {{renderer :media-timestamp, 0.1}}
 	-
 -
