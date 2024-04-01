@@ -1,4 +1,5 @@
-## 🔖 [[Articles]]
+-
+- ## 🔖 [[Articles]]
 	- ### 精力管理：能量审计
 	  id:: 2ced8e2d-6a39-48b1-a8ad-49a9e93eeb3e
 	  input:: [[articles]]
