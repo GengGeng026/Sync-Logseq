@@ -6,6 +6,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 	  collapsed:: true
+		-
 		- ### Highlights
 			- id:: dfa4157a-eaff-48dc-ba45-fd7c54dc9a27
 			  > $$ 识别兩种状态  ×  四个区域 $$
@@ -45,6 +46,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
+		  collapsed:: true
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
 			  01  先定时间
@@ -95,6 +97,7 @@
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
+		  collapsed:: true
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
 			  01  先定时间
@@ -120,7 +123,7 @@
 			  結果你覺得直接拒絕有點尷尬所以你就把家裡狗生病、棘手客戶、昨天睡不夠...所有的事情都拿出來講
 			  這也是一種過度解釋。
 			  以[[心理學]]的角度，這是幼年[[創傷]](Childhood trauma)沒有得到處理的後遺症
-	- ### 写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_网易订阅
+	- ### 写给很累很累的你：允许自己不努力，才会变得更好|快乐|成全|自卑感|心理医生|亲子关系_[[网易]]订阅
 	  collapsed:: true
 	  producer:: [[网易]]
 	  input:: [[articles]]
