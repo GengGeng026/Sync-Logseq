@@ -5,6 +5,7 @@
 	  link:: [精力管理：能量审计](https://pmthinking.com/database/%E7%B2%BE%E9%80%89%E9%9B%86/%E8%83%BD%E9%87%8F%E5%AE%A1%E8%AE%A1)
 	  source:: [[Omnivore]]
 	  tags::
+	  collapsed:: true
 		- ### Highlights
 			- id:: dfa4157a-eaff-48dc-ba45-fd7c54dc9a27
 			  > $$ 识别兩种状态  ×  四个区域 $$
@@ -38,13 +39,11 @@
 			  * **外包**：找到对应天才区的人，转交给他们。比如和飞哥录制播客，剪辑的工作基本上都是由他来解决。
 			  * **精进**：把消耗变成了滋养。比如写作时，投入更多的精力而不是被批履约，这样一方面能提高写作能力，另一方面也能把过程中的资料再次内化。
 	- ### 复工后，为什么比放假前还累？ - 四千周 - 豆瓣
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [复工后，为什么比放假前还累？（四千周）书评](https://m.douban.com/book/review/14701988/)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
 			  01  先定时间
@@ -137,7 +136,6 @@
 	  source:: [[Omnivore]]
 	  tags:: [[判斷]], [[內在驅動力 ]], [[內驅力]], [[自我期望值 ]], [[關係偏好]], [[反思能力]]
 	  id:: 86d6cd28-a4ea-4050-bfef-70071b7434ea
-	  collapsed:: true
 		- ### Highlights
 			- id:: a559c1da-78d0-436a-960b-d124f197e38f
 			  > **1\. 判斷人的內在驅動力**
