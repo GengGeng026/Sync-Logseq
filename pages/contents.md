@@ -1,2 +1,2 @@
-- {{renderer :media_controls, 3}}
+- {{renderer :media_controls, 1}}
 -
