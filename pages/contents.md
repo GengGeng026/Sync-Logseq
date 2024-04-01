@@ -1,2 +1,2 @@
-- {{renderer :media_controls, [Voice-to-Text}}
+- {{renderer :media_controls, Voice-to-Text}}
 -
