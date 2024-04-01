@@ -88,13 +88,11 @@
 			- > 己
 			- > 喜欢，以至于做这些事情时很容易进入心流（设计产品）
 	- ### 复工后，为什么比放假前还累？ - 四千周 - 豆瓣
-	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [复工后，为什么比放假前还累？（四千周）书评](https://m.douban.com/book/review/14701988/)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
-		  collapsed:: true
 			- > 告别被迫内卷
 			  面对大多数职场人，伯克曼则在书中给出了更加具体的建议：
 			  01  先定时间
