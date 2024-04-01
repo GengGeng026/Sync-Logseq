@@ -221,7 +221,7 @@
 			  暂时接纳自己的现状，作一些调整。准备好了，就可以出去找工作了。
 			  >
 			  #Omnivore
-	- ### 完美主义者要面对的风险与危机 - BBC 英伦网
+	- ### 完美主义者要面对的风险与危机 - [[BBC 英伦网]]
 	  producer:: [[BBC 英伦网]]
 	  input:: [[articles]]
 	  link:: [完美主义者要面对的风险与危机 - BBC 英伦网](https://www.bbc.com/ukchina/simp/vert-fut-44896055)
@@ -267,7 +267,7 @@
 			  拉斯穆森说。**“因为要保持完美真的是很累。”**
 			  >
 			  #Omnivore
-	- ### 憂鬱症適合的工作是什麼？憂鬱症無法工作補助如何請領？ - 昕晴診所
+	- ### [[憂鬱]]症適合的工作是什麼？[[憂鬱]]症無法工作補助如何請領？ - 昕晴診所
 	  collapsed:: true
 	  input:: [[articles]]
 	  link:: [憂鬱症適合的工作是什麼？憂鬱症無法工作補助如何請領？ - 昕晴診所](https://www.moodclinic.com.tw/depression-friendly-jobs/)
