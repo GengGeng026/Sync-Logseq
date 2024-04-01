@@ -224,7 +224,7 @@
 	- ### 完美主义者要面对的风险与危机 - BBC 英伦网
 	  producer:: [[BBC 英伦网]]
 	  input:: [[articles]]
-	  link:: https://www.bbc.com/ukchina/simp/vert-fut-44896055
+	  link:: [完美主义者要面对的风险与危机 - BBC 英伦网](https://www.bbc.com/ukchina/simp/vert-fut-44896055)
 	  source:: [[Omnivore]]
 	  tags::
 	  id:: f19b742f-2779-480c-9103-1ed005a3bfe6
@@ -270,7 +270,7 @@
 	- ### 憂鬱症適合的工作是什麼？憂鬱症無法工作補助如何請領？ - 昕晴診所
 	  collapsed:: true
 	  input:: [[articles]]
-	  link:: https://www.moodclinic.com.tw/depression-friendly-jobs/
+	  link:: [憂鬱症適合的工作是什麼？憂鬱症無法工作補助如何請領？ - 昕晴診所](https://www.moodclinic.com.tw/depression-friendly-jobs/)
 	  source:: [[Omnivore]]
 	  tags::
 		- ### Highlights
