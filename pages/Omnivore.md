@@ -5,6 +5,7 @@
 	  link:: [精力管理：能量审计](https://pmthinking.com/database/%E7%B2%BE%E9%80%89%E9%9B%86/%E8%83%BD%E9%87%8F%E5%AE%A1%E8%AE%A1)
 	  source:: [[Omnivore]]
 	  tags::
+	  collapsed:: true
 		- ### Highlights
 			- id:: dfa4157a-eaff-48dc-ba45-fd7c54dc9a27
 			  > $$ 识别兩种状态  ×  四个区域 $$
