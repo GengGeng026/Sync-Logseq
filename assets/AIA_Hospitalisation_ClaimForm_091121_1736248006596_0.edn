@@ -14,5 +14,22 @@
                                    :height 991.117670763651}),
                           :page 2},
                :content {:text "Page"},
+               :properties {:color "yellow"}}
+              {:id #uuid "677d0bf1-9e1b-4dfb-936e-68d41932103b",
+               :page 2,
+               :position {:bounding {:x1 631.222900390625,
+                                     :y1 963.5604248046875,
+                                     :x2 647.836669921875,
+                                     :y2 971.4476318359375,
+                                     :width 700.9999999999999,
+                                     :height 991.117670763651},
+                          :rects ({:x1 631.222900390625,
+                                   :y1 963.5604248046875,
+                                   :x2 647.836669921875,
+                                   :y2 971.4476318359375,
+                                   :width 700.9999999999999,
+                                   :height 991.117670763651}),
+                          :page 2},
+               :content {:text nil},
                :properties {:color "yellow"}}],
- :extra {:page 1}}
+ :extra {:page 2}}
