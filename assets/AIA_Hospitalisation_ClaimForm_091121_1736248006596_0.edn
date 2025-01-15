@@ -185,4 +185,4 @@
                           :page 2},
                :content {:text "Page"},
                :properties {:color "yellow"}}],
- :extra {:page 1}}
+ :extra {:page 2}}
