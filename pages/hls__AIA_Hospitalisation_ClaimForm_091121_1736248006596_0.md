@@ -18,3 +18,8 @@ file-path:: ../assets/AIA_Hospitalisation_ClaimForm_091121_1736248006596_0.pdf
   hl-page:: 2
   hl-color:: yellow
   id:: 678738a0-9183-48ac-b989-5767607961c5
+- Page
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 678738bf-9445-4f59-8b52-b6bb4f581e00
