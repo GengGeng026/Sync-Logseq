@@ -242,7 +242,7 @@
 			  #Omnivore
 	- ### 抑郁患者不适合做的6类工作，千万不要尝试！ - 知乎
 	  collapsed:: true
-	  producer:: [[精神心理医生彭军​医师资格证书持证人​关注她]]
+	  producer:: [[精神[[心理]]医生彭军​医师资格证书持证[[人]]​]]
 	  input:: [[articles]]
 	  link:: [抑郁患者不适合做的6类工作，千万不要尝试！ - 知乎](https://zhuanlan.zhihu.com/p/566996699)
 	  source:: [[Omnivore]]
