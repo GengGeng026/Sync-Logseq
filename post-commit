@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# 进入 Sync-Logseq 目录
-cd /Users/mac/Documents/Sync-Logseq
-
-# 推送到远程仓库
-git push origin main
-
