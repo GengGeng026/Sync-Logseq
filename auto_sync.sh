@@ -18,11 +18,9 @@ if [ -n "$commit_message" ]; then
     git push origin main >> /Users/mac/Documents/Sync-Logseq/sync_log.txt 
 2>&1
 else
-    echo "No changes detected" >> 
-/Users/mac/Documents/Sync-Logseq/sync_log.txt
+    echo "No changes detected" >> /Users/mac/Documents/Sync-Logseq/sync_log.txt
 fi
 
 # 输出同步完成时间
-echo "Sync completed at $(date)" >> 
-/Users/mac/Documents/Sync-Logseq/sync_log.txt
+echo "Sync completed at $(date)" >> /Users/mac/Documents/Sync-Logseq/sync_log.txt
 
