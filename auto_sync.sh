@@ -13,10 +13,8 @@ git pull origin main >> /Users/mac/Documents/Sync-Logseq/sync_log.txt 2>&1
 # 检查是否有更新，并提交
 commit_message=$(git diff --staged --oneline)
 if [ -n "$commit_message" ]; then
-    echo "Changes detected, committing..." >> 
-/Users/mac/Documents/Sync-Logseq/sync_log.txt
-    git commit -m "Changes: $commit_message" >> 
-/Users/mac/Documents/Sync-Logseq/sync_log.txt 2>&1
+    echo "Changes detected, committing..." >> /Users/mac/Documents/Sync-Logseq/sync_log.txt
+    git commit -m "Changes: $commit_message" >> /Users/mac/Documents/Sync-Logseq/sync_log.txt 2>&1
     git push origin main >> /Users/mac/Documents/Sync-Logseq/sync_log.txt 
 2>&1
 else
