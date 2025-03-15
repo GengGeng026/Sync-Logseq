@@ -570,3 +570,25 @@ No changes detected
 Sync completed at Sat Mar 15 23:12:57 +08 2025
 Sync started at Sat Mar 15 23:13:07 +08 2025
 Pulling changes...
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 72e4629c247d3cd4a37cd82afd28dd441c757c01.
+error: Your local changes to the following files would be overwritten by merge:
+	sync_log.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 72e4629c247d3cd4a37cd82afd28dd441c757c01
+output, run
+$ git reset --hard
+to recover.
+No changes detected
+Sync completed at Sat Mar 15 23:13:08 +08 2025
+Sync started at Sat Mar 15 23:13:12 +08 2025
+Pulling changes...
+Already up to date.
+No changes detected
+Sync completed at Sat Mar 15 23:13:13 +08 2025
