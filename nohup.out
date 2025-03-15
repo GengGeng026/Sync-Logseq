@@ -1740,3 +1740,5 @@ nohup: /Users/mac/Documents/Sync-Logseq/auto_sync.sh: Permission denied
 /Users/mac/Documents/Sync-Logseq/auto_sync.sh: line 9: `  echo "Sync started at $(date)" >> '
 From https://github.com/GengGeng026/Sync-Logseq
  * branch              main       -> FETCH_HEAD
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
