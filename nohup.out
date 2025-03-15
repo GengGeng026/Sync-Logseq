@@ -1,20 +1,2 @@
 /Users/mac/Documents/Sync-Logseq/auto_sync.sh: line 9: syntax error near unexpected token `newline'
 /Users/mac/Documents/Sync-Logseq/auto_sync.sh: line 9: `  echo "Sync started at $(date)" >> '
-From https://github.com/GengGeng026/Sync-Logseq
- * branch              main       -> FETCH_HEAD
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit ef950e8d80db918db1e22dd10c47603ab6cd4bc8.
-error: Your local changes to the following files would be overwritten by merge:
-	nohup.out
-	sync_log.txt
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff ef950e8d80db918db1e22dd10c47603ab6cd4bc8
-output, run
-$ git reset --hard
-to recover.
-From https://github.com/GengGeng026/Sync-Logseq
- * branch              main       -> FETCH_HEAD
