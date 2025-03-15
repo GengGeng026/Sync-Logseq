@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# 进入 Sync-Logseq 目录
+cd /Users/mac/Documents/Sync-Logseq
+
+# 获取文件的更改内容
+commit_message=$(git diff --staged --oneline)
+
+# 如果有更改，继续操作
+if [ -n "$commit_message" ]; then
+  # 添加所有变更到 git
+  git add .
+
+  # 提交变更，并使用差异作为提交信息
+  git commit -m "Changes: $commit_message"
+
+  # 推送到远程仓库
+  git push origin main
+else
+  echo "No changes detected"
+fi
+
