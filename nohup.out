@@ -1759,3 +1759,5 @@ $ git diff 0e94e6a7ed2d813b223d21f11a0b291a270ca5e1
 output, run
 $ git reset --hard
 to recover.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
