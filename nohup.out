@@ -1565,3 +1565,54 @@ Already up to date.
 From https://github.com/GengGeng026/Sync-Logseq
  * branch              main       -> FETCH_HEAD
 Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 43b3aa3158a323f5a4f9eea869782f7d8501c3bf.
+error: Your local changes to the following files would be overwritten by merge:
+	nohup.out
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 43b3aa3158a323f5a4f9eea869782f7d8501c3bf
+output, run
+$ git reset --hard
+to recover.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
