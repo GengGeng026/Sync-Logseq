@@ -34,6 +34,6 @@ while true; do
 /Users/mac/Documents/Sync-Logseq/sync_log.txt
 
   # 每60秒执行一次
-  sleep 60
+  sleep 15
 done
 
