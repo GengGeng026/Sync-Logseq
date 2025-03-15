@@ -1734,3 +1734,5 @@ output, run
 $ git reset --hard
 to recover.
 nohup: /Users/mac/Documents/Sync-Logseq/auto_sync.sh: Permission denied
+/Users/mac/Documents/Sync-Logseq/auto_sync.sh: line 9: syntax error near unexpected token `newline'
+/Users/mac/Documents/Sync-Logseq/auto_sync.sh: line 9: `  echo "Sync started at $(date)" >> '
