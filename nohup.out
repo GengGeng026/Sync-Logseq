@@ -1733,3 +1733,4 @@ $ git diff d534e6f84f7f185a3e7a7efb0d8cfff1472feec8
 output, run
 $ git reset --hard
 to recover.
+nohup: /Users/mac/Documents/Sync-Logseq/auto_sync.sh: Permission denied
