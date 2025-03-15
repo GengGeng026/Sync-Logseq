@@ -6,7 +6,8 @@ while true; do
   cd /Users/mac/Documents/Sync-Logseq
 
   # 输出当前时间，记录同步开始时间
-  echo "Sync started at $(date)" >> /Users/mac/Documents/Sync-Logseq/sync_log.txt 
+  echo "Sync started at $(date)" >> 
+/Users/mac/Documents/Sync-Logseq/sync_log.txt 
   
   # 拉取远程仓库的更新
   echo "Pulling changes..." >> /Users/mac/Documents/Sync-Logseq/sync_log.txt
