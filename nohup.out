@@ -1163,3 +1163,51 @@ Already up to date.
 From https://github.com/GengGeng026/Sync-Logseq
  * branch              main       -> FETCH_HEAD
 Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit d2c57f08c68df1df7ed3e46d4dd9d1f5104ca4c5.
+error: Your local changes to the following files would be overwritten by merge:
+	nohup.out
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff d2c57f08c68df1df7ed3e46d4dd9d1f5104ca4c5
+output, run
+$ git reset --hard
+to recover.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
