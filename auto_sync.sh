@@ -7,7 +7,7 @@ cd /Users/mac/Documents/Sync-Logseq
 LOG_FILE="/Users/mac/Documents/Sync-Logseq/sync_log.txt"
 
 # 監聽 Logseq 目錄內的變化
-fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
+fswatch -o /Users/mac/Documents/Sync-Logseq/.git | while read change; do
     # 输出当前时间，记录同步开始时间
     echo "Sync started at $(date)" >> $LOG_FILE
 
@@ -17,9 +17,9 @@ fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
 
 
     # 如果有變更，則提交並推送
-    if [[ -n $(git status --porcelain) ]]; then
+    git add -A
+    if ! git diff --cached --quiet; then
         echo "Changes detected, committing..." >> $LOG_FILE
-	git add .
         git commit -m "Auto-sync: $(date)" >> $LOG_FILE 2>&1
         git push origin main >> $LOG_FILE 2>&1
     else
