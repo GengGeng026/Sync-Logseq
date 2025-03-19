@@ -15,12 +15,32 @@ change; do
     # 等待 5 秒，防止頻繁觸發
     sleep 5
 
-    # 拉取远程仓库的更新
-    echo "Pulling changes..." >> $LOG_FILE
-    git pull origin main >> $LOG_FILE 2>&1
 
+    # 檢查是否有遠端更新
+    echo "Fetching remote changes..." >> $LOG_FILE
+    git fetch origin main >> $LOG_FILE 2>&1
 
-    # 如果有變更，則提交並推送
+    # 檢查是否有本地未推送的變更
+    LOCAL=$(git rev-parse @)
+    REMOTE=$(git rev-parse origin/main)
+    BASE=$(git merge-base @ origin/main)
+
+    if [ "$LOCAL" = "$REMOTE" ]; then
+        echo "Already up to date" >> $LOG_FILE
+    elif [ "$LOCAL" = "$BASE" ]; then
+        echo "Local is behind, pulling updates..." >> $LOG_FILE
+        git pull --rebase origin main >> $LOG_FILE 2>&1
+    elif [ "$REMOTE" = "$BASE" ]; then
+        echo "Local is ahead, pushing updates..." >> $LOG_FILE
+        git push origin main >> $LOG_FILE 2>&1
+    else
+        echo "Local and remote have diverged, attempting auto-merge..." >> 
+$LOG_FILE
+        git pull --rebase origin main >> $LOG_FILE 2>&1 || git rebase 
+--abort
+    fi
+
+    # 如果本地有變更，則提交並推送
     git add -A
     if ! git diff --cached --quiet; then
         echo "Changes detected, committing..." >> $LOG_FILE
