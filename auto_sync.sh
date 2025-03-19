@@ -43,9 +43,20 @@ fswatch -o --exclude ".git" /Users/mac/Documents/Sync-Logseq | while read -r cha
     if ! git diff --cached --quiet; then
         echo "Changes detected, committing..." >> $LOG_FILE
         git commit -m "Auto-sync: $(date)" >> $LOG_FILE 2>&1
-        git push origin main >> $LOG_FILE 2>&1
+
+
+	# 先嘗試推送
+   	if ! git push origin main >> $LOG_FILE 2>&1; then
+       	    echo "Push failed, attempting to rebase..." >> $LOG_FILE
+            git pull --rebase origin main >> $LOG_FILE 2>&1
+
+	    # 如果 rebase 成功，再次嘗試推送
+            git push origin main >> $LOG_FILE 2>&1
+
+	fi
     else
-        echo "No changes detected" >> $LOG_FILE
+	echo "No changes detected" >> $LOG_FILE
+ 
     fi
 
     # 输出同步完成时间
