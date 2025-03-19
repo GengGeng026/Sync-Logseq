@@ -3399,3 +3399,12 @@ output, run
 $ git reset --hard
 to recover.
 Changes detected, committing...
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To https://github.com/GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 67321b9dfb13b3e196ac7f2b9b7438371f45b31c but expected 1fee03c351708319d5b90a6355f3d7266bad1299)
+error: failed to push some refs to 'https://github.com/GengGeng026/Sync-Logseq.git'
+Sync completed at Thu Mar 20 01:37:25 +08 2025
