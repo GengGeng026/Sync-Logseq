@@ -32,6 +32,6 @@ while true; do
     echo "Sync completed at $(date)" >> $LOG_FILE
 
     # 暂停 15 秒
-    sleep 15
+    sleep 60
 done
 
