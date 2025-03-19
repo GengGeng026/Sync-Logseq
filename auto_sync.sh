@@ -15,11 +15,14 @@ while true; do
     echo "Pulling changes..." >> $LOG_FILE
     git pull origin main >> $LOG_FILE 2>&1
 
+    # 添加所有新变更
+    git add .
+
     # 检查是否有更新，并提交
-    commit_message=$(git diff --staged --oneline)
+    commit_message=$(git status --porcelain)
     if [ -n "$commit_message" ]; then
         echo "Changes detected, committing..." >> $LOG_FILE
-        git commit -m "Changes: $commit_message" >> $LOG_FILE 2>&1
+        git commit -m "Auto-sync: $(date)" >> $LOG_FILE 2>&1
         git push origin main >> $LOG_FILE 2>&1
     else
         echo "No changes detected" >> $LOG_FILE
