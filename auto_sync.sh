@@ -34,8 +34,7 @@ change; do
         echo "Local is ahead, pushing updates..." >> $LOG_FILE
         git push origin main >> $LOG_FILE 2>&1
     else
-        echo "Local and remote have diverged, attempting auto-merge..." >> 
-$LOG_FILE
+        echo "Local and remote have diverged, attempting auto-merge..." >> $LOG_FILE
         git pull --rebase origin main >> $LOG_FILE 2>&1 || git rebase 
 --abort
     fi
