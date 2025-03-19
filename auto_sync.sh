@@ -7,9 +7,13 @@ cd /Users/mac/Documents/Sync-Logseq
 LOG_FILE="/Users/mac/Documents/Sync-Logseq/sync_log.txt"
 
 # 監聽 Logseq 目錄內的變化
-fswatch -o /Users/mac/Documents/Sync-Logseq/.git | while read change; do
+fswatch -o --exclude ".git" /Users/mac/Documents/Sync-Logseq | while read 
+change; do
     # 输出当前时间，记录同步开始时间
     echo "Sync started at $(date)" >> $LOG_FILE
+
+    # 等待 5 秒，防止頻繁觸發
+    sleep 5
 
     # 拉取远程仓库的更新
     echo "Pulling changes..." >> $LOG_FILE
