@@ -7,8 +7,7 @@ cd /Users/mac/Documents/Sync-Logseq
 LOG_FILE="/Users/mac/Documents/Sync-Logseq/sync_log.txt"
 
 # 監聽 Logseq 目錄內的變化
-fswatch -o --exclude ".git" /Users/mac/Documents/Sync-Logseq | while read 
-change; do
+fswatch -o --exclude ".git" /Users/mac/Documents/Sync-Logseq | while read -r change; do
     # 输出当前时间，记录同步开始时间
     echo "Sync started at $(date)" >> $LOG_FILE
 
@@ -34,8 +33,7 @@ change; do
         echo "Local is ahead, pushing updates..." >> $LOG_FILE
         git push origin main >> $LOG_FILE 2>&1
     else
-        echo "Local and remote have diverged, attempting auto-merge..." >> 
-$LOG_FILE
+        echo "Local and remote have diverged, attempting auto-merge..." >> $LOG_FILE
         git pull --rebase origin main >> $LOG_FILE 2>&1 || git rebase 
 --abort
     fi
@@ -45,9 +43,20 @@ $LOG_FILE
     if ! git diff --cached --quiet; then
         echo "Changes detected, committing..." >> $LOG_FILE
         git commit -m "Auto-sync: $(date)" >> $LOG_FILE 2>&1
-        git push origin main >> $LOG_FILE 2>&1
+
+
+	# 先嘗試推送
+   	if ! git push origin main >> $LOG_FILE 2>&1; then
+       	    echo "Push failed, attempting to rebase..." >> $LOG_FILE
+            git pull --rebase origin main >> $LOG_FILE 2>&1
+
+	    # 如果 rebase 成功，再次嘗試推送
+            git push origin main >> $LOG_FILE 2>&1
+
+	fi
     else
-        echo "No changes detected" >> $LOG_FILE
+	echo "No changes detected" >> $LOG_FILE
+ 
     fi
 
     # 输出同步完成时间
