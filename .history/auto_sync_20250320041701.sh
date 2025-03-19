@@ -32,7 +32,7 @@ while true; do
             echo "Already up to date." >> $LOG_FILE
         fi
 
-        sleep 30  # 每 60 秒檢查一次
+        sleep 60  # 每 60 秒檢查一次
     done
 
 done
