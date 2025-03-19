@@ -4008,3 +4008,19 @@ To https://github.com/GengGeng026/Sync-Logseq.git
 Sync completed at Thu Mar 20 01:52:09 +08 2025
 Sync started at Thu Mar 20 01:52:24 +08 2025
 Pulling changes...
+From https://github.com/GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 94fb614d2164c7ab1fac6e617804bd3fb9c7bf81.
+error: Your local changes to the following files would be overwritten by merge:
+	journals/2025-03-20.md
+	sync_log.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 94fb614d2164c7ab1fac6e617804bd3fb9c7bf81
+output, run
+$ git reset --hard
+to recover.
