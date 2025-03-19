@@ -27,7 +27,7 @@ while true; do
             git pull --rebase origin main >> $LOG_FILE 2>&1
         fi
 
-        sleep 30  # 每 60 秒檢查一次
+        sleep 60  # 每 60 秒檢查一次
     done
 
 done
