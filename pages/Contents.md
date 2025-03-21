@@ -1,3 +1,3 @@
-- Rndom {{renderer random-block, [[Sat, 22-03-2025]], 2 }}
+- Rndom Block {{renderer random-block, [[Sat, 22-03-2025]], 2 }}
 -
 -
