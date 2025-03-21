@@ -1,2 +1,1 @@
-- {{renderer random-block, [[xxx]]|((yyy))|#zzz, [size=1], [extra='']
-- {{renderer :tocgen2, [[tue, 04-02-2025]], calc(100vh - 135px)}}
+- {{renderer random-block, [[xxx]]|((yyy))|#zzz, [size=1], [extra=''
