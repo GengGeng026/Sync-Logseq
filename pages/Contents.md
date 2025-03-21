@@ -1,1 +1,2 @@
-- {{renderer random-block, [[xxx]]|((yyy))|#zzz, [size=1], [extra='']
+- {{renderer random-block, , 1}}
+-
