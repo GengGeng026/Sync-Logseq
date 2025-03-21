@@ -1,3 +1,3 @@
-- {{renderer random-block,  [extra='']
+- {{renderer random-block, ]
 -
 -
