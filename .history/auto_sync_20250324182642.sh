@@ -101,5 +101,5 @@ while true; do
     
     # 等待下一次同步
     echo "[$(date)] 休眠 20 秒" >> $LOG_FILE
-    sleep 20
+    sleep 30
 done
