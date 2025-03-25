@@ -109,3 +109,14 @@ fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
     fi
   fi
 done
+
+# 將 300 秒(5分鐘)改為 120 秒(2分鐘)，但增加變更檢測
+if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
+  # 檢查是否有足夠的變更量
+  changes_count=$(git status --porcelain | wc -l | tr -d ' ')
+  if [ "$changes_count" -gt 2 ]; then  # 至少有3個文件變更才同步
+    rotate_logs
+    sync_repo
+    touch "$REPO_DIR/.last_sync"
+  fi
+fi
