@@ -328,7 +328,36 @@ done
 ## 8. 腳本流程圖
 
 ```mermaid
+%%{init: {
+  'theme': 'base', 
+  'themeVariables': {
+    'primaryColor': '#4c51bf',
+    'primaryTextColor': '#ffffff',
+    'primaryBorderColor': '#4c51bf',
+    'lineColor': '#e5e7eb',
+    'secondaryColor': '#7f9cf5',
+    'tertiaryColor': '#d3f8b6',
+    'background': '#f8fafc',
+    'textColor': '#333333',
+    'nodeBorder': '#2d3748',
+    'mainBkg': '#ffffff',
+    'clusterBkg': '#f0f4f8',
+    'edgeLabelBackground': '#ffffff'
+  },
+  'flowchart': {
+    'curve': 'basis',
+    'nodeSpacing': 50,
+    'rankSpacing': 50,
+    'padding': 15
+  }
+}}%%
 flowchart TD
+    %% 節點樣式優化
+    classDef start fill:#4c51bf,stroke:#2d3748,color:#ffffff,stroke-width:2px;
+    classDef process fill:#e6f2ff,stroke:#3182ce,color:#1a365d,stroke-width:1px;
+    classDef condition fill:#ebf8ff,stroke:#2c5282,color:#2a4365,stroke-width:1px,shape:diamond;
+    classDef action fill:#e6fffa,stroke:#2c7a7b,color:#234e52,stroke-width:1px;
+    
     A[啟動腳本] --> B[設置工作目錄]
     B --> C[初始同步]
     C --> D[開始監視文件變更]
@@ -344,6 +373,11 @@ flowchart TD
     I -->|否| E
     H --> K[更新最後同步時間]
     K --> E
+    
+    %% 應用樣式
+    class A start;
+    class B,C,D,F,H,K process;
+    class E,G,I,J condition;
 ```
 
 ---
