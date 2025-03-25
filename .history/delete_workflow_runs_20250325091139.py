@@ -4,7 +4,7 @@ import time
 # 替換為您的 GitHub 用戶名、存儲庫名稱和個人訪問令牌
 USERNAME = 'GengGeng026'
 REPO = 'Sync-Logseq'
-TOKEN = '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'  # 替換為您已有的令牌
+TOKEN = ''  # 替換為您已有的令牌
 
 # GitHub API URL
 url = f'https://api.github.com/repos/{USERNAME}/{REPO}/actions/runs'
