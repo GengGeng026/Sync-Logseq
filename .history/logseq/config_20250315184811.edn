@@ -14,7 +14,7 @@
  :git-pull-secs 60
  :git-push-secs 10
  ;; Whether to enable git auto push
- :git-auto-push false
+ :git-auto-push true
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
