@@ -347,24 +347,22 @@ done
 
 ## 8. 腳本流程圖
 
-> 💡 **淺色主題模式圖表** (默認顯示)
-
 ```mermaid
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#4c51bf',
-    'primaryTextColor': '#ffffff',
-    'primaryBorderColor': '#4c51bf',
-    'lineColor': '#e5e7eb',
-    'secondaryColor': '#7f9cf5',
-    'tertiaryColor': '#d3f8b6',
-    'background': '#f8fafc',
-    'textColor': '#333333',
-    'nodeBorder': '#2d3748',
-    'mainBkg': '#ffffff',
-    'clusterBkg': '#f0f4f8',
-    'edgeLabelBackground': '#ffffff'
+    'primaryColor': '#82AAFF',
+    'primaryTextColor': '#FFFFFF',
+    'primaryBorderColor': '#82AAFF',
+    'lineColor': '#89DDFF',
+    'secondaryColor': '#C792EA',
+    'tertiaryColor': '#F07178',
+    'background': 'transparent',
+    'textColor': '#EEFFFF',
+    'mainBkg': '#273747',
+    'nodeBorder': '#89DDFF',
+    'clusterBkg': 'transparent',
+    'edgeLabelBackground': '#21252B'
   },
   'flowchart': {
     'curve': 'basis',
@@ -375,65 +373,10 @@ done
 }}%%
 flowchart TD
     %% 節點樣式優化
-    classDef start fill:#4c51bf,stroke:#2d3748,color:#ffffff,stroke-width:2px;
-    classDef process fill:#e6f2ff,stroke:#3182ce,color:#1a365d,stroke-width:1px;
-    classDef condition fill:#ebf8ff,stroke:#2c5282,color:#2a4365,stroke-width:1px,shape:diamond;
-    classDef action fill:#e6fffa,stroke:#2c7a7b,color:#234e52,stroke-width:1px;
-    
-    A[啟動腳本] --> B[設置工作目錄]
-    B --> C[初始同步]
-    C --> D[開始監視文件變更]
-    D --> E{檢測到文件變更?}
-    E -->|是| F[等待5秒]
-    F --> G{文件寫入完成?}
-    G -->|是| H[執行同步]
-    G -->|否| E
-    E -->|否| I{超過2分鐘未同步?}
-    I -->|是| J{變更超過3個文件?}
-    J -->|是| H
-    J -->|否| E
-    I -->|否| E
-    H --> K[更新最後同步時間]
-    K --> E
-    
-    %% 應用樣式
-    class A start;
-    class B,C,D,F,H,K process;
-    class E,G,I,J condition;
-```
-
-> 💡 **深色主題模式圖表** (如使用深色主題，請使用此圖表)
-
-```mermaid
-%%{init: {
-  'theme': 'dark', 
-  'themeVariables': {
-    'primaryColor': '#6366f1',
-    'primaryTextColor': '#ffffff',
-    'primaryBorderColor': '#6366f1',
-    'lineColor': '#a5b4fc',
-    'secondaryColor': '#818cf8',
-    'tertiaryColor': '#312e81',
-    'background': '#1e1b4b',
-    'textColor': '#ffffff',
-    'nodeBorder': '#c7d2fe',
-    'mainBkg': '#312e81',
-    'clusterBkg': '#4338ca',
-    'edgeLabelBackground': '#4f46e5'
-  },
-  'flowchart': {
-    'curve': 'basis',
-    'nodeSpacing': 50,
-    'rankSpacing': 50,
-    'padding': 15
-  }
-}}%%
-flowchart TD
-    %% 節點樣式優化
-    classDef start fill:#6366f1,stroke:#c7d2fe,color:#ffffff,stroke-width:2px;
-    classDef process fill:#4f46e5,stroke:#c7d2fe,color:#ffffff,stroke-width:1px;
-    classDef condition fill:#4338ca,stroke:#a5b4fc,color:#ffffff,stroke-width:1px,shape:diamond;
-    classDef action fill:#3730a3,stroke:#818cf8,color:#ffffff,stroke-width:1px;
+    classDef start fill:#C792EA,stroke:#89DDFF,color:#FFFFFF,stroke-width:2px;
+    classDef process fill:#82AAFF,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
+    classDef condition fill:#FFCB6B,stroke:#89DDFF,color:#273747,stroke-width:1px,shape:diamond;
+    classDef action fill:#F07178,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
     
     A[啟動腳本] --> B[設置工作目錄]
     B --> C[初始同步]
