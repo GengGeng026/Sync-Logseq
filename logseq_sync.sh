@@ -89,6 +89,9 @@ sync_repo
 # 監視文件變更
 echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
 fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
+  # 檢測到變化後先等待 10 秒，確保 Logseq 完成文件寫入
+  sleep 10
+  
   # 只有在最後一次同步後至少5分鐘才再次同步
   if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 300 ]; then
     rotate_logs
