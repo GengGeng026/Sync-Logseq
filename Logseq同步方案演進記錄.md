@@ -1,5 +1,9 @@
 # Logseq 自動同步方案演進：從失敗到成功的完整記錄
 
+> _這是一份關於如何解決 Logseq 跨設備同步問題的完整記錄，從最初的失敗嘗試到最終的穩定方案，希望能為遇到類似問題的用戶提供參考。_
+
+![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
+
 ## 1. 問題起源
 
 Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
@@ -10,6 +14,30 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
 - 認證持久化問題
 
 ## 2. 演變時間線
+
+```mermaid
+timeline
+    title Logseq 同步方案演進時間軸
+    section 初始階段
+        基本 Git Hooks : 簡單的 post-commit hook
+        : 需手動保存和提交
+        : 系統重啟後失效
+    section 自動化嘗試
+        nohup 循環方案 : 定時自動同步
+        : 浪費資源且不處理衝突
+        初次 fswatch 嘗試 : 檔案變更觸發
+        : 監控 .git 導致無限循環
+    section 關鍵突破
+        SSH 認證問題解決 : 持久化密鑰配置
+        : 解決重啟後認證失效
+        Git 倉庫整理 : 清理分支與歷史
+        : 避免合併困難
+    section 最終方案
+        精確控制的 fswatch : 排除 .git 目錄
+        : 文件穩定性檢測
+        : 雙重安全檢查
+        : 完善的錯誤處理
+```
 
 ### 2.1 階段一：基本 Git Hooks（初始方案）
 
