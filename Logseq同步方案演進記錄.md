@@ -47,22 +47,24 @@ timeline
   git push origin main
   ```
 - **缺點**：
-  - 被動式：需手動保存和提交
-  - 系統重啟後失效
-  - 無法處理合併衝突
+  - 🔴 被動式：需手動保存和提交
+  - 🔴 系統重啟後失效
+  - 🔴 無法處理合併衝突
 
 ### 2.2 階段二：自動化嘗試
 
 - **nohup 循環方案**
   ```bash
+  # 嘗試使用後台運行持續同步
   nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
   ```
   - **失敗原因**：
-    - 無條件同步浪費資源
-    - 不處理合併衝突
-    - 重啟後需手動啟動
+    - 🔴 無條件同步浪費資源
+    - 🔴 不處理合併衝突
+    - 🔴 重啟後需手動啟動
 - **初次 fswatch 嘗試**
   ```bash
+  # 嘗試使用文件系統監視器觸發同步
   fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
     git pull
     git add .
@@ -71,17 +73,17 @@ timeline
   done
   ```
   - **關鍵問題**：
-    - 監控了 .git 目錄，導致無限循環
-    - 未處理 SSH 認證問題
-    - 未檢測文件寫入完成
-    - 缺少錯誤處理機制
+    - 🔴 監控了 .git 目錄，導致無限循環
+    - 🔴 未處理 SSH 認證問題
+    - 🔴 未檢測文件寫入完成
+    - 🔴 缺少錯誤處理機制
 
 ### 2.3 階段三：SSH 認證問題突破
 
 - **診斷**：重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
 - **解決方案**：
   1. 永久配置 SSH
-     ```
+     ```bash
      # ~/.ssh/config
      Host github.com
        AddKeysToAgent yes
@@ -93,6 +95,8 @@ timeline
      ssh-add --apple-use-keychain ~/.ssh/id_ed25519
      ```
 
+> 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
+
 ### 2.4 階段四：Git 倉庫整理
 
 - **診斷**：多餘分支和冗餘歷史造成合併困難
@@ -101,23 +105,26 @@ timeline
   - 統一使用 main 分支
   - 重置關係：`git reset --hard origin/main`
 
+> ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
+
 ## 3. 最終成功方案：精確控制的 fswatch
 
 ### 3.1 為何同樣是 fswatch 但這次成功了？
 
 - **關鍵改進**：
-  1. **精確排除 .git 目錄**
+  1. **精確排除 .git 目錄** ✅
      ```bash
+     # 避免監控 .git 目錄造成的無限循環
      fswatch -o --exclude ".git" "$REPO_DIR"
      ```
-  2. **文件穩定性檢測**
+  2. **文件穩定性檢測** ✅
      ```bash
      # 等待文件完全寫入
      sleep 5
      # 檢測文件穩定性
      latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit)
      ```
-  3. **雙重安全檢查**：時間間隔 + 變更量檢測
+  3. **雙重安全檢查** ✅：時間間隔 + 變更量檢測
      ```bash
      # 時間間隔檢查
      if [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
@@ -127,7 +134,7 @@ timeline
        fi
      fi
      ```
-  4. **完善的錯誤處理**
+  4. **完善的錯誤處理** ✅
      ```bash
      # 先嘗試正常流程
      pull_output=$(git pull origin main 2>&1)
@@ -137,7 +144,9 @@ timeline
        git pull origin main
      fi
      ```
-  5. **持久的 SSH 認證**：鑰匙串集成確保重啟後認證有效
+  5. **持久的 SSH 認證** ✅：鑰匙串集成確保重啟後認證有效
+
+> 🔍 **深入分析**: 看似相同的工具（fswatch），但通過精確控制和完善的錯誤處理，實現了完全不同的結果。
 
 ### 3.2 解決的核心問題
 
