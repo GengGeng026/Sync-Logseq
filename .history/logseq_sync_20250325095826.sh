@@ -12,20 +12,6 @@ cleanup() {
   find .git -name "*.lock" -delete 2>/dev/null
 }
 
-# 日誌輪換
-rotate_logs() {
-  # 限制日誌大小為1MB
-  for log_file in "$LOG_FILE" "$REPO_DIR/sync_stdout.log" "$REPO_DIR/sync_stderr.log"; do
-    if [ -f "$log_file" ] && [ $(stat -f%z "$log_file") -gt 1048576 ]; then
-      timestamp=$(date +"%Y%m%d_%H%M%S")
-      mv "$log_file" "${log_file}.${timestamp}"
-      touch "$log_file"
-      # 只保留最近5個日誌文件
-      ls -t "${log_file}."* | tail -n +6 | xargs rm -f 2>/dev/null
-    fi
-  done
-}
-
 # 同步功能
 sync_repo() {
   echo "$(date): 開始同步..." >> "$LOG_FILE"
@@ -82,7 +68,6 @@ sync_repo() {
 
 # 主循環
 while true; do
-  rotate_logs
   sync_repo
-  sleep 300  # 每5分鐘同步一次
+  sleep 15  # 每15秒同步一次
 done
