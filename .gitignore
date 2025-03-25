@@ -17,7 +17,6 @@ build/
 
 # misc
 .history
-.history/
 .DS_Store
 .env.local
 .env.development.local
