@@ -13,6 +13,7 @@ logseq/.recycle
 
 # production
 /build
+build/
 
 # misc
 .history/
