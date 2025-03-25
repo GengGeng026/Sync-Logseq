@@ -16,6 +16,7 @@ logseq/.recycle
 build/
 
 # misc
+.history
 .history/
 .DS_Store
 .env.local
