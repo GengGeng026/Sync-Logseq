@@ -1,5 +1,5 @@
 #!/bin/bash
-# 文件名: improved_logseq_sync.sh
+# 文件名: logseq_sync.sh
 # 保存位置: /Users/mac/Documents/Sync-Logseq/logseq_sync.sh
 
 # 設置工作目錄和日誌文件
@@ -80,19 +80,9 @@ sync_repo() {
   echo "------------------------" >> "$LOG_FILE"
 }
 
-# 輪換日誌
-rotate_logs
-
-# 進行初始同步
-sync_repo
-
-# 監視文件變更
-echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
-fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
-  # 只有在最後一次同步後至少5分鐘才再次同步
-  if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 300 ]; then
-    rotate_logs
-    sync_repo
-    touch "$REPO_DIR/.last_sync"
-  fi
+# 主循環
+while true; do
+  rotate_logs
+  sync_repo
+  sleep 60  # 每15秒同步一次
 done
