@@ -15,37 +15,28 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
 
 ## 2. 演變時間線
 
-> 💡 **淺色主題模式時間軸** (默認顯示)
-
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5a67d8', 'primaryTextColor': '#fff', 'primaryBorderColor': '#5a67d8', 'lineColor': '#f5f5f5', 'secondaryColor': '#73e6ff', 'tertiaryColor': '#fff' }}}%%
-timeline
-    title Logseq 同步方案演進時間軸
-    section 初始階段
-        基本 Git Hooks : 簡單的 post-commit hook
-        : 需手動保存和提交
-        : 系統重啟後失效
-    section 自動化嘗試
-        nohup 循環方案 : 定時自動同步
-        : 浪費資源且不處理衝突
-        初次 fswatch 嘗試 : 檔案變更觸發
-        : 監控 .git 導致無限循環
-    section 關鍵突破
-        SSH 認證問題解決 : 持久化密鑰配置
-        : 解決重啟後認證失效
-        Git 倉庫整理 : 清理分支與歷史
-        : 避免合併困難
-    section 最終方案
-        精確控制的 fswatch : 排除 .git 目錄
-        : 文件穩定性檢測
-        : 雙重安全檢查
-        : 完善的錯誤處理
-```
-
-> 💡 **深色主題模式時間軸** (如使用深色主題，請使用此圖表)
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#6366f1', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#a5b4fc', 'lineColor': '#c7d2fe', 'secondaryColor': '#818cf8', 'tertiaryColor': '#312e81' }}}%%
+%%{init: {
+  'theme': 'base', 
+  'themeVariables': {
+    'primaryColor': '#82AAFF',
+    'primaryTextColor': '#FFFFFF',
+    'primaryBorderColor': '#82AAFF',
+    'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
+    'background': 'transparent',
+    'textColor': '#EEFFFF',
+    'nodeBorder': '#89DDFF',
+    'clusterBkg': 'transparent',
+    'titleColor': '#EEFFFF',
+    'sectionBkgColor': '#273747',
+    'sectionBkgColor2': '#334455',
+    'sectionBkgColor3': '#3A4A5A',
+    'sectionBkgColor4': '#42546A',
+    'sectionBkgColor5': '#4B5E78'
+  }
+}}%%
 timeline
     title Logseq 同步方案演進時間軸
     section 初始階段
