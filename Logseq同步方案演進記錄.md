@@ -16,6 +16,7 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
 ## 2. 演變時間線
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5a67d8', 'primaryTextColor': '#fff', 'primaryBorderColor': '#5a67d8', 'lineColor': '#f5f5f5', 'secondaryColor': '#73e6ff', 'tertiaryColor': '#fff' }}}%%
 timeline
     title Logseq 同步方案演進時間軸
     section 初始階段
