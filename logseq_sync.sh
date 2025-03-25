@@ -4,7 +4,7 @@
 
 # 設置工作目錄和日誌文件
 REPO_DIR="/Users/mac/Documents/Sync-Logseq"
-LOG_FILE="$REPO_DIR/sync_log.txt"
+LOG_FILE="/dev/null"  # 改為 /dev/null 而不是實際文件
 cd "$REPO_DIR" || exit
 
 # 清理鎖定文件（如果存在）
