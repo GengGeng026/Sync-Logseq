@@ -25,27 +25,15 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#651FFF',
-    'primaryTextColor': '#FFFFFF',
-    'primaryBorderColor': '#59B79A',
-    'lineColor': '#C792EA',
-    'secondaryColor': '#FFCB6B',
-    'tertiaryColor': '#F07178',
+    'primaryColor': '#99AAFF',
+    'secondaryColor': '#FFCB2B',
+    'tertiaryColor': '#59B79A',
+    'primaryTextColor': '#EEFFFF',
     'background': 'transparent',
-    'textColor': '#EEFFFF',
-    'mainBkg': '#273747',
-    'nodeBorder': '#59B79A',
-    'clusterBkg': 'transparent',
-    'edgeLabelBackground': '#21252B'
-  },
-  'flowchart': {
-    'curve': 'basis',
-    'nodeSpacing': 50,
-    'rankSpacing': 50,
-    'padding': 15
+    'sectionBkgColor': '#273747',
+    'sectionBkgColor5': '#4B5E78'
   }
 }}%%
-
 timeline
     title Logseq 同步方案演進時間軸
     section 初始階段
