@@ -385,14 +385,14 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#651FFF',
+    'primaryColor': '#59B79A',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
-    'lineColor': '#C792EA',
-    'secondaryColor': '#FFCB6B',
+    'lineColor': '#666666',
+    'secondaryColor': '#C792EA',
     'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#EEFFFF',
+    'textColor': '#666666',
     'mainBkg': '#273747',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
@@ -427,11 +427,6 @@ flowchart TD
     I -->|否| E
     H --> K[更新最後同步時間]
     K --> E
-    
-    %% 應用樣式
-    class A start;
-    class B,C,D,F,H,K process;
-    class E,G,I,J condition;
 ```
 
 <br>
