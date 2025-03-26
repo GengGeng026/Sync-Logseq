@@ -25,12 +25,12 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#99AAFF',
-    'secondaryColor': '#FFCB2B',
-    'tertiaryColor': '#59B79A',
-    'primaryTextColor': 'darkgrey',
+    'primaryColor': '#59B79A',
+    'primaryTextColor': '#59B79A',
     'primaryBorderColor': '#59B79A',
     'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
