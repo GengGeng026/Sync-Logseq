@@ -25,12 +25,12 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
+    'titleColor': '#FEE9D9',
     'primaryColor': '#FEE9D9',
     'secondaryColor': '#A9E4D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
     'clusterBkg': 'transparent',
-    'titleColor': '#FEE9D9',
     'fontFamily': 'default',
     'fontSize': '17px',
     'fontWeight': 'normal'
