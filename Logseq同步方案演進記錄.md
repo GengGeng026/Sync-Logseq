@@ -35,7 +35,12 @@
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
     'edgeLabelBackground': '#21252B'
-  }
+  },
+  'flowchart': {
+    'curve': 'basis',
+    'nodeSpacing': 50,
+    'rankSpacing': 50,
+    'padding': 15
   }
 }}%%
 
