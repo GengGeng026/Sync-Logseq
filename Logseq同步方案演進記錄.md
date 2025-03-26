@@ -376,12 +376,12 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#651FFF',
+    'primaryTextColor': '#FEC999',
+    'primaryColor': '#19E9D9',
+    'secondaryColor': '#AABAF1',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
     'lineColor': '#C792EA',
-    'secondaryColor': '#FFCB6B',
-    'tertiaryColor': '#F07178',
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'mainBkg': '#273747',
