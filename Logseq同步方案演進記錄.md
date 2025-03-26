@@ -71,9 +71,9 @@ timeline
 
 |  層級  |  說明 |
 |:----------------|:-----------------|
-| <span style="color:grey">◼</span> <span style="color:grey">頂部</span> | <span style="color:grey">主要事件 ── 時間軸上的主要事件和里程碑</span> |
-| <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
-| <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
+| <span style="color:#59B79A">◼</span> <span style="color:#59B79A">頂部</span> | <span style="color:#59B79A">主要事件 ── 時間軸上的主要事件和里程碑</span> |
+| <span style="color:#666666">◼</span> <span style="color:#666666">中間</span> | <span style="color:#666666">時間線 ── 連接事件的時間軸</span> |
+| <span style="color:#FFCB6B">◼</span> <span style="color:#FFCB6B">底部</span> | <span style="color:#FFCB6B">次要事件 ── 次要事件和說明</span> |
 
 
 > **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
