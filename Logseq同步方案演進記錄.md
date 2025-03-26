@@ -2,7 +2,7 @@
 
 > _這是一份關於如何解決 Logseq 跨設備同步問題的完整記錄，從最初的失敗嘗試到最終的穩定方案，希望能為遇到類似問題的用戶提供參考。_
 >
-> _圖表採用 Aura Theme 配色方案，設計為在淺色和深色主題下均有良好視覺效果，無需切換不同版本。_
+> _圖表採用鮮明配色方案（藍 #179FFF、紫 #651FFF、黃 #FFE402、橙 #FF7D78、綠 #59B79A），設計為在淺色和深色主題下均有良好視覺效果，無需切換不同版本。_
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
