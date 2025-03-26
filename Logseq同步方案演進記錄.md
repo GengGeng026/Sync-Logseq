@@ -25,23 +25,23 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#99AAFF',
-    'secondaryColor': '#FFCB2B',
-    'tertiaryColor': '#59B79A',
-    'quaternaryColor': '#F07178',
+    'primaryColor': '#59B79A',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
-    'lineColor': '#C792EA',
+    'lineColor': '#666666',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#EEFFFF',
+    'textColor': '#666666',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
-    'titleColor': '#EEFFFF',
+    'titleColor': '#666666',
     'sectionBkgColor': '#273747',
     'sectionBkgColor2': '#334455',
     'sectionBkgColor3': '#3A4A5A',
     'sectionBkgColor4': '#42546A',
-    'sectionBkgColor5': '#4B5E78'
+    'sectionBkgColor5': '#4B5E78',
+    'fontFamily': 'Arial, Helvetica, sans-serif'
   }
 }}%%
 timeline
