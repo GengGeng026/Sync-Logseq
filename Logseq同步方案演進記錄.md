@@ -6,7 +6,7 @@
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
-<br><b>
+<br><br><br>
 
 ## 1. 問題起源
 
@@ -25,23 +25,23 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#59B79A',
+    'primaryColor': '#99AAFF',
+    'secondaryColor': '#FFCB2B',
+    'tertiaryColor': '#59B79A',
+    'quaternaryColor': '#F07178',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
-    'lineColor': '#666666',
-    'secondaryColor': '#FFCB6B',
-    'tertiaryColor': '#F07178',
+    'lineColor': '#C792EA',
     'background': 'transparent',
-    'textColor': '#666666',
+    'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
-    'titleColor': '#666666',
+    'titleColor': '#EEFFFF',
     'sectionBkgColor': '#273747',
     'sectionBkgColor2': '#334455',
     'sectionBkgColor3': '#3A4A5A',
     'sectionBkgColor4': '#42546A',
-    'sectionBkgColor5': '#4B5E78',
-    'fontFamily': 'Arial, Helvetica, sans-serif'
+    'sectionBkgColor5': '#4B5E78'
   }
 }}%%
 timeline
@@ -71,9 +71,9 @@ timeline
 
 |  層級  |  說明 |
 |:----------------|:-----------------|
-| <span style="color:#59B79A">◼</span> <span style="color:#59B79A">頂部</span> | <span style="color:#59B79A">主要事件 ── 時間軸上的主要事件和里程碑</span> |
-| <span style="color:#666666">◼</span> <span style="color:#666666">中間</span> | <span style="color:#666666">時間線 ── 連接事件的時間軸</span> |
-| <span style="color:#FFCB6B">◼</span> <span style="color:#FFCB6B">底部</span> | <span style="color:#FFCB6B">次要事件 ── 次要事件和說明</span> |
+| <span style="color:grey">◼</span> <span style="color:grey">頂部</span> | <span style="color:grey">主要事件 ── 時間軸上的主要事件和里程碑</span> |
+| <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
+| <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
 
 
 > **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
@@ -385,14 +385,14 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#59B79A',
+    'primaryColor': '#651FFF',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
-    'lineColor': '#666666',
-    'secondaryColor': '#C792EA',
+    'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
     'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#666666',
+    'textColor': '#EEFFFF',
     'mainBkg': '#273747',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
@@ -436,91 +436,18 @@ flowchart TD
 
 <br>
 
+
 ### 圖表顏色說明 (Aura Theme 配色)
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#C792EA">◼</span> 起始節點 | 紫色 (#C792EA) | 流程的起始點，如「啟動腳本」 |
+| <span style="color:#651FFF">◼</span> 起始節點 | 紫色 (#651FFF) | 流程的起始點，如「啟動腳本」 |
 | <span style="color:#59B79A">◼</span> 處理節點 | 綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
 | <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
 | <span style="color:#F07178">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
-| <span style="color:#666666">→</span> 連接線 | 灰色 (#666666) | 流程方向 |
+| <span style="color:#59B79A">→</span> 連接線 | 綠色 (#59B79A) | 流程方向 |
 
 > **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
-
-### 2.1 階段一：基本 Git Hooks（初始方案）
-
-- **實現**：Git post-commit hook
-  ```bash
-  #!/bin/bash
-  git push origin main
-  ```
-- **缺點**：
-  - 🔴 被動式：需手動保存和提交
-  - 🔴 系統重啟後失效
-  - 🔴 無法處理合併衝突
-
-<br><br>
-
-### 2.2 階段二：自動化嘗試
-
-- **nohup 循環方案**
-  ```bash
-  # 嘗試使用後台運行持續同步
-  nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
-  ```
-  - **失敗原因**：
-    - 🔴 無條件同步浪費資源
-    - 🔴 不處理合併衝突
-    - 🔴 重啟後需手動啟動
-- **初次 fswatch 嘗試**
-  ```bash
-  # 嘗試使用文件系統監視器觸發同步
-  fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
-    git pull
-    git add .
-    git commit -m "Auto-sync: $(date)"
-    git push
-  done
-  ```
-  - **關鍵問題**：
-    - 🔴 監控了 .git 目錄，導致無限循環
-    - 🔴 未處理 SSH 認證問題
-    - 🔴 未檢測文件寫入完成
-    - 🔴 缺少錯誤處理機制
-
-<br><br>
-
-### 2.3 階段三：SSH 認證問題突破
-
-- **診斷**：重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
-- **解決方案**：
-  1. 永久配置 SSH
-     ```bash
-     # ~/.ssh/config
-     Host github.com
-       AddKeysToAgent yes
-       UseKeychain yes
-       IdentityFile ~/.ssh/id_ed25519
-     ```
-  2. 將密鑰添加到 macOS 鑰匙串
-     ```bash
-     ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-     ```
-
-> 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
-
-<br><br>
-
-### 2.4 階段四：Git 倉庫整理
-
-- **診斷**：多餘分支和冗餘歷史造成合併困難
-- **解決**：
-  - 清理無用分支：`git push origin --delete gh-pages`
-  - 統一使用 main 分支
-  - 重置關係：`git reset --hard origin/main`
-
-> ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
 
 <br><br><br>
 
