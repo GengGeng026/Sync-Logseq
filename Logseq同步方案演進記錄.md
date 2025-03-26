@@ -31,6 +31,7 @@
     'quaternaryColor': '#F07178',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
+    '
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
