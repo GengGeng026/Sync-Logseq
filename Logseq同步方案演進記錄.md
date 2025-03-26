@@ -32,10 +32,6 @@
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
     'clusterBkg': 'transparent',
-    'mainBkg': '#273747',
-    'nodeBorder': '#59B79A',
-    'clusterBkg': 'transparent',
-    'edgeLabelBackground': '#21252B',
     'fontFamily': 'default',
     'fontSize': '17px',
     'fontWeight': 'normal'
