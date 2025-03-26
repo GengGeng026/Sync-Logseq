@@ -25,7 +25,7 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#99AAFF',
+    'primaryColor': 'ligthgrey',
     'secondaryColor': '#FFCB2B',
     'tertiaryColor': '#59B79A',
     'lineColor': '#C792EA',
