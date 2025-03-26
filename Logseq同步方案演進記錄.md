@@ -34,7 +34,7 @@
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
-    'clusterBkg': 'transparent',
+    'clusterBkg': '#273747',
     'titleColor': '#EEFFFF',
     'sectionBkgColor': '#273747',
     'sectionBkgColor2': '#334455',
