@@ -30,7 +30,6 @@
     'tertiaryColor': '#59B79A',
     'primaryTextColor': '#EEFFFF',
     'background': 'transparent',
-    'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF',
