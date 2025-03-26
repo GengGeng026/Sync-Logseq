@@ -2,7 +2,7 @@
 
 > _這是一份關於如何解決 Logseq 跨設備同步問題的完整記錄，從最初的失敗嘗試到最終的穩定方案，希望能為遇到類似問題的用戶提供參考。_
 >
-> _圖表採用鮮明配色方案（藍 #179FFF、紫 #651FFF、黃 #FFE402、橙 #FF7D78、綠 #59B79A），設計為在淺色和深色主題下均有良好視覺效果，無需切換不同版本。_
+> _圖表採用 Aura Theme 配色方案，設計為在淺色和深色主題下均有良好視覺效果，無需切換不同版本。_
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
@@ -17,21 +17,28 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
 
 ## 2. 演變時間線
 
+    "orange": "#FF7D78",
+    "yellow": "#FFE402",
+    "blue": "#179FFF",
+    "purple": "#651FFF",
+    "green": "#59B79A",
+}
+
 ```mermaid
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#179FFF',
+    'primaryColor': '#82AAFF',
     'primaryTextColor': '#FFFFFF',
-    'primaryBorderColor': '#179FFF',
-    'lineColor': '#651FFF',
-    'secondaryColor': '#FFE402',
-    'tertiaryColor': '#FF7D78',
+    'primaryBorderColor': '#82AAFF',
+    'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#FFFFFF',
-    'nodeBorder': '#59B79A',
+    'textColor': '#EEFFFF',
+    'nodeBorder': '#89DDFF',
     'clusterBkg': 'transparent',
-    'titleColor': '#FFFFFF',
+    'titleColor': '#EEFFFF',
     'sectionBkgColor': '#273747',
     'sectionBkgColor2': '#334455',
     'sectionBkgColor3': '#3A4A5A',
@@ -62,17 +69,17 @@ timeline
         : 完善的錯誤處理
 ```
 
-### 時間軸顏色說明 (新配色方案)
+### 時間軸顏色說明 (Aura Theme 配色)
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#179FFF">◼</span> 主要事件 | 藍色 (#179FFF) | 時間軸上的主要事件和里程碑 |
-| <span style="color:#651FFF">◼</span> 時間線 | 紫色 (#651FFF) | 連接事件的時間線 |
-| <span style="color:#FFE402">◼</span> 次要事件 | 黃色 (#FFE402) | 次要事件和說明 |
-| <span style="color:#FF7D78">◼</span> 特殊節點 | 橙色 (#FF7D78) | 特殊或重要的節點 |
-| <span style="color:#59B79A">◼</span> 輔助元素 | 綠色 (#59B79A) | 節點邊框和輔助元素 |
+| <span style="color:#82AAFF">◼</span> 主要事件 | 藍色 (#82AAFF) | 時間軸上的主要事件和里程碑 |
+| <span style="color:#C792EA">◼</span> 時間線 | 紫色 (#C792EA) | 連接事件的時間線 |
+| <span style="color:#FFCB6B">◼</span> 次要事件 | 黃色 (#FFCB6B) | 次要事件和說明 |
+| <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
+| <span style="color:#273747">◼</span> 區段背景 | 深藍灰色 (#273747) | 不同區段的背景色 |
 
-> **註**: 圖表使用新配色方案並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和視覺衝擊力。
+> **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
 
 ### 2.1 階段一：基本 Git Hooks（初始方案）
 
@@ -365,16 +372,16 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#179FFF',
+    'primaryColor': '#82AAFF',
     'primaryTextColor': '#FFFFFF',
-    'primaryBorderColor': '#179FFF',
-    'lineColor': '#59B79A',
-    'secondaryColor': '#651FFF',
-    'tertiaryColor': '#FF7D78',
+    'primaryBorderColor': '#82AAFF',
+    'lineColor': '#89DDFF',
+    'secondaryColor': '#C792EA',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#FFFFFF',
+    'textColor': '#EEFFFF',
     'mainBkg': '#273747',
-    'nodeBorder': '#59B79A',
+    'nodeBorder': '#89DDFF',
     'clusterBkg': 'transparent',
     'edgeLabelBackground': '#21252B'
   },
@@ -387,10 +394,10 @@ done
 }}%%
 flowchart TD
     %% 節點樣式優化
-    classDef start fill:#651FFF,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
-    classDef process fill:#179FFF,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
-    classDef condition fill:#FFE402,stroke:#59B79A,color:#273747,stroke-width:1px,shape:diamond;
-    classDef action fill:#FF7D78,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
+    classDef start fill:#C792EA,stroke:#89DDFF,color:#FFFFFF,stroke-width:2px;
+    classDef process fill:#82AAFF,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
+    classDef condition fill:#FFCB6B,stroke:#89DDFF,color:#273747,stroke-width:1px,shape:diamond;
+    classDef action fill:#F07178,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
     
     A[啟動腳本] --> B[設置工作目錄]
     B --> C[初始同步]
@@ -414,17 +421,17 @@ flowchart TD
     class E,G,I,J condition;
 ```
 
-### 圖表顏色說明 (新配色方案)
+### 圖表顏色說明 (Aura Theme 配色)
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#651FFF">◼</span> 起始節點 | 紫色 (#651FFF) | 流程的起始點，如「啟動腳本」 |
-| <span style="color:#179FFF">◼</span> 處理節點 | 藍色 (#179FFF) | 執行的處理步驟，如「設置工作目錄」 |
-| <span style="color:#FFE402">◆</span> 條件節點 | 黃色 (#FFE402) | 決策點，如「檢測到文件變更?」 |
-| <span style="color:#FF7D78">◼</span> 動作節點 | 橙色 (#FF7D78) | 重要的動作，如「執行同步」 |
-| <span style="color:#59B79A">→</span> 連接線 | 綠色 (#59B79A) | 流程方向 |
+| <span style="color:#C792EA">◼</span> 起始節點 | 紫色 (#C792EA) | 流程的起始點，如「啟動腳本」 |
+| <span style="color:#82AAFF">◼</span> 處理節點 | 藍色 (#82AAFF) | 執行的處理步驟，如「設置工作目錄」 |
+| <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
+| <span style="color:#F07178">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
+| <span style="color:#89DDFF">→</span> 連接線 | 淺藍色 (#89DDFF) | 流程方向 |
 
-> **註**: 這些顏色基於新配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
+> **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
 
 ---
 
