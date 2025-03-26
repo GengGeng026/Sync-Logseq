@@ -434,9 +434,9 @@ flowchart TD
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
 | <span style="color:#651FFF">◼</span> 起始節點 | 紫色 (#651FFF) | 流程的起始點，如「啟動腳本」 |
-| <span style="color:#59B79A">◼</span> 處理節點 | 綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
+| <span style="color:#59B79A">◼</span> 處理節點 | 深綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
 | <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
-| <span style="color:#F07178">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
+| <span style="color:#0B776F">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
 | <span style="color:#FEC999">→</span> 連接線 | 橙色 (#FEC999) | 流程方向 |
 
 > **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
