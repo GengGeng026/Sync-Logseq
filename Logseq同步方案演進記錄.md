@@ -31,8 +31,6 @@
     'lineColor': '#A9D9D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
-    'textColor': '#EEFFFF',
-    'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
     'titleColor': '#FEE9D9',
     'fontFamily': 'Source Code Pro',
