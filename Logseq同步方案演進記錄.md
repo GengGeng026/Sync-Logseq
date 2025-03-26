@@ -30,8 +30,12 @@
     'tertiaryColor': '#59B79A',
     'primaryTextColor': '#EEFFFF',
     'background': 'transparent',
-    'sectionBkgColor': '#273747',
-    'sectionBkgColor5': '#4B5E78'
+    'textColor': '#EEFFFF',
+    'mainBkg': '#273747',
+    'nodeBorder': '#59B79A',
+    'clusterBkg': 'transparent',
+    'edgeLabelBackground': '#21252B'
+  }
   }
 }}%%
 
