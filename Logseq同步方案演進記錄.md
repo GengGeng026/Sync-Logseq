@@ -35,7 +35,8 @@
     'textColor': '#EEFFFF',
     'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
-    'titleColor': '#EEFFFF'
+    'titleColor': '#EEFFFF',
+    'tFon
   }
 }}%%
 timeline
