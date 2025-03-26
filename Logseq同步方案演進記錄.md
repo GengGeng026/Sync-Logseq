@@ -6,7 +6,7 @@
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
-<br>
+<br><br>
 
 ## 1. 問題起源
 
@@ -17,7 +17,7 @@
 - 同步過程中的衝突
 - 認證持久化問題
 
-<br>
+<br><br>
 
 ## 2. 演變時間線
 
