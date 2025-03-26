@@ -73,7 +73,7 @@ timeline
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#82AAFF">◼</span> 主要事件 | 藍色 (#82AAFF) | 時間軸上的主要事件和里程碑 |
+| <span style="color:#59B79A">◼</span> 主要事件 | 藍色 (#82AAFF) | 時間軸上的主要事件和里程碑 |
 | <span style="color:#C792EA">◼</span> 時間線 | 紫色 (#C792EA) | 連接事件的時間線 |
 | <span style="color:#FFCB6B">◼</span> 次要事件 | 黃色 (#FFCB6B) | 次要事件和說明 |
 | <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
