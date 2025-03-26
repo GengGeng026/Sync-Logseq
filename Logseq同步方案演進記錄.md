@@ -400,7 +400,7 @@ flowchart TD
     %% 節點樣式優化
     classDef start fill:#651FFF,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
     classDef process fill:#19E9D,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
-    classDef condition fill:#B1A5D9,stroke:#B9B5D9,color:#273747,stroke-width:1px,shape:diamond;
+    classDef condition fill:#65AFD9,stroke:#B9B5D9,color:#273747,stroke-width:1px,shape:diamond;
     classDef action fill:#F07178,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
     
     A[啟動腳本] --> B[設置工作目錄]
