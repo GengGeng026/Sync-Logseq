@@ -6,7 +6,7 @@
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
-<br><b
+<br><b>
 
 ## 1. 問題起源
 
