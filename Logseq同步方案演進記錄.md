@@ -35,7 +35,7 @@
     'textColor': '#EEFFFF',
     'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
-    'titleColor': '',
+    'titleColor': '#FEE9D9',
     'fontFamily': 'Source Code Pro',
     'titleFontFamily': 'Source Code Pro'
   }
