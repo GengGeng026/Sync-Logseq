@@ -30,6 +30,7 @@
     'tertiaryColor': '#59B79A',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
+    'primaryLineColor': '#C792EA',
     'lineColor': '#C792EA',
     'background': 'transparent',
     'textColor': '#EEFFFF',
