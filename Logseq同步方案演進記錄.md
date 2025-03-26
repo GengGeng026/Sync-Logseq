@@ -376,16 +376,18 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryTextColor': '#FEC999',
-    'primaryColor': '#19E9D9',
-    'secondaryColor': '#AABAF1',
-    'tertiaryColor': '#FCE4D9',
-    'primaryBorderColor': '#A9D9D9',
+    'primaryColor': '#651FFF',
+    'primaryTextColor': '#FFFFFF',
+    'primaryBorderColor': '#59B79A',
+    'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
+    'textColor': '#EEFFFF',
+    'mainBkg': '#273747',
+    'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
-    'fontFamily': 'default',
-    'fontSize': '17px',
-    'fontWeight': 'normal'
+    'edgeLabelBackground': '#21252B'
   },
   'flowchart': {
     'curve': 'basis',
