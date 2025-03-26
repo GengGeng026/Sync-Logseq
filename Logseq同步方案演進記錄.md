@@ -381,7 +381,6 @@ done
     'primaryBorderColor': '#59B79A',
     'lineColor': '#FEC999',
     'secondaryColor': '#FFCB6B',
-    'tertiaryColor': '#F07178',
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'mainBkg': '#273747',
