@@ -34,7 +34,7 @@
     'clusterBkg': 'transparent',
     'titleColor': '#FEE9D9',
     'fontFamily': 'default',
-    'fontSize': '
+    'fontSize': '15px'
   }
 }}%%
 timeline
