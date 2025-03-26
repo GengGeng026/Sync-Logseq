@@ -394,10 +394,10 @@ done
 }}%%
 flowchart TD
     %% 節點樣式優化
-    classDef start fill:#C792EA,stroke:#89DDFF,color:#FFFFFF,stroke-width:2px;
-    classDef process fill:#82AAFF,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
-    classDef condition fill:#FFCB6B,stroke:#89DDFF,color:#273747,stroke-width:1px,shape:diamond;
-    classDef action fill:#F07178,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
+    classDef start fill:#C792EA,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
+    classDef process fill:#59B79A,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
+    classDef condition fill:#FFCB6B,stroke:#59B79A,color:#273747,stroke-width:1px,shape:diamond;
+    classDef action fill:#F07178,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
     
     A[啟動腳本] --> B[設置工作目錄]
     B --> C[初始同步]
