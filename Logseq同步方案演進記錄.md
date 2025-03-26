@@ -28,7 +28,7 @@
     'primaryTextColor': '#FEC999',
     'primaryColor': '#19E9D9',
     'secondaryColor': '#A0B2F1',
-    'tertiaryColor': '#FAD5D9',
+    'tertiaryColor': '#BAD5D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
     'clusterBkg': 'transparent',
