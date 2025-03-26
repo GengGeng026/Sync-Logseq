@@ -26,6 +26,7 @@
   'theme': 'base', 
   'themeVariables': {
     'primaryColor': '#FEE9D9',
+    'secondaryColor': '#A9E4D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
     'clusterBkg': 'transparent',
