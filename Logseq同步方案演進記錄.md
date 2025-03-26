@@ -36,7 +36,7 @@
     'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF',
-    'fontFamily': 'JetBrains Mono'
+    'fontFamily': 'Lato'
   }
 }}%%
 timeline
