@@ -422,7 +422,7 @@ flowchart TD
     %% 應用樣式
     class A start;
     class B,C,D,F,H,K process;
-    class L condition;
+    class H action;
     class E,G,I,J condition;
 ```
 
