@@ -32,11 +32,17 @@
     'secondaryColor': '#FFCB6B',
     'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#59B79A',
+    'textColor': '#EEFFFF',
     'mainBkg': '#273747',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
     'edgeLabelBackground': '#21252B'
+  },
+  'flowchart': {
+    'curve': 'basis',
+    'nodeSpacing': 50,
+    'rankSpacing': 50,
+    'padding': 15
   }
 }}%%
 
