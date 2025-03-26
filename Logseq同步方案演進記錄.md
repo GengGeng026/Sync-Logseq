@@ -28,11 +28,11 @@
     'primaryColor': 'lightgrey',
     'secondaryColor': 'lightgrey',
     'tertiaryColor': 'darkgrey',
-    'lineColor': '#C792EA',
-    'primaryBorderColor': '#59B79A',
+    'lineColor': 'darkgrey',
+    'primaryBorderColor': 'darkgrey',
     'background': 'transparent',
     'textColor': '#EEFFFF',
-    'nodeBorder': '#59B79A',
+    'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF'
   }
