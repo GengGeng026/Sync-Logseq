@@ -36,13 +36,6 @@
     'fontFamily': 'default',
     'fontSize': '17px',
     'fontWeight': 'normal',
-    'fontStyle': 'normal',
-    'fontColor': '#EEFFFF',
-    'titleFontFamily': 'default',
-    'titleFontSize': '17px',
-    'titleFontWeight': 'normal',
-    'titleFontStyle': 'normal',
-    'titleFontColor': '#EEFFFF'
   }
 }}%%
 timeline
