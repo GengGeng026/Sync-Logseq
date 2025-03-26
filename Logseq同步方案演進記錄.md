@@ -28,7 +28,7 @@
     'primaryColor': '#99AAFF',
     'secondaryColor': '#FFCB2B',
     'tertiaryColor': '#59B79A',
-    'primaryTextColor': '#FFFFFF',
+    'primaryTextColor': '#FFFFFE',
     'primaryBorderColor': '#59B79A',
     'lineColor': '#C792EA',
     'background': 'transparent',
