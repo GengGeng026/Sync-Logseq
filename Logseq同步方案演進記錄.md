@@ -36,7 +36,6 @@
     'mainBkg': '#273747',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
-    'edgeLabelBackground': '#21252B'
   }
 }}%%
 
