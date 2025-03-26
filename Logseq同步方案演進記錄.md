@@ -439,8 +439,6 @@ flowchart TD
 | <span style="color:#0B776F">◼</span> 動作節點 | 淺綠色 (#0B776F) | 重要的動作，如「執行同步」 |
 | <span style="color:#FEC999">→</span> 連接線 | 橙色 (#FEC999) | 流程方向 |
 
-> **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
-
 <br><br><br>
 
 ## 9. 如何使用此方案
