@@ -27,7 +27,7 @@
   'themeVariables': {
     'primaryTextColor': '#FEC999',
     'primaryColor': '#19E9D9',
-    'secondaryColor': '#FFD1D9',
+    'secondaryColor': '#FFD1E1',
     'tertiaryColor': '#FCE4D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
