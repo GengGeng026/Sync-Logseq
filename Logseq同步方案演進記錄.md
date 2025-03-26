@@ -75,15 +75,16 @@ timeline
 
 ### 時間軸顏色說明 (Aura Theme 配色)
 
-| 元素 | 顏色 | 說明 |
+| 階段 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#59B79A">◼</span> 主要事件 | 綠色 (#59B79A) | 時間軸上的主要事件和里程碑 |
-| <span style="color:#651FFF">◼</span> 時間線 | 紫色 (#651FFF) | 連接事件的時間線 |
+| <span style="color:#59B79A">◼</span> 初始階段 | 綠色 (#59B79A) | 基本 Git Hooks 的初始嘗試 |
+| <span style="color:#334455">◼</span> 自動化嘗試 | 深藍灰色 (#334455) | nohup 循環和初次 fswatch 嘗試 |
+| <span style="color:#3A4A5A">◼</span> 關鍵突破 | 中藍灰色 (#3A4A5A) | SSH 認證問題解決和 Git 倉庫整理 |
+| <span style="color:#C792EA">◼</span> 最終方案 | 紫色 (#C792EA) | 精確控制的 fswatch 最終解決方案 |
 | <span style="color:#FFCB6B">◼</span> 次要事件 | 黃色 (#FFCB6B) | 次要事件和說明 |
 | <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
-| <span style="color:#273747">◼</span> 區段背景 | 深藍灰色 (#273747) | 不同區段的背景色 |
 
-> **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
+> **註**: 圖表使用 Aura Theme 配色並針對不同階段使用不同顏色，以視覺化演進過程。"初始階段"使用綠色突出顯示，"最終方案"使用紫色強調。
 
 ### 2.1 階段一：基本 Git Hooks（初始方案）
 
