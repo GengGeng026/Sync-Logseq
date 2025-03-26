@@ -60,6 +60,18 @@ timeline
         : 完善的錯誤處理
 ```
 
+### 時間軸顏色說明 (Aura Theme 配色)
+
+| 元素 | 顏色 | 說明 |
+|:--------|:---------|:---------|
+| <span style="color:#82AAFF">◼</span> 主要事件 | 藍色 (#82AAFF) | 時間軸上的主要事件和里程碑 |
+| <span style="color:#C792EA">◼</span> 時間線 | 紫色 (#C792EA) | 連接事件的時間線 |
+| <span style="color:#FFCB6B">◼</span> 次要事件 | 黃色 (#FFCB6B) | 次要事件和說明 |
+| <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
+| <span style="color:#273747">◼</span> 區段背景 | 深藍灰色 (#273747) | 不同區段的背景色 |
+
+> **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
+
 ### 2.1 階段一：基本 Git Hooks（初始方案）
 
 - **實現**：Git post-commit hook
