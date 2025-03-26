@@ -377,6 +377,8 @@ fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
 done
 ```
 
+<br><br><br>
+
 ## 8. 腳本流程圖
 
 ```mermaid
@@ -444,7 +446,7 @@ flowchart TD
 
 > **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
 
----
+<br><br><br>
 
 ## 9. 如何使用此方案
 
