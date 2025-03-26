@@ -372,9 +372,9 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#82AAFF',
+    'primaryColor': '#59B79A',
     'primaryTextColor': '#FFFFFF',
-    'primaryBorderColor': '#82AAFF',
+    'primaryBorderColor': '#59B79A',
     'lineColor': '#89DDFF',
     'secondaryColor': '#C792EA',
     'tertiaryColor': '#F07178',
@@ -395,7 +395,7 @@ done
 flowchart TD
     %% 節點樣式優化
     classDef start fill:#C792EA,stroke:#89DDFF,color:#FFFFFF,stroke-width:2px;
-    classDef process fill:#82AAFF,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
+    classDef process fill:#59B79A,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
     classDef condition fill:#FFCB6B,stroke:#89DDFF,color:#273747,stroke-width:1px,shape:diamond;
     classDef action fill:#F07178,stroke:#89DDFF,color:#FFFFFF,stroke-width:1px;
     
@@ -426,7 +426,7 @@ flowchart TD
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
 | <span style="color:#C792EA">◼</span> 起始節點 | 紫色 (#C792EA) | 流程的起始點，如「啟動腳本」 |
-| <span style="color:#82AAFF">◼</span> 處理節點 | 藍色 (#82AAFF) | 執行的處理步驟，如「設置工作目錄」 |
+| <span style="color:#59B79A">◼</span> 處理節點 | 綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
 | <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
 | <span style="color:#F07178">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
 | <span style="color:#89DDFF">→</span> 連接線 | 淺藍色 (#89DDFF) | 流程方向 |
