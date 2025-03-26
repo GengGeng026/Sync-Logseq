@@ -25,7 +25,7 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryTextColor': '#FEF999',
+    'primaryTextColor': '#FE9999',
     'primaryColor': '#19E9D9',
     'secondaryColor': '#F1D1D9',
     'tertiaryColor': '#FCE4D9',
