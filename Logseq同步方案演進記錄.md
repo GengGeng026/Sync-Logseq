@@ -74,8 +74,8 @@ timeline
 
 |  層級  |  說明 |
 |:----------------|:-----------------|
-| <span style="color:grey">◼</span> 頂部 | 主要事件 ── 時間軸上的主要事件和里程碑 |
-| <span style="color:darkgrey">◼</span> 中間 | 時間線 ── 連接事件的時間線 |
+| <span style="color:grey">◼</span> <span style="color:grey">頂部</span> | <span style="color:grey">主要事件 ── 時間軸上的主要事件和里程碑</span> |
+| <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
 | <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
 
 
