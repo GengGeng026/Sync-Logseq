@@ -28,7 +28,7 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#92AAFF',
+    'primaryColor': '#99AAFF',
     'secondaryColor': '#FFCB6B',
     'tertiaryColor': '#59B79A',
     'quaternaryColor': '#F07178',
