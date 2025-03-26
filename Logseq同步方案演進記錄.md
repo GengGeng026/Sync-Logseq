@@ -32,7 +32,7 @@
     'secondaryColor': '#FFCB6B',
     'tertiaryColor': '#F07178',
     'background': 'transparent',
-    'textColor': '#FFFFFF',
+    'textColor': '',
     'mainBkg': '#273747',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
