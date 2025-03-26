@@ -33,7 +33,7 @@
     'background': 'transparent',
     'clusterBkg': 'transparent',
     'titleColor': '#FEE9D9',
-    'fontFamily': 'de'
+    'fontFamily': 'default'
   }
 }}%%
 timeline
