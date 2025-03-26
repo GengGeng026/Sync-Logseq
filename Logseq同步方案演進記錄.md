@@ -436,17 +436,17 @@ flowchart TD
 
 <br>
 
-### 時間軸顏色說明 (Aura Theme 配色)
+### 圖表顏色說明 (Aura Theme 配色)
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
-| <span style="color:#59B79A">◼</span> 主要事件 | 綠色 (#59B79A) | 時間軸上的主要事件和里程碑 |
-| <span style="color:#666666">◼</span> 時間線 | 灰色 (#666666) | 連接事件的時間線和軸線 |
-| <span style="color:#FFCB6B">◼</span> 次要事件 | 黃色 (#FFCB6B) | 次要事件和說明 |
-| <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
-| <span style="color:#273747">◼</span> 區段背景 | 深藍灰色 (#273747) | 不同區段的背景色 |
+| <span style="color:#C792EA">◼</span> 起始節點 | 紫色 (#C792EA) | 流程的起始點，如「啟動腳本」 |
+| <span style="color:#59B79A">◼</span> 處理節點 | 綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
+| <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
+| <span style="color:#F07178">◼</span> 動作節點 | 紅粉色 (#F07178) | 重要的動作，如「執行同步」 |
+| <span style="color:#666666">→</span> 連接線 | 灰色 (#666666) | 流程方向 |
 
-> **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
+> **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
 
 ### 2.1 階段一：基本 Git Hooks（初始方案）
 
