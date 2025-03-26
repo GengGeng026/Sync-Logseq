@@ -26,6 +26,8 @@
   'theme': 'base', 
   'themeVariables': {
     'primaryColor': 'lightgrey',
+    'secondaryColor': 'lightgrey',
+    'tertiaryColor': 'lightgrey',
     'lineColor': '#C792EA',
     'primaryBorderColor': '#59B79A',
     'background': 'transparent',
