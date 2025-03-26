@@ -28,7 +28,7 @@
     'primaryColor': '#A9D9D9',
     'secondaryColor': '#A9E4D9',
     'tertiaryColor': '#A9F0D9',
-    'primaryTextColor': '#A9F0D9',
+    'quaternaryColor': '#A9F9D9',
     'lineColor': '#A9D9D9',
     'primaryBorderColor': '#A9D9D9',
     'background': 'transparent',
