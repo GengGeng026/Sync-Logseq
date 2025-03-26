@@ -379,7 +379,7 @@ done
     'primaryColor': '#651FFF',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
-    'lineColor': '#C792EA',
+    'lineColor': '#FEC999',
     'secondaryColor': '#FFCB6B',
     'tertiaryColor': '#F07178',
     'background': 'transparent',
