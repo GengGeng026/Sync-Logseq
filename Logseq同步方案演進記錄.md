@@ -401,7 +401,7 @@ flowchart TD
     classDef start fill:#651FFF,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
     classDef process fill:#19E9D,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
     classDef condition fill:#FFCB6B,stroke:#59B79A,color:#273747,stroke-width:1px,shape:diamond;
-    classDef action fill:#F07178,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
+    classDef action fill:#0C4A78,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
     
     A[啟動腳本] --> B[設置工作目錄]
     B --> C[初始同步]
