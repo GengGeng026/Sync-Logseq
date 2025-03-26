@@ -34,12 +34,7 @@
     'textColor': '#EEFFFF',
     'nodeBorder': '#59B79A',
     'clusterBkg': 'transparent',
-    'titleColor': '#EEFFFF',
-    'sectionBkgColor': '#273747',
-    'sectionBkgColor2': '#334455',
-    'sectionBkgColor3': '#3A4A5A',
-    'sectionBkgColor4': '#42546A',
-    'sectionBkgColor5': '#4B5E78'
+    'titleColor': '#EEFFFF'
   }
 }}%%
 timeline
