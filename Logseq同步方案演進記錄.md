@@ -436,8 +436,7 @@ flowchart TD
 
 <br>
 
-
-### 圖表顏色說明 (Aura Theme 配色)
+### 時間軸顏色說明 (Aura Theme 配色)
 
 | 元素 | 顏色 | 說明 |
 |:--------|:---------|:---------|
@@ -447,7 +446,81 @@ flowchart TD
 | <span style="color:#F07178">◼</span> 特殊節點 | 紅粉色 (#F07178) | 特殊或重要的節點 |
 | <span style="color:#273747">◼</span> 區段背景 | 深藍灰色 (#273747) | 不同區段的背景色 |
 
-> **註**: 這些顏色基於 Aura Theme 配色方案，在淺色和深色背景下都有良好的辨識度。圖表使用透明背景，可自動適應您的 Logseq 主題。
+> **註**: 圖表使用 Aura Theme 配色並採用透明背景，可自動適應不同的 Logseq 主題背景，保持良好的可讀性和美觀度。
+
+### 2.1 階段一：基本 Git Hooks（初始方案）
+
+- **實現**：Git post-commit hook
+  ```bash
+  #!/bin/bash
+  git push origin main
+  ```
+- **缺點**：
+  - 🔴 被動式：需手動保存和提交
+  - 🔴 系統重啟後失效
+  - 🔴 無法處理合併衝突
+
+<br><br>
+
+### 2.2 階段二：自動化嘗試
+
+- **nohup 循環方案**
+  ```bash
+  # 嘗試使用後台運行持續同步
+  nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
+  ```
+  - **失敗原因**：
+    - 🔴 無條件同步浪費資源
+    - 🔴 不處理合併衝突
+    - 🔴 重啟後需手動啟動
+- **初次 fswatch 嘗試**
+  ```bash
+  # 嘗試使用文件系統監視器觸發同步
+  fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
+    git pull
+    git add .
+    git commit -m "Auto-sync: $(date)"
+    git push
+  done
+  ```
+  - **關鍵問題**：
+    - 🔴 監控了 .git 目錄，導致無限循環
+    - 🔴 未處理 SSH 認證問題
+    - 🔴 未檢測文件寫入完成
+    - 🔴 缺少錯誤處理機制
+
+<br><br>
+
+### 2.3 階段三：SSH 認證問題突破
+
+- **診斷**：重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
+- **解決方案**：
+  1. 永久配置 SSH
+     ```bash
+     # ~/.ssh/config
+     Host github.com
+       AddKeysToAgent yes
+       UseKeychain yes
+       IdentityFile ~/.ssh/id_ed25519
+     ```
+  2. 將密鑰添加到 macOS 鑰匙串
+     ```bash
+     ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+     ```
+
+> 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
+
+<br><br>
+
+### 2.4 階段四：Git 倉庫整理
+
+- **診斷**：多餘分支和冗餘歷史造成合併困難
+- **解決**：
+  - 清理無用分支：`git push origin --delete gh-pages`
+  - 統一使用 main 分支
+  - 重置關係：`git reset --hard origin/main`
+
+> ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
 
 <br><br><br>
 
