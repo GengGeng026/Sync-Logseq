@@ -25,10 +25,12 @@
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#99AAFF',
-    'secondaryColor': '#FFCB2B',
-    'tertiaryColor': '#59B79A',
-    'primaryTextColor': '#EEFFFF',
+    'primaryColor': '#651FFF',
+    'primaryTextColor': '#FFFFFF',
+    'primaryBorderColor': '#59B79A',
+    'lineColor': '#C792EA',
+    'secondaryColor': '#FFCB6B',
+    'tertiaryColor': '#F07178',
     'background': 'transparent',
     'textColor': '#EEFFFF',
     'mainBkg': '#273747',
@@ -36,6 +38,11 @@
     'clusterBkg': 'transparent',
     'edgeLabelBackground': '#21252B'
   },
+  'flowchart': {
+    'curve': 'basis',
+    'nodeSpacing': 50,
+    'rankSpacing': 50,
+    'padding': 15
   }
 }}%%
 
