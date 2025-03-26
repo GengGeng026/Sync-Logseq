@@ -398,7 +398,7 @@ done
 }}%%
 flowchart TD
     %% 節點樣式優化
-    classDef start fill:#651FFF,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
+    classDef start fill:#005886,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
     classDef process fill:#19E9D,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
     classDef condition fill:#FFCB6B,stroke:#59B79A,color:#273747,stroke-width:1px,shape:diamond;
     classDef action fill:#0B776F,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
