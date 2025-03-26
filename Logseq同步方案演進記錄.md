@@ -427,6 +427,11 @@ flowchart TD
     I -->|否| E
     H --> K[更新最後同步時間]
     K --> E
+    
+    %% 應用樣式
+    class A start;
+    class B,C,D,F,H,K process;
+    class E,G,I,J condition;
 ```
 
 <br>
