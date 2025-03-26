@@ -39,12 +39,11 @@ Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：
     'nodeBorder': '#89DDFF',
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF',
-    'sectionBkgColor': '#273747',
-    'sectionBkgColor2': '#334455',
-    'sectionBkgColor3': '#3A4A5A',
-    'sectionBkgColor4': '#42546A',
-    'sectionBkgColor5': '#4B5E78',
-    'sectionBkgColor1': '#59B79A'
+    'sectionBkgColor': '#59B79A',  /* 初始階段 - 綠色 */
+    'sectionBkgColor2': '#334455', /* 自動化嘗試 - 深藍灰 */
+    'sectionBkgColor3': '#3A4A5A', /* 關鍵突破 - 中藍灰 */
+    'sectionBkgColor4': '#C792EA', /* 最終方案 - 紫色 */
+    'sectionBkgColor5': '#4B5E78'  /* 備用顏色 */
   }
 }}%%
 timeline
