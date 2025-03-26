@@ -36,7 +36,8 @@
     'nodeBorder': 'darkgrey',
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF',
-    'fontFamily': 'Source Code Pro'
+    'fontFamily': 'Source Code Pro',
+    'fontSize': 12
   }
 }}%%
 timeline
