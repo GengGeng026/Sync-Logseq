@@ -67,10 +67,6 @@ timeline
         : 文件穩定性檢測
         : 雙重安全檢查
         : 完善的錯誤處理
-        
-    %% 自定義階段顏色
-    classDef initialPhase fill:#59B79A,stroke:#59B79A,color:#FFFFFF
-    class 初始階段 initialPhase
 ```
 
 ### 時間軸顏色說明 (Aura Theme 配色)
