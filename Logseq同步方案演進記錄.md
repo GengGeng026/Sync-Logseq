@@ -35,7 +35,7 @@
     'titleColor': '#FEE9D9',
     'fontFamily': 'default',
     'fontSize': '17px',
-    'fontWeight': 'normal',
+    'fontWeight': 'normal'
   }
 }}%%
 timeline
