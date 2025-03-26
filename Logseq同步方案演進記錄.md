@@ -372,7 +372,7 @@ done
 %%{init: {
   'theme': 'base', 
   'themeVariables': {
-    'primaryColor': '#59B79A',
+    'primaryColor': '#651FFF',
     'primaryTextColor': '#FFFFFF',
     'primaryBorderColor': '#59B79A',
     'lineColor': '#C792EA',
