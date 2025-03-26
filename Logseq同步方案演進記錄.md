@@ -37,7 +37,7 @@
     'clusterBkg': 'transparent',
     'titleColor': '#EEFFFF',
     'fontFamily': 'Source Code Pro',
-    'T
+    'titleFontFamily': 'Source Code Pro'
   }
 }}%%
 timeline
