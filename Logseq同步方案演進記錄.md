@@ -34,12 +34,6 @@
     'sectionBkgColor5': '#4B5E78'
   }
 }}%%
-    %% 節點樣式優化
-    classDef start fill:#C792EA,stroke:#59B79A,color:#FFFFFF,stroke-width:2px;
-    classDef process fill:#59B79A,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
-    classDef condition fill:#FFCB6B,stroke:#59B79A,color:#273747,stroke-width:1px,shape:diamond;
-    classDef action fill:#F07178,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
-
 timeline
     title Logseq 同步方案演進時間軸
     section 初始階段
