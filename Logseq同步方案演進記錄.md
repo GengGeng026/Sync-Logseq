@@ -142,14 +142,14 @@
 
       > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
   
-  <br><br>
+    <br><br>
 - ### 2.4 階段四：Git 倉庫整理
   
   - **診斷**：多餘分支和冗餘歷史造成合併困難
   <br>
 
   - **解決**：
-  
+
     - 清理無用分支：`git push origin --delete gh-pages`
     - 統一使用 main 分支
     - 重置關係：`git reset --hard origin/main`
