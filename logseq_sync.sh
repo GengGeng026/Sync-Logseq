@@ -33,17 +33,21 @@ sync_repo() {
   # 清理任何潛在的鎖定文件
   cleanup
   
-  # 同步策略：先拉取，如有衝突則重置再拉取
+  # 檢查本地是否有未提交的更改
+  if ! git diff --quiet || ! git diff --cached --quiet; then
+    echo "$(date): 本地有未提交的更改，請先提交或處理後再同步。" >> "$LOG_FILE"
+    echo "$(date): 同步中止" >> "$LOG_FILE"
+    exit 1
+  fi
+  
+  # 沒有本地更改，安全拉取
   pull_output=$(git pull origin main 2>&1)
   pull_status=$?
   
   if [ $pull_status -ne 0 ]; then
-    # 如果拉取失敗，記錄詳細錯誤信息並中止本次同步
-    echo "$(date): 拉取失敗，需要手動處理衝突。錯誤信息如下:" >> "$LOG_FILE"
+    echo "$(date): 拉取失敗，請檢查網絡或遠端狀態。" >> "$LOG_FILE"
     echo "$pull_output" >> "$LOG_FILE"
-    echo "$(date): 同步中止" >> "$LOG_FILE"
-    echo "------------------------" >> "$LOG_FILE"
-    return 1 # 返回錯誤碼，表示同步未成功
+    exit 1
   fi
   
   # 只有在拉取成功後才繼續執行後面的步驟
