@@ -7,22 +7,19 @@
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
 <br><br><br>
-
-## 1. 問題起源
-
-**Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：**
-
+- ## 1. 問題起源
+  
+  **Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：**
 - 在 Mac 重啟後自動同步失敗
 - 文件更新不完整
 - 同步過程中的衝突
 - 認證持久化問題
-
-<br><br><br>
-
-## 2. 演變時間線
-
-```mermaid
-%%{init: {
+  
+  <br><br><br>
+- ## 2. 演變時間線
+  
+  ```mermaid
+  %%{init: {
   'theme': 'base', 
   'themeVariables': {
     'primaryTextColor': '#FEC999',
@@ -36,8 +33,8 @@
     'fontSize': '17px',
     'fontWeight': 'normal'
   }
-}}%%
-timeline
+  }}%%
+  timeline
     title Logseq 同步方案演進時間軸
     section 初始階段
         基本 Git Hooks : 簡單的 post-commit hook
@@ -58,44 +55,39 @@ timeline
         : 文件穩定性檢測
         : 雙重安全檢查
         : 完善的錯誤處理
-```
-
-##### 時間軸層級說明
-
-|  層級  |  說明 |
-|:----------------|:-----------------|
-| <span style="color:grey">◼</span> <span style="color:grey">頂部</span> | <span style="color:grey">主要事件 ── 時間軸上的主要事件和里程碑</span> |
-| <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
-| <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
-
-
-<br><br><br>
-
-### 2.1 階段一：基本 Git Hooks（初始方案）
-
+  ```
+- ##### 時間軸層級說明
+  
+  |  層級  |  說明 |
+  |:----------------|:-----------------|
+  | <span style="color:grey">◼</span> <span style="color:grey">頂部</span> | <span style="color:grey">主要事件 ── 時間軸上的主要事件和里程碑</span> |
+  | <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
+  | <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
+  
+  
+  <br><br><br>
+- ### 2.1 階段一：基本 Git Hooks（初始方案）
 - **實現**：Git post-commit hook
   ```bash
   #!/bin/bash
   git push origin main
   ```
 - **缺點**：
-  - 🔴 被動式：需手動保存和提交
-  - 🔴 系統重啟後失效
-  - 🔴 無法處理合併衝突
-
-<br><br>
-
-### 2.2 階段二：自動化嘗試
-
+	- 🔴 被動式：需手動保存和提交
+	- 🔴 系統重啟後失效
+	- 🔴 無法處理合併衝突
+	  
+	  <br><br>
+- ### 2.2 階段二：自動化嘗試
 - **nohup 循環方案**
   ```bash
   # 嘗試使用後台運行持續同步
   nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
   ```
-  - **失敗原因**：
-    - 🔴 無條件同步浪費資源
-    - 🔴 不處理合併衝突
-    - 🔴 重啟後需手動啟動
+	- **失敗原因**：
+		- 🔴 無條件同步浪費資源
+		- 🔴 不處理合併衝突
+		- 🔴 重啟後需手動啟動
 - **初次 fswatch 嘗試**
   ```bash
   # 嘗試使用文件系統監視器觸發同步
@@ -106,16 +98,14 @@ timeline
     git push
   done
   ```
-  - **關鍵問題**：
-    - 🔴 監控了 .git 目錄，導致無限循環
-    - 🔴 未處理 SSH 認證問題
-    - 🔴 未檢測文件寫入完成
-    - 🔴 缺少錯誤處理機制
-
-<br><br>
-
-### 2.3 階段三：SSH 認證問題突破
-
+	- **關鍵問題**：
+		- 🔴 監控了 .git 目錄，導致無限循環
+		- 🔴 未處理 SSH 認證問題
+		- 🔴 未檢測文件寫入完成
+		- 🔴 缺少錯誤處理機制
+		  
+		  <br><br>
+- ### 2.3 階段三：SSH 認證問題突破
 - **診斷**：重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
 - **解決方案**：
   1. 永久配置 SSH
@@ -130,29 +120,24 @@ timeline
      ```bash
      ssh-add --apple-use-keychain ~/.ssh/id_ed25519
      ```
-
-> 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
-
-<br><br>
-
-### 2.4 階段四：Git 倉庫整理
-
+  
+  > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
+  
+  <br><br>
+- ### 2.4 階段四：Git 倉庫整理
 - **診斷**：多餘分支和冗餘歷史造成合併困難
 - **解決**：
-  - 清理無用分支：`git push origin --delete gh-pages`
-  - 統一使用 main 分支
-  - 重置關係：`git reset --hard origin/main`
-
-> ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
-
-<br><br><br>
-
-## 3. 最終成功方案：精確控制的 fswatch
-
-<br>
-
-### 3.1 為何同樣是 fswatch 但這次成功了？
-
+	- 清理無用分支：`git push origin --delete gh-pages`
+	- 統一使用 main 分支
+	- 重置關係：`git reset --hard origin/main`
+	  
+	  > ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
+	  
+	  <br><br><br>
+- ## 3. 最終成功方案：精確控制的 fswatch
+  
+  <br>
+- ### 3.1 為何同樣是 fswatch 但這次成功了？
 - **關鍵改進**：
   1. **精確排除 .git 目錄** ✅
      ```bash
@@ -187,77 +172,72 @@ timeline
      fi
      ```
   5. **持久的 SSH 認證** ✅：鑰匙串集成確保重啟後認證有效
-
-> 🔍 **深入分析**: 看似相同的工具（fswatch），但通過精確控制和完善的錯誤處理，實現了完全不同的結果。
-
-<br><br>
-
-### 3.2 解決的核心問題
-
-1. **SSH 認證持久化** 🔐：解決重啟後認證失效
-2. **文件監控精確性** 🔍：避免無限循環
-3. **同步時機控制** ⏱️：確保文件完全寫入
-4. **衝突自動處理** 🔄：處理多設備編輯衝突
-5. **失敗恢復機制** 🛠️：出錯時自動恢復
-
-<br><br><br>
-
-## 4. 場景解決方案對照表
-
-| 場景 | 症狀 | 原因 | 解決方案 |
-|:--------|:---------|:---------|:---------|
-| 系統重啟後 | 自動同步失效 | SSH 密鑰未加載 | SSH config + 鑰匙串集成 |
-| 文件不完整 | 同步後內容缺失 | 過早同步，文件未完全寫入 | 等待 + 穩定性檢測 |
-| 無限循環同步 | CPU/網絡負載高 | .git 目錄變化觸發新同步 | 精確排除 .git 目錄 |
-| 同步衝突 | 推送失敗 | 本地/遠端版本不同步 | 先拉取後推送 + 自動衝突解決 |
-| 罕見同步 | 小變更不同步 | 觸發條件過嚴格 | 雙重檢查：時間 + 變更量 |
-
-<br><br><br>
-
-## 5. 關鍵經驗總結
-
-> *「同步問題的本質不是技術選擇，而是邊界處理和錯誤復原」*
-
-1. **系統性思考** 🧠：單點修復不如系統解決方案
-2. **認證是基礎** 🔑：先解決 SSH 認證再優化同步邏輯
-3. **精確控制** 🎯：關鍵在細節，如監控範圍和觸發條件
-4. **邊界處理** 🛡️：考慮各種異常情況，增強穩定性
-5. **雙重保險** 🔄：多層次觸發機制提高可靠性
-
-<br><br><br>
-
-## 6. 經驗教訓
-
-📝 **主要收穫**:
+  
+  > 🔍 **深入分析**: 看似相同的工具（fswatch），但通過精確控制和完善的錯誤處理，實現了完全不同的結果。
+  
+  <br><br>
+- ### 3.2 解決的核心問題
+  
+  1. **SSH 認證持久化** 🔐：解決重啟後認證失效
+  2. **文件監控精確性** 🔍：避免無限循環
+  3. **同步時機控制** ⏱️：確保文件完全寫入
+  4. **衝突自動處理** 🔄：處理多設備編輯衝突
+  5. **失敗恢復機制** 🛠️：出錯時自動恢復
+  
+  <br><br><br>
+- ## 4. 場景解決方案對照表
+  
+  | 場景 | 症狀 | 原因 | 解決方案 |
+  |:--------|:---------|:---------|:---------|
+  | 系統重啟後 | 自動同步失效 | SSH 密鑰未加載 | SSH config + 鑰匙串集成 |
+  | 文件不完整 | 同步後內容缺失 | 過早同步，文件未完全寫入 | 等待 + 穩定性檢測 |
+  | 無限循環同步 | CPU/網絡負載高 | .git 目錄變化觸發新同步 | 精確排除 .git 目錄 |
+  | 同步衝突 | 推送失敗 | 本地/遠端版本不同步 | 先拉取後推送 + 自動衝突解決 |
+  | 罕見同步 | 小變更不同步 | 觸發條件過嚴格 | 雙重檢查：時間 + 變更量 |
+  
+  <br><br><br>
+- ## 5. 關鍵經驗總結
+  
+  > *「同步問題的本質不是技術選擇，而是邊界處理和錯誤復原」*
+  
+  1. **系統性思考** 🧠：單點修復不如系統解決方案
+  2. **認證是基礎** 🔑：先解決 SSH 認證再優化同步邏輯
+  3. **精確控制** 🎯：關鍵在細節，如監控範圍和觸發條件
+  4. **邊界處理** 🛡️：考慮各種異常情況，增強穩定性
+  5. **雙重保險** 🔄：多層次觸發機制提高可靠性
+  
+  <br><br><br>
+- ## 6. 經驗教訓
+  
+  📝 **主要收穫**:
 - 看似相同的解決方案（如 fswatch），細節實現不同會導致完全不同的結果
 - 解決複雜問題需要系統性思考，單一修復往往不夠
 - 自動化腳本需要考慮各種邊界情況，尤其是錯誤處理
 - 提前解決認證問題是自動化的基礎
 - 定期維護和檢查自動同步機制的健康狀態
-
-<br><br><br>
-
-## 7. 完整成功方案：logseq_sync.sh
-
-以下是最終成功的同步腳本，解決了所有之前遇到的問題：
-
-```bash
-#!/bin/bash
-# 文件名: logseq_sync.sh
-# 保存位置: /Users/mac/Documents/Sync-Logseq/logseq_sync.sh
-
-# 設置工作目錄和日誌文件
-REPO_DIR="/Users/mac/Documents/Sync-Logseq"
-LOG_FILE="/dev/null" # 改為 /dev/null 而不是實際文件
-cd "$REPO_DIR" || exit
-
-# 清理鎖定文件（如果存在）
-cleanup() {
+  
+  <br><br><br>
+- ## 7. 完整成功方案：logseq_sync.sh
+  
+  以下是最終成功的同步腳本，解決了所有之前遇到的問題：
+  
+  ```bash
+  #!/bin/bash
+  # 文件名: logseq_sync.sh
+  # 保存位置: /Users/mac/Documents/Sync-Logseq/logseq_sync.sh
+  
+  # 設置工作目錄和日誌文件
+  REPO_DIR="/Users/mac/Documents/Sync-Logseq"
+  LOG_FILE="/dev/null" # 改為 /dev/null 而不是實際文件
+  cd "$REPO_DIR" || exit
+  
+  # 清理鎖定文件（如果存在）
+  cleanup() {
   find .git -name "*.lock" -delete 2>/dev/null
-}
-
-# 日誌輪換
-rotate_logs() {
+  }
+  
+  # 日誌輪換
+  rotate_logs() {
   # 限制日誌大小為1MB
   for log_file in "$LOG_FILE" "$REPO_DIR/sync_stdout.log" "$REPO_DIR/sync_stderr.log"; do
     if [ -f "$log_file" ] && [ $(stat -f%z "$log_file") -gt 1048576 ]; then
@@ -268,10 +248,10 @@ rotate_logs() {
       ls -t "${log_file}."* | tail -n +6 | xargs rm -f 2>/dev/null
     fi
   done
-}
-
-# 同步功能
-sync_repo() {
+  }
+  
+  # 同步功能
+  sync_repo() {
   echo "$(date): 開始同步..." >> "$LOG_FILE"
   
   # 清理任何潛在的鎖定文件
@@ -322,18 +302,18 @@ sync_repo() {
   
   echo "$(date): 同步完成" >> "$LOG_FILE"
   echo "------------------------" >> "$LOG_FILE"
-}
-
-# 輪換日誌
-rotate_logs
-
-# 進行初始同步
-sync_repo
-
-# 監視文件變更
-echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
-
-fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
+  }
+  
+  # 輪換日誌
+  rotate_logs
+  
+  # 進行初始同步
+  sync_repo
+  
+  # 監視文件變更
+  echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
+  
+  fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
   # 記錄檢測到變更的時間
   change_time=$(date +%s)
   
@@ -365,15 +345,14 @@ fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
       touch "$REPO_DIR/.last_sync"
     fi
   fi
-done
-```
-
-<br><br><br>
-
-## 8. 腳本流程圖
-
-```mermaid
-%%{init: {
+  done
+  ```
+  
+  <br><br><br>
+- ## 8. 腳本流程圖
+  
+  ```mermaid
+  %%{init: {
   'theme': 'base', 
   'themeVariables': {
     'primaryColor': '#19E9D9',
@@ -395,8 +374,8 @@ done
     'rankSpacing': 50,
     'padding': 15
   }
-}}%%
-flowchart TD
+  }}%%
+  flowchart TD
     %% 節點樣式優化
     classDef start fill:#005886,stroke:#005886,color:#FFFFFF,stroke-width:2px;
     classDef process fill:#19E9D,stroke:#59B79A,color:#FFFFFF,stroke-width:1px;
@@ -424,34 +403,31 @@ flowchart TD
     class B,D,F,K process;
     class C,H action;
     class E,G,I,J condition;
-```
-
-<br>
-
-
-##### 圖表顏色說明 (Aura Theme 配色)
-
-| 元素 | 顏色 | 說明 |
-|:--------|:---------|:---------|
-| <span style="color:#005886">◼</span> 起始節點 | 深藍色 (#005886) | 流程的起始點，如「啟動腳本」 |
-| <span style="color:#59B79A">◼</span> 處理節點 | 深綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
-| <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
-| <span style="color:#0B776F">◼</span> 動作節點 | 淺綠色 (#0B776F) | 重要的動作，如「執行同步」 |
-| <span style="color:#FEC999">→</span> 連接線 | 橙色 (#FEC999) | 流程方向 |
-
-<br><br><br>
-
-## 9. 如何使用此方案
-
-1. 將上述腳本保存為 `logseq_sync.sh`
-2. 設置腳本為可執行: `chmod +x logseq_sync.sh`
-3. 在系統啟動時自動運行此腳本 (可通過 launchd 或登錄項實現)
-4. 享受無憂的 Logseq 自動同步體驗
-
-> 💡 **專業提示**: 考慮將此腳本設為 macOS 登錄項，確保系統啟動後自動運行。
-
-<br>
-
----
-
-*最後更新: 2023-11-15*
+  ```
+  
+  <br>
+- ##### 圖表顏色說明 (Aura Theme 配色)
+  
+  | 元素 | 顏色 | 說明 |
+  |:--------|:---------|:---------|
+  | <span style="color:#005886">◼</span> 起始節點 | 深藍色 (#005886) | 流程的起始點，如「啟動腳本」 |
+  | <span style="color:#59B79A">◼</span> 處理節點 | 深綠色 (#59B79A) | 執行的處理步驟，如「設置工作目錄」 |
+  | <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 (#FFCB6B) | 決策點，如「檢測到文件變更?」 |
+  | <span style="color:#0B776F">◼</span> 動作節點 | 淺綠色 (#0B776F) | 重要的動作，如「執行同步」 |
+  | <span style="color:#FEC999">→</span> 連接線 | 橙色 (#FEC999) | 流程方向 |
+  
+  <br><br><br>
+- ## 9. 如何使用此方案
+  
+  1. 將上述腳本保存為 `logseq_sync.sh`
+  2. 設置腳本為可執行: `chmod +x logseq_sync.sh`
+  3. 在系統啟動時自動運行此腳本 (可通過 launchd 或登錄項實現)
+  4. 享受無憂的 Logseq 自動同步體驗
+  
+  > 💡 **專業提示**: 考慮將此腳本設為 macOS 登錄項，確保系統啟動後自動運行。
+  
+  <br>
+  
+  ---
+  
+  *最後更新: 2023-11-15*
