@@ -141,7 +141,7 @@
     <br>
 
       > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
-  
+    </br>
     <br><br>
 - ### 2.4 階段四：Git 倉庫整理
   
@@ -150,14 +150,15 @@
 
   - **解決**：
   <br>
-  
+
     - 清理無用分支：`git push origin --delete gh-pages`
     - 統一使用 main 分支
     - 重置關係：`git reset --hard origin/main`
   <br>
 
       > ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
-	  
+      </br>
+
 	  <br><br>
 - ## 3. 最終成功方案：精確控制的 fswatch
   - ### 3.1 為何同樣是 fswatch 但這次成功了？
