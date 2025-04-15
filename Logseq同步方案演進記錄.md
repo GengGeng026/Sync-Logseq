@@ -66,7 +66,7 @@
   
   
   <br><br><br>
-- ### 2.1 階段一：基本 Git Hooks（初始方案）
+  - 2.1 階段一：基本 Git Hooks（初始方案）
   <br>
 
   - **實現**：Git post-commit hook
