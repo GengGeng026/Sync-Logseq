@@ -65,7 +65,7 @@ sync_repo() {
   fi
   
   # 沒有本地更改，安全拉取
-  pull_output=$(git pull origin main 2>&1)
+  pull_output=$(git pull origin main >> "$LOG_FILE" 2>&1)
   pull_status=$?
   
   if [ $pull_status -ne 0 ]; then
