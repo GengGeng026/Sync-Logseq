@@ -11,7 +11,7 @@ cd "$REPO_DIR" || exit
 LOCKFILE=/tmp/logseq_sync.lock
 
 (
-  flock -n 9 || { echo "同步腳本已在執行，跳過本次同步"; exit 1; }
+  flock -n 9 || { echo "同步腳本已在執行，跳過本次同步"; exit 0; }
   # 清理鎖定文件（如果存在）
   cleanup() {
     find .git -name "*.lock" -delete 2>/dev/null
@@ -130,16 +130,12 @@ LOCKFILE=/tmp/logseq_sync.lock
   fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
     # 記錄檢測到變更的時間
     change_time=$(date +%s)
-    
     # 等待 5 秒
     sleep 5
-    
     # 再次檢查最近修改時間，確保文件已停止修改
     latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit 2>/dev/null)
-    
     if [ -n "$latest_change" ]; then
       latest_change_time=$(stat -f %m "$latest_change")
-      
       # 如果最近修改時間與檢測時間相差超過5秒，說明文件已穩定
       if [ $(( $change_time - $latest_change_time )) -gt 5 ]; then
         rotate_logs
@@ -147,7 +143,7 @@ LOCKFILE=/tmp/logseq_sync.lock
         touch "$REPO_DIR/.last_sync"
       fi
     fi
-  done
+  done >> "$LOG_FILE" 2>&1
 
   # 將 300 秒(5分鐘)改為 120 秒(2分鐘)，但增加變更檢測
   if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
@@ -159,4 +155,4 @@ LOCKFILE=/tmp/logseq_sync.lock
       touch "$REPO_DIR/.last_sync"
     fi
   fi
-) 9>$LOCKFILE
+) 9>$LOCKFILE >> "$LOG_FILE" 2>&1
