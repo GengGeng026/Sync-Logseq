@@ -38,14 +38,18 @@ sync_repo() {
   pull_status=$?
   
   if [ $pull_status -ne 0 ]; then
-    echo "$(date): 拉取失敗，嘗試恢復..." >> "$LOG_FILE"
-    git reset --hard HEAD
-    git pull origin main >> "$LOG_FILE" 2>&1
-  else
-    # 只在輸出不是"Already up to date"時記錄
-    if [ "$pull_output" != "Already up to date." ]; then
-      echo "$(date): $pull_output" >> "$LOG_FILE"
-    fi
+    # 如果拉取失敗，記錄詳細錯誤信息並中止本次同步
+    echo "$(date): 拉取失敗，需要手動處理衝突。錯誤信息如下:" >> "$LOG_FILE"
+    echo "$pull_output" >> "$LOG_FILE"
+    echo "$(date): 同步中止" >> "$LOG_FILE"
+    echo "------------------------" >> "$LOG_FILE"
+    return 1 # 返回錯誤碼，表示同步未成功
+  fi
+  
+  # 只有在拉取成功後才繼續執行後面的步驟
+  # 只在輸出不是"Already up to date"時記錄
+  if [ "$pull_output" != "Already up to date." ]; then
+    echo "$(date): $pull_output" >> "$LOG_FILE"
   fi
   
   # 添加所有變更
