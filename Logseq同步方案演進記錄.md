@@ -6,14 +6,16 @@
 
 ![Logseq-Git-Sync](https://raw.githubusercontent.com/CharlesChiuGit/Logseq-Git-Sync-101/main/src/cover.png)
 
+<br><br><br>
 - ## 1. 問題起源
+  
 **Logseq 作為知識管理工具，需要跨設備同步。主要挑戰：**
   - 在 Mac 重啟後自動同步失敗
   - 文件更新不完整
   - 同步過程中的衝突
   - 認證持久化問題
   
-  <br><br>
+  <br><br><br>
 - ## 2. 演變時間線
   
   ```mermaid
