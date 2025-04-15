@@ -68,11 +68,14 @@
   <br><br><br>
 - ### 2.1 階段一：基本 Git Hooks（初始方案）
   <br>
+
   - **實現**：Git post-commit hook
     ```bash
     #!/bin/bash
     git push origin main
     ```
+  <br>
+  
   - **缺點**：
     - 🔴 被動式：需手動保存和提交
     - 🔴 系統重啟後失效
