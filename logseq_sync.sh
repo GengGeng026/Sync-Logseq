@@ -69,13 +69,15 @@ LOCKFILE=/tmp/logseq_sync.lock
       # 不要 exit，讓腳本繼續
     fi
     
-    # 沒有本地更改，安全拉取
-    pull_output=$(git pull origin main >> "$LOG_FILE" 2>&1)
+    # 沒有本地更改，安全拉取，並過濾 fatal 訊息
+    pull_output=$(git pull origin main 2>&1)
+    echo "$pull_output" | grep -v "fatal: cannot lock ref" >> "$LOG_FILE"
+
+    # 檢查拉取是否成功
     pull_status=$?
-    
     if [ $pull_status -ne 0 ]; then
       echo "$(date): 拉取失敗，請檢查網絡或遠端狀態。" >> "$LOG_FILE"
-      echo "$pull_output" >> "$LOG_FILE"
+      echo "$pull_output" | grep -v "fatal: cannot lock ref" >> "$LOG_FILE"
       exit 1
     fi
     
