@@ -164,28 +164,36 @@
   <br>
 
     - **關鍵改進**：
+    <br>
+
       1. **精確排除 .git 目錄** ✅
-        ```bash
-        # 避免監控 .git 目錄造成的無限循環
-        fswatch -o --exclude ".git" "$REPO_DIR"
-        ```
+          ```bash
+          # 避免監控 .git 目錄造成的無限循環
+          fswatch -o --exclude ".git" "$REPO_DIR"
+          ```
+          <br>
+      
       2. **文件穩定性檢測** ✅
-        ```bash
-        # 等待文件完全寫入
-        sleep 5
-        # 檢測文件穩定性
-        latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit)
-        ```
+          ```bash
+          # 等待文件完全寫入
+          sleep 5
+          # 檢測文件穩定性
+          latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit)
+          ```
+          <br>
+      
       3. **雙重安全檢查** ✅：時間間隔 + 變更量檢測
-        ```bash
-        # 時間間隔檢查
-        if [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
-          # 變更量檢查
-          if [ "$changes_count" -gt 2 ]; then
-            # 執行同步
+          ```bash
+          # 時間間隔檢查
+          if [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
+            # 變更量檢查
+            if [ "$changes_count" -gt 2 ]; then
+              # 執行同步
+            fi
           fi
-        fi
-        ```
+          ```
+          <br>
+      
       4. **完善的錯誤處理** ✅
         ```bash
         # 先嘗試正常流程
