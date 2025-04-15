@@ -195,18 +195,20 @@
           <br>
       
       4. **完善的錯誤處理** ✅
-        ```bash
-        # 先嘗試正常流程
-        pull_output=$(git pull origin main 2>&1)
-        # 如失敗則恢復後重試
-        if [ $pull_status -ne 0 ]; then
-          git reset --hard HEAD
-          git pull origin main
-        fi
-        ```
+          ```bash
+          # 先嘗試正常流程
+          pull_output=$(git pull origin main 2>&1)
+          # 如失敗則恢復後重試
+          if [ $pull_status -ne 0 ]; then
+            git reset --hard HEAD
+            git pull origin main
+          fi
+          ```
+          <br>
+        
       5. **持久的 SSH 認證** ✅：鑰匙串集成確保重啟後認證有效
       
-      > 🔍 **深入分析**: 看似相同的工具（fswatch），但通過精確控制和完善的錯誤處理，實現了完全不同的結果。
+        > 🔍 **深入分析**: 看似相同的工具（fswatch），但通過精確控制和完善的錯誤處理，實現了完全不同的結果。
     
     <br><br>
   - ### 3.2 解決的核心問題
