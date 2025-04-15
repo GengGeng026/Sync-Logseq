@@ -413,8 +413,8 @@
   | <span style="color:#005886">◼</span> 起始節點 | 深藍色 ( #005886 ) | 流程的起始點，如「啟動腳本」 |
   | <span style="color:#59B79A">◼</span> 處理節點 | 深綠色 ( #59B79A ) | 執行的處理步驟，如「設置工作目錄」 |
   | <span style="color:#FFCB6B">◆</span> 條件節點 | 黃色 ( #FFCB6B ) | 決策點，如「檢測到文件變更?」 |
-  | <span style="color:#0B776F">◼</span> 動作節點 | 淺綠色 (#0B776F) | 重要的動作，如「執行同步」 |
-  | <span style="color:#FEC999">→</span> 連接線 | 橙色 (#FEC999) | 流程方向 |
+  | <span style="color:#0B776F">◼</span> 動作節點 | 淺綠色 ( #0B776F ) | 重要的動作，如「執行同步」 |
+  | <span style="color:#FEC999">→</span> 連接線 | 橙色 ( #FEC999 ) | 流程方向 |
   
   <br><br><br>
 - ## 9. 如何使用此方案
