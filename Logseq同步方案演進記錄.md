@@ -138,6 +138,7 @@
         ```bash
         ssh-add --apple-use-keychain ~/.ssh/id_ed25519
         ```
+        
         > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
 
     <br><br>
