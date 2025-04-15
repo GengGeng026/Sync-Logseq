@@ -118,23 +118,24 @@
 		  
 		  <br><br>
 - ### 2.3 階段三：SSH 認證問題突破
-  
+
   - **診斷**：
   重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
+  <br>
 
   - **解決方案**：
     1. 永久配置 SSH
-      ```bash
-      # ~/.ssh/config
-      Host github.com
-        AddKeysToAgent yes
-        UseKeychain yes
-        IdentityFile ~/.ssh/id_ed25519
-      ```
+        ```bash
+        # ~/.ssh/config
+        Host github.com
+          AddKeysToAgent yes
+          UseKeychain yes
+          IdentityFile ~/.ssh/id_ed25519
+        ```
     2. 將密鑰添加到 macOS 鑰匙串
-      ```bash
-      ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-      ```
+        ```bash
+        ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+        ```
     
     > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
   
