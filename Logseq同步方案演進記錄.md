@@ -149,7 +149,8 @@
   <br>
 
   - **解決**：
-
+  <br>
+  
     - 清理無用分支：`git push origin --delete gh-pages`
     - 統一使用 main 分支
     - 重置關係：`git reset --hard origin/main`
