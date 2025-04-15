@@ -40,6 +40,30 @@ sync_repo() {
     exit 1
   fi
   
+  # 清理 lock 檔
+  cleanup
+
+  # 嘗試 fetch，遇到 lock 錯誤時重試
+  max_retry=3
+  retry=0
+  while [ $retry -lt $max_retry ]; do
+    fetch_output=$(git fetch origin 2>&1)
+    if echo "$fetch_output" | grep -q "cannot lock ref"; then
+      echo "$(date): fetch 遇到 lock 衝突，重試中..." >> "$LOG_FILE"
+      cleanup
+      sleep 2
+      retry=$((retry+1))
+    else
+      break
+    fi
+  done
+
+  # 如果還是有 lock 錯誤，記錄但不中斷
+  if echo "$fetch_output" | grep -q "cannot lock ref"; then
+    echo "$(date): fetch 最終還是有 lock 衝突，請稍後再試。" >> "$LOG_FILE"
+    # 不要 exit，讓腳本繼續
+  fi
+  
   # 沒有本地更改，安全拉取
   pull_output=$(git pull origin main 2>&1)
   pull_status=$?
