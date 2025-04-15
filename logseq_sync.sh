@@ -4,47 +4,38 @@
 
 # 設置工作目錄和日誌文件
 REPO_DIR="/Users/mac/Documents/Sync-Logseq"
-LOG_FILE="/dev/null"  # 改為 /dev/null 而不是實際文件
+LOG_FILE="$REPO_DIR/sync_stdout.log" # 改為實際文件
 cd "$REPO_DIR" || exit
 
-# 加入 flock 機制
-LOCKFILE=/tmp/logseq_sync.lock
+# 移除 flock 機制
+# LOCKFILE=/tmp/logseq_sync.lock
 
-(
-  flock -n 9 || { echo "同步腳本已在執行，跳過本次同步"; exit 0; }
-  # 清理鎖定文件（如果存在）
-  cleanup() {
-    find .git -name "*.lock" -delete 2>/dev/null
-  }
+# 清理鎖定文件（如果存在）
+cleanup() {
+  find .git -name "*.lock" -delete 2>/dev/null
+}
 
-  # 日誌輪換
-  rotate_logs() {
-    # 限制日誌大小為1MB
-    for log_file in "$LOG_FILE" "$REPO_DIR/sync_stdout.log" "$REPO_DIR/sync_stderr.log"; do
-      if [ -f "$log_file" ] && [ $(stat -f%z "$log_file") -gt 1048576 ]; then
-        timestamp=$(date +"%Y%m%d_%H%M%S")
-        mv "$log_file" "${log_file}.${timestamp}"
-        touch "$log_file"
-        # 只保留最近5個日誌文件
-        ls -t "${log_file}."* | tail -n +6 | xargs rm -f 2>/dev/null
-      fi
-    done
-  }
+# 日誌輪換
+rotate_logs() {
+  # 限制日誌大小為1MB
+  for log_file in "$LOG_FILE" "$REPO_DIR/sync_stdout.log" "$REPO_DIR/sync_stderr.log"; do
+    if [ -f "$log_file" ] && [ $(stat -f%z "$log_file") -gt 1048576 ]; then
+      timestamp=$(date +"%Y%m%d_%H%M%S")
+      mv "$log_file" "${log_file}.${timestamp}"
+      touch "$log_file"
+      # 只保留最近5個日誌文件
+      ls -t "${log_file}."* | tail -n +6 | xargs rm -f 2>/dev/null
+    fi
+  done
+}
 
-  # 同步功能
-  sync_repo() {
-    echo "$(date): 開始同步..." >> "$LOG_FILE"
+# 同步功能
+sync_repo() {
+  echo "$(date): 開始同步..." >> "$LOG_FILE"
     
     # 清理任何潛在的鎖定文件
     cleanup
-    
-    # 檢查本地是否有未提交的更改
-    if ! git diff --quiet || ! git diff --cached --quiet; then
-      echo "$(date): 本地有未提交的更改，請先提交或處理後再同步。" >> "$LOG_FILE"
-      echo "$(date): 同步中止" >> "$LOG_FILE"
-      exit 1
-    fi
-    
+        
     # 清理 lock 檔
     cleanup
 
@@ -117,42 +108,44 @@ LOCKFILE=/tmp/logseq_sync.lock
     
     echo "$(date): 同步完成" >> "$LOG_FILE"
     echo "------------------------" >> "$LOG_FILE"
-  }
+}
 
-  # 輪換日誌
-  rotate_logs
+# 輪換日誌
+rotate_logs
 
-  # 進行初始同步
-  sync_repo
+# 進行初始同步
+sync_repo
 
-  # 監視文件變更
-  echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
-  fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
-    # 記錄檢測到變更的時間
-    change_time=$(date +%s)
-    # 等待 5 秒
-    sleep 5
-    # 再次檢查最近修改時間，確保文件已停止修改
-    latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit 2>/dev/null)
-    if [ -n "$latest_change" ]; then
-      latest_change_time=$(stat -f %m "$latest_change")
-      # 如果最近修改時間與檢測時間相差超過5秒，說明文件已穩定
-      if [ $(( $change_time - $latest_change_time )) -gt 5 ]; then
-        rotate_logs
-        sync_repo
-        touch "$REPO_DIR/.last_sync"
-      fi
-    fi
-  done >> "$LOG_FILE" 2>&1
-
-  # 將 300 秒(5分鐘)改為 120 秒(2分鐘)，但增加變更檢測
-  if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
-    # 檢查是否有足夠的變更量
-    changes_count=$(git status --porcelain | wc -l | tr -d ' ')
-    if [ "$changes_count" -gt 2 ]; then  # 至少有3個文件變更才同步
+# 監視文件變更
+echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
+fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
+  # 記錄檢測到變更的時間
+  change_time=$(date +%s)
+  # 等待 5 秒
+  sleep 5
+  # 再次檢查最近修改時間，確保文件已停止修改
+  latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit 2>/dev/null)
+  if [ -n "$latest_change" ]; then
+    latest_change_time=$(stat -f %m "$latest_change")
+    # 如果最近修改時間與檢測時間相差超過5秒，說明文件已穩定
+    if [ $(( $change_time - $latest_change_time )) -gt 5 ]; then
       rotate_logs
       sync_repo
       touch "$REPO_DIR/.last_sync"
     fi
   fi
-) 9>$LOCKFILE >> "$LOG_FILE" 2>&1
+done >> "$LOG_FILE" 2>&1
+
+# 將 300 秒(5分鐘)改為 120 秒(2分鐘)，但增加變更檢測
+if [ ! -f "$REPO_DIR/.last_sync" ] || [ $(( $(date +%s) - $(stat -f %m "$REPO_DIR/.last_sync") )) -gt 120 ]; then
+  # 檢查是否有足夠的變更量
+  changes_count=$(git status --porcelain | wc -l | tr -d ' ')
+  if [ "$changes_count" -gt 2 ]; then  # 至少有3個文件變更才同步
+    rotate_logs
+    sync_repo
+    touch "$REPO_DIR/.last_sync"
+  fi
+fi
+
+# 移除 flock 包裹
+# ) 9>$LOCKFILE >> "$LOG_FILE" 2>&1
