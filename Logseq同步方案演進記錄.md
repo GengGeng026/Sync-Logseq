@@ -64,7 +64,8 @@
       | <span style="color:darkgrey">◼</span> <span style="color:darkgrey">中間</span> | <span style="color:darkgrey">時間線 ── 連接事件的時間線</span> |
       | <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
   
-  <br><br>
+      <br><br>
+      
   - ### 2.1 階段一：基本 Git Hooks（初始方案）
     <br>
 
