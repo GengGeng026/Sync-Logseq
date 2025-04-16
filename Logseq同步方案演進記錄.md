@@ -96,9 +96,9 @@
       - 🔴 無條件同步浪費資源
       - 🔴 不處理合併衝突
       - 🔴 重啟後需手動啟動
-    <br><br>
+      <br><br>
 
-  b. **初次 fswatch 嘗試**
+    - #### **初次 fswatch 嘗試**
       ```bash
       # 嘗試使用文件系統監視器觸發同步
       fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
