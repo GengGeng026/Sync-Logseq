@@ -86,10 +86,10 @@
     <br>
 
     1. #### **nohup 循環方案**
-      ```bash
-      # 嘗試使用後台運行持續同步
-      nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
-      ```
+        ```bash
+        # 嘗試使用後台運行持續同步
+        nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
+        ```
 
       - ##### **失敗原因**：
         - 🔴 無條件同步浪費資源
