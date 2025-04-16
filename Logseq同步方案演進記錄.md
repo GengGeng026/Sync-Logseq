@@ -56,6 +56,8 @@
         : 雙重安全檢查
         : 完善的錯誤處理
   ```
+  <br>
+  
     - ##### 時間軸層級說明
       
       |  層級  |  說明 |
@@ -65,7 +67,7 @@
       | <span style="color:lightgrey">◼</span> <span style="color:lightgrey"> 底部</span> | <span style="color:lightgrey">次要事件 ── 次要事件和說明</span> |
   
       <br><br>
-      
+
   - ### 2.1 階段一：基本 Git Hooks（初始方案）
     <br>
 
