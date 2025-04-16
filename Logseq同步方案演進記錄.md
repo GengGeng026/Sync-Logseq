@@ -85,7 +85,7 @@
   - ### 2.2 階段二：自動化嘗試
     <br>
 
-    - **nohup 循環方案**
+    a. **nohup 循環方案**
       ```bash
       # 嘗試使用後台運行持續同步
       nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
@@ -98,7 +98,7 @@
         - 🔴 重啟後需手動啟動
       <br><br>
 
-    - **初次 fswatch 嘗試**
+    b. **初次 fswatch 嘗試**
       ```bash
       # 嘗試使用文件系統監視器觸發同步
       fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
