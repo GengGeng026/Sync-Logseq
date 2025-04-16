@@ -85,29 +85,29 @@
   - ### 2.2 階段二：自動化嘗試
     <br>
 
-    a. **nohup 循環方案**
-      ```bash
-      # 嘗試使用後台運行持續同步
-      nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
-      ```
-      <br>
+      a. **nohup 循環方案**
+        ```bash
+        # 嘗試使用後台運行持續同步
+        nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
+        ```
+        <br>
 
-      - **失敗原因**：
-        - 🔴 無條件同步浪費資源
-        - 🔴 不處理合併衝突
-        - 🔴 重啟後需手動啟動
-      <br><br>
+        - **失敗原因**：
+          - 🔴 無條件同步浪費資源
+          - 🔴 不處理合併衝突
+          - 🔴 重啟後需手動啟動
+        <br><br>
 
-    b. **初次 fswatch 嘗試**
-      ```bash
-      # 嘗試使用文件系統監視器觸發同步
-      fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
-        git pull
-        git add .
-        git commit -m "Auto-sync: $(date)"
-        git push
-      done
-      ```
+      b. **初次 fswatch 嘗試**
+        ```bash
+        # 嘗試使用文件系統監視器觸發同步
+        fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
+          git pull
+          git add .
+          git commit -m "Auto-sync: $(date)"
+          git push
+        done
+        ```
       <br>
 
       - **關鍵問題**：
