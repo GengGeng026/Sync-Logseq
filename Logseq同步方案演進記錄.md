@@ -67,98 +67,98 @@
   
   <br><br><br>
   - ### 2.1 階段一：基本 Git Hooks（初始方案）
-  <br>
-
-  - **實現**：Git post-commit hook
-    ```bash
-    #!/bin/bash
-    git push origin main
-    ```
-  <br>
-
-  - **缺點**：
-    - 🔴 被動式：需手動保存和提交
-    - 🔴 系統重啟後失效
-    - 🔴 無法處理合併衝突
-	  
-	  <br><br>
-- ### 2.2 階段二：自動化嘗試
-  <br>
-
-  - **nohup 循環方案**
-    ```bash
-    # 嘗試使用後台運行持續同步
-    nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
-    ```
     <br>
 
-    - **失敗原因**：
-      - 🔴 無條件同步浪費資源
-      - 🔴 不處理合併衝突
-      - 🔴 重啟後需手動啟動
-    <br><br>
-
-  - **初次 fswatch 嘗試**
-    ```bash
-    # 嘗試使用文件系統監視器觸發同步
-    fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
-      git pull
-      git add .
-      git commit -m "Auto-sync: $(date)"
-      git push
-    done
-    ```
+    - **實現**：Git post-commit hook
+      ```bash
+      #!/bin/bash
+      git push origin main
+      ```
     <br>
 
-    - **關鍵問題**：
-      - 🔴 監控了 .git 目錄，導致無限循環
-      - 🔴 未處理 SSH 認證問題
-      - 🔴 未檢測文件寫入完成
-      - 🔴 缺少錯誤處理機制
-		  
-		  <br><br>
-- ### 2.3 階段三：SSH 認證問題突破
-
-  - **診斷**： 重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
-  <br>
-
-  - **解決方案**：
-  <br>
-    1. 永久配置 SSH
-        ```bash
-        # ~/.ssh/config
-        Host github.com
-          AddKeysToAgent yes
-          UseKeychain yes
-          IdentityFile ~/.ssh/id_ed25519
-        ```
+    - **缺點**：
+      - 🔴 被動式：需手動保存和提交
+      - 🔴 系統重啟後失效
+      - 🔴 無法處理合併衝突
+      
+      <br><br>
+  - ### 2.2 階段二：自動化嘗試
     <br>
 
-    2. 將密鑰添加到 macOS 鑰匙串
-        ```bash
-        ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-        ```
-        <br>
+    - **nohup 循環方案**
+      ```bash
+      # 嘗試使用後台運行持續同步
+      nohup bash -c 'while true; do git pull; git add .; git commit -m "Auto-sync"; git push; sleep 300; done' &
+      ```
+      <br>
 
-        > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
+      - **失敗原因**：
+        - 🔴 無條件同步浪費資源
+        - 🔴 不處理合併衝突
+        - 🔴 重啟後需手動啟動
+      <br><br>
 
+    - **初次 fswatch 嘗試**
+      ```bash
+      # 嘗試使用文件系統監視器觸發同步
+      fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
+        git pull
+        git add .
+        git commit -m "Auto-sync: $(date)"
+        git push
+      done
+      ```
+      <br>
+
+      - **關鍵問題**：
+        - 🔴 監控了 .git 目錄，導致無限循環
+        - 🔴 未處理 SSH 認證問題
+        - 🔴 未檢測文件寫入完成
+        - 🔴 缺少錯誤處理機制
+        
+        <br><br>
+  - ### 2.3 階段三：SSH 認證問題突破
+
+    - **診斷**： 重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
     <br>
-- ### 2.4 階段四：Git 倉庫整理
-  
-  - **診斷**：多餘分支和冗餘歷史造成合併困難
-  <br>
 
-  - **解決**：
-  <br>
+    - **解決方案**：
+    <br>
+      1. 永久配置 SSH
+          ```bash
+          # ~/.ssh/config
+          Host github.com
+            AddKeysToAgent yes
+            UseKeychain yes
+            IdentityFile ~/.ssh/id_ed25519
+          ```
+      <br>
 
-    - 清理無用分支：`git push origin --delete gh-pages`
-    - 統一使用 main 分支
-    - 重置關係：`git reset --hard origin/main`
+      2. 將密鑰添加到 macOS 鑰匙串
+          ```bash
+          ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+          ```
+          <br>
+
+          > 💡 **關鍵突破點**: 解決 SSH 認證持久化是整個方案成功的基石，這確保了系統重啟後認證依然有效。
+
+      <br>
+  - ### 2.4 階段四：Git 倉庫整理
+    
+    - **診斷**：多餘分支和冗餘歷史造成合併困難
     <br>
 
-      > ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
+    - **解決**：
+    <br>
 
-	  <br><br>
+      - 清理無用分支：`git push origin --delete gh-pages`
+      - 統一使用 main 分支
+      - 重置關係：`git reset --hard origin/main`
+      <br>
+
+        > ⚠️ **注意**: 在執行 `git reset --hard` 之前，請確保你已經備份了重要的本地更改！
+
+      <br><br>
 - ## 3. 最終成功方案：精確控制的 fswatch
   - ### 3.1 為何同樣是 fswatch 但這次成功了？
     <br>
