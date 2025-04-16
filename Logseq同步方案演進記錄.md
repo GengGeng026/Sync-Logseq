@@ -97,29 +97,28 @@
             - 🔴 重啟後需手動啟動
               <br><br>
 
-    - #### **初次 fswatch 嘗試**
-      ```bash
-      # 嘗試使用文件系統監視器觸發同步
-      fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
-        git pull
-        git add .
-        git commit -m "Auto-sync: $(date)"
-        git push
-      done
-      ```
-      <br>
+    2. #### **初次 fswatch 嘗試**
+        ```bash
+        # 嘗試使用文件系統監視器觸發同步
+        fswatch -o /Users/mac/Documents/Sync-Logseq | while read change; do
+          git pull
+          git add .
+          git commit -m "Auto-sync: $(date)"
+          git push
+        done
+        ```
 
-      - **關鍵問題**：
-        - 🔴 監控了 .git 目錄，導致無限循環
-        - 🔴 未處理 SSH 認證問題
-        - 🔴 未檢測文件寫入完成
-        - 🔴 缺少錯誤處理機制
-        
-        <br><br>
+          - **關鍵問題**：
+            - 🔴 監控了 .git 目錄，導致無限循環
+            - 🔴 未處理 SSH 認證問題
+            - 🔴 未檢測文件寫入完成
+            - 🔴 缺少錯誤處理機制
+             <br><br>
+
   - ### 2.3 階段三：SSH 認證問題突破
+    <br>
 
     - **診斷**： 重啟後 SSH 密鑰未自動加載，是同步失效的根本原因
-    <br>
 
     - **解決方案**：
     <br>
