@@ -166,4 +166,4 @@
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true
- :feature/enable-timetracking? true}
+ :feature/enable-timetracking? false}
