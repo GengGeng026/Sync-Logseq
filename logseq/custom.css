@@ -26,6 +26,10 @@
     order: 1;
 }
 
+.block-marker {
+  display: none;
+}
+
 .foldable-title h1,
 .foldable-title .rotating-arrow {
 opacity: .90;  /* or whatever */
