@@ -165,4 +165,5 @@
  :graph/settings {:builtin-pages? false, :journal? false}
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? false
- :editor/preferred-pasting-file? true}
+ :editor/preferred-pasting-file? true
+ :feature/enable-timetracking? false}
