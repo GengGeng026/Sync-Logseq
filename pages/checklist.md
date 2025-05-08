@@ -9,4 +9,6 @@
 	  logseq.order-list-type:: number
 	- Deleted the `~/Library/Application Support/Notion `folder
 	  logseq.order-list-type:: number
+	- await navigator.mediaDevices.getDisplayMedia({ audio: true, systemAudio: "include" })
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
