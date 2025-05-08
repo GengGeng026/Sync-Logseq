@@ -17,6 +17,8 @@
 	  logseq.order-list-type:: number
 	- `touch $HOME/notion-err`
 	  logseq.order-list-type:: number
+	- `await navigator.mediaDevices.enumerateDevices()`
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
