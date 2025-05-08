@@ -1,5 +1,5 @@
 - Commands have been run in Notion console
-	- logseq.order-list-type:: number
-	  ```__console.enableAndReload()
-	  ```
+	- `__console.enableAndReload()
+	  logseq.order-list-type:: number
+	  `
 	- logseq.order-list-type:: number
