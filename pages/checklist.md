@@ -1,2 +1,2 @@
-- Step taken:
+- Commands being
 	-
