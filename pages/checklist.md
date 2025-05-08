@@ -1,4 +1,3 @@
 - Commands have been run in Notion console
-	- 1.
-	- `__console.enableAndReload()`
+	- 1.`__console.enableAndReload()`
 	- logseq.order-list-type:: number
