@@ -1,4 +1,6 @@
 - Commands have been run in Notion console:
+	- `tccutil reset Microphone notion.id`
+	  logseq.order-list-type:: number
 	- `__console.enableAndReload()`
 	  logseq.order-list-type:: number
 	- `await __electronApi.getMediaAccessStatus("screen")`
