@@ -21,6 +21,8 @@
 	  logseq.order-list-type:: number
 	- `await navigator.mediaDevices.getDisplayMedia({ audio: true, video: true })`
 	  logseq.order-list-type:: number
+	- `await navigator.mediaDevices.getDisplayMedia({ audio: true })`
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
