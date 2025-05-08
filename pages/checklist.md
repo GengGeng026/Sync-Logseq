@@ -5,4 +5,5 @@
 	  logseq.order-list-type:: number
 	- `open /Applications/[Notion.app](https://notion.app/) --stdout $HOME/notion-out --stderr $HOME/notion-err --args --enable-logging --v=1`
 	  logseq.order-list-type:: number
--
+	- uninstalling and then reinstalling the desktop app
+	  logseq.order-list-type:: number
