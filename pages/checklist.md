@@ -13,9 +13,10 @@
 	  logseq.order-list-type:: number
 	- `await navigator.mediaDevices.getDisplayMedia({ audio: true, systemAudio: "include" })`
 	  logseq.order-list-type:: number
-	- `touch $HOME/notion-out
+	- `touch $HOME/notion-out`
 	  logseq.order-list-type:: number
-	  touch $HOME/notion-err`
+	- `touch $HOME/notion-err`
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
