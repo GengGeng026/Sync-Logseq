@@ -121,24 +121,31 @@ rotate_logs
 # 進行初始同步
 sync_repo
 
-# 監視文件變更
+# 定期檢查遠端更新
+check_remote_updates() {
+  echo "$(date): 定期檢查遠端更新中..." >> "$LOG_FILE"
+  sync_repo # sync_repo 裡面包含 git pull
+}
+
+# 在後台啟動定期檢查遠端更新的子進程
+(
+  while true; do
+    check_remote_updates
+    sleep 300 # 每 5 分鐘 (300 秒) 檢查一次
+  done
+) >> "$LOG_FILE" 2>&1 & # 將整個定期檢查迴圈放入後台，並將輸出導向主日誌
+
+# 監視文件變更的主進程
 echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
 fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
   # 記錄檢測到變更的時間
   change_time=$(date +%s)
-  # 等待 5 秒
+  # 等待 5 秒，作為 debounce
   sleep 5
-  # 再次檢查最近修改時間，確保文件已停止修改
-  latest_change=$(find "$REPO_DIR" -path '*/.git/*' -prune -o -type f -newer "$REPO_DIR/.last_sync" -print -quit 2>/dev/null)
-  if [ -n "$latest_change" ]; then
-    latest_change_time=$(stat -f %m "$latest_change")
-    # 如果最近修改時間與檢測時間相差超過5秒，說明文件已穩定
-    if [ $(( $change_time - $latest_change_time )) -gt 5 ]; then
-      rotate_logs
-      sync_repo
-      touch "$REPO_DIR/.last_sync"
-    fi
-  fi
+  # 只要 fswatch 偵測到任何變更，就嘗試同步 (簡化邏輯)
+  rotate_logs
+  sync_repo
+  touch "$REPO_DIR/.last_sync"
 done >> "$LOG_FILE" 2>&1
 
 # 移除循環外部的備用檢查邏輯，考慮在循環內部或通過其他方式實現週期性檢查
