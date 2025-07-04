@@ -78,10 +78,8 @@ sync_repo() {
     # 不再 exit 1，讓腳本繼續嘗試推送，即使拉取失敗也可能是因為衝突，本地仍可能有新提交
   fi
   
-  # 只有在輸出不是"Already up to date"時記錄
-  if [ "$pull_output" != "Already up to date." ]; then
-    echo "$(date): $pull_output" >> "$LOG_FILE"
-  fi
+  # 記錄 pull 的完整輸出，無論是否為 "Already up to date."
+  echo "$(date): git pull 輸出: $pull_output" >> "$LOG_FILE"
   
   # 添加所有變更 (再次，以防拉取後有新的變更或解決衝突)
   git add -A
