@@ -32,82 +32,87 @@ rotate_logs() {
 # 同步功能
 sync_repo() {
   echo "$(date): 開始同步..." >> "$LOG_FILE"
-    
-    # 清理任何潛在的鎖定文件
-    cleanup
-        
-    # 清理 lock 檔
-    cleanup
 
-    # 嘗試 fetch，遇到 lock 錯誤時重試
-    max_retry=3
-    retry=0
-    while [ $retry -lt $max_retry ]; do
-      fetch_output=$(git fetch origin 2>&1)
-      if echo "$fetch_output" | grep -q "cannot lock ref"; then
-        echo "$(date): fetch 遇到 lock 衝突，重試中..." >> "$LOG_FILE"
-        cleanup
-        sleep 2
-        retry=$((retry+1))
-      else
-        break
-      fi
-    done
+  # 清理任何潛在的鎖定文件
+  cleanup
+      
+  # 在拉取之前，先處理本地所有變更 (包括新增的檔案)
+  git add -A
+  if ! git diff --cached --quiet; then
+    echo "$(date): 發現本地變更，提交中... (在拉取之前)" >> "$LOG_FILE"
+    git commit -m "Auto-sync: Local changes before pull ($(date))" >> "$LOG_FILE" 2>&1
+  else
+    echo "$(date): 沒有本地變更需要提交 (在拉取之前)" >> "$LOG_FILE"
+  fi
 
-    # 如果還是有 lock 錯誤，記錄但不中斷
+  # 嘗試 fetch，遇到 lock 錯誤時重試
+  max_retry=3
+  retry=0
+  while [ $retry -lt $max_retry ]; do
+    fetch_output=$(git fetch origin 2>&1)
     if echo "$fetch_output" | grep -q "cannot lock ref"; then
-      echo "$(date): fetch 最終還是有 lock 衝突，請稍後再試。" >> "$LOG_FILE"
-      # 不要 exit，讓腳本繼續
-    fi
-    
-    # 沒有本地更改，安全拉取，並過濾 fatal 訊息
-    pull_output=$(git pull origin main 2>&1)
-    echo "$pull_output" | grep -v "fatal: cannot lock ref" >> "$LOG_FILE"
-
-    # 檢查拉取是否成功
-    pull_status=$?
-    if [ $pull_status -ne 0 ]; then
-      echo "$(date): 拉取失敗，請檢查網絡或遠端狀態。" >> "$LOG_FILE"
-      echo "$pull_output" | grep -v "fatal: cannot lock ref" >> "$LOG_FILE"
-      exit 1
-    fi
-    
-    # 只有在拉取成功後才繼續執行後面的步驟
-    # 只在輸出不是"Already up to date"時記錄
-    if [ "$pull_output" != "Already up to date." ]; then
-      echo "$(date): $pull_output" >> "$LOG_FILE"
-    fi
-    
-    # 添加所有變更
-    git add -A
-    
-    # 檢查是否有變更需要提交
-    if ! git diff --cached --quiet; then
-      echo "$(date): 發現變更，提交中..." >> "$LOG_FILE"
-      git commit -m "Auto-sync: $(date)" >> "$LOG_FILE" 2>&1
-      
-      # 推送變更
-      push_output=$(git push origin main 2>&1)
-      if [ $? -ne 0 ]; then
-        echo "$(date): 推送失敗: $push_output" >> "$LOG_FILE"
-        cleanup
-        git push origin main --force >> "$LOG_FILE" 2>&1
-      fi
+      echo "$(date): fetch 遇到 lock 衝突，重試中..." >> "$LOG_FILE"
+      cleanup
+      sleep 2
+      retry=$((retry+1))
     else
-      # 檢查本地是否領先遠端
-      LOCAL=$(git rev-parse HEAD)
-      REMOTE=$(git rev-parse origin/main 2>/dev/null)
-      
-      if [ "$LOCAL" != "$REMOTE" ]; then
-        echo "$(date): 本地領先遠端，推送剩餘提交..." >> "$LOG_FILE"
-        git push origin main >> "$LOG_FILE" 2>&1
-      else
-        echo "$(date): 沒有變更，無需同步" >> "$LOG_FILE"
-      fi
+      break
     fi
+  done
+
+  # 如果還是有 lock 錯誤，記錄但不中斷
+  if echo "$fetch_output" | grep -q "cannot lock ref"; then
+    echo "$(date): fetch 最終還是有 lock 衝突，請稍後再試。" >> "$LOG_FILE"
+    # 不要 exit，讓腳本繼續
+  fi
+  
+  # 沒有本地更改，安全拉取，並過濾 fatal 訊息
+  # 由於我們已經在前面處理了本地變更，這裡的 pull 應該更順暢
+  pull_output=$(git pull origin main 2>&1)
+  echo "$pull_output" | grep -v "fatal: cannot lock ref" >> "$LOG_FILE"
+
+  # 檢查拉取是否成功
+  pull_status=$?
+  if [ $pull_status -ne 0 ]; then
+    echo "$(date): 拉取失敗，錯誤訊息: $pull_output" >> "$LOG_FILE"
+    # 不再 exit 1，讓腳本繼續嘗試推送，即使拉取失敗也可能是因為衝突，本地仍可能有新提交
+  fi
+  
+  # 只有在輸出不是"Already up to date"時記錄
+  if [ "$pull_output" != "Already up to date." ]; then
+    echo "$(date): $pull_output" >> "$LOG_FILE"
+  fi
+  
+  # 添加所有變更 (再次，以防拉取後有新的變更或解決衝突)
+  git add -A
+  
+  # 檢查是否有變更需要提交
+  if ! git diff --cached --quiet; then
+    echo "$(date): 發現變更 (拉取後)，提交中..." >> "$LOG_FILE"
+    git commit -m "Auto-sync: After pull ($(date))" >> "$LOG_FILE" 2>&1
     
-    echo "$(date): 同步完成" >> "$LOG_FILE"
-    echo "------------------------" >> "$LOG_FILE"
+    # 推送變更
+    push_output=$(git push origin main 2>&1)
+    if [ $? -ne 0 ]; then
+      echo "$(date): 推送失敗: $push_output" >> "$LOG_FILE"
+      cleanup
+      git push origin main --force >> "$LOG_FILE" 2>&1
+    fi
+  else
+    # 檢查本地是否領先遠端
+    LOCAL=$(git rev-parse HEAD)
+    REMOTE=$(git rev-parse origin/main 2>/dev/null)
+    
+    if [ "$LOCAL" != "$REMOTE" ]; then
+      echo "$(date): 本地領先遠端，推送剩餘提交..." >> "$LOG_FILE"
+      git push origin main >> "$LOG_FILE" 2>&1
+    else
+      echo "$(date): 沒有變更，無需同步" >> "$LOG_FILE"
+    fi
+  fi
+  
+  echo "$(date): 同步完成" >> "$LOG_FILE"
+  echo "------------------------" >> "$LOG_FILE"
 }
 
 # 輪換日誌
