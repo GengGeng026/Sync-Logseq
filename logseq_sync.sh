@@ -2,6 +2,12 @@
 # 文件名: logseq_sync.sh
 # 保存位置: /Users/mac/Documents/Sync-Logseq/logseq_sync.sh
 
+# Add diagnostic message at the very beginning
+echo "$(date): logseq_sync.sh 腳本啟動..." >> "/Users/mac/Documents/Sync-Logseq/sync_stdout.log"
+
+# Set the PATH to ensure commands like git and fswatch are found
+export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
+
 # 設置工作目錄和日誌文件
 REPO_DIR="/Users/mac/Documents/Sync-Logseq"
 LOG_FILE="$REPO_DIR/sync_stdout.log" # 改為實際文件
@@ -135,6 +141,7 @@ check_remote_updates() {
 
 # 監視文件變更的主進程
 echo "$(date): 開始監視文件變更..." >> "$LOG_FILE"
+echo "$(date): 準備啟動 fswatch..." >> "$LOG_FILE" # New diagnostic echo
 fswatch -o --exclude ".git" "$REPO_DIR" | while read -r change; do
   # 記錄檢測到變更的時間
   change_time=$(date +%s)
