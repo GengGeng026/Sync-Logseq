@@ -25,10 +25,6 @@
         <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
         <key>HOME</key>
         <string>/Users/mac</string>
-        <key>SSH_AUTH_SOCK</key>
-        <string>/Users/mac/.ssh/ssh_auth_sock</string>
     </dict>
-    <key>ProcessType</key>
-    <string>Background</string>
 </dict>
-</plist> 
+</plist>
