@@ -19,5 +19,12 @@
     <string>/Users/mac/Documents/Sync-Logseq/sync_stderr.log</string>
     <key>WorkingDirectory</key>
     <string>/Users/mac/Documents/Sync-Logseq</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <key>HOME</key>
+        <string>/Users/mac</string>
+    </dict>
 </dict>
 </plist> 
