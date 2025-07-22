@@ -248,6 +248,42 @@ merge_both_versions() {
     echo "$(date): ✅ $file - 已合併本地和遠程內容" >> "$LOG_FILE"
 }
 
+# 合併兩個版本的內容
+merge_both_versions() {
+    local file="$1"
+    local backup_file="$2"
+    
+    echo "$(date): 🔄 嘗試合併兩個版本: $file" >> "$LOG_FILE"
+    
+    # 獲取本地和遠程版本
+    git show HEAD:"$file" > "${file}.local" 2>/dev/null || cp "$file" "${file}.local"
+    git show origin/main:"$file" > "${file}.remote" 2>/dev/null || true
+    
+    if [ -f "${file}.remote" ]; then
+        # 創建合併版本
+        {
+            echo "# 自動合併版本 - $(date)"
+            echo ""
+            echo "# === 本地版本 (MacBook) ==="
+            cat "${file}.local"
+            echo ""
+            echo "# === 遠程版本 (iPhone) ==="
+            cat "${file}.remote"
+            echo ""
+            echo "# === 請手動整理重複內容 ==="
+        } > "$file"
+        
+        echo "$(date): ✅ $file - 已合併兩個版本，請檢查並整理" >> "$LOG_FILE"
+    else
+        # 如果無法獲取遠程版本，保留本地版本
+        git checkout --ours "$file"
+        echo "$(date): ⚠️ $file - 無法獲取遠程版本，保留本地版本" >> "$LOG_FILE"
+    fi
+    
+    # 清理臨時文件
+    rm -f "${file}.local" "${file}.remote"
+}
+
 # 通用文件衝突解決
 resolve_generic_conflict() {
     local file="$1"
