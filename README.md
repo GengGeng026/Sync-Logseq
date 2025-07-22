@@ -1,5 +1,11 @@
 # 自動同步腳本
 
+## 📸 記憶快照
+
+![Memory 01](./Memory01.png)
+
+![Memory 02](./Memory02.png)
+
 ## 使用方法
 
 ```bash
