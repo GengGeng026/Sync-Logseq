@@ -19,16 +19,22 @@ cleanup() {
   find .git -name "*.lock" -delete 2>/dev/null
 }
 
-# 日誌輪換
+# 優化的日誌管理
 rotate_logs() {
-  for log_file in "$LOG_FILE" "$REPO_DIR/sync_stdout.log" "$REPO_DIR/sync_stderr.log"; do
-    if [ -f "$log_file" ] && [ $(stat -f%z "$log_file") -gt 1048576 ]; then
-      timestamp=$(date +"%Y%m%d_%H%M%S")
-      mv "$log_file" "${log_file}.${timestamp}"
-      touch "$log_file"
-      ls -t "${log_file}."* | tail -n +6 | xargs rm -f 2>/dev/null
+  # 只管理主日誌文件
+  if [ -f "$LOG_FILE" ]; then
+    local size=$(stat -f%z "$LOG_FILE" 2>/dev/null || stat -c%s "$LOG_FILE" 2>/dev/null)
+    # 當日誌超過 512KB 時進行輪換
+    if [ "$size" -gt 524288 ]; then
+      # 保留最後 500 行，刪除舊內容
+      tail -500 "$LOG_FILE" > "${LOG_FILE}.tmp"
+      mv "${LOG_FILE}.tmp" "$LOG_FILE"
+      echo "$(date): 📋 日誌已輪換，保留最後500行" >> "$LOG_FILE"
+      
+      # 清理舊的備份文件（只保留最新1個）
+      ls -t "${LOG_FILE}."* 2>/dev/null | tail -n +2 | xargs rm -f 2>/dev/null
     fi
-  done
+  fi
 }
 
 # 智能衝突解決函數
