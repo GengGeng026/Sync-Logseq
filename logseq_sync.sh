@@ -218,6 +218,36 @@ conservative_conflict_resolution() {
     echo "$(date): ✅ $file - 嘗試合併兩個版本 (保守策略)" >> "$LOG_FILE"
 }
 
+# 合併兩個版本的內容
+merge_both_versions() {
+    local file="$1"
+    local backup_file="$2"
+    
+    echo "$(date): 🔄 嘗試合併本地和遠程版本: $file" >> "$LOG_FILE"
+    
+    # 獲取本地和遠程版本
+    git show HEAD:"$file" > "${file}.local" 2>/dev/null || cp "$file" "${file}.local"
+    git show origin/main:"$file" > "${file}.remote" 2>/dev/null || git checkout --theirs "$file" 2>/dev/null
+    
+    # 創建合併版本
+    {
+        echo "# 自動合併版本 - $(date)"
+        echo ""
+        echo "## 本地版本內容："
+        cat "${file}.local" 2>/dev/null || echo "無法讀取本地版本"
+        echo ""
+        echo "## 遠程版本內容："
+        cat "${file}.remote" 2>/dev/null || echo "無法讀取遠程版本"
+        echo ""
+        echo "## 合併完成於 $(date)"
+    } > "$file"
+    
+    # 清理臨時文件
+    rm -f "${file}.local" "${file}.remote"
+    
+    echo "$(date): ✅ $file - 已合併本地和遠程內容" >> "$LOG_FILE"
+}
+
 # 通用文件衝突解決
 resolve_generic_conflict() {
     local file="$1"
