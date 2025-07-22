@@ -1,7 +1,18 @@
 #!/bin/bash
-# 清理工作空間腳本
+# 安全的工作空間清理腳本 - 僅限於 /Users/mac/Documents/Sync-Logseq 目錄內
 
-echo "🧹 開始清理工作空間..."
+# 🛡️ 安全檢查：確保只在正確的目錄中運行
+SAFE_DIR="/Users/mac/Documents/Sync-Logseq"
+CURRENT_DIR="$(pwd)"
+
+if [ "$CURRENT_DIR" != "$SAFE_DIR" ]; then
+    echo "❌ 安全錯誤：此腳本只能在 $SAFE_DIR 中運行"
+    echo "當前目錄：$CURRENT_DIR"
+    exit 1
+fi
+
+echo "🛡️ 安全檢查通過：在正確目錄中運行"
+echo "🧹 開始清理工作空間（僅限當前目錄）..."
 
 # 確保自動流正在運行
 if ! pgrep -f "logseq_sync.sh" > /dev/null; then
@@ -11,23 +22,23 @@ fi
 
 echo "✅ 自動同步服務正在運行，可以安全清理"
 
-# 1. 清理臨時文件
+# 1. 清理臨時文件（僅限當前目錄）
 echo "🗑️ 清理臨時文件..."
-rm -f .DS_Store
-rm -f COMMIT_EDITMSG*
-rm -f .last_sync
-rm -f tmp_code_*.bash
-rm -f sync_stdout.log.20250720_124919  # 舊的輪換日誌
+rm -f ./.DS_Store
+rm -f ./COMMIT_EDITMSG*
+rm -f ./.last_sync
+rm -f ./tmp_code_*.bash
+rm -f ./sync_stdout.log.20250720_124919  # 舊的輪換日誌
 echo "已清理系統臨時文件"
 
-# 2. 整理腳本文件到 scripts 目錄
+# 2. 整理腳本文件到 scripts 目錄（安全移動）
 echo "📁 整理腳本文件..."
-mkdir -p scripts
-mv daily_log_cleanup.sh scripts/
-mv install_autostart.sh scripts/
-mv optimize_logs.sh scripts/
-mv switch_to_improved_sync.sh scripts/
-mv test_conflict_resolution.sh scripts/
+mkdir -p ./scripts
+[ -f "./daily_log_cleanup.sh" ] && mv ./daily_log_cleanup.sh ./scripts/
+[ -f "./install_autostart.sh" ] && mv ./install_autostart.sh ./scripts/
+[ -f "./optimize_logs.sh" ] && mv ./optimize_logs.sh ./scripts/
+[ -f "./switch_to_improved_sync.sh" ] && mv ./switch_to_improved_sync.sh ./scripts/
+[ -f "./test_conflict_resolution.sh" ] && mv ./test_conflict_resolution.sh ./scripts/
 echo "已移動輔助腳本到 scripts/ 目錄"
 
 # 3. 整理文檔到 docs 目錄
