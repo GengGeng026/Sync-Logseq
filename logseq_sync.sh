@@ -55,13 +55,23 @@ log "====== Sync Service Started ======"
 # Initial sync on start
 sync_repo
 
-log "Starting fswatch to monitor for file changes..."
+SYNC_INTERVAL=300 # 5 minutes. You can adjust this value.
+
+log "Starting fswatch to monitor for file changes, with a periodic remote check every ${SYNC_INTERVAL} seconds..."
 
 # Use fswatch to monitor the directory.
-# -o batches events.
-# A short sleep acts as a debounce.
-fswatch -o -r --exclude="\.git/." --exclude=".*\.log$" "$REPO_DIR" | while read -r event; do
-    log "fswatch event: $event"
-    sleep 2 # Debounce
-    sync_repo
+# `read -t` adds a timeout. If no file event occurs within the interval,
+# the `read` command exits with a non-zero status, and the `else` block is executed.
+# This allows for a periodic remote check in the absence of local file activity.
+fswatch -o -r --exclude=\"\.git/." --exclude=".*\.log$" "$REPO_DIR" | while true; do
+    if read -t $SYNC_INTERVAL -r event; then
+        # Event detected by fswatch
+        log "fswatch event detected: $event"
+        sleep 2 # Debounce to prevent rapid, successive syncs.
+        sync_repo
+    else
+        # read timed out, meaning no local changes. Time for a periodic check.
+        log "No local activity for ${SYNC_INTERVAL} seconds. Checking for remote changes."
+        sync_repo
+    fi
 done
