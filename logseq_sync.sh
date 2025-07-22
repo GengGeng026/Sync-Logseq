@@ -55,7 +55,7 @@ log "====== Sync Service Started ======"
 # Initial sync on start
 sync_repo
 
-SYNC_INTERVAL=300 # 5 minutes. You can adjust this value.
+SYNC_INTERVAL=30 # 5 minutes. You can adjust this value.
 
 log "Starting fswatch to monitor for file changes, with a periodic remote check every ${SYNC_INTERVAL} seconds..."
 
