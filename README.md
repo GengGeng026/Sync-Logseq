@@ -14,9 +14,16 @@ chmod +x ./pre-commit && chmod +x ./post-commit
 
 ### 📸 記憶快照
 
-![Memory 01](./Memory01.png)
-
-![Memory 02](./Memory02.png)
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <img src="./Memory01.png" alt="Memory 01" style="width: 100%; height: auto;">
+    <p align="center"><em>Memory 01</em></p>
+  </div>
+  <div style="flex: 1;">
+    <img src="./Memory02.png" alt="Memory 02" style="width: 100%; height: auto;">
+    <p align="center"><em>Memory 02</em></p>
+  </div>
+</div>
 
 ### 🔥 **事件概述**
 在嘗試清理 `/Users/mac/Documents/Sync-Logseq` 目錄時，AI 助手創建並執行了一個包含災難性代碼的清理腳本，意外刪除了整個用戶主目錄。
