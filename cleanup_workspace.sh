@@ -41,27 +41,27 @@ mkdir -p ./scripts
 [ -f "./test_conflict_resolution.sh" ] && mv ./test_conflict_resolution.sh ./scripts/
 echo "已移動輔助腳本到 scripts/ 目錄"
 
-# 3. 整理文檔到 docs 目錄
+# 3. 整理文檔到 docs 目錄（安全移動）
 echo "📚 整理文檔文件..."
-mkdir -p docs
-mv README_improved_sync.md docs/
-mv "Logseq同步方案演進記錄.md" docs/
+mkdir -p ./docs
+[ -f "./README_improved_sync.md" ] && mv "./README_improved_sync.md" ./docs/
+[ -f "./Logseq同步方案演進記錄.md" ] && mv "./Logseq同步方案演進記錄.md" ./docs/
 echo "已移動文檔到 docs/ 目錄"
 
-# 4. 清理不必要的目錄
+# 4. 清理不必要的目錄（僅限當前目錄內的空目錄）
 echo "🗂️ 檢查可清理的目錄..."
-if [ -d "public" ] && [ -z "$(ls -A public 2>/dev/null)" ]; then
-    rm -rf public
+if [ -d "./public" ] && [ -z "$(ls -A ./public 2>/dev/null)" ]; then
+    rm -rf ./public
     echo "已刪除空的 public 目錄"
 fi
 
-if [ -d "src" ] && [ -z "$(ls -A src 2>/dev/null)" ]; then
-    rm -rf src
+if [ -d "./src" ] && [ -z "$(ls -A ./src 2>/dev/null)" ]; then
+    rm -rf ./src
     echo "已刪除空的 src 目錄"
 fi
 
-if [ -d ".history" ]; then
-    rm -rf .history
+if [ -d "./.history" ]; then
+    rm -rf ./.history
     echo "已刪除 .history 目錄"
 fi
 
