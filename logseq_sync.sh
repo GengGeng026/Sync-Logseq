@@ -311,7 +311,7 @@ sync_repo
 (
   while true; do
     check_remote_updates
-    sleep 300 # 每 5 分鐘檢查一次
+    sleep 30 # 每 30 秒檢查一次
   done
 ) >> "$LOG_FILE" 2>&1 &
 
