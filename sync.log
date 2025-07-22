@@ -109,3 +109,19 @@ Already on 'main'
 M	sync.log
 Your branch is up to date with 'origin/main'.
 Tue Jul 22 10:13:16 +08 2025: Committing local changes.
+To github.com:GengGeng026/Sync-Logseq.git
+   b039e2e9..e27cb3b7  main -> main
+[main e27cb3b7] Auto-sync: Tue Jul 22 10:13:16 +08 2025
+ 1 file changed, 16 insertions(+)
+Tue Jul 22 10:13:22 +08 2025: Pulling remote changes.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Tue Jul 22 10:13:22 +08 2025: PULL FAILED: A conflict likely occurred. Please resolve it manually.
+fatal: No rebase in progress?
+Tue Jul 22 10:13:22 +08 2025: Starting fswatch to monitor for file changes...
+Tue Jul 22 10:13:37 +08 2025: ====== Sync Service Started ======
+Tue Jul 22 10:13:37 +08 2025: Change detected, starting sync.
+Already on 'main'
+M	sync.log
+Your branch is up to date with 'origin/main'.
+Tue Jul 22 10:13:38 +08 2025: Committing local changes.
