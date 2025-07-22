@@ -77,9 +77,8 @@ resolve_markdown_conflict() {
         # 標準 Git 衝突標記
         handle_git_conflict_markers "$file" "$backup_file"
     else
-        # 其他類型衝突，保留本地版本
-        git checkout --ours "$file"
-        echo "$(date): ✅ $file - 保留本地版本 (無標準衝突標記)" >> "$LOG_FILE"
+        # 其他類型衝突，嘗試合併兩個版本
+        merge_both_versions "$file" "$backup_file"
     fi
 }
 
@@ -213,10 +212,10 @@ conservative_conflict_resolution() {
     
     echo "$(date): 🛡️ 使用保守策略解決 $file (衝突過多)" >> "$LOG_FILE"
     
-    # 保留本地版本
-    git checkout --ours "$file"
+    # 嘗試合併兩個版本而不是丟棄
+    merge_both_versions "$file" ""
     
-    echo "$(date): ✅ $file - 保留本地版本 (保守策略)" >> "$LOG_FILE"
+    echo "$(date): ✅ $file - 嘗試合併兩個版本 (保守策略)" >> "$LOG_FILE"
 }
 
 # 通用文件衝突解決
