@@ -62,3 +62,18 @@ error: please commit or stash them.
 Tue Jul 22 10:12:22 +08 2025: PULL FAILED: A conflict likely occurred. Please resolve it manually.
 fatal: No rebase in progress?
 Tue Jul 22 10:12:22 +08 2025: Committing local changes.
+To github.com:GengGeng026/Sync-Logseq.git
+   beaf4733..8ed89d63  main -> main
+[main 8ed89d63] Auto-sync: Tue Jul 22 10:12:22 +08 2025
+ 2 files changed, 40 insertions(+)
+Tue Jul 22 10:12:28 +08 2025: Pulling remote changes.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Tue Jul 22 10:12:28 +08 2025: PULL FAILED: A conflict likely occurred. Please resolve it manually.
+fatal: No rebase in progress?
+Tue Jul 22 10:12:38 +08 2025: ====== Sync Service Started ======
+Tue Jul 22 10:12:38 +08 2025: Change detected, starting sync.
+Already on 'main'
+M	sync.log
+Your branch is up to date with 'origin/main'.
+Tue Jul 22 10:12:38 +08 2025: Committing local changes.
