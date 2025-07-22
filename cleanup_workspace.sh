@@ -48,21 +48,21 @@ mkdir -p ./docs
 [ -f "./Logseq同步方案演進記錄.md" ] && mv "./Logseq同步方案演進記錄.md" ./docs/
 echo "已移動文檔到 docs/ 目錄"
 
-# 4. 清理不必要的目錄（僅限當前目錄內的空目錄）
+# 4. 檢查可清理的目錄（保守策略 - 僅報告，不刪除）
 echo "🗂️ 檢查可清理的目錄..."
-if [ -d "./public" ] && [ -z "$(ls -A ./public 2>/dev/null)" ]; then
-    rm -rf ./public
-    echo "已刪除空的 public 目錄"
+if [ -d "./public" ]; then
+    echo "📁 發現 ./public 目錄 ($(ls -A ./public 2>/dev/null | wc -l) 個文件)"
+    echo "   如需刪除，請手動執行: rm -rf ./public"
 fi
 
-if [ -d "./src" ] && [ -z "$(ls -A ./src 2>/dev/null)" ]; then
-    rm -rf ./src
-    echo "已刪除空的 src 目錄"
+if [ -d "./src" ]; then
+    echo "📁 發現 ./src 目錄 ($(ls -A ./src 2>/dev/null | wc -l) 個文件)"
+    echo "   如需刪除，請手動執行: rm -rf ./src"
 fi
 
 if [ -d "./.history" ]; then
-    rm -rf ./.history
-    echo "已刪除 .history 目錄"
+    echo "📁 發現 ./.history 目錄 ($(ls -A ./.history 2>/dev/null | wc -l) 個文件)"
+    echo "   如需刪除，請手動執行: rm -rf ./.history"
 fi
 
 # ⚠️ 危險代碼已移除 - 曾經的 rm -rf ~ 指令會刪除整個用戶主目錄
