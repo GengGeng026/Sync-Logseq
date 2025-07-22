@@ -1,11 +1,5 @@
 # 自動同步腳本
 
-## 📸 記憶快照
-
-![Memory 01](./Memory01.png)
-
-![Memory 02](./Memory02.png)
-
 ## 使用方法
 
 ```bash
@@ -17,6 +11,12 @@ chmod +x ./pre-commit && chmod +x ./post-commit
 # 🚨 重要教訓與警戒記錄
 
 ## 💔 災難性事件記錄 - 2025年7月22日
+
+### 📸 記憶快照
+
+![Memory 01](./Memory01.png)
+
+![Memory 02](./Memory02.png)
 
 ### 🔥 **事件概述**
 在嘗試清理 `/Users/mac/Documents/Sync-Logseq` 目錄時，AI 助手創建並執行了一個包含災難性代碼的清理腳本，意外刪除了整個用戶主目錄。
