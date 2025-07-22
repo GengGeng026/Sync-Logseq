@@ -19,31 +19,31 @@ sync_repo() {
     log "Change detected, starting sync."
     
     # Ensure we are on the main branch
-    git checkout main &>> "$LOG_FILE"
+    git checkout main >> "$LOG_FILE" 2>&1
 
     # Add all changes
-    git add -A &>> "$LOG_FILE"
+    git add -A >> "$LOG_FILE" 2>&1
 
     # Commit if there are changes
     if ! git diff --cached --quiet; then
         log "Committing local changes."
-        git commit -m "Auto-sync: $(date)" &>> "$LOG_FILE"
+        git commit -m "Auto-sync: $(date)" >> "$LOG_FILE" 2>&1
     else
         log "No local changes to commit."
     fi
 
     # Pull remote changes with rebase to avoid merge commits
     log "Pulling remote changes."
-    if ! git pull --rebase origin main &>> "$LOG_FILE"; then
+    if ! git pull --rebase origin main >> "$LOG_FILE" 2>&1; then
         log "PULL FAILED: A conflict likely occurred. Please resolve it manually."
         # Abort the rebase to leave the repository in a usable state for manual fixing.
-        git rebase --abort &>> "$LOG_FILE"
+        git rebase --abort >> "$LOG_FILE" 2>&1
         return
     fi
     
     # Push the changes
     log "Pushing changes."
-    if ! git push origin main &>> "$LOG_FILE"; then
+    if ! git push origin main >> "$LOG_FILE" 2>&1; then
         log "PUSH FAILED: Could not push to remote. Please check connection and permissions."
     fi
 
