@@ -76,6 +76,10 @@ Sync-Logseq/
 - **驗證**：✅ 新開終端會自動檢測並啟動服務
 
 ### 常見問題
+
+## 🚀 快速開始
+
+### 1. 檢查服務狀態
 ```bash
 cd /Users/mac/Documents/Sync-Logseq
 ./logseq_unified.sh status
