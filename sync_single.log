@@ -4,3 +4,23 @@ Already on 'main'
 M	logseq_sync_single.sh
 M	sync_simple.log
 Your branch is up to date with 'origin/main'.
+[main 625e9328] Auto-sync: 2025-08-03 21:01:32
+ 4 files changed, 28 insertions(+), 34 deletions(-)
+ create mode 100644 .sync_lock
+ mode change 100644 => 100755 logseq_sync_single.sh
+ create mode 100644 sync_single.log
+Sun Aug  3 21:01:33 +08 2025: [PID:15696] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Sun Aug  3 21:01:36 +08 2025: [PID:15696] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+   3a092462..625e9328  main -> main
+Sun Aug  3 21:01:39 +08 2025: [PID:15696] 📤 成功推送到遠端
+Sun Aug  3 21:01:39 +08 2025: [PID:15696] ✅ 同步完成
+Sun Aug  3 21:01:39 +08 2025: [PID:15696] 👀 開始監控文件變更...
+Sun Aug  3 21:02:39 +08 2025: [PID:15696] ⏰ 定期檢查
+Sun Aug  3 21:02:39 +08 2025: [PID:15696] 🚀 開始同步...
+Already on 'main'
+M	sync_single.log
+Your branch is up to date with 'origin/main'.
