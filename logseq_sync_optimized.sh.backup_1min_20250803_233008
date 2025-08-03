@@ -122,7 +122,7 @@ done &
 
 # 定期檢查（每5分鐘）作為備用
 while true; do
-    sleep 60  # 1分鐘
+    sleep 300  # 5分鐘
     log "⏰ 定期檢查"
     sync_repo
 done
