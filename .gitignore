@@ -1,6 +1,8 @@
 # Logseq 同步系統日誌文件
 sync.log
 sync.error.log
+launchd_stdout.log
+launchd_stderr.log
 sync_optimized.log
 sync_optimized.log.*
 logseq_unified.log
