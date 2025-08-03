@@ -5206,3 +5206,16 @@ M	logseq_unified.log
 M	sync_optimized.log
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
+[main f2394a42] Auto-sync: 2025-08-03 22:05:10
+ 2 files changed, 7 insertions(+)
+Sun Aug  3 22:05:10 +08 2025: [PID:2643] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Sun Aug  3 22:05:14 +08 2025: [PID:2643] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f2394a42ca3caaf137c0dfcbe4f4311a09a3662e but expected 07161e63e5e759b17e76b4d1a85dc31d379410d8)
+error: failed to push some refs to 'github.com:GengGeng026/Sync-Logseq.git'
+Sun Aug  3 22:05:17 +08 2025: [PID:2643] ⚠️ 推送失敗
+Sun Aug  3 22:05:17 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 22:05:17 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
