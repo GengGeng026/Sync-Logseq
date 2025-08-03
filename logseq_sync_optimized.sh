@@ -69,3 +69,77 @@ manage_log_size() {
         echo "$(date): [PID:$$] 日誌已輪換 $log_file，保留最後 $keep_lines 行" >> "$log_file"
     fi
 }
+
+# 第二部分：日誌記錄函數和同步函數
+log() {
+    echo "$(date): [PID:$$] $1" >> "$LOG_FILE"
+}
+
+sync_repo() {
+    manage_log_size "$LOG_FILE" 512 500 # 每次同步前管理日誌大小
+    log "🚀 開始同步..."
+    
+    # 清理 Git 鎖定文件
+    find .git -name "*.lock" -delete 2>/dev/null
+    
+    # 確保在 main 分支
+    git checkout main >> "$LOG_FILE" 2>&1
+    
+    # 添加所有變更
+    git add -A
+    
+    # 檢查是否有本地變更需要提交
+    if ! git diff --cached --quiet; then
+        git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
+        log "📝 本地變更已提交"
+    else
+        log "ℹ️ 沒有本地變更需要提交"
+    fi
+    
+    # 拉取遠端變更
+    log "📥 獲取遠端變更..."
+    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+        log "📥 成功拉取遠端變更"
+    else
+        log "⚠️ 拉取失敗，執行 git reset --hard HEAD" >> "$LOG_FILE"
+        git reset --hard HEAD >> "$LOG_FILE" 2>&1 # 失敗時重置到最新本地提交
+    fi
+    
+    # 推送到遠端，增強重試邏輯
+    log "📤 推送變更到遠端..."
+    local push_success=0
+    local push_retry_count=0
+    local max_push_retries=3 # 最多重試3次
+
+    while [ "$push_retry_count" -lt "$max_push_retries" ]; do
+        push_output=$(git push origin main 2>&1)
+        if [ $? -eq 0 ]; then
+            log "📤 成功推送到遠端"
+            push_success=1
+            break # 推送成功，跳出循環
+        else
+            log "⚠️ 推送失敗: $push_output"
+            push_retry_count=$((push_retry_count + 1))
+            
+            # 如果是 rejected (遠端有新變更)，則先 pull
+            if echo "$push_output" | grep -q "Updates were rejected"; then
+                log "🔄 檢測到推送被拒絕，執行 git pull..."
+                if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+                    log "📥 成功拉取遠端變更 (重試推送前)"
+                else
+                    log "❌ 重試拉取失敗，放棄本次推送重試。" >> "$LOG_FILE"
+                    break # 如果拉取失敗，則放棄本次推送重試
+                fi
+            else
+                # 其他推送失敗原因，短暫等待後重試
+                log "⚠️ 非拒絕式推送失敗，等待 5 秒後重試..."
+            fi
+            sleep 5 # 短暫等待後重試
+        fi
+    done
+
+    if [ "$push_success" -eq 0 ]; then
+        log "❌ 最終推送失敗，請手動檢查。"
+    fi
+    log "✅ 同步完成"
+}
