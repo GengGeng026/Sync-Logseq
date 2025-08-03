@@ -69,7 +69,6 @@ manage_log_size() {
         echo "$(date): [PID:$$] 日誌已輪換 $log_file，保留最後 $keep_lines 行" >> "$log_file"
     fi
 }
-
 # 第二部分：日誌記錄函數和同步函數
 log() {
     echo "$(date): [PID:$$] $1" >> "$LOG_FILE"
@@ -143,3 +142,85 @@ sync_repo() {
     fi
     log "✅ 同步完成"
 }
+# 第三部分：文件監控函數、定期檢查函數和主程序邏輯
+# 文件監控函數
+fswatch_monitor() {
+    log "👀 開始監控文件變更..."
+    # 使用 fswatch 持續監控
+    fswatch -r "$REPO_DIR" \
+        --exclude="\.git/" \
+        --exclude="\.log$" \
+        --exclude="\.lock$" \
+        --exclude="\.tmp$" \
+        --exclude="\.last_sync$" \
+        --latency=2 \
+        --one-per-batch | while read -r event; do
+        
+        log "📁 檢測到文件變更: $(echo "$event" | wc -l) 個文件"
+        # Debounce: 等待2秒，避免頻繁同步
+        sleep 2
+        sync_repo # 觸發同步
+    done
+}
+
+# 定期檢查函數
+periodic_check() {
+    log "⏰ 啟動定期檢查 (每1分鐘)..."
+    while true; do
+        sleep 60  # 1分鐘
+        log "⏰ 定期檢查觸發..."
+        sync_repo # 觸發同步
+        touch "$REPO_DIR/.last_sync" # 定期檢查時更新時間戳
+    done
+}
+
+# 主程序啟動子進程
+launch_subprocesses() {
+    log "啟動監控和定期檢查子進程..."
+    fswatch_monitor & # 文件監控放入後台
+    periodic_check & # 定期檢查放入後台
+    log "監控和定期檢查子進程已啟動。"
+}
+
+# 主程序開始
+log "🎯 啟動優化同步服務 (PID: $$)"
+sync_repo # 初始同步
+
+launch_subprocesses # 啟動監控和定期檢查子進程
+
+# 主進程保持運行，等待子進程 (確保 LaunchAgent 監控主進程)
+wait
+EOF
+
+# 3. 設置腳本權限
+chmod +x "$SCRIPT_FILE"
+
+# 4. 停止並重新載入 LaunchAgent 服務
+echo "🔄 停止並重新載入 LaunchAgent 服務..."
+launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist 2>/dev/null
+pkill -9 -f "logseq_sync_optimized.sh" 2>/dev/null || true
+rm -f "$REPO_DIR/.sync_lock" 2>/dev/null
+sleep 3
+launchctl load ~/Library/LaunchAgents/com.logseq.sync.plist
+
+# 5. 等待並驗證
+echo "⏳ 等待 5 秒讓服務啟動並驗證..."
+sleep 5
+
+echo ""
+echo "📊 **最終驗證結果：**"
+echo "----------------------"
+echo "進程狀態："
+ps aux | grep logseq_sync_optimized.sh | grep -v grep
+
+echo "LaunchAgent 狀態："
+launchctl list | grep com.logseq.sync
+
+echo "最新日誌 (應顯示新的啟動和監控信息)："
+tail -20 "$LOG_FILE"
+
+echo ""
+echo "=================================================================="
+echo "✅ **腳本更新並重新啟動完成！**"
+echo "   現在你的 Logseq 同步系統應該更穩定，並能自動處理推送被拒絕的情況。"
+echo "   請觀察日誌和實際同步情況。"
