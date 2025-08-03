@@ -1,14 +1,14 @@
 #!/bin/bash
-# 最終版 Logseq 同步腳本 - 支援自動啟動、日誌、遠端檢測與 Debounce
+# 最終版 Logseq 同步腳本 - 自動啟動、自動監聽、日誌、鎖檔、重置支援
 
-### 設定參數 ###
+### 參數設定 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
 LOG_FILE="$REPO_DIR/sync_optimized.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-PULL_INTERVAL=300  # 單位：秒（5 分鐘）
+PULL_INTERVAL=300  # 每 5 分鐘備援同步
 
-### 函數：日誌輪替 ###
+### 日誌輪替 ###
 manage_log_size() {
   local log_file="$1" max_kb="${2:-512}" keep_lines="${3:-500}"
   [ ! -f "$log_file" ] && return
@@ -23,20 +23,7 @@ manage_log_size() {
   fi
 }
 
-### 函數：是否需要拉取 ###
-needs_pull() {
-  git fetch origin main >> "$LOG_FILE" 2>&1
-  LOCAL_HASH=$(git rev-parse HEAD)
-  REMOTE_HASH=$(git rev-parse origin/main)
-  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
-    log "🌐 偵測到遠端有更新（$REMOTE_HASH ≠ $LOCAL_HASH）"
-    return 0
-  else
-    return 1
-  fi
-}
-
-### 鎖定防止重複執行 ###
+### 鎖檔機制 ###
 if [ -f "$LOCK_FILE" ]; then
   pid=$(cat "$LOCK_FILE")
   if kill -0 "$pid" 2>/dev/null; then
@@ -48,29 +35,26 @@ fi
 echo $$ > "$LOCK_FILE"
 trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
 
-### 設定環境與工作目錄 ###
+### 環境與工作目錄 ###
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
 
-### 函數：記錄日誌 ###
+### 日誌記錄函數 ###
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
 
-### 函數：同步邏輯 ###
+### 同步函數 ###
 sync_repo() {
   log "🎯 開始同步"
 
-  # 清除 Git lock
   find .git -name "*.lock" -delete 2>/dev/null
   git checkout main >> "$LOG_FILE" 2>&1
 
-  # 暫存並提交
   git add -A
   if ! git diff --cached --quiet; then
     git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
     log "📝 本地變更已提交"
   fi
 
-  # 獨立 fetch 檢查 upstream 是否有變更
   git fetch origin main >> "$LOG_FILE" 2>&1
   LOCAL_HASH=$(git rev-parse HEAD)
   REMOTE_HASH=$(git rev-parse origin/main)
@@ -82,7 +66,6 @@ sync_repo() {
     log "🚫 無遠端更新，略過 pull"
   fi
 
-  # 推送
   if git push origin main >> "$LOG_FILE" 2>&1; then
     log "📤 成功推送遠端"
   else
@@ -93,14 +76,13 @@ sync_repo() {
   log "✅ 同步完成"
 }
 
-
-### 啟動日誌管理與初次同步 ###
+### 啟動紀錄 ###
 manage_log_size "$LOG_FILE" 512 500
 log "🚀 啟動同步服務"
 sync_repo
 touch "$LAST_SYNC_TS"
 
-### fswatch 檔案監控（本地變更觸發）###
+### fswatch 檔案監控 ###
 fswatch -r "$REPO_DIR" \
   --exclude="\.git/" \
   --exclude="\.log$" \
@@ -108,14 +90,14 @@ fswatch -r "$REPO_DIR" \
   --latency=2 | while read -r ev; do
     sleep 2
     if [ -n "$(find "$REPO_DIR" -newer "$LAST_SYNC_TS" | head -1)" ]; then
-      log "📁 偵測到本地變更: $ev"
+      log "📁 檢測到變更: $ev"
       sync_repo
     fi
-done &
+  done &
 
-### 定時遠端檢查（遠端變更觸發）###
+### 備援輪詢 ###
 while true; do
   sleep "$PULL_INTERVAL"
-  log "⏰ 定期檢查遠端"
+  log "⏰ 定期檢查"
   sync_repo
 done
