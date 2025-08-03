@@ -983,3 +983,9 @@ Your branch is up to date with 'origin/main'.
 [main f918e754] Auto-sync: 2025-08-03 21:25:54
  2 files changed, 15 insertions(+)
 Sun Aug  3 21:25:54 +08 2025: [PID:2643] 📝 本地變更已提交
+To github.com:GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 31a16483d8ce8c9f17fae8801f856a9f04a62395 but expected c68bb4329f54199b360eec8d01f07d0d1d55c8f4)
+error: failed to push some refs to 'github.com:GengGeng026/Sync-Logseq.git'
+Sun Aug  3 21:26:01 +08 2025: [PID:2643] ⚠️ 推送失敗
+Sun Aug  3 21:26:01 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 21:26:01 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
