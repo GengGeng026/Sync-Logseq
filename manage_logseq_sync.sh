@@ -9,14 +9,16 @@ SYNC_SCRIPT="$HOME/Documents/Sync-Logseq/logseq_sync.sh"
 case "$1" in
     "start")
         echo "🚀 啟動 Logseq 同步服務..."
-        launchctl bootstrap gui/$(id -u) "$PLIST_FILE" 2>/dev/null || echo "服務可能已在運行"
+        launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.user.logseq.unified.plist 2>/dev/null || echo "服務可能已在運行"
+        cd ~/Documents/Sync-Logseq && ./logseq_unified.sh start
         echo "✅ 啟動完成"
         ;;
     "stop")
         echo "🛑 停止 Logseq 同步服務..."
-        launchctl bootout gui/$(id -u) "$PLIST_FILE" 2>/dev/null || true
-        pkill -f "logseq_daemon.sh" 2>/dev/null || true
-        pkill -f "logseq_sync.sh" 2>/dev/null || true
+        launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.user.logseq.unified.plist 2>/dev/null || true
+        pkill -f "logseq_unified\.sh daemon" 2>/dev/null || true
+        pkill -f "logseq_unified\.sh sync" 2>/dev/null || true
+        pkill -f "fswatch.*Sync-Logseq" 2>/dev/null || true
         echo "✅ 停止完成"
         ;;
     "restart")
