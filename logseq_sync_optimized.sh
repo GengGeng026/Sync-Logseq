@@ -57,6 +57,7 @@ needs_pull() {
 ### 同步函數 ###
 sync_repo() {
   log "🎯 開始同步"
+
   find .git -name "*.lock" -delete 2>/dev/null
   git checkout main >> "$LOG_FILE" 2>&1
 
@@ -66,12 +67,15 @@ sync_repo() {
     log "📝 本地變更已提交"
   fi
 
-  if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
-    log "📥 成功拉取遠端"
+  if needs_pull; then
+    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+      log "📥 成功拉取遠端"
+    else
+      log "⚠️ 拉取失敗，執行硬重置"
+      git reset --hard origin/main >> "$LOG_FILE" 2>&1
+    fi
   else
-    log "⚠️ 拉取失敗，執行硬重置"
-    git fetch --all >> "$LOG_FILE" 2>&1
-    git reset --hard origin/main >> "$LOG_FILE" 2>&1
+    log "🚫 無遠端更新，略過 pull"
   fi
 
   if git push origin main >> "$LOG_FILE" 2>&1; then
@@ -83,6 +87,7 @@ sync_repo() {
   date +%s > "$LAST_SYNC_TS"
   log "✅ 同步完成"
 }
+
 
 # 初始化日誌輪替
 manage_log_size "$LOG_FILE" 512 500
