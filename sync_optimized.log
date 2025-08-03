@@ -2424,3 +2424,16 @@ Your branch is up to date with 'origin/main'.
 [main 39c8e3ed] Auto-sync: 2025-08-03 21:39:25
  2 files changed, 15 insertions(+)
 Sun Aug  3 21:39:25 +08 2025: [PID:2643] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 39c8e3ed273b76a73517ea694fe118c4ed4985c6.
+Already up to date.
+Sun Aug  3 21:39:28 +08 2025: [PID:2643] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 86cfbd0371c7f06eed22905c2a4ee70315226c1f but expected abababbc57742df84d215be4bbc0ccc7f0bf11a5)
+error: failed to push some refs to 'github.com:GengGeng026/Sync-Logseq.git'
+Sun Aug  3 21:39:31 +08 2025: [PID:2643] ⚠️ 推送失敗
+Sun Aug  3 21:39:31 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 21:39:31 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
