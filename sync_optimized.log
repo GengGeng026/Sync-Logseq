@@ -2608,3 +2608,23 @@ Already on 'main'
 M	logseq_unified.log
 M	sync_optimized.log
 Your branch is up to date with 'origin/main'.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logseq_unified.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Sun Aug  3 21:41:02 +08 2025: [PID:2643] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Sun Aug  3 21:41:05 +08 2025: [PID:2643] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+   ce24d36f..8e769365  main -> main
+Sun Aug  3 21:41:09 +08 2025: [PID:2643] 📤 成功推送到遠端
+Sun Aug  3 21:41:09 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 21:41:09 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
