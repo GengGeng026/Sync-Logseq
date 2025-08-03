@@ -79,6 +79,18 @@ log "🚀 啟動同步服務"
 # 建立 .last_sync 檔（若不存在）
 [ -f "$LAST_SYNC_TS" ] || touch "$LAST_SYNC_TS"
 
+needs_pull() {
+  git fetch origin main >> "$LOG_FILE" 2>&1
+  LOCAL_HASH=$(git rev-parse HEAD)
+  REMOTE_HASH=$(git rev-parse origin/main)
+  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
+    log "🌐 偵測到遠端有更新（$REMOTE_HASH ≠ $LOCAL_HASH）"
+    return 0
+  else
+    return 1
+  fi
+}
+
 # 初始同步
 sync_repo
 
