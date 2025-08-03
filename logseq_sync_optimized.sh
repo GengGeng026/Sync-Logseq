@@ -1,4 +1,29 @@
 #!/bin/bash
+# 優化版 Logseq 同步腳本 - 帶日誌管理
+
+# 日誌管理函數
+manage_log_size() {
+    local log_file="$1"
+    local max_size_kb="${2:-512}"
+    local keep_lines="${3:-500}"
+    
+    if [ ! -f "$log_file" ]; then
+        return 0
+    fi
+    
+    local size=$(stat -f%z "$log_file" 2>/dev/null || stat -c%s "$log_file" 2>/dev/null)
+    local size_kb=$((size / 1024))
+    
+    if [ "$size_kb" -gt "$max_size_kb" ]; then
+        local timestamp=$(date +"%Y%m%d_%H%M%S")
+        cp "$log_file" "${log_file}.${timestamp}"
+        tail -"$keep_lines" "$log_file" > "${log_file}.tmp"
+        mv "${log_file}.tmp" "$log_file"
+        ls -t "${log_file}".* 2>/dev/null | tail -n +4 | xargs rm -f 2>/dev/null
+        echo "$(date): 日誌已輪換，保留最後 $keep_lines 行" >> "$log_file"
+    fi
+}
+
 # 優化版 Logseq 同步腳本 - 快速響應
 
 LOCK_FILE="/Users/mac/Documents/Sync-Logseq/.sync_lock"
@@ -67,6 +92,7 @@ sync_repo() {
 }
 
 # 主程序
+manage_log_size "$LOG_FILE" 512 500
 log "🎯 啟動優化同步服務 (PID: $$)"
 sync_repo
 
