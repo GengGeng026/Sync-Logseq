@@ -61,18 +61,18 @@ manage_log_size() {
     fi
 }
 log() {
-    echo "$(date): [PID:$$] $1" >> "$LOG_FILE"
+    echo "$(date): [PID:$$] $1" >> "\$LOG_FILE"
 }
 
 sync_repo() {
-    manage_log_size "$LOG_FILE" 512 500 # 每次同步前管理日誌大小
+    manage_log_size "\$LOG_FILE" 512 500 # 每次同步前管理日誌大小
     log "🚀 開始同步..."
     
     # 清理 Git 鎖定文件
     find .git -name "*.lock" -delete 2>/dev/null
     
     # 確保在 main 分支
-    git checkout main >> "$LOG_FILE" 2>&1
+    git checkout main >> "\$LOG_FILE" 2>&1
     
     # 添加所有變更
     git add -A
@@ -87,11 +87,11 @@ sync_repo() {
     
     # 拉取遠端變更
     log "📥 獲取遠端變更..."
-    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+    if git pull origin main --no-edit >> "\$LOG_FILE" 2>&1; then
         log "📥 成功拉取遠端變更"
     else
-        log "⚠️ 拉取失敗，執行 git reset --hard HEAD"
-        git reset --hard HEAD >> "$LOG_FILE" 2>&1 # 失敗時重置到最新本地提交
+        log "⚠️ 拉取失敗，執行 git reset --hard HEAD" >> "\$LOG_FILE"
+        git reset --hard HEAD >> "\$LOG_FILE" 2>&1 # 失敗時重置到最新本地提交
     fi
     
     # 推送到遠端，增強重試邏輯
@@ -101,22 +101,22 @@ sync_repo() {
     local max_push_retries=3 # 最多重試3次
 
     while [ "$push_retry_count" -lt "$max_push_retries" ]; do
-        push_output=$(git push origin main 2>&1)
-        if [ $? -eq 0 ]; then
+        push_output=\$(git push origin main 2>&1)
+        if [ \$? -eq 0 ]; then
             log "📤 成功推送到遠端"
             push_success=1
             break # 推送成功，跳出循環
         else
-            log "⚠️ 推送失敗: $push_output"
-            push_retry_count=$((push_retry_count + 1))
+            log "⚠️ 推送失敗: \$push_output"
+            push_retry_count=\$((push_retry_count + 1))
             
             # 如果是 rejected (遠端有新變更)，則先 pull
-            if echo "$push_output" | grep -q "Updates were rejected"; then
+            if echo "\$push_output" | grep -q "Updates were rejected"; then
                 log "🔄 檢測到推送被拒絕，執行 git pull..."
-                if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+                if git pull origin main --no-edit >> "\$LOG_FILE" 2>&1; then
                     log "📥 成功拉取遠端變更 (重試推送前)"
                 else
-                    log "❌ 重試拉取失敗，放棄本次推送重試。"
+                    log "❌ 重試拉取失敗，放棄本次推送重試。" >> "\$LOG_FILE"
                     break # 如果拉取失敗，則放棄本次推送重試
                 fi
             else
@@ -127,7 +127,7 @@ sync_repo() {
         fi
     done
 
-    if [ "$push_success" -eq 0 ]; then
+    if [ "\$push_success" -eq 0 ]; then
         log "❌ 最終推送失敗，請手動檢查。"
     fi
     log "✅ 同步完成"
