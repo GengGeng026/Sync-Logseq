@@ -1,13 +1,4 @@
 #!/bin/bash
-
-# 1. 備份當前腳本
-REPO_DIR="/Users/mac/Documents/Sync-Logseq"
-SCRIPT_FILE="$REPO_DIR/logseq_sync_optimized.sh"
-cp "$SCRIPT_FILE" "${SCRIPT_FILE}.backup_final_fix_$(date +%Y%m%d_%H%M%S)"
-
-# 2. 創建新的優化版腳本內容 (第一部分)
-cat > "$SCRIPT_FILE" << 'EOF'
-#!/bin/bash
 # 優化版 Logseq 同步腳本 - 徹底解決方案
 # 解決 fswatch 自我觸發、push rejected 自動處理、穩定後台運行
 
@@ -69,6 +60,7 @@ manage_log_size() {
         echo "$(date): [PID:$$] 日誌已輪換 $log_file，保留最後 $keep_lines 行" >> "$log_file"
     fi
 }
+
 # 第二部分：日誌記錄函數和同步函數
 log() {
     echo "$(date): [PID:$$] $1" >> "$LOG_FILE"
@@ -142,6 +134,7 @@ sync_repo() {
     fi
     log "✅ 同步完成"
 }
+
 # 第三部分：文件監控函數、定期檢查函數和主程序邏輯
 # 文件監控函數
 fswatch_monitor() {
@@ -190,4 +183,3 @@ launch_subprocesses # 啟動監控和定期檢查子進程
 
 # 主進程保持運行，等待子進程 (確保 LaunchAgent 監控主進程)
 wait
-EOF
