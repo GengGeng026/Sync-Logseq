@@ -7,3 +7,9 @@ M	logseq_unified.log
 M	sync_single.log
 M	update_to_optimized.sh
 Your branch is up to date with 'origin/main'.
+[main 43e1cd97] Auto-sync: 2025-08-03 21:15:53
+ 6 files changed, 22 insertions(+), 1 deletion(-)
+ mode change 100644 => 100755 logseq_sync_optimized.sh
+ create mode 100644 sync_optimized.log
+ mode change 100644 => 100755 update_to_optimized.sh
+Sun Aug  3 21:15:53 +08 2025: [PID:2643] 📝 本地變更已提交
