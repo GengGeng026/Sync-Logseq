@@ -191,36 +191,3 @@ launch_subprocesses # 啟動監控和定期檢查子進程
 # 主進程保持運行，等待子進程 (確保 LaunchAgent 監控主進程)
 wait
 EOF
-
-# 3. 設置腳本權限
-chmod +x "$SCRIPT_FILE"
-
-# 4. 停止並重新載入 LaunchAgent 服務
-echo "🔄 停止並重新載入 LaunchAgent 服務..."
-launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist 2>/dev/null
-pkill -9 -f "logseq_sync_optimized.sh" 2>/dev/null || true
-rm -f "$REPO_DIR/.sync_lock" 2>/dev/null
-sleep 3
-launchctl load ~/Library/LaunchAgents/com.logseq.sync.plist
-
-# 5. 等待並驗證
-echo "⏳ 等待 5 秒讓服務啟動並驗證..."
-sleep 5
-
-echo ""
-echo "📊 **最終驗證結果：**"
-echo "----------------------"
-echo "進程狀態："
-ps aux | grep logseq_sync_optimized.sh | grep -v grep
-
-echo "LaunchAgent 狀態："
-launchctl list | grep com.logseq.sync
-
-echo "最新日誌 (應顯示新的啟動和監控信息)："
-tail -20 "$LOG_FILE"
-
-echo ""
-echo "=================================================================="
-echo "✅ **腳本更新並重新啟動完成！**"
-echo "   現在你的 Logseq 同步系統應該更穩定，並能自動處理推送被拒絕的情況。"
-echo "   請觀察日誌和實際同步情況。"
