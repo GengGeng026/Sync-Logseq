@@ -5354,3 +5354,17 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+Sun Aug  3 22:06:31 +08 2025: [PID:2643] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 187698044bed8557beeecccb5a6a4cc074c469a1.
+Already up to date.
+Sun Aug  3 22:06:34 +08 2025: [PID:2643] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 604435c114218bdc498841b1107191b845014355 but expected 187698044bed8557beeecccb5a6a4cc074c469a1)
+error: failed to push some refs to 'github.com:GengGeng026/Sync-Logseq.git'
+Sun Aug  3 22:06:37 +08 2025: [PID:2643] ⚠️ 推送失敗
+Sun Aug  3 22:06:38 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 22:06:38 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
