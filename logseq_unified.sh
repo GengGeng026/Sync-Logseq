@@ -22,12 +22,12 @@ log() {
 
 # 檢查是否已有同步進程在運行
 is_sync_running() {
-    pgrep -f "logseq_unified.sh.*sync" > /dev/null
+    pgrep -f "logseq_unified\.sh sync" > /dev/null
 }
 
 # 檢查是否已有守護進程在運行
 is_daemon_running() {
-    pgrep -f "logseq_unified.sh.*daemon" > /dev/null
+    pgrep -f "logseq_unified\.sh daemon" > /dev/null
 }
 
 # 清理函數
@@ -202,10 +202,10 @@ stop_all() {
     log "🛑 停止所有 Logseq 同步服務..."
     
     # 停止守護進程
-    pkill -f "logseq_unified.sh.*daemon" 2>/dev/null || true
+    pkill -f "logseq_unified\.sh daemon" 2>/dev/null || true
     
     # 停止同步進程
-    pkill -f "logseq_unified.sh.*sync" 2>/dev/null || true
+    pkill -f "logseq_unified\.sh sync" 2>/dev/null || true
     
     # 停止文件監控
     pkill -f "fswatch.*Sync-Logseq" 2>/dev/null || true
