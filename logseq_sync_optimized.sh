@@ -58,26 +58,31 @@ log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
 ### 函數：同步邏輯 ###
 sync_repo() {
   log "🎯 開始同步"
+
+  # 清除 Git lock
   find .git -name "*.lock" -delete 2>/dev/null
   git checkout main >> "$LOG_FILE" 2>&1
 
+  # 暫存並提交
   git add -A
   if ! git diff --cached --quiet; then
     git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
     log "📝 本地變更已提交"
   fi
 
-  if needs_pull; then
-    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
-      log "📥 成功拉取遠端"
-    else
-      log "⚠️ 拉取失敗，執行硬重置"
-      git reset --hard origin/main >> "$LOG_FILE" 2>&1
-    fi
+  # 獨立 fetch 檢查 upstream 是否有變更
+  git fetch origin main >> "$LOG_FILE" 2>&1
+  LOCAL_HASH=$(git rev-parse HEAD)
+  REMOTE_HASH=$(git rev-parse origin/main)
+
+  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
+    log "📥 偵測到遠端有更新，執行 reset --hard"
+    git reset --hard origin/main >> "$LOG_FILE" 2>&1
   else
     log "🚫 無遠端更新，略過 pull"
   fi
 
+  # 推送
   if git push origin main >> "$LOG_FILE" 2>&1; then
     log "📤 成功推送遠端"
   else
@@ -87,6 +92,7 @@ sync_repo() {
   date +%s > "$LAST_SYNC_TS"
   log "✅ 同步完成"
 }
+
 
 ### 啟動日誌管理與初次同步 ###
 manage_log_size "$LOG_FILE" 512 500
