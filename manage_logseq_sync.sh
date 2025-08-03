@@ -32,15 +32,16 @@ case "$1" in
         launchctl list | grep logseq || echo "❌ LaunchAgent 未運行"
         echo ""
         echo "進程狀態："
-        if pgrep -f "logseq_daemon.sh" > /dev/null; then
+        if pgrep -f "logseq_unified\.sh daemon" > /dev/null; then
             echo "✅ 守護進程運行中"
+            echo "進程PID: $(pgrep -f "logseq_unified\.sh daemon")"
         else
             echo "❌ 守護進程未運行"
         fi
         
-        if pgrep -f "logseq_sync.sh" > /dev/null; then
+        if pgrep -f "logseq_unified\.sh sync" > /dev/null; then
             echo "✅ 同步腳本運行中"
-            echo "進程數量: $(pgrep -f "logseq_sync.sh" | wc -l)"
+            echo "進程PID: $(pgrep -f "logseq_unified\.sh sync")"
         else
             echo "❌ 同步腳本未運行"
         fi
