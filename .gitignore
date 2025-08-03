@@ -1,50 +1,65 @@
+# Logseq 同步系統日誌文件
 sync.log
 sync.error.log
+sync_optimized.log
+sync_optimized.log.*
+logseq_unified.log
+logseq_unified.log.*
+*.log
+*.log.*
 
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# 同步系統文件
+.last_sync
+.sync_lock
 
+# 備份和臨時文件
+cleanup_backup_*
+backup_old_scripts/
+*.backup
+*.tmp
+*.bak
+
+# 腳本生成的臨時文件
+*.sh.tmp
+test_*.txt
+tmp_*.md
+
+# macOS 系統文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Logseq 內部文件
 logseq/bak/
 logseq/.recycle
 
-# dependencies
+# 開發相關
 /node_modules
 /.pnp
 .pnp.js
-
-# testing
 /coverage
-
-# production
 /build
 build/
-
-# misc
 .history
-.DS_Store
+.vscode/
+
+# 環境配置
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+*config.json
 
+# 日誌輪換文件
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-sync_log.txt*
-sync_stdout.log*
-sync_stderr.log*
 
-# 臨時文件
-.last_sync
-Thumbs.db
-
-# 編輯器歷史和配置
-.vscode/
-
-# 敏感配置
-.env
-*config.json
-
-# 大型媒體文件（根據需要調整）
+# 大型媒體文件（可根據需要取消註釋）
 # *.mp4
 # *.mov
 # *.psd
+# *.zip
+# *.tar.gz
