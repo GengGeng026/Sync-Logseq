@@ -1034,3 +1034,16 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[main fb492b40] Auto-sync: 2025-08-03 21:26:20
+ 2 files changed, 18 insertions(+)
+Sun Aug  3 21:26:21 +08 2025: [PID:2643] 📝 本地變更已提交
+From github.com:GengGeng026/Sync-Logseq
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+Sun Aug  3 21:26:24 +08 2025: [PID:2643] 📥 成功拉取遠端變更
+To github.com:GengGeng026/Sync-Logseq.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at fb492b40f36e98e31c23d48d7bed427ed0ce53ff but expected 91e8ad18ec8af7badb1373a6f5d43781c22b7ba1)
+error: failed to push some refs to 'github.com:GengGeng026/Sync-Logseq.git'
+Sun Aug  3 21:26:27 +08 2025: [PID:2643] ⚠️ 推送失敗
+Sun Aug  3 21:26:27 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 21:26:27 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
