@@ -48,9 +48,34 @@ Sync-Logseq/
 └── README.md                   # 本文檔
 ```
 
-## 🚀 快速開始
+## 📊 當前運行狀態
 
-### 1. 檢查服務狀態
+```bash
+# 檢查服務狀態
+~/Documents/Sync-Logseq/manage_logseq_sync.sh status
+
+# 預期輸出：
+# 📊 Logseq 同步服務狀態：
+# LaunchAgent 狀態：
+# -	0	com.user.logseq.unified
+# 進程狀態：
+# ✅ 守護進程運行中
+# 進程PID: 4136
+# ✅ 同步腳本運行中
+# 進程PID: 4150
+```
+
+## 🔧 故障排除
+
+### ✅ 已解決的問題
+
+#### 問題：重啟系統後終端啟動失效 (2025-08-03 已修復)
+- **症狀**：系統重啟後手動打開終端也沒有自動啟動服務
+- **原因**：`.zshrc` 中的備用啟動機制文件路徑和進程檢測錯誤
+- **解決**：已修復文件路徑和進程檢測邏輯
+- **驗證**：✅ 新開終端會自動檢測並啟動服務
+
+### 常見問題
 ```bash
 cd /Users/mac/Documents/Sync-Logseq
 ./logseq_unified.sh status
