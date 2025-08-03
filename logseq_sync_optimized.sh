@@ -1,14 +1,18 @@
 #!/bin/bash
-# Logseq 同步腳本：自動輪詢 + fswatch 監控 + 日誌管理 + 錯誤修復
+# 最新最完整 Logseq Git 同步腳本 with 遠端偵測支援
 
-### 參數設定 ###
+### 基本設定 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
 LOG_FILE="$REPO_DIR/sync_optimized.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-PULL_INTERVAL=300
+PULL_INTERVAL=300   # 5 分鐘
 
-### 日誌輪替 ###
+### 路徑與環境 ###
+export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
+cd "$REPO_DIR" || exit 1
+
+### 管理 log 大小 ###
 manage_log_size() {
   local log_file="$1" max_kb="${2:-512}" keep_lines="${3:-500}"
   [ ! -f "$log_file" ] && return
@@ -19,42 +23,39 @@ manage_log_size() {
     tail -n "$keep_lines" "$log_file" > "${log_file}.tmp"
     mv "${log_file}.tmp" "$log_file"
     ls -t "${log_file}".* 2>/dev/null | tail -n +4 | xargs rm -f 2>/dev/null
-    echo "$(date): 日誌已輪替，保留最後 $keep_lines 行" >> "$log_file"
+    echo "$(date): 日誌已輪替" >> "$log_file"
   fi
 }
+
+log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
 
 ### 鎖檔 ###
 if [ -f "$LOCK_FILE" ]; then
   pid=$(cat "$LOCK_FILE")
-  if kill -0 "$pid" 2>/dev/null; then exit 0
-  else rm -f "$LOCK_FILE"
-  fi
+  if kill -0 "$pid" 2>/dev/null; then exit 0; else rm -f "$LOCK_FILE"; fi
 fi
 echo $$ > "$LOCK_FILE"
 trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
-cd "$REPO_DIR" || exit 1
-
-log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
-
+### 核心同步函數 ###
 sync_repo() {
   log "🎯 開始同步"
+
   find .git -name "*.lock" -delete 2>/dev/null
   git checkout main >> "$LOG_FILE" 2>&1
-  git fetch origin >> "$LOG_FILE" 2>&1
 
-  LOCAL_HASH=$(git rev-parse main)
-  REMOTE_HASH=$(git rev-parse origin/main)
-  log "🧭 本地 HEAD: $LOCAL_HASH"
-  log "🌐 遠端 HEAD: $REMOTE_HASH"
+  # 拉取前先比對遠端 HEAD
+  local local_head=$(git rev-parse HEAD)
+  local remote_head=$(git ls-remote origin -h refs/heads/main | cut -f1)
 
-  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
-    log "📥 偵測遠端更新，執行 pull"
+  log "🧭 本地 HEAD: $local_head"
+  log "🌐 遠端 HEAD: $remote_head"
+
+  if [ "$local_head" != "$remote_head" ]; then
     if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
-      log "✅ 拉取完成"
+      log "📥 成功拉取遠端"
     else
-      log "⚠️ 拉取失敗，執行硬重置"
+      log "⚠️ 拉取失敗，執行 hard reset"
       git fetch --all >> "$LOG_FILE" 2>&1
       git reset --hard origin/main >> "$LOG_FILE" 2>&1
     fi
@@ -78,12 +79,13 @@ sync_repo() {
   log "✅ 同步完成"
 }
 
+### 啟動 ###
 manage_log_size "$LOG_FILE" 512 500
 log "🚀 啟動同步服務"
-
 sync_repo
 touch "$LAST_SYNC_TS"
 
+# 即時監控檔案變更
 fswatch -r "$REPO_DIR" \
   --exclude="\.git/" \
   --exclude="\.log$" \
@@ -96,6 +98,7 @@ fswatch -r "$REPO_DIR" \
     fi
   done &
 
+# 每五分鐘定時拉取遠端
 while true; do
   sleep "$PULL_INTERVAL"
   sync_repo
