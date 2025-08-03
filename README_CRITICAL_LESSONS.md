@@ -2,6 +2,53 @@
 
 > **目的**: 記錄實現自動復活功能的核心技能和邏輯，確保每次都能理解並重建系統
 
+## 🚨 最新修復記錄 (2025-08-03)
+
+### 問題：重啟系統後終端啟動失效
+**症狀**：系統重啟後，即使手動打開終端也沒有自動啟動 Logseq 同步服務
+
+**根本原因分析**：
+1. **文件路徑錯誤**：`.zshrc` 中尋找不存在的 `start_logseq_sync.sh` 文件
+2. **進程檢測錯誤**：檢查 `logseq_sync.sh` 而非實際運行的 `logseq_unified.sh`
+3. **狀態檢查不一致**：`manage_logseq_sync.sh` 也有同樣的進程檢測問題
+
+**修復方案**：
+```bash
+# .zshrc 修復前：
+if [ -f "/Users/mac/Documents/Sync-Logseq/start_logseq_sync.sh" ]; then
+    if ! pgrep -f "logseq_sync.sh" > /dev/null; then
+        cd "/Users/mac/Documents/Sync-Logseq" && nohup ./start_logseq_sync.sh > /dev/null 2>&1 &
+    fi
+fi
+
+# .zshrc 修復後：
+if [ -f "/Users/mac/Documents/Sync-Logseq/logseq_unified.sh" ]; then
+    if ! pgrep -f "logseq_unified\.sh daemon" > /dev/null; then
+        echo "🚀 启动 Logseq 同步服务..."
+        cd "/Users/mac/Documents/Sync-Logseq" && nohup ./logseq_unified.sh start > /dev/null 2>&1 &
+        sleep 1
+    fi
+fi
+```
+
+**關鍵修復點**：
+- ✅ 修正文件路徑：`start_logseq_sync.sh` → `logseq_unified.sh`
+- ✅ 修正進程檢測：`logseq_sync.sh` → `logseq_unified\.sh daemon`
+- ✅ 修正 `manage_logseq_sync.sh` 狀態檢查邏輯
+- ✅ 添加適當的延遲確保服務穩定啟動
+
+**驗證測試結果**：
+- ✅ 停止所有服務後，新開終端自動啟動同步服務
+- ✅ 狀態檢查正確顯示運行中的進程 (PID: 4136, 4150)
+- ✅ 多層保障機制正常工作
+
+**經驗教訓**：
+1. **一致性檢查**：所有腳本中的文件路徑和進程名稱必須保持一致
+2. **測試驗證**：每次修改後都要進行完整的停止→啟動測試
+3. **進程檢測精確性**：使用正確的正則表達式匹配進程名稱
+
+---
+
 ## 🏆 成功實現的核心技能
 
 ### 1. **統一腳本架構設計** 🎨
