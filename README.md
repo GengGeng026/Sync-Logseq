@@ -1,12 +1,184 @@
-# 自動同步腳本
+# Logseq 統一自動同步系統
 
-## 使用方法
+這個倉庫包含了 Logseq 筆記的統一自動同步解決方案，使用單一腳本實現完整的自動復活功能。
 
-```bash
-chmod +x ./pre-commit && chmod +x ./post-commit
+## 🎯 核心特點
+
+- 🔄 **統一腳本**: 單一 `logseq_unified.sh` 替代多腳本架構
+- 🛡️ **自動復活**: 守護進程確保服務永不中斷
+- 📤 **智能同步**: 自動監控文件變化並同步到 GitHub
+- 🔧 **智能衝突處理**: 自動解決 Git 合併衝突
+- 📱 **多設備支援**: macOS + iOS 無縫同步
+- 🚀 **開機自啟**: LaunchAgent 確保系統重啟後自動運行
+
+## 📁 文件結構
+
+```
+Sync-Logseq/
+├── logseq_unified.sh           # 🌟 統一腳本（核心）
+├── com.user.logseq.unified.plist  # LaunchAgent 配置
+├── logseq_unified.log          # 統一日誌文件
+├── backup_old_scripts/         # 舊腳本備份
+│   ├── logseq_daemon.sh        # (已棄用)
+│   └── start_logseq_sync.sh    # (已棄用)
+├── logseq_sync.sh              # 原同步腳本（保留作參考）
+└── README.md                   # 本文檔
 ```
 
-<br><br>
+## 🚀 快速開始
+
+### 1. 檢查服務狀態
+```bash
+cd /Users/mac/Documents/Sync-Logseq
+./logseq_unified.sh status
+```
+
+### 2. 控制服務
+```bash
+./logseq_unified.sh start     # 智能啟動
+./logseq_unified.sh stop      # 停止所有服務
+./logseq_unified.sh restart   # 重啟服務
+./logseq_unified.sh daemon    # 手動啟動守護進程
+./logseq_unified.sh sync      # 手動啟動同步服務
+```
+
+### 3. 查看幫助
+```bash
+./logseq_unified.sh help
+```
+
+## 🔧 自動啟動配置
+
+### LaunchAgent 設置
+```bash
+# 安裝 LaunchAgent（已完成）
+cp com.user.logseq.unified.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.user.logseq.unified.plist
+
+# 檢查 LaunchAgent 狀態
+launchctl list | grep logseq
+```
+
+### 開機自啟流程
+1. **系統開機** → LaunchAgent 自動執行
+2. **智能啟動** → `logseq_unified.sh start`
+3. **守護進程** → 監控同步服務狀態
+4. **同步服務** → 文件監控 + Git 同步
+5. **自動恢復** → 任何中斷都會自動重啟
+
+## 📊 監控與日誌
+
+### 主要日誌文件
+- `logseq_unified.log` - 統一日誌（所有操作記錄）
+- `launchagent_unified.log` - LaunchAgent 輸出日誌
+
+### 實時監控
+```bash
+# 查看實時日誌
+tail -f logseq_unified.log
+
+# 查看最近狀態
+./logseq_unified.sh status
+
+# 檢查進程
+ps aux | grep logseq_unified
+```
+
+## 🛠️ 故障排除
+
+### 常見問題解決
+```bash
+# 1. 服務無響應
+./logseq_unified.sh stop
+./logseq_unified.sh start
+
+# 2. LaunchAgent 問題
+launchctl unload ~/Library/LaunchAgents/com.user.logseq.unified.plist
+launchctl load ~/Library/LaunchAgents/com.user.logseq.unified.plist
+
+# 3. 檢查文件監控
+ps aux | grep fswatch
+
+# 4. 清理並重啟
+./logseq_unified.sh restart
+```
+
+### 診斷命令
+```bash
+# 檢查所有相關進程
+ps aux | grep -E "(logseq|fswatch)" | grep -v grep
+
+# 檢查 LaunchAgent 狀態
+launchctl print gui/$(id -u)/com.user.logseq.unified
+
+# 查看詳細日誌
+tail -50 logseq_unified.log
+```
+
+## 🔄 技術架構
+
+### 統一腳本模式
+```
+logseq_unified.sh
+├── daemon 模式    # 守護進程，每30秒檢查服務狀態
+├── sync 模式      # 同步服務，文件監控 + Git 操作
+├── start 模式     # 智能啟動，自動選擇最佳啟動方式
+├── stop 模式      # 停止所有相關進程
+└── status 模式    # 顯示詳細運行狀態
+```
+
+### 自動復活機制
+1. **LaunchAgent 層**: 系統級別的服務保障
+2. **守護進程層**: 應用級別的監控重啟
+3. **同步服務層**: 實際的文件監控和 Git 操作
+4. **錯誤恢復層**: 自動清理和故障恢復
+
+### 同步流程
+1. **文件監控**: fswatch 實時監控目錄變化
+2. **變更檢測**: 檢測到文件修改立即觸發
+3. **Git 操作**: 自動 add → commit → pull → merge → push
+4. **衝突處理**: 智能解決合併衝突
+5. **狀態記錄**: 詳細日誌記錄所有操作
+
+## 📋 維護指南
+
+### 定期檢查
+```bash
+# 每週檢查一次服務狀態
+./logseq_unified.sh status
+
+# 每月清理一次日誌（自動輪換，無需手動）
+# 日誌超過 512KB 時自動保留最後 500 行
+```
+
+### 更新配置
+```bash
+# 修改同步間隔（編輯腳本中的 SYNC_INTERVAL 變數）
+vim logseq_unified.sh
+
+# 重啟服務使配置生效
+./logseq_unified.sh restart
+```
+
+## ⚠️ 重要注意事項
+
+- ✅ Git 用戶名和郵箱已正確配置
+- ✅ GitHub 倉庫推送權限已設置
+- ✅ fswatch 已通過 Homebrew 安裝
+- ✅ 工作目錄路徑: `/Users/mac/Documents/Sync-Logseq`
+- ✅ 統一腳本已替代舊的三腳本架構
+
+## 🎉 成功指標
+
+當系統正常運行時，你會看到：
+- 🛡️ 守護進程: ✅ 運行中
+- 🔄 同步服務: ✅ 運行中  
+- 👁️ 文件監控: ✅ 運行中
+- 📤 Git 同步: ✅ 正常推送
+
+**系統重啟後會自動恢復到這個狀態，無需任何手動干預！**
+
+---
 
 # 🚨 重要教訓與警戒記錄
 
