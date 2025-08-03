@@ -1,12 +1,12 @@
 #!/bin/bash
-# 最終版 Logseq 同步腳本 - 自動啟動、自動監聽、日誌、鎖檔、重置支援
+# Logseq 同步腳本：自動輪詢 + fswatch 監控 + 日誌管理 + 錯誤修復
 
 ### 參數設定 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
 LOG_FILE="$REPO_DIR/sync_optimized.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-PULL_INTERVAL=300  # 每 5 分鐘備援同步
+PULL_INTERVAL=300
 
 ### 日誌輪替 ###
 manage_log_size() {
@@ -23,47 +23,49 @@ manage_log_size() {
   fi
 }
 
-### 鎖檔機制 ###
+### 鎖檔 ###
 if [ -f "$LOCK_FILE" ]; then
   pid=$(cat "$LOCK_FILE")
-  if kill -0 "$pid" 2>/dev/null; then
-    exit 0
-  else
-    rm -f "$LOCK_FILE"
+  if kill -0 "$pid" 2>/dev/null; then exit 0
+  else rm -f "$LOCK_FILE"
   fi
 fi
 echo $$ > "$LOCK_FILE"
 trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
 
-### 環境與工作目錄 ###
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
 
-### 日誌記錄函數 ###
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
 
-### 同步函數 ###
 sync_repo() {
   log "🎯 開始同步"
-
   find .git -name "*.lock" -delete 2>/dev/null
   git checkout main >> "$LOG_FILE" 2>&1
+  git fetch origin >> "$LOG_FILE" 2>&1
+
+  LOCAL_HASH=$(git rev-parse main)
+  REMOTE_HASH=$(git rev-parse origin/main)
+  log "🧭 本地 HEAD: $LOCAL_HASH"
+  log "🌐 遠端 HEAD: $REMOTE_HASH"
+
+  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
+    log "📥 偵測遠端更新，執行 pull"
+    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+      log "✅ 拉取完成"
+    else
+      log "⚠️ 拉取失敗，執行硬重置"
+      git fetch --all >> "$LOG_FILE" 2>&1
+      git reset --hard origin/main >> "$LOG_FILE" 2>&1
+    fi
+  else
+    log "🚫 無遠端更新，略過 pull"
+  fi
 
   git add -A
   if ! git diff --cached --quiet; then
     git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
     log "📝 本地變更已提交"
-  fi
-
-  git fetch origin main >> "$LOG_FILE" 2>&1
-  LOCAL_HASH=$(git rev-parse HEAD)
-  REMOTE_HASH=$(git rev-parse origin/main)
-
-  if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
-    log "📥 偵測到遠端有更新，執行 reset --hard"
-    git reset --hard origin/main >> "$LOG_FILE" 2>&1
-  else
-    log "🚫 無遠端更新，略過 pull"
   fi
 
   if git push origin main >> "$LOG_FILE" 2>&1; then
@@ -76,13 +78,12 @@ sync_repo() {
   log "✅ 同步完成"
 }
 
-### 啟動紀錄 ###
 manage_log_size "$LOG_FILE" 512 500
 log "🚀 啟動同步服務"
+
 sync_repo
 touch "$LAST_SYNC_TS"
 
-### fswatch 檔案監控 ###
 fswatch -r "$REPO_DIR" \
   --exclude="\.git/" \
   --exclude="\.log$" \
@@ -95,9 +96,7 @@ fswatch -r "$REPO_DIR" \
     fi
   done &
 
-### 備援輪詢 ###
 while true; do
   sleep "$PULL_INTERVAL"
-  log "⏰ 定期檢查"
   sync_repo
 done
