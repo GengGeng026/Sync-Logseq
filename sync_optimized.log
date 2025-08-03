@@ -1021,3 +1021,16 @@ Your branch is up to date with 'origin/main'.
 [main 607bd066] Auto-sync: 2025-08-03 21:26:12
  2 files changed, 15 insertions(+)
 Sun Aug  3 21:26:12 +08 2025: [PID:2643] 📝 本地變更已提交
+To github.com:GengGeng026/Sync-Logseq.git
+   87451a8b..91e8ad18  main -> main
+Sun Aug  3 21:26:18 +08 2025: [PID:2643] 📤 成功推送到遠端
+Sun Aug  3 21:26:18 +08 2025: [PID:2643] ✅ 同步完成
+Sun Aug  3 21:26:18 +08 2025: [PID:2643] 📁 檢測到文件變更: 1
+Sun Aug  3 21:26:20 +08 2025: [PID:2643] 🚀 開始同步...
+fatal: Unable to create '/Users/mac/Documents/Sync-Logseq/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
