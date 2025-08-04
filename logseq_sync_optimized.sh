@@ -3,7 +3,7 @@
 
 ### 設定區 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
-LOG_FILE="$REPO_DIR/sync_optimized.log"
+LOG_FILE="$REPO_DIR/sync.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
 PULL_INTERVAL=60  # 每五分鐘主動拉一次
@@ -11,21 +11,18 @@ PULL_INTERVAL=60  # 每五分鐘主動拉一次
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
 
-### Log 控制 ###
+### 簡化日誌控制 ###
 manage_log_size() {
-  local log_file="$1" max_kb="${2:-512}" keep_lines="${3:-500}"
+  local log_file="$1" max_lines="${2:-100}"
   [ ! -f "$log_file" ] && return
-  local size_kb=$(( $(stat -f%z "$log_file") / 1024 ))
-  if [ "$size_kb" -gt "$max_kb" ]; then
-    local ts=$(date +"%Y%m%d_%H%M%S")
-    cp "$log_file" "${log_file}.${ts}"
-    tail -n "$keep_lines" "$log_file" > "${log_file}.tmp"
+  local current_lines=$(wc -l < "$log_file")
+  if [ "$current_lines" -gt "$max_lines" ]; then
+    tail -n "$max_lines" "$log_file" > "${log_file}.tmp"
     mv "${log_file}.tmp" "$log_file"
-    ls -t "${log_file}".* 2>/dev/null | tail -n +4 | xargs rm -f 2>/dev/null
-    echo "$(date): 日誌已輪替" >> "$log_file"
+    echo "$(date '+%m-%d %H:%M:%S'): 日誌已修剪至 $max_lines 行" >> "$log_file"
   fi
 }
-log() { echo "$(date '+%Y-%m-%d %H:%M:%S'): [PID:$$] $1" >> "$LOG_FILE"; }
+log() { echo "$(date '+%m-%d %H:%M:%S'): $1" >> "$LOG_FILE"; manage_log_size "$LOG_FILE" 100; }
 
 ### 鎖定機制 ###
 if [ -f "$LOCK_FILE" ]; then
@@ -99,7 +96,7 @@ poll_remote() {
 }
 
 ### 啟動 ###
-manage_log_size "$LOG_FILE" 512 500
+manage_log_size "$LOG_FILE" 100
 log "🚀 啟動同步服務"
 sync_repo
 touch "$LAST_SYNC_TS"
