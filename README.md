@@ -201,7 +201,7 @@ watch_filesystem &
 poll_remote &
 wait
 
-
+# 賦予權限
 chmod +x logseq_sync_optimized.sh
 
 # 3. 創建或更新 LaunchAgent plist
