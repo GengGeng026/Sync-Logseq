@@ -1,4 +1,5 @@
 # Logseq 同步系統日誌文件
+error.log
 sync.log
 sync.error.log
 launchd_stdout.log
