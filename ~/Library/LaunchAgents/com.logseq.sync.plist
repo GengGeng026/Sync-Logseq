@@ -17,9 +17,9 @@
         <false/>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/mac/Documents/Sync-Logseq/launchagent_stdout.log</string>
+    <string>/Users/mac/Documents/Sync-Logseq/launchd_stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/mac/Documents/Sync-Logseq/launchagent_stderr.log</string>
+    <string>/Users/mac/Documents/Sync-Logseq/launchd_stderr.log</string>
     <key>WorkingDirectory</key>
     <string>/Users/mac/Documents/Sync-Logseq</string>
     <key>EnvironmentVariables</key>
