@@ -13,10 +13,7 @@
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
-    <dict>
-        <key>SuccessfulExit</key>
-        <false/>
-    </dict>
+    <true/>
     <key>StandardOutPath</key>
     <string>/Users/mac/Documents/Sync-Logseq/launchd_stdout.log</string>
     <key>StandardErrorPath</key>
@@ -30,7 +27,5 @@
         <key>HOME</key>
         <string>/Users/mac</string>
     </dict>
-    <key>StartInterval</key>
-    <integer>30</integer>
 </dict>
 </plist>

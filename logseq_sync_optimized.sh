@@ -11,6 +11,11 @@ PULL_INTERVAL=60  # 每五分鐘主動拉一次
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
 
+# Detect branch to sync (default to origin/HEAD, fallback to main)
+BRANCH="${LOGSEQ_SYNC_BRANCH:-$(git rev-parse --abbrev-ref origin/HEAD 2>/dev/null | sed 's#origin/##')}"
+[ -z "$BRANCH" ] && BRANCH="main"
+echo "$(date '+%m-%d %H:%M:%S'): Using branch: $BRANCH" >> "$LOG_FILE"
+
 ### 簡化日誌控制 ###
 manage_log_size() {
   local log_file="$1" max_lines="${2:-100}"
@@ -34,22 +39,31 @@ trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
 
 ### 核心同步 ###
 sync_repo() {
+  # Re-entrancy guard to avoid concurrent git operations
+  local RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
+  if ! mkdir "$RUN_LOCK" 2>/dev/null; then
+    log "⏳ 另一個同步仍在進行，略過本次"
+    return 0
+  fi
+  # Ensure lock is always released
+  cleanup_run_lock() { rmdir "$RUN_LOCK" 2>/dev/null || true; }
+  trap cleanup_run_lock RETURN
   log "🎯 開始同步"
   find .git -name "*.lock" -delete 2>/dev/null
-  git checkout main >> "$LOG_FILE" 2>&1
+  git checkout "$BRANCH" >> "$LOG_FILE" 2>&1
 
   local local_head=$(git rev-parse HEAD)
-  local remote_head=$(git ls-remote origin -h refs/heads/main | cut -f1)
+  local remote_head=$(git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
   log "🧭 本地 HEAD: $local_head"
   log "🌐 遠端 HEAD: $remote_head"
 
   if [ "$local_head" != "$remote_head" ]; then
-    if git pull origin main --no-edit >> "$LOG_FILE" 2>&1; then
+    if git pull origin "$BRANCH" --no-edit >> "$LOG_FILE" 2>&1; then
       log "📥 成功拉取遠端"
     else
       log "⚠️ 拉取失敗，執行 hard reset"
       git fetch --all >> "$LOG_FILE" 2>&1
-      git reset --hard origin/main >> "$LOG_FILE" 2>&1
+      git reset --hard "origin/$BRANCH" >> "$LOG_FILE" 2>&1
     fi
   else
     log "🚫 無遠端更新，略過 pull"
@@ -61,7 +75,7 @@ sync_repo() {
     log "📝 本地變更已提交"
   fi
 
-  if git push origin main >> "$LOG_FILE" 2>&1; then
+  if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
     log "📤 成功推送遠端"
   else
     log "⚠️ 推送失敗"
@@ -73,6 +87,10 @@ sync_repo() {
 
 ### 監控變更 ###
 watch_filesystem() {
+  if ! command -v fswatch >/dev/null 2>&1; then
+    log "⚠️ 未安裝 fswatch，將僅使用定時輪詢"
+    return 0
+  fi
   fswatch -r "$REPO_DIR" \
     --exclude="\.git/" \
     --exclude="\.log$" \
@@ -80,7 +98,7 @@ watch_filesystem() {
     --latency=2 | while read -r ev; do
       sleep 2
       if [ -n "$(find "$REPO_DIR" -newer "$LAST_SYNC_TS" | head -1)" ]; then
-        log "📁 檢測到變更: $ev"
+        log "📁 檢測到變化: $ev"
         sync_repo
       fi
     done
