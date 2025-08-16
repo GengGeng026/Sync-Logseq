@@ -3,10 +3,11 @@
 
 ### 設定區 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
-LOG_FILE="$REPO_DIR/sync.log"
+LOG_DIR="$REPO_DIR/.logs"
+LOG_FILE="$LOG_DIR/sync.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-PULL_INTERVAL=60  # 每五分鐘主動拉一次
+PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"  # 每五分鐘主動拉一次
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
@@ -39,11 +40,29 @@ trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
 
 ### 核心同步 ###
 sync_repo() {
-  # Re-entrancy guard to avoid concurrent git operations
+  # Re-entrancy guard to avoid concurrent git operations (with stale lock recovery)
   local RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
   if ! mkdir "$RUN_LOCK" 2>/dev/null; then
-    log "⏳ 另一個同步仍在進行，略過本次"
-    return 0
+    # If lock exists, check if it's stale (>180s)
+    if [ -d "$RUN_LOCK" ]; then
+      local now_ts=$(date +%s)
+      local m_ts=$(stat -f %m "$RUN_LOCK" 2>/dev/null || echo 0)
+      local age=$(( now_ts - m_ts ))
+      if [ "$age" -gt 180 ]; then
+        log "🧹 偵測到過期的同步鎖 (age=${age}s)，嘗試清除"
+        rmdir "$RUN_LOCK" 2>/dev/null || true
+        if ! mkdir "$RUN_LOCK" 2>/dev/null; then
+          log "⏳ 仍有同步在進行，略過本次"
+          return 0
+        fi
+      else
+        log "⏳ 另一個同步仍在進行（${age}s），略過本次"
+        return 0
+      fi
+    else
+      log "⏳ 另一個同步仍在進行，略過本次"
+      return 0
+    fi
   fi
   # Ensure lock is always released
   cleanup_run_lock() { rmdir "$RUN_LOCK" 2>/dev/null || true; }
@@ -95,6 +114,8 @@ watch_filesystem() {
     --exclude="\.git/" \
     --exclude="\.log$" \
     --exclude="\.lock$" \
+    --exclude="\.tmp$" \
+    --exclude="\.logs/" \
     --latency=2 | while read -r ev; do
       sleep 2
       if [ -n "$(find "$REPO_DIR" -newer "$LAST_SYNC_TS" | head -1)" ]; then
@@ -114,6 +135,7 @@ poll_remote() {
 }
 
 ### 啟動 ###
+mkdir -p "$LOG_DIR"
 manage_log_size "$LOG_FILE" 100
 log "🚀 啟動同步服務"
 sync_repo
