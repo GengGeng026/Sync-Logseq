@@ -66,3 +66,4 @@ yarn-error.log*
 # *.psd
 # *.zip
 # *.tar.gz
+.logs/
