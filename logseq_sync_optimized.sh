@@ -116,6 +116,8 @@ watch_filesystem() {
     --exclude="\.lock$" \
     --exclude="\.tmp$" \
     --exclude="\.logs/" \
+    --exclude="\.sync_run\.lockdir$" \
+    --exclude="\.last_sync$" \
     --latency=2 | while read -r ev; do
       sleep 2
       if [ -n "$(find "$REPO_DIR" -newer "$LAST_SYNC_TS" | head -1)" ]; then
