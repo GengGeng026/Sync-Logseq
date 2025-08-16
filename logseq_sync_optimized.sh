@@ -120,7 +120,10 @@ watch_filesystem() {
     --exclude="\.last_sync$" \
     --latency=2 | while read -r ev; do
       sleep 2
-      if [ -n "$(find "$REPO_DIR" -newer "$LAST_SYNC_TS" | head -1)" ]; then
+      if [ -n "$(find "$REPO_DIR" -type f -newer "$LAST_SYNC_TS" \
+        -not -path "$LOG_DIR/*" \
+        -not -path "$REPO_DIR/.sync_run.lockdir*" \
+        -not -name ".last_sync" | head -1)" ]; then
         log "📁 檢測到變化: $ev"
         sync_repo
       fi
