@@ -17,6 +17,9 @@ PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-15}"  # 每 PULL_INTERVAL 秒主動拉一
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
+# 啟動防呆：若殘留上一輪的同步鎖，啟動時嘗試清除
+RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
+[ -d "$RUN_LOCK" ] && rmdir "$RUN_LOCK" 2>/dev/null || true
 
 if [ -x "$REPO_DIR/scripts/install-hooks.sh" ]; then
   "$REPO_DIR/scripts/install-hooks.sh" >> "$LOG_FILE" 2>&1 || true
