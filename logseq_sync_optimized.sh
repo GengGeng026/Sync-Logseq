@@ -2,6 +2,7 @@
 # Logseq Git 同步腳本：支援 fswatch + 定時遠端 HEAD 比對
 # 已加入：自動取消 staged 超過 100MB 的檔案（不刪本機），
 # 並在推送前僅檢查要推送的 commit 是否包含 >100MB blob（推薦）
+# 且確保在 commit 失敗時不會誤推送
 
 ### 設定區 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
@@ -61,7 +62,7 @@ unstage_large_files_guard() {
 # 檢查即將推送的 commits 中是否有超過 100MB 的 blob（只檢查 origin/BRANCH..HEAD 範圍）
 commits_to_push_have_large_blob() {
   local branch_ref="${1:-$BRANCH}"
-  # 確保 origin 存在最新資訊
+  # 確保 origin 有最新資訊
   git fetch origin "$branch_ref" --quiet 2>/dev/null || true
   # 找出要推的 commit 範圍（local 不在 remote 的 commits）
   local commit_range
@@ -123,28 +124,43 @@ sync_repo() {
     log "🚫 無遠端更新，略過 pull"
   fi
 
-  # Add everything first (scripts often do git add -A)
+  # Add everything first
   git add -A >> "$LOG_FILE" 2>&1 || true
 
   # Guard: unstage any staged file >100MB before commit
   unstage_large_files_guard
 
-  # If there are staged changes now, commit them
-  if ! git diff --cached --quiet; then
-    git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1 || log "⚠️ commit 失敗"
-    log "📝 本地變更已提交"
+  # Try to commit; check exit code
+  local commit_succeeded=false
+  if git diff --cached --quiet; then
+    log "ℹ️ no staged changes after guard, skipping commit"
+    commit_succeeded=false
+  else
+    if git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1; then
+      log "📝 本地變更已提交"
+      commit_succeeded=true
+    else
+      log "🚫 commit 被中止（可能 pre-commit 阻擋或其他錯誤），跳過 push"
+      # append last part of log to aid debugging
+      tail -n 80 "$LOG_FILE" >> "$LOG_FILE"
+      commit_succeeded=false
+    fi
   fi
 
-  # Final safety: check only the commits that would be pushed (origin/BRANCH..HEAD)
-  if commits_to_push_have_large_blob "$BRANCH"; then
-    log "🚫 檢測到大檔在即將推送的 commits 中；跳過 push 以免被遠端拒絕"
-    # Optionally: you can notify user, create an issue, or stage a file to mark skipped push.
-  else
-    if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
-      log "📤 成功推送遠端"
+  # Only attempt push if commit succeeded
+  if [ "$commit_succeeded" = true ]; then
+    # Final safety: check only the commits that would be pushed (origin/BRANCH..HEAD)
+    if commits_to_push_have_large_blob "$BRANCH"; then
+      log "🚫 檢測到大檔在即將推送的 commits 中；跳過 push 以免被遠端拒絕"
     else
-      log "⚠️ 推送失敗"
+      if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+        log "📤 成功推送遠端"
+      else
+        log "⚠️ 推送失敗"
+      fi
     fi
+  else
+    log "ℹ️ 未執行 push（commit 未成功或無需 commit）"
   fi
 
   date +%s > "$LAST_SYNC_TS"
