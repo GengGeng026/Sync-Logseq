@@ -329,3 +329,169 @@ read confirmation
 - 偶爾查看 `sync.log` 了解同步狀態
 - 系統更新後驗證服務是否正常啟動
 - **永遠記住**：在執行任何包含 `rm -rf` 的腳本前，仔細檢查路徑！
+
+---
+
+## 附錄A：當前運行配置總覽（可複製到新機）
+
+- 代辦庫根目錄：/Users/mac/Documents/Sync-Logseq（下稱 REPO_DIR）
+- 同步腳本：REPO_DIR/logseq_sync_optimized.sh（已含：fswatch 監聽、本地/遠端雙觸發、去抖動、互斥鎖、過期鎖自清、日誌分離）
+- 日誌：REPO_DIR/.logs/sync.log（不觸發監聽）
+- 鎖與戳：REPO_DIR/.sync_run.lockdir、REPO_DIR/.last_sync、REPO_DIR/.sync_debounce（.sync_debounce 已被忽略）
+- 啟動項：~/Library/LaunchAgents/com.logseq.sync.plist（唯一入口）
+- .gitignore（關鍵規則已加入）：.logs/、.sync_debounce、assets/*.mp4、assets/*.mov、assets/*.zip
+
+### 1) 必備依賴
+- 安裝 fswatch（監聽本地變更）
+  - brew install fswatch
+  - which fswatch → 確保在 /usr/local/bin 或 /opt/homebrew/bin
+
+### 2) 正確的 LaunchAgent（~/Library/LaunchAgents/com.logseq.sync.plist）
+複製以下內容（若使用非 mac 帳戶或路徑，請對應修改）
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.logseq.sync</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/mac/Documents/Sync-Logseq/logseq_sync_optimized.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/mac/Documents/Sync-Logseq</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    <key>HOME</key>
+    <string>/Users/mac</string>
+    <key>LOGSEQ_SYNC_BRANCH</key>
+    <string>main</string>
+    <key>LOGSEQ_PULL_INTERVAL</key>
+    <string>60</string>
+    <!-- 可選：去抖動秒數（預設 2）-->
+    <!-- <key>LOGSEQ_DEBOUNCE_GAP</key><string>2</string> -->
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/mac/Documents/Sync-Logseq/launchd_stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/mac/Documents/Sync-Logseq/launchd_stderr.log</string>
+</dict>
+</plist>
+```
+
+啟用方式（擇一，建議使用 load -w 單一路徑）：
+- 單一路徑（推薦）：
+  - chmod 644 ~/Library/LaunchAgents/com.logseq.sync.plist
+  - launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist 2>/dev/null
+  - launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
+  - launchctl list | grep com.logseq.sync
+- 另一種（不與上法混用）：
+  - launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.logseq.sync.plist
+  - launchctl enable gui/$(id -u)/com.logseq.sync
+  - launchctl kickstart -k gui/$(id -u)/com.logseq.sync
+
+### 3) 腳本中的關鍵點（logseq_sync_optimized.sh）
+- 自動偵測分支（可由 LOGSEQ_SYNC_BRANCH 覆蓋）
+- 定時遠端輪詢（LOGSEQ_PULL_INTERVAL，預設 60s）
+- fswatch 監聽本地，採「真正去抖動」：事件聚合後才同步
+- 觸發條件採 OR：git status 有變更 或 有檔案新於 .last_sync（且排除 .logs/、鎖與戳）
+- 單次互斥鎖 + 過期鎖自清（避免長時間卡住）
+- 日誌輸出到 .logs，避免自觸發
+
+---
+
+## 附錄B：大型檔案規避策略（不改歷史）
+
+1) 必加的 .gitignore 規則（防止未來再入庫）：
+```gitignore
+.logs/
+.sync_debounce
+assets/*.mp4
+assets/*.mov
+assets/*.zip
+```
+
+2) 如果某大檔「已被追蹤」，需先停止追蹤（不刪你磁碟檔）：
+```bash
+# 僅移除索引，不刪檔案
+cd ~/Documents/Sync-Logseq
+git rm --cached .sync_debounce 2>/dev/null || true
+# 逐一或用 ls-files 批次移除
+git ls-files -z 'assets/*.mp4' 'assets/*.mov' 'assets/*.zip' | xargs -0 -r git rm --cached --
+
+git add .gitignore
+git commit -m "chore: ignore large media and internal debounce/log files"
+```
+
+3) 可選：新增 pre-commit hook，阻擋 >100MB 檔案被提交（手動與自動皆生效）：
+```bash
+cat > .git/hooks/pre-commit << 'EOF'
+#!/bin/sh
+limit=$((100*1024*1024))
+git diff --cached --name-only --diff-filter=AM | while read -r f; do
+  [ -f "$f" ] || continue
+  size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f")
+  if [ "$size" -gt "$limit" ]; then
+    echo "Error: $f is larger than 100MB; commit aborted."
+    exit 1
+  fi
+done
+EOF
+chmod +x .git/hooks/pre-commit
+```
+
+> 說明：僅改 .gitignore 無法移除已在歷史中的大檔；此處策略是不改歷史、只保證「以後不再提交」與「本地自動流提交時不包含大檔」。若要清理舊歷史，請改用 Git LFS 或 git-filter-repo（另見備忘）。
+
+---
+
+## 附錄C：一鍵重建與健康檢查
+
+- 清鎖 + 重新載入：
+```bash
+pkill -f logseq_sync_optimized.sh || true
+cd ~/Documents/Sync-Logseq
+rm -rf .sync_run.lockdir .sync_lock .git/index.lock .sync_debounce
+launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist
+launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
+launchctl list | grep com.logseq.sync
+ps aux | grep -E 'logseq_sync_optimized.sh|fswatch' | grep -v grep
+```
+
+- 觀察日誌（注意正確路徑）：
+```bash
+tail -n 100 ~/Documents/Sync-Logseq/.logs/sync.log
+```
+
+常見狀況排查：
+- 長時間出現「另一個同步仍在進行」：清理 .sync_run.lockdir 或降低過期閾值（腳本已含過期自清）。
+- 找不到 fswatch：確保 PATH 含 /usr/local/bin 或 /opt/homebrew/bin，且已安裝 fswatch。
+- 推送被拒（大於 100MB）：依「附錄B」處理，移出索引 + ignore。
+- 多實例：不要混用 bootstrap 與 load，固定使用一種，並確保 KeepAlive 為 true。
+
+---
+
+## 附錄D：第一次在新機器上部署的最小步驟
+1. 安裝依賴：brew install fswatch
+2. 將倉庫放到 /Users/mac/Documents/Sync-Logseq
+3. 確認 .gitignore 已含：.logs/、.sync_debounce、assets/*.mp4、assets/*.mov、assets/*.zip
+4. 放置 logseq_sync_optimized.sh 並設為可執行：chmod 755
+5. 放置 com.logseq.sync.plist（如上）並：chmod 644
+6. 啟用：launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
+7. 驗證：launchctl list | grep com.logseq.sync；tail -n 100 ~/.logs/sync.log
+8. 在 GitHub 上做一次小提交，60 秒內應看到本地拉取與推送
+
+> 小貼士：可透過 LOGSEQ_SYNC_BRANCH 選擇同步分支；LOGSEQ_PULL_INTERVAL 調整輪詢秒數；LOGSEQ_DEBOUNCE_GAP 調整本地事件聚合時間。
