@@ -13,7 +13,7 @@ LOG_DIR="$REPO_DIR/.logs"
 LOG_FILE="$LOG_DIR/sync.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"  # 每 PULL_INTERVAL 秒主動拉一次
+PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-15}"  # 每 PULL_INTERVAL 秒主動拉一次
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
