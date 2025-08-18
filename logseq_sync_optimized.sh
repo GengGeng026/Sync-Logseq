@@ -192,15 +192,25 @@ watch_filesystem() {
     --exclude="\.logs/" \
     --exclude="\.sync_run\.lockdir$" \
     --exclude="\.last_sync$" \
+    --exclude="\.sync_debounce$" \
     --latency=2 | while read -r ev; do
-      sleep 2
-      if [ -n "$(find "$REPO_DIR" -type f -newer "$LAST_SYNC_TS" \
-        -not -path "$LOG_DIR/*" \
-        -not -path "$REPO_DIR/.sync_run.lockdir*" \
-        -not -name ".last_sync" | head -1)" ]; then
-        log "📁 檢測到變化: $ev"
-        sync_repo
-      fi
+      # 真正去抖動：只有在最近事件後靜默 2 秒才觸發
+      now=$(date +%s)
+      echo "$now" > "$REPO_DIR/.sync_debounce"
+      ( sleep 2 \
+        && last=$(cat "$REPO_DIR/.sync_debounce" 2>/dev/null || echo 0) \
+        && [ "$last" -eq "$now" ] \
+        && {
+             if git -C "$REPO_DIR" status --porcelain | grep -q . \
+                || find "$REPO_DIR" -type f -newer "$LAST_SYNC_TS" \
+                     -not -path "$LOG_DIR/*" \
+                     -not -path "$REPO_DIR/.sync_run.lockdir*" \
+                     -not -name ".last_sync" \
+                     -print -quit | grep -q .; then
+               log "📁 檢測到版本變更，觸發同步: $ev"
+               sync_repo
+             fi
+           } ) &
     done
 }
 
