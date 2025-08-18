@@ -1,0 +1,10 @@
+#!/bin/sh
+limit=$((100*1024*1024))  # 100MB
+git diff --cached --name-only --diff-filter=AM | while read -r f; do
+  [ -f "$f" ] || continue
+  size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f" 2>/dev/null || echo 0)
+  if [ "$size" -gt "$limit" ]; then
+    echo "Error: $f is larger than 100MB; commit aborted."
+    exit 1
+  fi
+done
