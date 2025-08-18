@@ -6,6 +6,9 @@
 
 ### 設定區 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
+if [ -x "$REPO_DIR/scripts/install-hooks.sh" ]; then
+  "$REPO_DIR/scripts/install-hooks.sh" >> "$LOG_FILE" 2>&1 || true
+fi
 LOG_DIR="$REPO_DIR/.logs"
 LOG_FILE="$LOG_DIR/sync.log"
 LOCK_FILE="$REPO_DIR/.sync_lock"
