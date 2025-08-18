@@ -95,7 +95,7 @@ sync_repo() {
       local now_ts=$(date +%s)
       local m_ts=$(stat -f %m "$RUN_LOCK" 2>/dev/null || echo 0)
       local age=$(( now_ts - m_ts ))
-      if [ "$age" -gt 180 ]; then
+      if [ "$age" -gt 45 ]; then
         log "🧹 偵測到過期的同步鎖 (age=${age}s)，嘗試清除"
         rmdir "$RUN_LOCK" 2>/dev/null || true
         if ! mkdir "$RUN_LOCK" 2>/dev/null; then
