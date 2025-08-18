@@ -15,6 +15,11 @@ PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"  # 每 PULL_INTERVAL 秒主動拉一
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 cd "$REPO_DIR" || exit 1
 
+if [ -x "$REPO_DIR/scripts/install-hooks.sh" ]; then
+  "$REPO_DIR/scripts/install-hooks.sh" >> "$LOG_FILE" 2>&1 || true
+fi
+
+
 # Detect branch to sync (default to origin/HEAD, fallback to main)
 BRANCH="${LOGSEQ_SYNC_BRANCH:-$(git rev-parse --abbrev-ref origin/HEAD 2>/dev/null | sed 's#origin/##')}"
 [ -z "$BRANCH" ] && BRANCH="main"
