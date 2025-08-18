@@ -1,6 +1,7 @@
 #!/bin/bash
 # Logseq Git 同步腳本：支援 fswatch + 定時遠端 HEAD 比對
-# 已加入：自動取消 staged 超過 100MB 的檔案（不刪本機），以及推送前再次檢查大 blob
+# 已加入：自動取消 staged 超過 100MB 的檔案（不刪本機），
+# 並在推送前僅檢查要推送的 commit 是否包含 >100MB blob（推薦）
 
 ### 設定區 ###
 REPO_DIR="$HOME/Documents/Sync-Logseq"
@@ -57,10 +58,19 @@ unstage_large_files_guard() {
   done <<< "$staged"
 }
 
-# 檢查推送前是否有大 blob（更保險的最後一道防線）
-has_large_blob_to_push() {
-  # 這裡檢查整個 repo 中是否還存在超過 100MB 的 blob
-  git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' \
+# 檢查即將推送的 commits 中是否有超過 100MB 的 blob（只檢查 origin/BRANCH..HEAD 範圍）
+commits_to_push_have_large_blob() {
+  local branch_ref="${1:-$BRANCH}"
+  # 確保 origin 存在最新資訊
+  git fetch origin "$branch_ref" --quiet 2>/dev/null || true
+  # 找出要推的 commit 範圍（local 不在 remote 的 commits）
+  local commit_range
+  commit_range=$(git rev-list origin/"$branch_ref"..HEAD 2>/dev/null || true)
+  [ -z "$commit_range" ] && return 1  # no commits to push => no large blobs in commits-to-push
+
+  # 列出這些 commits 的 objects 並檢查 blob size
+  git rev-list origin/"$branch_ref"..HEAD --objects 2>/dev/null \
+    | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' 2>/dev/null \
     | awk '$1=="blob" && $3>104857600 {print $0}' | grep -q . 2>/dev/null
 }
 
@@ -125,10 +135,10 @@ sync_repo() {
     log "📝 本地變更已提交"
   fi
 
-  # Final safety check: ensure no large blob exists before pushing
-  if has_large_blob_to_push; then
-    log "🚫 檢測到大檔 blob (>100MB) 仍在 repo；跳過 push 以免被拒絕"
-    # Optionally: you can prune the index or notify user here
+  # Final safety: check only the commits that would be pushed (origin/BRANCH..HEAD)
+  if commits_to_push_have_large_blob "$BRANCH"; then
+    log "🚫 檢測到大檔在即將推送的 commits 中；跳過 push 以免被遠端拒絕"
+    # Optionally: you can notify user, create an issue, or stage a file to mark skipped push.
   else
     if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
       log "📤 成功推送遠端"
