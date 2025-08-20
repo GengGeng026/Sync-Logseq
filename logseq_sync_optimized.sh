@@ -1,294 +1,177 @@
-#!/bin/bash
-# Logseq Git 同步腳本：支援 fswatch + 定時遠端 HEAD 比對
-<<<<<<< HEAD
+#!/usr/bin/env bash
 
-### 設定區 ###
-REPO_DIR="$HOME/Documents/Sync-Logseq"
-=======
-# 已加入：自動取消 staged 超過 100MB 的檔案（不刪本機），
-# 並在推送前僅檢查要推送的 commit 是否包含 >100MB blob（推薦）
-# 且確保在 commit 失敗時不會誤推送
-
-### 設定區 ###
-REPO_DIR="$HOME/Documents/Sync-Logseq"
-if [ -x "$REPO_DIR/scripts/install-hooks.sh" ]; then
-  "$REPO_DIR/scripts/install-hooks.sh" >> "$LOG_FILE" 2>&1 || true
-fi
->>>>>>> main
+# --- 設定 ---
+REPO_DIR="/Users/mac/Documents/Sync-Logseq"
 LOG_DIR="$REPO_DIR/.logs"
 LOG_FILE="$LOG_DIR/sync.log"
-LOCK_FILE="$REPO_DIR/.sync_lock"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
-<<<<<<< HEAD
-PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"  # 每五分鐘主動拉一次
-
-export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
-cd "$REPO_DIR" || exit 1
-=======
-PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-15}"  # 每 PULL_INTERVAL 秒主動拉一次
-
-export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
-cd "$REPO_DIR" || exit 1
-# 啟動防呆：若殘留上一輪的同步鎖，啟動時嘗試清除
 RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
-[ -d "$RUN_LOCK" ] && rmdir "$RUN_LOCK" 2>/dev/null || true
+DEBOUNCE_FILE="$REPO_DIR/.sync_debounce"
 
-if [ -x "$REPO_DIR/scripts/install-hooks.sh" ]; then
-  "$REPO_DIR/scripts/install-hooks.sh" >> "$LOG_FILE" 2>&1 || true
-fi
+# --- 可透過 launchd plist 環境變數調整的參數 ---
+PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"      # 定時輪詢間隔 (秒)
+DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (秒)
+MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
 
->>>>>>> main
+# --- 初始化 ---
+mkdir -p "$LOG_DIR"
+touch "$LAST_SYNC_TS"
 
-# Detect branch to sync (default to origin/HEAD, fallback to main)
+# --- 函數 ---
+log() {
+    # 自動加上時間戳並寫入日誌
+    echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" >> "$LOG_FILE"
+}
+
+manage_log_size() {
+    # 自動修剪日誌，只保留最新的 1000 行
+    local file="$1"
+    local max_lines="${2:-1000}"
+    if [ -f "$file" ] && [ "$(wc -l < "$file")" -gt "$max_lines" ]; then
+        log "日誌已超過 $max_lines 行，進行修剪..."
+        tail -n "$max_lines" "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+    fi
+}
+
+# --- 主邏輯 ---
+cd "$REPO_DIR" || exit 1
+
+# 啟動時清理：確保沒有因上次異常中斷而殘留的鎖
+rmdir "$RUN_LOCK" 2>/dev/null || true
+manage_log_size "$LOG_FILE"
+
+# 分支自偵測 (可由 LOGSEQ_SYNC_BRANCH 環境變數覆蓋)
 BRANCH="${LOGSEQ_SYNC_BRANCH:-$(git rev-parse --abbrev-ref origin/HEAD 2>/dev/null | sed 's#origin/##')}"
 [ -z "$BRANCH" ] && BRANCH="main"
-echo "$(date '+%m-%d %H:%M:%S'): Using branch: $BRANCH" >> "$LOG_FILE"
+log "🚀 同步服務啟動。監控分支: $BRANCH"
 
-### 簡化日誌控制 ###
-manage_log_size() {
-  local log_file="$1" max_lines="${2:-100}"
-  [ ! -f "$log_file" ] && return
-  local current_lines=$(wc -l < "$log_file")
-  if [ "$current_lines" -gt "$max_lines" ]; then
-    tail -n "$max_lines" "$log_file" > "${log_file}.tmp"
-    mv "${log_file}.tmp" "$log_file"
-    echo "$(date '+%m-%d %H:%M:%S'): 日誌已修剪至 $max_lines 行" >> "$log_file"
-  fi
-}
-log() { echo "$(date '+%m-%d %H:%M:%S'): $1" >> "$LOG_FILE"; manage_log_size "$LOG_FILE" 100; }
-
-### 鎖定機制 ###
-if [ -f "$LOCK_FILE" ]; then
-  pid=$(cat "$LOCK_FILE")
-  if kill -0 "$pid" 2>/dev/null; then exit 0; else rm -f "$LOCK_FILE"; fi
-fi
-echo $$ > "$LOCK_FILE"
-trap 'rm -f "$LOCK_FILE"; exit' EXIT INT TERM
-
-<<<<<<< HEAD
-=======
-### 工具函式：判斷並取消 staged 的超大檔 ###
-unstage_large_files_guard() {
-  # 取消 staged 所有超過 limit 的檔案（不刪本機檔）
-  local limit=$((100*1024*1024)) # 100MB
-  local staged
-  staged=$(git diff --cached --name-only --diff-filter=AM) || staged=""
-  [ -z "$staged" ] && return 0
-  while IFS= read -r f; do
-    [ -z "$f" ] && continue
-    [ -f "$f" ] || continue
-    size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f" 2>/dev/null || echo 0)
-    if [ "$size" -gt "$limit" ]; then
-      echo "$(date '+%m-%d %H:%M:%S'): Auto-sync: unstaging large file $f (size: $size bytes)" >> "$LOG_FILE"
-      git reset -- "$f" >> "$LOG_FILE" 2>&1 || true
-    fi
-  done <<< "$staged"
-}
-
-# 檢查即將推送的 commits 中是否有超過 100MB 的 blob（只檢查 origin/BRANCH..HEAD 範圍）
-commits_to_push_have_large_blob() {
-  local branch_ref="${1:-$BRANCH}"
-  # 確保 origin 有最新資訊
-  git fetch origin "$branch_ref" --quiet 2>/dev/null || true
-  # 找出要推的 commit 範圍（local 不在 remote 的 commits）
-  local commit_range
-  commit_range=$(git rev-list origin/"$branch_ref"..HEAD 2>/dev/null || true)
-  [ -z "$commit_range" ] && return 1  # no commits to push => no large blobs in commits-to-push
-
-  # 列出這些 commits 的 objects 並檢查 blob size
-  git rev-list origin/"$branch_ref"..HEAD --objects 2>/dev/null \
-    | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' 2>/dev/null \
-    | awk '$1=="blob" && $3>104857600 {print $0}' | grep -q . 2>/dev/null
-}
-
->>>>>>> main
-### 核心同步 ###
-sync_repo() {
-  # Re-entrancy guard to avoid concurrent git operations (with stale lock recovery)
-  local RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
-  if ! mkdir "$RUN_LOCK" 2>/dev/null; then
-<<<<<<< HEAD
-    # If lock exists, check if it's stale (>180s)
-=======
->>>>>>> main
-    if [ -d "$RUN_LOCK" ]; then
-      local now_ts=$(date +%s)
-      local m_ts=$(stat -f %m "$RUN_LOCK" 2>/dev/null || echo 0)
-      local age=$(( now_ts - m_ts ))
-<<<<<<< HEAD
-      if [ "$age" -gt 180 ]; then
-=======
-      if [ "$age" -gt 45 ]; then
->>>>>>> main
-        log "🧹 偵測到過期的同步鎖 (age=${age}s)，嘗試清除"
-        rmdir "$RUN_LOCK" 2>/dev/null || true
-        if ! mkdir "$RUN_LOCK" 2>/dev/null; then
-          log "⏳ 仍有同步在進行，略過本次"
-          return 0
-        fi
-      else
-        log "⏳ 另一個同步仍在進行（${age}s），略過本次"
-        return 0
-      fi
-    else
-      log "⏳ 另一個同步仍在進行，略過本次"
-      return 0
-    fi
-  fi
-<<<<<<< HEAD
-  # Ensure lock is always released
-  cleanup_run_lock() { rmdir "$RUN_LOCK" 2>/dev/null || true; }
-  trap cleanup_run_lock RETURN
-  log "🎯 開始同步"
-  find .git -name "*.lock" -delete 2>/dev/null
-  git checkout "$BRANCH" >> "$LOG_FILE" 2>&1
-=======
-  cleanup_run_lock() { rmdir "$RUN_LOCK" 2>/dev/null || true; }
-  trap cleanup_run_lock RETURN
-
-  log "🎯 開始同步"
-  find .git -name "*.lock" -delete 2>/dev/null
-  git checkout "$BRANCH" >> "$LOG_FILE" 2>&1 || { log "⚠️ checkout $BRANCH 失敗"; return 1; }
->>>>>>> main
-
-  local local_head=$(git rev-parse HEAD)
-  local remote_head=$(git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
-  log "🧭 本地 HEAD: $local_head"
-  log "🌐 遠端 HEAD: $remote_head"
-
-  if [ "$local_head" != "$remote_head" ]; then
-    if git pull origin "$BRANCH" --no-edit >> "$LOG_FILE" 2>&1; then
-      log "📥 成功拉取遠端"
-    else
-      log "⚠️ 拉取失敗，執行 hard reset"
-      git fetch --all >> "$LOG_FILE" 2>&1
-      git reset --hard "origin/$BRANCH" >> "$LOG_FILE" 2>&1
-    fi
-  else
-    log "🚫 無遠端更新，略過 pull"
-  fi
-
-<<<<<<< HEAD
-  git add -A
-  if ! git diff --cached --quiet; then
-    git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
-    log "📝 本地變更已提交"
-  fi
-
-  if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
-    log "📤 成功推送遠端"
-  else
-    log "⚠️ 推送失敗"
-=======
-  # Add everything first
-  git add -A >> "$LOG_FILE" 2>&1 || true
-
-  # Guard: unstage any staged file >100MB before commit
-  unstage_large_files_guard
-
-  # Try to commit; check exit code
-  local commit_succeeded=false
-  if git diff --cached --quiet; then
-    log "ℹ️ no staged changes after guard, skipping commit"
-    commit_succeeded=false
-  else
-    if git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1; then
-      log "📝 本地變更已提交"
-      commit_succeeded=true
-    else
-      log "🚫 commit 被中止（可能 pre-commit 阻擋或其他錯誤），跳過 push"
-      # append last part of log to aid debugging
-      tail -n 80 "$LOG_FILE" >> "$LOG_FILE"
-      commit_succeeded=false
-    fi
-  fi
-
-  # Only attempt push if commit succeeded
-  if [ "$commit_succeeded" = true ]; then
-    # Final safety: check only the commits that would be pushed (origin/BRANCH..HEAD)
-    if commits_to_push_have_large_blob "$BRANCH"; then
-      log "🚫 檢測到大檔在即將推送的 commits 中；跳過 push 以免被遠端拒絕"
-    else
-      if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
-        log "📤 成功推送遠端"
-      else
-        log "⚠️ 推送失敗"
-      fi
-    fi
-  else
-    log "ℹ️ 未執行 push（commit 未成功或無需 commit）"
->>>>>>> main
-  fi
-
-  date +%s > "$LAST_SYNC_TS"
-  log "✅ 同步完成"
-}
-
-### 監控變更 ###
-watch_filesystem() {
-  if ! command -v fswatch >/dev/null 2>&1; then
-    log "⚠️ 未安裝 fswatch，將僅使用定時輪詢"
-    return 0
-  fi
-  fswatch -r "$REPO_DIR" \
-    --exclude="\.git/" \
-    --exclude="\.log$" \
-    --exclude="\.lock$" \
-    --exclude="\.tmp$" \
-    --exclude="\.logs/" \
-    --exclude="\.sync_run\.lockdir$" \
-    --exclude="\.last_sync$" \
-<<<<<<< HEAD
-    --latency=2 | while read -r ev; do
-      sleep 2
-      if [ -n "$(find "$REPO_DIR" -type f -newer "$LAST_SYNC_TS" \
-        -not -path "$LOG_DIR/*" \
-        -not -path "$REPO_DIR/.sync_run.lockdir*" \
-        -not -name ".last_sync" | head -1)" ]; then
-        log "📁 檢測到變化: $ev"
-        sync_repo
-      fi
-=======
-    --exclude="\.sync_debounce$" \
-    --latency=2 | while read -r ev; do
-      # 真正去抖動：只有在最近事件後靜默 2 秒才觸發
-      now=$(date +%s)
-      echo "$now" > "$REPO_DIR/.sync_debounce"
-      ( sleep 2 \
-        && last=$(cat "$REPO_DIR/.sync_debounce" 2>/dev/null || echo 0) \
-        && [ "$last" -eq "$now" ] \
-        && {
-             if git -C "$REPO_DIR" status --porcelain | grep -q . \
-                || find "$REPO_DIR" -type f -newer "$LAST_SYNC_TS" \
-                     -not -path "$LOG_DIR/*" \
-                     -not -path "$REPO_DIR/.sync_run.lockdir*" \
-                     -not -name ".last_sync" \
-                     -print -quit | grep -q .; then
-               log "📁 檢測到版本變更，觸發同步: $ev"
-               sync_repo
-             fi
-           } ) &
->>>>>>> main
+# 函數：列出超過大小限制的檔案
+list_large_files() {
+    git ls-files -m -o --exclude-standard -z | while IFS= read -r -d '' f; do
+        [ ! -f "$f" ] && continue
+        local size
+        size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f" 2>/dev/null)
+        [ "${size:-0}" -gt "$MAX_FILE_SIZE" ] && printf '%s\0' "$f"
     done
 }
 
-### 定時拉取 ###
-poll_remote() {
-  while true; do
-    sleep "$PULL_INTERVAL"
-    log "⏱ 進行定時遠端同步"
-    sync_repo
-  done
+# 核心同步函數
+sync_repo() {
+    # 使用目錄作為互斥鎖，防止多個同步任務同時執行
+    if ! mkdir "$RUN_LOCK" 2>/dev/null; then
+        if [ -d "$RUN_LOCK" ]; then
+            local now m_ts age
+            now=$(date +%s)
+            m_ts=$(stat -f %m "$RUN_LOCK" 2>/dev/null || echo 0)
+            age=$((now - m_ts))
+            # 如果鎖已存在超過 45 秒，視為過期鎖並嘗試清除
+            if [ "$age" -gt 45 ]; then
+                log "🧹 偵測到過期鎖 (age=${age}s)，嘗試清除"
+                rmdir "$RUN_LOCK" 2>/dev/null && mkdir "$RUN_LOCK" 2>/dev/null || { log "⏳ 清除鎖失敗，仍有同步在進行，略過本次"; return 0; }
+            else
+                log "⏳ 另一個同步仍在進行 (${age}s)，略過本次"
+                return 0
+            fi
+        else
+            log "⏳ 另一個同步仍在進行，略過本次"
+            return 0
+        fi
+    fi
+    # 確保函數結束時自動解鎖
+    trap 'rmdir "$RUN_LOCK" 2>/dev/null || true' RETURN
+
+    log "🎯 [核心同步] 開始..."
+    git checkout "$BRANCH" >> "$LOG_FILE" 2>&1 || git checkout -B "$BRANCH" >> "$LOG_FILE" 2>&1
+    git fetch origin >> "$LOG_FILE" 2>&1 || true
+
+    local local_head remote_head
+    local_head=$(git rev-parse HEAD 2>/dev/null || echo "N/A")
+    remote_head=$(git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
+
+    log "🧭 本地 HEAD: ${local_head:0:12}, 遠端 HEAD: ${remote_head:0:12}"
+
+    # 只有當遠端有更新時才執行 pull
+    if [ -n "$remote_head" ] && [ "$local_head" != "$remote_head" ]; then
+        if git pull origin "$BRANCH" --no-edit --autostash >> "$LOG_FILE" 2>&1; then
+            log "📥 成功拉取遠端更新"
+        else
+            log "⚠️ 拉取失敗，執行 hard reset 到 origin/$BRANCH"
+            git fetch --all >> "$LOG_FILE" 2>&1
+            git reset --hard "origin/$BRANCH" >> "$LOG_FILE" 2>&1
+        fi
+    else
+        log "✅ 本地已是最新，無需拉取"
+    fi
+
+    git add -A
+
+    # 檢查並取消暫存過大的檔案
+    local large_files
+    large_files=$(list_large_files)
+    if [ -n "$large_files" ]; then
+        printf '%s' "$large_files" | xargs -0 -I{} git reset -q HEAD -- "{}"
+        log "⛔ 跳過超大檔案: $(printf '%s' "$large_files" | tr '\0' ' ')"
+    fi
+
+    # 只有在有實際變更時才 commit 和 push
+    if ! git diff --cached --quiet; then
+        if git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1; then
+            log "📝 本地變更已提交"
+            if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+                log "📤 成功推送至遠端"
+            else
+                log "⚠️ 推送失敗"
+            fi
+        fi
+    else
+        log "ℹ️ 無本地變更，無需提交"
+    fi
+
+    touch "$LAST_SYNC_TS"
+    log "✅ [核心同步] 完成"
 }
 
-### 啟動 ###
-mkdir -p "$LOG_DIR"
-manage_log_size "$LOG_FILE" 100
-log "🚀 啟動同步服務"
-sync_repo
-touch "$LAST_SYNC_TS"
+# 檔案系統監控 (需要 fswatch)
+watch_filesystem() {
+    if ! command -v fswatch >/dev/null 2>&1; then
+        log "⚠️ 未安裝 fswatch，將僅使用定時輪詢"
+        return 0
+    fi
+    log "👁️ 啟動 fswatch 檔案監控..."
+    fswatch -r -l 2 "$REPO_DIR" \
+        --exclude="\.git/" \
+        --exclude="\.logs/.*" \
+        --exclude="\.sync_run\.lockdir" \
+        --exclude="\.last_sync" \
+        --exclude="\.sync_debounce" \
+        --event Updated --event Created --event Removed \
+    | while read -r event; do
+        local now
+        now=$(date +%s)
+        echo "$now" > "$DEBOUNCE_FILE"
+        (
+            sleep "$DEBOUNCE_GAP"
+            local last_event_ts
+            last_event_ts=$(cat "$DEBOUNCE_FILE" 2>/dev/null || echo 0)
+            # 透過比對時間戳實現去抖動
+            if [ "$last_event_ts" -eq "$now" ]; then
+                log "📁 偵測到檔案變更，觸發同步"
+                sync_repo
+            fi
+        ) &
+    done
+}
 
-# 並行執行兩個 loop
+# 遠端輪詢
+poll_remote() {
+    while true; do
+        sleep "$PULL_INTERVAL"
+        log "⏱️ 執行定時遠端檢查..."
+        sync_repo
+    done
+}
+
+# --- 啟動並行任務 ---
 watch_filesystem &
 poll_remote &
 wait
