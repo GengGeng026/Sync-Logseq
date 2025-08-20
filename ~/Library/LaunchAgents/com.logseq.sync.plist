@@ -28,7 +28,7 @@
     <key>LOGSEQ_SYNC_BRANCH</key>
     <string>main</string>
     <key>LOGSEQ_PULL_INTERVAL</key>
-    <string>60</string>
+    <string>15</string>
   </dict>
 
   <key>StandardOutPath</key>
