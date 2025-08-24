@@ -328,9 +328,7 @@ read confirmation
 - 定期檢查 `launchctl list com.logseq.sync` 確保服務運行
 - 偶爾查看 `sync.log` 了解同步狀態
 - 系統更新後驗證服務是否正常啟動
-<<<<<<< main
-- **永遠記住**：在執行任何包含 `rm -rf` 的腳本前，仔細檢查路徑！
-=======
+
 - **永遠記住**：在執行任何包含 `rm -rf` 的腳本前，仔細檢查路徑！
 
 ---
@@ -498,4 +496,3 @@ tail -n 100 ~/Documents/Sync-Logseq/.logs/sync.log
 8. 在 GitHub 上做一次小提交，60 秒內應看到本地拉取與推送
 
 > 小貼士：可透過 LOGSEQ_SYNC_BRANCH 選擇同步分支；LOGSEQ_PULL_INTERVAL 調整輪詢秒數；LOGSEQ_DEBOUNCE_GAP 調整本地事件聚合時間。
->>>>>>> origin/main
