@@ -9,7 +9,7 @@ RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
 DEBOUNCE_FILE="$REPO_DIR/.sync_debounce"
 
 # --- 可透過 launchd plist 環境變數調整的參數 ---
-PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-30}"      # 定時輪詢間隔 (秒)
+PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-15}"      # 定時輪詢間隔 (秒)
 DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (秒)
 MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
 GIT_TIMEOUT="${LOGSEQ_GIT_TIMEOUT:-30}"         # Git 操作超時時間 (秒)
