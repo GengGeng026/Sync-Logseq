@@ -12,6 +12,7 @@ DEBOUNCE_FILE="$REPO_DIR/.sync_debounce"
 PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-60}"      # 定時輪詢間隔 (秒)
 DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (秒)
 MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
+GIT_TIMEOUT="${LOGSEQ_GIT_TIMEOUT:-30}"         # Git 操作超時時間 (秒)
 
 # --- 初始化 ---
 mkdir -p "$LOG_DIR"
@@ -82,22 +83,22 @@ sync_repo() {
 
     log "🎯 [核心同步] 開始..."
     git checkout "$BRANCH" >> "$LOG_FILE" 2>&1 || git checkout -B "$BRANCH" >> "$LOG_FILE" 2>&1
-    git fetch origin >> "$LOG_FILE" 2>&1 || true
+    timeout "$GIT_TIMEOUT" git fetch origin >> "$LOG_FILE" 2>&1 || log "⚠️ Fetch 超時或失敗"
 
     local local_head remote_head
     local_head=$(git rev-parse HEAD 2>/dev/null || echo "N/A")
-    remote_head=$(git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
+    remote_head=$(timeout "$GIT_TIMEOUT" git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
 
     log "🧭 本地 HEAD: ${local_head:0:12}, 遠端 HEAD: ${remote_head:0:12}"
 
     # 只有當遠端有更新時才執行 pull
     if [ -n "$remote_head" ] && [ "$local_head" != "$remote_head" ]; then
-        if git pull origin "$BRANCH" --no-edit --autostash >> "$LOG_FILE" 2>&1; then
+        if timeout "$GIT_TIMEOUT" git pull origin "$BRANCH" --no-edit --autostash >> "$LOG_FILE" 2>&1; then
             log "📥 成功拉取遠端更新"
         else
-            log "⚠️ 拉取失敗，執行 hard reset 到 origin/$BRANCH"
-            git fetch --all >> "$LOG_FILE" 2>&1
-            git reset --hard "origin/$BRANCH" >> "$LOG_FILE" 2>&1
+            log "⚠️ 拉取失敗或超時，執行 hard reset 到 origin/$BRANCH"
+            timeout "$GIT_TIMEOUT" git fetch --all >> "$LOG_FILE" 2>&1
+            timeout "$GIT_TIMEOUT" git reset --hard "origin/$BRANCH" >> "$LOG_FILE" 2>&1
         fi
     else
         log "✅ 本地已是最新，無需拉取"
@@ -117,10 +118,10 @@ sync_repo() {
     if ! git diff --cached --quiet; then
         if git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1; then
             log "📝 本地變更已提交"
-            if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+            if timeout "$GIT_TIMEOUT" git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
                 log "📤 成功推送至遠端"
             else
-                log "⚠️ 推送失敗"
+                log "⚠️ 推送失敗或超時"
             fi
         fi
     else
@@ -154,7 +155,7 @@ watch_filesystem() {
             local last_event_ts
             last_event_ts=$(cat "$DEBOUNCE_FILE" 2>/dev/null || echo 0)
             # 透過比對時間戳實現去抖動
-            if [ "$last_event_ts" -eq "$now" ]; then
+            if [ "${last_event_ts:-0}" -eq "$now" ]; then
                 log "📁 偵測到檔案變更，觸發同步"
                 sync_repo
             fi
