@@ -13,6 +13,8 @@
 	  logseq.order-list-type:: number
 	- 《 [[陪你去旅行]] 》by  [[Gelradine 顏慧萍]]
 	  logseq.order-list-type:: number
+	- 《 [[即將上映的美麗]] 》by  [[Gelradine 顏慧萍]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - [[English]] [[song]] [[list]]  ｜  [[英文]][[曲目]]
 	- 《 [[Crystal Clear]] 》｜【 [[新聞女王]] 】[[片尾曲]]  by  [[Gigi Yim 炎明熹]]
