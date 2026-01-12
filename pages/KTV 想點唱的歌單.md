@@ -15,6 +15,8 @@
 	  logseq.order-list-type:: number
 	- 《 [[即將上映的美麗]] 》by  [[Geraldine 顏慧萍]]
 	  logseq.order-list-type:: number
+	- 《 [[愛情勇敢]] 》｜  [[TVB]] 電視劇【 [[憨夫成龍]] 】 主題曲  by  [[李克勤]] & [[黃伊汶]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - [[English]] [[song]] [[list]]  ｜  [[英文]][[曲目]]
 	- 《 [[Crystal Clear]] 》｜【 [[新聞女王]] 】[[片尾曲]]  by  [[Gigi Yim 炎明熹]]
