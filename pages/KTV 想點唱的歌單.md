@@ -19,7 +19,8 @@
 	  logseq.order-list-type:: number
 	- 《 [[懼高症]] 》by  [[LaLa 徐佳瑩]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- 《 [[比我幸福]] 》by
+	  logseq.order-list-type:: number
 - [[English]] [[song]] [[list]]  ｜  [[英文]][[曲目]]
 	- 《 [[Crystal Clear]] 》｜【 [[新聞女王]] 】[[片尾曲]]  by  [[Gigi Yim 炎明熹]]
 	  logseq.order-list-type:: number
