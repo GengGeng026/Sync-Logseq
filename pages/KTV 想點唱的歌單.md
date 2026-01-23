@@ -7,6 +7,8 @@
 	  logseq.order-list-type:: number
 	- 《 [[慢慢喜歡你]] 》by  [[Karen Mok 莫文蔚]]
 	  logseq.order-list-type:: number
+	- 《 [[這世界那麼多人]] 》by  [[Karen Mok 莫文蔚]]
+	  logseq.order-list-type:: number
 	- 《 [[重傷]] 》by  [[Nicholas Teo 張棟樑]]
 	  logseq.order-list-type:: number
 	- 《 [[像我這樣的人]] 》by [[毛不易]]
