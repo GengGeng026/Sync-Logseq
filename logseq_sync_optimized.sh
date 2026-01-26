@@ -140,11 +140,15 @@ sync_repo() {
 
     log "🎯 [核心同步] 開始..."
     
-    # 清理可能存在的舊 lock
+    # 清理可能存在的舊 lock（在任何 Git 操作前）
     cleanup_git_lock
     
     # 使用智能重試機制執行 checkout
-    retry_with_cleanup "git checkout '$BRANCH'" || git checkout -B "$BRANCH" >> "$LOG_FILE" 2>&1
+    if ! retry_with_cleanup "git checkout '$BRANCH'"; then
+        # 如果分支不存在，创建它
+        cleanup_git_lock  # 再次确保没有锁
+        git checkout -B "$BRANCH" >> "$LOG_FILE" 2>&1
+    fi
     
     # Fetch with retry
     if ! retry_with_cleanup "timeout '$GIT_TIMEOUT' git fetch origin"; then
