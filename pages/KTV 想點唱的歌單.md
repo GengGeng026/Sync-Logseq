@@ -23,16 +23,31 @@
 	  logseq.order-list-type:: number
 	- 《 [[比我幸福]] 》by  [[Daniel 陳曉東]]
 	  logseq.order-list-type:: number
-	- 《 》by  [[S.H.E]]
+	- 《 [[我愛雨夜花]] 》by  [[S.H.E]]
 	  logseq.order-list-type:: number
+	- 《  》by  
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 - [[English]] [[song]] [[list]]  ｜  [[英文]][[曲目]]
 	- 《 [[Crystal Clear]] 》｜【 [[新聞女王]] 】[[片尾曲]]  by  [[Gigi Yim 炎明熹]]
 	  logseq.order-list-type:: number
+	- 《  》by  
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - [[韓文]][[曲目]]
-	- logseq.order-list-type:: number
+	- 《  》by
+	  logseq.order-list-type:: number
+	- 《  》by  
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - [[日文]][[曲目]]
-	- logseq.order-list-type:: number
-	- logseq.order-list-type:: number
-- 更新於 [[Fri, 26-12-2025]] 15:10
+	- 《  》by  
+	  logseq.order-list-type:: number
+	- 《  》by
+	  logseq.order-list-type:: number
+	- 《  》by  
+	  logseq.order-list-type:: number
+	-
+- 更新於：
+	- [[Mon, 26-01-2026]] 12:20
+	- [[Fri, 26-12-2025]] 15:10
