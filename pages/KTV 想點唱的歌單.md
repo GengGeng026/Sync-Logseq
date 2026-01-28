@@ -46,7 +46,7 @@
 - [[日文]][[曲目]]
 	- 《 [[悪魔の子 （惡魔之子）]] 》｜ 動漫【 [[進擊的巨人]] 】[[S2]] [[Part 2]] [[ED]]  by  [[Ai Higuchi]]
 	  logseq.order-list-type:: number
-	- 《 [[No Man's World]] 》｜ 動漫【 [[Dr.STONE]] 】 [[S4]]  by
+	- 《 [[No Man's World]] 》｜ 動漫【 [[Dr.STONE]] 】 [[S4]] [[ED2]]  by
 	  logseq.order-list-type:: number
 	- 《  》by  
 	  logseq.order-list-type:: number
