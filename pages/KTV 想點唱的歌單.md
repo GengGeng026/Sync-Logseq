@@ -44,7 +44,7 @@
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - [[日文]][[曲目]]
-	- 《  》by  
+	- 《 [[悪魔の子 （惡魔之子）]] 》by
 	  logseq.order-list-type:: number
 	- 《  》by
 	  logseq.order-list-type:: number
