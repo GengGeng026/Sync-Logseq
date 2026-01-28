@@ -42,15 +42,18 @@
 	  logseq.order-list-type:: number
 	- 《  》by  
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- 《  》by
+	  logseq.order-list-type:: number
 - [[日文]][[曲目]]
 	- 《 [[悪魔の子 （惡魔之子）]] 》｜ 動漫【 [[進擊的巨人]] 】[[S2]] [[Part 2]] [[ED]]  by  [[Ai Higuchi]]
 	  logseq.order-list-type:: number
 	- 《 [[No Man's World]] 》｜ 動漫【 [[Dr.STONE]] 】 [[S4]] [[ED2]]  by  [[音羽 Otoha]]
 	  logseq.order-list-type:: number
-	- 《  》by  
+	- 《 [[Suki ni Shinayo (Do Whatever You Like]] 》｜ 動漫【 [[Dr.STONE]] 】 by [[Anly]]
 	  logseq.order-list-type:: number
-	-
+	- 《  》by
+	- 《  》by
+	- 《  》by
 - 更新於：
 	- [[Mon, 26-01-2026]] 12:20
 	- [[Fri, 26-12-2025]] 15:10
