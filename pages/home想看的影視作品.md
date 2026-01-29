@@ -1,1 +1,6 @@
-- 《
+- 中文
+	- logseq.order-list-type:: number
+- 英文
+	- 《 [[Garfield: The Movie (2004]] 》
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
