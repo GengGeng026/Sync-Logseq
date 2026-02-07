@@ -70,6 +70,8 @@ yarn-error.log*
 <<<<<<< main
 =======
 .sync_debounce
+.sync_debounce_v2
+
 assets/*.mp4
 assets/*.mov
 assets/*.zip
