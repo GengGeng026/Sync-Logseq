@@ -6,7 +6,7 @@ LOG_DIR="$REPO_DIR/.logs"
 LOG_FILE="$LOG_DIR/sync.log"
 LAST_SYNC_TS="$REPO_DIR/.last_sync"
 RUN_LOCK="$REPO_DIR/.sync_run.lockdir"
-DEBOUNCE_FILE="$REPO_DIR/.sync_debounce"
+DEBOUNCE_FILE="$REPO_DIR/.sync_debounce_v2"
 GIT_INDEX_LOCK="$REPO_DIR/.git/index.lock"
 
 # --- 可透過 launchd plist 環境變數調整的參數 ---
