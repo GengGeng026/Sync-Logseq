@@ -1,6 +1,7 @@
 title:: battery_analysis_report.md
 
 - # 🔋 MacBook Pro 電池診斷與 AlDente 聲稱的深度分析報告
+  
   > **報告日期**: 2026年2月9日
   **分析對象**: MacBook Pro 15-inch (Mid 2015) - A1398
   **核心問題**: Apple Diagnostics 檢測出 PPP005 + PPT004 錯誤碼，懷疑新換電池有問題
