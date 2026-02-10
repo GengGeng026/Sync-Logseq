@@ -27,6 +27,9 @@
 	  logseq.order-list-type:: number
 	- 《 [[伯牙絕絃]] 》by  [[王力宏]]
 	  logseq.order-list-type:: number
+	- 《 [[彩虹的家]] 》｜ 【[[天天好天]]】[[插曲]]  by [[Stephanie]] &
+	  logseq.order-list-type:: number
+	  id:: 6976eb5c-a59e-4a18-8222-8342bfa40206
 	- 《  》by  
 	  logseq.order-list-type:: number
 	- 《  》by
