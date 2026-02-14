@@ -17,4 +17,17 @@
 	-
 - # Friendship History
 - # Working History
-	-
+	- Chief Marketing Officer, Content Producer, Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
+	  • Temporary Floral Assistant (Scentales, 2019 )
+	  • TESCO Malaysia Facilitator (TESCO, 2019) (MEP Meeting & Exhibition
+	  Planners Sdn Bhd, 2019 - 2020)
+	  • Content Producer & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+	  • Wedding Cinematographer, Editor, Photographer, Colorist & Consultant
+	  ( Enya Mareine Vision Studio, 2016 - 2018 )
+	  • 《Astro新秀大赛2016》Assistant Director ( Astro, 2016 )
+	  • Director of Photographer ( DoP ) ( 5K Color Me Run 2.0 Marathon, 2016 )
+	  • DoP & Offline Editor of (INTI International University & Colleges’ Graduation
+	  Ceremony / Panel Discussion & Appreciation Night, 2016)
+	  • Online Editor, Colorist & Voiceover (VO) (PSC App Publicity Film, 2016)
+	  • Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+	  • Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
