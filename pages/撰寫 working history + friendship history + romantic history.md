@@ -7,7 +7,7 @@
 	- 06 Sep 2016, I was told not good for overall health over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advsied by Psychiatrist, Dr. Francis Low Chee Chan
 	- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
 	- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
-	- 28 Aug 2015, an international news, which reported unarrested suspects, the Grey Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern/needs of personal safety for the first time like making sure her loved ones were safe. However, it brought up another topic whether had caring become stress between us
+	- 28 Aug 2015, an international news, which reported unarrested suspects, the Grey Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern/needs of personal safety for the first time like making sure her loved ones were safe. However, it brought up another topic whether had caring and become stress to each other
 	- Before being in the relationship, previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal.
 	- First met before 13 June 2025; be in relationship on 15 May 2015
 	-
