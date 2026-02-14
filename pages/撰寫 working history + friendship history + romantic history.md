@@ -18,7 +18,7 @@
 - # Friendship History
 - # Working History
 	- 23 June 2022 - 13 December 2023
-		- First started
+		- First started enagaed
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
 	  • TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
