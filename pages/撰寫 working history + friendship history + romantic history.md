@@ -9,5 +9,6 @@
 	-
 	- Before being in the relationship, previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal.
 	- First met before 13 June 2025; be in relationship on 15 May 2015
+	-
 - # Friendship History
 - # Working History
