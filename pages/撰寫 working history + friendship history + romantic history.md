@@ -18,7 +18,7 @@
 - # Friendship History
 - # Working History
 	- 23 June 2022 - 13 December 2023
-		- Job scopes across PRD, Script-writing
+		- Job scopes across PRD, Script-writ
 		- Pitching session started since 17 June 2022
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] from financial services industry after corporate music industry.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
