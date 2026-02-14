@@ -2,7 +2,7 @@
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Officially broke up peacefully at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 		- On 10 June 2020, first time she offered to be there for me/ asked whether do I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
-		- following the break-up, seeking help with purpose of saving our dying relationship ended up my personal
+		- following the break-up, seeking help with purpose of saving our dying relationship ended up my personal recovery alone
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, I was told not good for overall health over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advsied by Psychiatrist, Dr. Francis Low Chee Chan
 	- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
