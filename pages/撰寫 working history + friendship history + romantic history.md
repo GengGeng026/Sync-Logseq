@@ -19,7 +19,7 @@
 - # Working History
 	- 23 June 2022 - 13 December 2023
 		- Pitching session started since 17 June 2022
-		- Due to success for CNY sequel programs and job scopes across Emcee throughout 2018 - 2022 in collaboration with mutual friends, better trust
+		- Due to success for CNY sequel programs and job scopes across Emcee throughout 2019 - 2022 in collaboration with mutual friends, better trust
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
 	  • TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
