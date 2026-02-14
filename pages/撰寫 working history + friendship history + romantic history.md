@@ -2,7 +2,7 @@
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Officially broke up peacefully at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 		- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
-		- Earlier, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye  was primary love language is [[Quality Time]] I would not longer have anymore opportunity to know hers
+		- Earlier, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was  primary love language is [[Quality Time]] I would not longer have anymore opportunity to know hers
 		- On [[10]] June 2020, first time she offered to be there for me/ asked whether do I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		-
 		-
