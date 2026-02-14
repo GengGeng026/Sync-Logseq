@@ -19,7 +19,7 @@
 - # Working History
 	- 23 June 2022 - 13 December 2023
 		- For client's image rebranding and personal finance literacy throughout TikTok, my job scopes were across Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
-		- Pitching session started since 17 June 2022
+		- Pitching session started since 17 June 2022 and
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] from financial services industry after corporate music industry.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
