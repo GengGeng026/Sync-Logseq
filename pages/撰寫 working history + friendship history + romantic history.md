@@ -21,10 +21,10 @@
 		- For client's image rebranding and personal finance literacy throughout TikTok, my job scopes were across Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Successful pitch since 17 June 2022; on hold indefinitely before final approval secured after the third reading for Malaysia's Budget 2022 and end of national political crisis.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
+	- TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
+	  Planners Sdn Bhd, 2019 - 2020)
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
-	  • TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
-	  Planners Sdn Bhd, 2019 - 2020)
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	  • Wedding [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
