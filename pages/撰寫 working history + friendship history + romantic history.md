@@ -26,7 +26,7 @@
 	- 2019 - 2020
 		- TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
-		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
