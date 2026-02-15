@@ -20,7 +20,7 @@
 	- 23 June 2022 - 13 December 2023
 		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
-		- Following successful pitch since 17 June 2022; ended up being on hold indefinitely before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
+		- Following successful pitch since 17 June 2022; project had ended up being on hold indefinitely before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2019 - 2020
 		- TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
