@@ -23,6 +23,7 @@
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
 	  Planners Sdn Bhd, 2019 - 2020)
+		-
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
