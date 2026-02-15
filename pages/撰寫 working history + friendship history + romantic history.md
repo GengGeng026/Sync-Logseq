@@ -24,9 +24,9 @@
 		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2019 - 2020
-		- TESCO Malaysia Facilitator (TESCO, 2019) (MEP [[Meeting]] & Exhibition
+		- TESCO Malaysia Facilitator (Lotus's (formerly TESCO), 2019) (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
-		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees by making the Tesco Clubcard Handbook interactive
+		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
 	  • Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
