@@ -19,7 +19,7 @@
 - # Working History
 	- 23 June 2022 - 13 December 2023
 		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
-		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledges with production skills and personal finance literacy throughout TikTok
+		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills and personal finance literacy throughout TikTok
 		- Successful pitch since 17 June 2022; on hold indefinitely before final approval secured after the third reading for Malaysia's Budget 2022 and end of national political crisis.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2019 - 2020
