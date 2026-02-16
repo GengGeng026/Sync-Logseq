@@ -1,4 +1,4 @@
-- P/S: Clarification about my **past psychiatric history**
+- P/S: Clarification about my **past psychiatric history** and Educational Histroy
 	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by  29 Sep 2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
