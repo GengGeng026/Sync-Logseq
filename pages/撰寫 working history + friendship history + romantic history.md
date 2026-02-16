@@ -104,4 +104,5 @@
 		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
 		  ( 2014 )
 	- 2013
-		-
+		- Storyboard Artist, Editor & DoP (《我的小時代》MV — Catherine 梁佩颖 )
+		  ( 2013 )
