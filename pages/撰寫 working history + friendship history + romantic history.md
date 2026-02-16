@@ -65,7 +65,7 @@
 		  Planners Sdn Bhd)
 		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
-	  • Temporary Floral Assistant (Scentales, 2019 )
+	- Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	  • Wedding [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
