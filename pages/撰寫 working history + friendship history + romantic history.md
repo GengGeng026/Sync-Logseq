@@ -52,7 +52,7 @@
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
-		-
+	- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Entreprise, 2018 - 2023)
 	- 23 June 2022 - 13 December 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
