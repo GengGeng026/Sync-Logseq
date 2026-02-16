@@ -59,7 +59,7 @@
 		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2020
-		- Contract Interviewer cum Assistant Researcher
+		- Contract Interviewer cum Assistant Researcher (  )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
