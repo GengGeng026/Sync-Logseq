@@ -10,6 +10,8 @@
 		  logseq.order-list-type:: number
 		- 2 Apr 2016
 		  logseq.order-list-type:: number
+		- 10 May 2016
+		  logseq.order-list-type:: number
 		- 17 May 2016
 		  logseq.order-list-type:: number
 - # Romantic History
@@ -21,6 +23,7 @@
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, I was told not good for overall health over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
+	- 10 May 101
 	- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
 	- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
 	- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
