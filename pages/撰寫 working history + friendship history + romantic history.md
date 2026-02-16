@@ -1,5 +1,5 @@
 - P/S: Clarification about my **Past psychiatric history**
-	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows 19 Jan 2015 was first time my girldfriend and I started talking about it,
+	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul 2017 was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist,
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
 		- 27 Oct 2015
@@ -52,7 +52,8 @@
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
-	- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2023)
+	- 2018 - 2023
+		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2023)
 	- 23 June 2022 - 13 December 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
@@ -63,7 +64,7 @@
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
-		- Content Producer, Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal Project 心意制作 )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
 		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
@@ -78,12 +79,30 @@
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
-	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
-	  ( Enya Mareine Vision Studio, 2016 - 2018 )
-	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
-	- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
-	- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
-	  Ceremony / Panel Discussion & Appreciation Night, 2016)
-	- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
-	- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
-	- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+	- 2016 - 2018
+		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
+		  ( Enya Mareine Vision Studio, 2016 - 2018 )
+	- [[2017]]
+		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
+	- 2016 - [[2017]]
+		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
+		  [[2017]] )
+	- 2016
+		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
+		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
+		  《淡淡的忧伤》 )
+		- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
+		- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
+		  Ceremony / Panel Discussion & Appreciation Night, 2016)
+		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
+	- 2015
+		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
+		  于来到》MV, CNY 2015 [[project]]) (2015)
+		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+	- 2014
+		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
+		  ( 2014 )
+	- 2013
+		- Storyboard Artist, Editor & DoP (《我的小時代》MV — Catherine 梁佩颖 )
+		  ( 2013 )
