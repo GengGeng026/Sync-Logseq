@@ -22,8 +22,6 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
-		- logseq.order-list-type:: number
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Officially broke up peacefully at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
@@ -52,7 +50,7 @@
 - # Friendship History
 - # Working History
 	- P/S:
-		- Never ever mentioned about girlfriend in any working experince since I was so afraid of being judged or grabbed as a tool to influence our relationship
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 	- 23 June 2022 - 13 December 2023
 		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
