@@ -50,7 +50,7 @@
 - # Friendship History
 - # Working History
 	- P/S:
-		- Fact-checked that my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rathen
+		- Fact-checked that my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather verbally
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 	- 23 June 2022 - 13 December 2023
 		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
