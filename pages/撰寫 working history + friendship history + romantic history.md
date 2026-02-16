@@ -1,4 +1,4 @@
-- P/S: Clarification about my **past psychiatric history**
+- P/S: Clarification about my **past psychiatric history** and Educational History
 	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by  29 Sep 2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -22,6 +22,7 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
+	- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with Kemaman Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Officially broke up peacefully at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
@@ -62,7 +63,7 @@
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2021
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
-		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal Project 心意制作 )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal [[project]] 心意制作 )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
 		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
