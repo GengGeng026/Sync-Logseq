@@ -101,4 +101,7 @@
 		  于来到》MV, CNY 2015 [[project]]) (2015)
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
 	- 2014
+		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
+		  ( 2014 )
+	- 2013
 		-
