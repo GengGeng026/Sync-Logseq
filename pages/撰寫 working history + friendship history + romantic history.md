@@ -63,7 +63,7 @@
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
-		- Content Producer, Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal Project 心意制作 )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
 		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
@@ -78,8 +78,10 @@
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
-	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
-	  ( Enya Mareine Vision Studio, 2016 - 2018 )
+	-
+	- 2016 - 2018
+		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
+		  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 	- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
 	- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
