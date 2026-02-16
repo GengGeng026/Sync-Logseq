@@ -14,7 +14,7 @@
 		  logseq.order-list-type:: number
 		- 17 May 2016
 		  logseq.order-list-type:: number
-		- 12 Jul 2016
+		- 12 Jul 2016  10:00
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 - # Romantic History
