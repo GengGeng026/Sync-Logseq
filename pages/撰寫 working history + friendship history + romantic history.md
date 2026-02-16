@@ -20,6 +20,9 @@
 		  logseq.order-list-type:: number
 		- 27 Jun 2017 (Tue)
 		  logseq.order-list-type:: number
+		- 04 Jul 2017 (Tue)
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
