@@ -67,13 +67,13 @@
 		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	-
 	- Temporary Floral Assistant (Scentales, 2019 )
-	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+	- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 	- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
 	- DoP & Offline Editor of (INTI International University & Colleges’ Graduation
 	  Ceremony / Panel Discussion & Appreciation Night, 2016)
-	  • Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
-	  • Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
-	  • Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+	- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
+	- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+	- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
