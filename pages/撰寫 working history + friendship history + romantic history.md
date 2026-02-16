@@ -67,6 +67,8 @@
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
 		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+	- 2019
+		-
 	- Temporary Floral Assistant (Scentales, 2019 )
 	- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
