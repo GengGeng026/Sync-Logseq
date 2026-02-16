@@ -31,6 +31,7 @@
 	- 24 Feb 2019, we
 	- After 19 Jan 2019 (convo), she entered the workforce,
 	  id:: 6992a2c0-371d-4143-9e79-fc1e87feabeb
+	-
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
