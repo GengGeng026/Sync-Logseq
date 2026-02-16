@@ -35,11 +35,12 @@
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
+		- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
 	- 23 May 2016, it was second time I lost my wallet that I felt ashamed how should I tell her
 		- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
 		- 29 July 2015, first time she bought me a new wallet as a birthday gift
 		- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
-	- 10 May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
+	- [[10]] May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 	- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
 	- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
 	- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
