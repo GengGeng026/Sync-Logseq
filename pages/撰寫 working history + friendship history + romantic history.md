@@ -72,7 +72,7 @@
 		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
 		- Temporary Floral Assistant (Scentales, 2019 )
 	- 2018 - 2019
-	- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
