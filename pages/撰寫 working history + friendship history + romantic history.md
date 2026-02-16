@@ -58,6 +58,8 @@
 		- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
 		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
+	- 2020
+		-
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
