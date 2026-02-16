@@ -1,4 +1,4 @@
-- P/S: Clarification towards my **Past psychiatric history**
+- P/S: Clarification about my **Past psychiatric history**
 	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows 19 Jan 2015 was first time my girldfriend and I started talking about it,
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
