@@ -1,5 +1,5 @@
 - P/S: Clarification about my **past psychiatric history**
-	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by  29 Sep 2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; WhatsApp chat history shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul 2017 was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
+	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by  29 Sep 2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
 		- 27 Oct 2015
@@ -62,6 +62,7 @@
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2021
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
+		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal Project 心意制作 )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
 		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
