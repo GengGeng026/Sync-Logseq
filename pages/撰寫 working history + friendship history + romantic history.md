@@ -84,6 +84,8 @@
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
+	- 2016 - [[2017]]
+		-
 	- 2016
 		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
