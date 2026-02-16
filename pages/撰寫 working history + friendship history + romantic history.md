@@ -1,4 +1,4 @@
-- P/S:
+- P/S: Clarification about my **Past psychiatric history**
 	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows 19 Jan 2015 was first time my girldfriend and I started talking about it,
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -44,25 +44,27 @@
 	- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
 	- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
 	- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
-	- Before being in the relationship, previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal.
+	- Before getting in the relationship, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal.
 	- First met before 13 June 2014; be in relationship on 15 May 2015
-	-
 - # Friendship History
 - # Working History
 	- P/S:
+		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 	- 23 June 2022 - 13 December 2023
-		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
+		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
 		- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
 		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
+	- 2020
+		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
 	- 2019 - 2020
-		- TESCO Malaysia Facilitator (Lotus's (formerly TESCO), 2019) (MEP [[Meeting]] & Exhibition
+		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
 		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- Chief Marketing Officer, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - Present)
-	  • Temporary Floral Assistant (Scentales, 2019 )
+	- Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	  • Wedding [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
