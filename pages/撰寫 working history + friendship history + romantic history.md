@@ -1,5 +1,5 @@
 - P/S:
-	-
+	- Appointment card shows
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Officially broke up peacefully at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
