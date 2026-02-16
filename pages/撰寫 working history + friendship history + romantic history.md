@@ -73,7 +73,7 @@
 		- Temporary Floral Assistant (Scentales, 2019 )
 	- 2018 - 2019
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
-		- Content Producer, Editor, Singer-Songwriter (《听世界の声音》
+		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
