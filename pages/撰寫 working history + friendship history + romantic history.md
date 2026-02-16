@@ -1,5 +1,5 @@
 - P/S:
-	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows
+	- Appointment card shows 29/9/2015 was my first visit Psychiatrist, Dr. Francis Low Chee Chan; chat history shows 19 Jan 2015 was first time my girldfriend and I started talking about it,
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
 		- 27 Oct 2015
