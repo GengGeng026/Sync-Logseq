@@ -97,6 +97,6 @@
 		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
 	- 2015
 		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
-		- Director, Content Creator, Director oP, Editor, Singer, Songwriter & Composer (《终
+		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
 		  于来到》MV, CNY 2015 Project) (2015)
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
