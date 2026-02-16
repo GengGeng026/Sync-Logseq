@@ -63,7 +63,7 @@
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
-		- Content Producer, Editor, Singer-Songwriter ( 《乖乖待在家里头》Covid-19  MV, Seasonal Project 心意制作 )
+		- Content Producer, Editor, Singer-Songwriter ( 《乖乖待在家里头》Covid-19 2020 Malaysia Movement Control Order MV, Seasonal Project 心意制作 )
 		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
