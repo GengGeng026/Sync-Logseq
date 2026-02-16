@@ -36,6 +36,8 @@
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
+	- 23 May 2016, it was second time I lost my wallet I felt ashamed whether to tell her
+	-
 	- 10 May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 	- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
 	- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
