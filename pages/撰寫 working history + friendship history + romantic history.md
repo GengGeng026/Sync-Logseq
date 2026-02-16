@@ -79,13 +79,14 @@
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
-	- [[2017]]
-		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
+	- [[2017]]
+		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - [[2017]]
-		-
+		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
+		  2017 )
 	- 2016
 		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
