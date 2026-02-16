@@ -1,4 +1,5 @@
 - P/S: Clarification about my **past psychiatric history** and Educational History
+	- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
 	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan on 29 Sep 2015;
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -22,7 +23,6 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
-	- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was I the last visit before first visited Psychiatrist Dr. Ng Chong Guan on 19 Jun, 2020 then Clinical Psychologist, Joo Chien 'JC' Chong
 	- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with Kemaman Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
