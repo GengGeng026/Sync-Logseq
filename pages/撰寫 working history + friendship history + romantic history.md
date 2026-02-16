@@ -50,7 +50,7 @@
 - # Friendship History
 - # Working History
 	- P/S:
-		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so sacred of my privacy leaking or judgemental idle talk might influence the relationship
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so sacred of my privacy leaking or judgemental idle talk might influence the relationship I value
 	- 23 June 2022 - 13 December 2023
 		- Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
