@@ -63,6 +63,7 @@
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
+		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
@@ -71,7 +72,7 @@
 		- Emcee a.k.a Master of Ceremony  ( Emerging Untainted - An inspiration from the Lotus Sutra ｜ Arts Exhibition Opening Ceremony )
 		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
 		- Temporary Floral Assistant ( Scentales, 2019 )
-		- Content Producer, Editor, Singer-Songwriter ( 《321回家去》MV, Seasonal Project 心意制作 )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》MV, Seasonal [[project]] 心意制作 )
 	- 2018 - 2019
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
