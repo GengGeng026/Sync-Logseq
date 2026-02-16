@@ -86,7 +86,7 @@
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - [[2017]]
 		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
-		  2017 )
+		  [[2017]] )
 	- 2016
 		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
@@ -97,4 +97,6 @@
 		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
 	- 2015
 		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+		- Director, Content Creator, Director oP, Editor, Singer, Songwriter & Composer (《终
+		  于来到》MV, CNY 2015 Project) (2015)
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
