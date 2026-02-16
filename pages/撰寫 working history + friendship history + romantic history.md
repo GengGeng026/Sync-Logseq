@@ -68,7 +68,7 @@
 	-
 	- Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
-	- Wedding [[cinematographer]], Editor, Photographer, Colorist & Consultant
+	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	  • 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 	  • Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
