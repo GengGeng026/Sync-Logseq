@@ -79,14 +79,16 @@
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- [[2017]]
-		- Director, Production Designer, Art Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec 2017 )
+		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
-	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
-	- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
-	- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
-	  Ceremony / Panel Discussion & Appreciation Night, 2016)
-	- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
-	- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
-	- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+	- 2016
+		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
+		- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
+		- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
+		  Ceremony / Panel Discussion & Appreciation Night, 2016)
+		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
+	- 2015
+		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
