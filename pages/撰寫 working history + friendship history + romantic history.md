@@ -30,7 +30,7 @@
 		- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 		- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
 		- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
-	- 24 Feb 2019, we tend
+	- 24 Feb 2019, we tend to fol
 	- After 19 Jan 2019 (convo), she entered the workforce,
 	  id:: 6992a2c0-371d-4143-9e79-fc1e87feabeb
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
