@@ -34,9 +34,9 @@
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
-	- 23 May 2016, it was second time I lost my wallet that I felt ashamed whether should I tell her
+	- 23 May 2016, it was second time I lost my wallet that I felt ashamed how should I tell her
 		- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
-		- 29 July 2015, first time she sent me a new wallet
+		- 29 July 2015, first time she bought me a new wallet as a birthday gift
 		- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
 	- 10 May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 	- The action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
