@@ -59,15 +59,22 @@
 		- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
 		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
+	- 2021
+		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
-		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
-	-
-	- Temporary Floral Assistant (Scentales, 2019 )
-	- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+	- 2019
+		- Emcee a.k.a Master of Ceremony  ( Emerging Untainted - An inspiration from the Lotus Sutra ｜ Arts Exhibition Opening Ceremony )
+		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
+		- Temporary Floral Assistant (Scentales, 2019 )
+	- 2018 - 2019
+		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
+		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 	  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
