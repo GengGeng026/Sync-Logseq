@@ -52,6 +52,7 @@
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
+		-
 	- 23 June 2022 - 13 December 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
@@ -64,7 +65,7 @@
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
 		  Planners Sdn Bhd)
 		- Partner with 2 corporate event Emcees, in collaboration with MEP Meeting & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores KL and Selangor by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
-	- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions, 2018 - 2023)
+	-
 	- Temporary Floral Assistant (Scentales, 2019 )
 	  • Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 	  • Wedding [[cinematographer]], Editor, Photographer, Colorist & Consultant
