@@ -1,5 +1,6 @@
 - P/S: Clarification about my **past psychiatric history** and Educational History
-	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and 16 Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
+	- # Psychiatric History
+	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
 		- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -23,8 +24,13 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
-	- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with Kemaman Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
-	- Back in secondary school time, was shy and anxious while bumping into the girl I liked and so uncontrollably escaped each time realise she was from far away with her friend. Even without seeing here, I was also obssesed with my hairstyle while passing by any mirror-like object just to make sure I look fine but this action mafe me more inconfident and teased by other schoolmates.
+	- # Educational History
+		- 2000
+		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
+		  ｜
+		- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
+		-
+	- Back in secondary school time, I was shy and anxious while bumping into the girl I liked and so uncontrollably escaped each time realise she was from far away with her friend. Even without seeing here, I was also obssesed with my hairstyle while passing by any mirror-like object just to make sure I look fine but this action mafe me more inconfident and teased by other schoolmates.
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 	- Formally and peacefully said goodbye to each other without initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
@@ -61,7 +67,9 @@
 		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022 due to coach conflict of interest. He's the one who played the most significant role in organising, leading and transforming the team from 4 core members up to [[10]] committees and less than 50 volunteers, and from nonprofit to social enterprise. By working closely with such highly cohsice team, I managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
-		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money whilst I've been jobless though there has been several times he said there's no hurry to pay it back.
+		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
+	- Phei Yong, Male
+		- We first met in TAR UMT. I'm studying
 	-
 - # Working History
 	- P/S:
