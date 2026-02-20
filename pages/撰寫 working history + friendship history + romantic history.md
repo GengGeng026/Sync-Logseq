@@ -58,7 +58,7 @@
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through preparation strategies.
 		- Until we both graduated, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
-		- We both only met again during 20 years old, then we initiated a seasonal non-profit project '心意' productions including annual CNY MV, epidemic prevention MV until 2022
+		- We both only met again during 20 years old, then we initiated a seasonal non-profit project '心意' productions including annual CNY MV, epidemic prevention awarenessMV until 2022
 	-
 - # Working History
 	- P/S:
