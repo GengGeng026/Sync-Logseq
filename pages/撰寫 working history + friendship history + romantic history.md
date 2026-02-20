@@ -78,7 +78,7 @@
 		- Before we both graduated, he wrote me a scroll of Chinese calligraphy as my 21st birthday gift.
 		-
 	- Johnathan, Male
-		-
+		- We first met
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
