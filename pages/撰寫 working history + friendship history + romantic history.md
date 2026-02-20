@@ -60,7 +60,8 @@
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
 		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022 due to coach conflict of interest. He's the one who played the most significant role in organising, leading and transforming the team from 4 core members up to [[10]] committees and less than 50 volunteers, and from nonprofit to social enterprise. By working closely with such highly cohsice team, I managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
-		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). Nearly half of the new filming gears were invested by him
+		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming gears were invested by him.
+		- After April 2023, there has been no contact between us until now as I feel ashamed owing him
 	-
 - # Working History
 	- P/S:
