@@ -52,7 +52,7 @@
 	- First met before 13 June 2014; be in relationship on 15 May 2015
 - # Friendship History
 	- Jian Li, male
-		- 2005, the day I first told
+		- 2005, the day I first told him my imaginary friend, amouse
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
