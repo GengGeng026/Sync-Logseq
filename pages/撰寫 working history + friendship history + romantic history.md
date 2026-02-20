@@ -57,7 +57,7 @@
 		- this relationship didn't last longer and ended up we didn't talk anymore  since 2006 until few years later.
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through preparation strategies.
-		- Until we both graduated, we had been classmates and been through a lot. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also made more people happy and laugh as we perform sketches through many course
+		- Until we both graduated, we had been classmates and been through a lot. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also made more people happy and laugh as we perform sketches thro
 	-
 - # Working History
 	- P/S:
