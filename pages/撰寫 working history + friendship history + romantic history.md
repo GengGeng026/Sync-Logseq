@@ -58,16 +58,16 @@
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through preparation strategies.
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
-		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022
-		- Later, he facilitated a business collaboration amongst me, him and a
+		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022. He's the one who been playing the most significant role in
+		- Later, he facilitated a business collaboration amongst me, him and a Certified Financial Planner (CFP).
 	-
 - # Working History
 	- P/S:
-		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
+		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
-	- 2018 - 2023
-		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2023)
-	- 23 June 2022 - 13 December 2023
+	- 2018 - 2022
+		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
+	- 23 June 2022 - January 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
 		- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
