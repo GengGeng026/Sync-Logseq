@@ -52,7 +52,7 @@
 	- First met before 13 June 2014; be in relationship on 15 May 2015
 - # Friendship History
 	- Jian Li, male
-		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then we started becoming friends. The another element which made However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
+		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then we started becoming friends. The another element which made us connected was we were both fat However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
 		-
 	-
 - # Working History
