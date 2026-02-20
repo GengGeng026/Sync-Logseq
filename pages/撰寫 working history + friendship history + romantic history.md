@@ -25,7 +25,7 @@
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
 	- # Educational History
-		- 2001–2007
+		- 2000
 		  SJK(C) Cukai
 		  •⁠  ⁠UPSR
 		  ｜2As (Science, Chinese)
