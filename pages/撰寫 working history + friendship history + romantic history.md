@@ -68,6 +68,7 @@
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
 		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
+		-
 	- Phei Yong, Male
 		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
 		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
@@ -77,6 +78,7 @@
 		- Before we both graduated, he wrote me a scroll of Chinese calligraphy as my 21st birthday gift.
 		-
 	- Johnathan, Male
+		-
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
