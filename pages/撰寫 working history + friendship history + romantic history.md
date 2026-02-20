@@ -26,7 +26,7 @@
 		  logseq.order-list-type:: number
 	- # Educational History
 		- 2000
-		  SJK(C) Cukai
+		  (Yong Khang Kindergarten)
 		  •⁠  ⁠UPSR
 		  ｜2As (Science, Chinese)
 		- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
