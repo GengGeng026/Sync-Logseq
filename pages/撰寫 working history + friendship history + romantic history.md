@@ -78,7 +78,7 @@
 		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
 		-
 	- Johnathan, Male
-		- We first met in a Marathon at Penang Bridge
+		- We first met in a Marathon at Penang Bridge 2013
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
