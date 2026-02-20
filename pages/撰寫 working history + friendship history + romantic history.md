@@ -33,7 +33,7 @@
 		- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest, she first claimed we were not a good match while she was still studying and I just started working; later, after she had entered the workforce been a while, she said we might need some time off. Each time I tried my best to work things out with her no matter through time apart and  took initiative to reconnect with each other until we drifted apart and I worn myself out.
 		- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 	- 24 Feb 2019, we
-	- After 19 Jan 2019 (convo), she entered the workforce,
+	- (convo), she entered the workforce,
 	  id:: 6992a2c0-371d-4143-9e79-fc1e87feabeb
 	-
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
