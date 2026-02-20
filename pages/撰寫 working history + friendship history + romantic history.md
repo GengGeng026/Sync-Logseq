@@ -76,7 +76,7 @@
 		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of CNY [[song]] contest in Penang island. After that, we produced a MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst he also had became MYFM DJ after winning the champion of 'Be My Star DJ'.
 		- Before we both graduated, he wrote me a scroll of Chinese calligraphy as my 21st birthday gift.
 		-
-		-
+	- Johnathan, Male
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
