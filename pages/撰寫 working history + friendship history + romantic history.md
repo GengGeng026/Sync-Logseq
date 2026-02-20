@@ -79,7 +79,7 @@
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge 2013
-		- That was first time I tried to be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friendhe is he i hh eproducer
+		- That was first time I tried to be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he is a music producer
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
