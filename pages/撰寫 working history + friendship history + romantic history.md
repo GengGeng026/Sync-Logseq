@@ -33,9 +33,6 @@
 		- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest (mid 2017), she first claimed we were not a good match while she was still studying as I just started working; later, after she had entered the workforce been a while (since mid 2018), she said we might need some time off. Each time I tried my best to work things out with her and it helped no matter through time apart and took initiative to reconnect with each other, until we drifted apart and I worn myself out.
 		- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 	- 24 Feb 2019, we
-	- (convo), she entered the workforce,
-	  id:: 6992a2c0-371d-4143-9e79-fc1e87feabeb
-	-
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
