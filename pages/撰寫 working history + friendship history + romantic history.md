@@ -51,7 +51,7 @@
 	- Before getting in the relationship, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal.
 	- First met before 13 June 2014; be in relationship on 15 May 2015
 - # Friendship History
-	- P/S: I've only very few good friends since I couldn't easily bond with nearly anyone unless they were willing to get to know me
+	- P/S: Before University times, I've only very few good friends since I couldn't easily bond with nearly anyone unless they were willing to get to know me
 	- Jian Li, male
 		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then we started becoming friends. The another things I could remember that we saw each other in common was we were both fat, even fatter than average children, However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
 		-
