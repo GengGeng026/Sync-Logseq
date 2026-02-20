@@ -68,14 +68,18 @@
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
 		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
+		-
 	- Phei Yong, Male
 		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
 		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
 		- He and I first participated in Campus 2nd Biggest event audition back in 2012, then [[Astro]] chinese TV programme Host contest back in 2013, followed by campus Chinese debate contest, anti-nuclear weapon exhibition, silent mob performance, etc.
-		- Plus, we also had a lot of interest in common, not only mastering the ceremonies, but also [[song]]-writing, arts and culture events.
+		- Since we also had a lot of interest in common, not only mastering the ceremonies, but we also spend time together writing songs, appreciating films, arts and culture events, etc
 		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of CNY [[song]] contest in Penang island. After that, we produced a MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst he also had became MYFM DJ after winning the champion of 'Be My Star DJ'.
-		- Before we both graduated, he once sent a
+		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
 		-
+	- Johnathan, Male
+		- We first met in a bus with group with people participating Marathon at Penang Bridge 2013
+		- That was first time I tried to be cheeky by showing him
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
