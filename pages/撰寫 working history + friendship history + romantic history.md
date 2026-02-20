@@ -54,6 +54,7 @@
 	- Jian Li, male
 		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then we started becoming friends. However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
 		-
+	-
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
