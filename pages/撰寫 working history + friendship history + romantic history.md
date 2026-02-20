@@ -58,7 +58,7 @@
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through preparation strategies.
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
-		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022. He's the one who been playing the most significant role in organising, leading and transforming the team from 4 core members up to 10 committees and less than 50 volunteers, and from
+		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022. He's the one who been playing the most significant role in organising, leading and transforming the team from 4 core members up to 10 committees and less than 50 volunteers, and from offline to online business
 		- Later, he facilitated a business collaboration amongst me, him and a Certified Financial Planner (CFP).
 	-
 - # Working History
