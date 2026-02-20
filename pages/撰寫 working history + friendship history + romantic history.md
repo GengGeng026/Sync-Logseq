@@ -54,7 +54,7 @@
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
 	- Jian Li, male
 		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class
-		- the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then . We were both fat, even fatter than average children, However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
+		- We started becoming friends since the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday, then . We were both fat, even fatter than average children, However, this relationship didn't last longer and ended up like we didn't talk anymore  since 2006 until several years later.
 		-
 	-
 - # Working History
