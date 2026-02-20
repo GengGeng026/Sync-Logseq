@@ -57,7 +57,7 @@
 		- We started becoming friends since the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday.
 		- We were both fat, even fatter than average children
 		- this relationship didn't last longer and ended up we didn't talk anymore  since 2006 until few years later.
-		- 2007, we had our very first physical conflict where he
+		- 2007, we had our very first physical conflict in a same school bus after
 	-
 - # Working History
 	- P/S:
