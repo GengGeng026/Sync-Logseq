@@ -62,7 +62,8 @@
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
 		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
-	- Phei Yog
+	- Phei Yong, Male
+		- We
 	-
 - # Working History
 	- P/S:
