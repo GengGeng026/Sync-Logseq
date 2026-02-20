@@ -30,12 +30,9 @@
 	- Formally and peacefully said goodbye to each other without initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 		- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 		- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
-		- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest (), she first claimed we were not a good match while she was still studying and I just started working; later, after she had entered the workforce been a while (since mid 2018), she said we might need some time off. Each time I tried my best to work things out with her no matter through time apart and  took initiative to reconnect with each other until we drifted apart and I worn myself out.
+		- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest (mid 2017), she first claimed we were not a good match while she was still studying as I just started working; later, after she had entered the workforce been a while (since mid 2018), she said we might need some time off. Each time I tried my best to work things out with her and it helped no matter through time apart and took initiative to reconnect with each other, until we drifted apart and I worn myself out.
 		- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 	- 24 Feb 2019, we
-	- (convo), she entered the workforce,
-	  id:: 6992a2c0-371d-4143-9e79-fc1e87feabeb
-	-
 	- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 	- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 	- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
@@ -59,6 +56,7 @@
 		- We were both fat, even fatter than average children
 		- this relationship didn't last longer and ended up we didn't talk anymore  since 2006 until few years later.
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
+		- 2009, that was first time we got closer and thanks to him I then managed to secure a place in the science stream through given
 	-
 - # Working History
 	- P/S:
