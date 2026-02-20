@@ -70,8 +70,7 @@
 		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
 	- Phei Yong, Male
 		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
-		- He was from Psychology Counselling
-		-
+		- He was from Psychology Counselling, however,
 	-
 - # Working History
 	- P/S:
