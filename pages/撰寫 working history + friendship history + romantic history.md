@@ -79,7 +79,7 @@
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge 2013
-		- That was
+		- That was first time I
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
