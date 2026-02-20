@@ -71,7 +71,7 @@
 	- Phei Yong, Male
 		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
 		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
-		- He and I first participated in Astro Chinese TV Programme Host COnt
+		- He and I first participated in Astro Chinese TV Programme Host context
 	-
 - # Working History
 	- P/S:
