@@ -52,7 +52,7 @@
 	- First met before 13 June 2014; be in relationship on 15 May 2015
 - # Friendship History
 	- Jian Li, male
-		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, I first told him my imaginary friend, a mouse which talked to me everyday, we started making friends with each other, but ended up we didn't talk anymore  since 2006 (even though) until several years later.
+		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class, the day we exchanged a secret from each other, that was the first time I told him my imaginary friend, a mouse which talked to me everyday, we started making friends with each other, but ended up we didn't talk anymore  since 2006 (even though) until several years later.
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 2 years and 2 months, rather I remembered wrongly 5 years.
