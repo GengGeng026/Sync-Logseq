@@ -69,7 +69,9 @@
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
 		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
 	- Phei Yong, Male
-		- We first met in TAR UMT. I'm studying
+		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
+		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
+		- He and I first participated in Campus 2nd Biggest event audition back in 2012, then Astro Chinese TV Programme Host contest back in 2013,
 	-
 - # Working History
 	- P/S:
