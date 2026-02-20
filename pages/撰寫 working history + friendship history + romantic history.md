@@ -27,7 +27,7 @@
 	- Back in secondary school time, was shy and anxious while bumping into the girl I liked and so uncontrollably escaped each time realise she was from far away with her friend. Even without seeing here, I was also obssesed with my hairstyle while passing by any mirror-like object just to make sure I look fine but this action mafe me more inconfident and teased by other schoolmates.
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
-	- Formally and peacefully  without at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
+	- Formally and peacefully said goodbye to each other without at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 		- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 		- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
 		- We had an on-again, off-again thing for 3 years.
