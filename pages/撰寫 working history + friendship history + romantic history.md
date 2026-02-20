@@ -1,5 +1,6 @@
 - P/S: Clarification about my **past psychiatric history** and Educational History
-	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and 16 Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
+	- # Psychiatric History
+	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
 		- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -23,7 +24,8 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
-	- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with Kemaman Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
+	-
+	- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 	- Back in secondary school time, was shy and anxious while bumping into the girl I liked and so uncontrollably escaped each time realise she was from far away with her friend. Even without seeing here, I was also obssesed with my hairstyle while passing by any mirror-like object just to make sure I look fine but this action mafe me more inconfident and teased by other schoolmates.
 - # Romantic History
 	- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
