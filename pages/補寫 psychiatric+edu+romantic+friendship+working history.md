@@ -187,7 +187,7 @@
 - # Working History
 	- Current Status
 		- Jobless since 13 December 2023
-		- Nearly 2 years and 2 months, rather I remembered wrongly 5 years.
+		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
 	- 23 June 2022 - January 2023
@@ -214,6 +214,7 @@
 		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》CNY MV, Seasonal [[project]] 心意制作 )
 	- 2018 - 2019
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- 2016 - 2018
