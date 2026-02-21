@@ -80,7 +80,7 @@
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively [[received]].
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
-			- From
+			- From reluctance to
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- **08 Sep 2016**
