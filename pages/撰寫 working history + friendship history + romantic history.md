@@ -89,7 +89,7 @@
 			- Attempted reconnection through shared religious community activities.
 			- Gradual withdrawal from active roles and eventually region-level participation.
 			- Prolonged mourning period; required significant time to stabilise emotionally.
-		- 24 Jul 2017, she began accompanying others to psychiatric consultations; this coincided with a shift in my expectations — I initially hoped counselling could salvage the relationship, but treatment evolved into individual therapy focused on my recovery.
+		- 24 Jul 2017, she began accompanying her friend to psychiatric consultations; this coincided with a shift in my expectations — I initially hoped counselling could salvage the relationship, but treatment evolved into individual therapy focused on my recovery.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 		- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
 			- Earlier than 19 Jan 2015, the action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
