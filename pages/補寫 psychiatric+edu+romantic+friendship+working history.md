@@ -188,6 +188,7 @@
 	- Current Status
 		- Jobless since 13 December 2023
 		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
+	- 23 June 2022 - January 2023
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
 		- I had so many moments of emotional distress whenever unexpected things occurred especially during start-up.
@@ -197,7 +198,6 @@
 			- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
 			- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
 			- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
-	- 23 June 2022 - January 2023
 	- 2021
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
 		- Content [[producer]], Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal [[project]] 心意制作 )
