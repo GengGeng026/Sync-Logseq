@@ -93,6 +93,7 @@
 				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
+			-
 			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
 			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
