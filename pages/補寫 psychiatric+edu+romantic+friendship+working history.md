@@ -129,7 +129,7 @@
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
 		- 2014 - 2018
 			- Met again in 2014
-			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018 while we were working different industries.
+			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018 while we were working in different industries.
 		- 2019 - 2022
 			- Continued collaboration in creative / business-related attempts.
 			- Produced annual CNY music videos, epidemic prevention awareness, online singing classes, etc.
