@@ -37,7 +37,7 @@
 	- **19 Jun 2020**
 		- Last visited Dr. Francis Low Chee Chan
 	- **19 Jun 2020**
-		-
+		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
 		  On the same day (evening), mutually and peacefully ended 5-year relationship.
