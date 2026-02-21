@@ -161,7 +161,7 @@
 	- Johnathan, Male
 		- 2014
 			- Met through Penang bridge II marathon.
-			- First time showed him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
+			- First time showed him my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
 		- 2015 - 2019
 		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY [[song]] contest back in 2015, publish our duet [[YouTube]] channel in 2018
 		- 2020 onwards, we got wider media coverage through being featured in [[Astro]] TV shows, TV2 Mandarin News, online interviews, formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
