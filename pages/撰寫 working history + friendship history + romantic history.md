@@ -53,8 +53,6 @@
 	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
-		- 2015:
-			- Noted early reassurance-seeking behaviour — interpreted events (e.g., partner's family jokes about future kinship) as confirmation of hoped-for long-term belonging, reinforcing efforts to please and secure relationship.
 		- Entered relationship formally in mid-2015;
 			- despite partner's verbal agreement, I experienced pervasive insecurity and repeatedly sought reassurance (e.g., sought confirmation during/after initial meetings), reflecting low self-confidence.
 		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
