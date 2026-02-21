@@ -219,8 +219,8 @@
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
-		- For half of first year, trouble in trusting colleagues contributing to detachment and low efficiency at work.
-		- Managed to work smoother
+		- For half of first year, trouble in trusting colleagues and contributing to detachment and low efficiency at work.
+		- Managed to work things out smoother
 	- [[2017]]
 		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
