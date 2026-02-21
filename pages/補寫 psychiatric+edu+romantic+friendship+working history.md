@@ -6,7 +6,7 @@
 			- Third consulatation: [[16]] Mar 2012
 			- Total consultations: 3
 		- **29 Sep 2015**
-			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, sleep disturbance)
+			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, [[Sleep]] disturbance)
 			- Total consultations: 11 - 15
 			- Full physical records
 				- 29 Sep 2015
@@ -47,7 +47,7 @@
 			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
 			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and fight.
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
-			-
+		-
 - # Romantic History
 	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
