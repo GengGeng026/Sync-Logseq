@@ -87,7 +87,14 @@
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
-		- Recurrent forgetfulness (examples): 23 May 2016 — third time losing wallet (felt shame); 10 Sep 2015 — lost wallet she had purchased for me after long day; 3 Jul 2015 — first self-lost wallet during a date. Partner interpreted this as poor self-control and shared informational material (e.g., memory/self-control articles) as an attempt to help.
+		- Recurrent forgetfulness (examples):
+			- Lost wallet incidents
+				- 23 May 2016 — third time losing wallet (felt shame);
+				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
+				- 3 Jul 2015 — first self-lost wallet during a date.
+			- Verbal commitments forgotten the next day
+			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
+			- I began heavy reliance on digital reminders and multiple daily alarms.
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
