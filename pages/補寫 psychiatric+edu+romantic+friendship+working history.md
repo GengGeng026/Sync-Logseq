@@ -221,7 +221,7 @@
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
 		- For half of first year, trouble in trusting colleagues and weakness in delegation contributing to detachment and low efficiency at work.
 		- Later, I managed to work things out much smoother with supportive teammates of a similar age especially when over half of seniors left the company.
-		- That was the first time I felt like
+		- That was the first time I felt like I could make friends at work spaces
 	- [[2017]]
 		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
