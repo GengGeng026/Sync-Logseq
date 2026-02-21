@@ -214,11 +214,12 @@
 	- 2018 - 2019
 		- Freelance Emcee a.k.a Master of Ceremony for indoor spring festive gala
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
-		- Produce content such as comedy short film 《千方百计搞定你》 in order to attract target audience for financial course enrolment.
+		- Produce content such as comedy short film 《千方百计搞定你》 in [[order]] to attract target audience for financial course enrolment.
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related since I was so anxious of my privacy leaking or judgemental idle talk might influence the relationship I valued
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
+		-
 	- [[2017]]
 		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
