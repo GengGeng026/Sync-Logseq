@@ -191,7 +191,7 @@
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
 		- I had so many moments of emotional distress whenever unexpected things occurred especially during start-up.
-		- There were times I insisted my parter to follow the [[patterns]] of my desired online [[Meeting]], he has to
+		- There were times I insisted my parter to follow the [[patterns]] of my desired online [[Meeting]], he will
 	- 23 June 2022 - January 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
