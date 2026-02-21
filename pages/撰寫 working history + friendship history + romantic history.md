@@ -46,7 +46,7 @@
 			- Small church-run kindergarten, not formally digitised/registered.
 			- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches
 			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
-			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted p, snatched belongings and .
+			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and .
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation as I could easily get into physical fight anytime with other kids without knowing any reasons or how I was becoming that terribly bad.
 - # Romantic History
 	- My very first and ex-girlfriend
