@@ -33,8 +33,6 @@
 				  logseq.order-list-type:: number
 		- **06 Sep 2016**
 			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-		- **24 Jul [[2017]]**
-			- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
 		- **04 Jul 2020**
 			- Last visited Dr. Francis Low Chee Chan
 		- **19 Jun 2020**
