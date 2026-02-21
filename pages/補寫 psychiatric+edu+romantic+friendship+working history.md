@@ -151,8 +151,8 @@
 			- Participated in competition together.
 			- Auditioned for Astro-related TV host opportunity.
 			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
-		- Maintained supportive friendship through shared artistic and organisational involvement.
-		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
+			- Maintained supportive friendship through shared artistic and organisational involvement.
+				- Friendship sustained through structured joint activities rather than spontaneous social bonding.
 		- 2015
 			- he came and showed his support whilst my music partner, Johnathan and I reached the grand final of 2015 CNY [[song]] contest in Penang island.
 			- With his extensive connections, we produced an group singing music videos for the same [[song]] '终于来到 Finally' and got it broadcasted through radio station whilst Phei Yong had became MYFM contract DJ after winning the champion of 'Be My Star DJ'.
