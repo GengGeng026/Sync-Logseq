@@ -116,7 +116,7 @@
 		- 2005
 			- Became close friends in SJK(C) Cukai through exchange of personal secrets.
 			- that was the first time I told him my only imaginary friend, a mouse which talked to me everyday.
-		- We were both fat, even fatter than average children
+			- We were both fat, even fatter than average children
 		- 2006
 			- Lost contact after primary school graduation.
 		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
