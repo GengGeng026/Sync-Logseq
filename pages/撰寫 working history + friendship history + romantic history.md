@@ -83,7 +83,7 @@
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- **08 Sep 2016**
-				- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
+				- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). She provided in-person support.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
