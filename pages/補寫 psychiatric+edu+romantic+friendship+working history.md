@@ -246,7 +246,7 @@
 		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
 		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
-		- Learnt from sig
+		- Learnt from significant mistake of
 	- 2012
 		- Promoter at MATTA Travel Fair, at Mid Valley Mall exhibition hall for [[5]] Days
 		- Only recalled so many times I escaped to toilet for a while as the place was too crowded with people
