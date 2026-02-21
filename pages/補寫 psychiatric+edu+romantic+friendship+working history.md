@@ -133,7 +133,7 @@
 			- Expanded from initially 4 core members up to [[10]] committees and less than 50 volunteers.
 			- Produced annual CNY MV, epidemic prevention awareness, online singing classes,
 			- Later transitioned into small-scale social enterprise collaboration
-			- Managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
+			- By working closely with such highly cohsice team, I managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
 			- suspended since 2022 due to coach conflict of interest.
 		- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
 		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
