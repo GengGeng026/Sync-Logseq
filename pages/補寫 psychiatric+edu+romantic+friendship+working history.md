@@ -152,7 +152,6 @@
 			- Auditioned for Astro-related TV host opportunity.
 			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
 		- Maintained supportive friendship through shared artistic and organisational involvement.
-		- Provided professional encouragement and collaboration opportunities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
 		- 2015
 			- he came and showed his support whilst my music partner, Johnathan and I reached the grand final of 2015 CNY [[song]] contest in Penang island.
