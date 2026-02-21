@@ -31,11 +31,9 @@
 				  logseq.order-list-type:: number
 				- 04 Jul 2017 (Tue)
 				  logseq.order-list-type:: number
-				- 04 Jul 2020
-				  logseq.order-list-type:: number
 		- **06 Sep 2016**
 			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-		- **04 Jul 2020**
+		- **04 Jul 2017**
 			- Last visited Dr. Francis Low Chee Chan
 		- **19 Jun 2020**
 			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
