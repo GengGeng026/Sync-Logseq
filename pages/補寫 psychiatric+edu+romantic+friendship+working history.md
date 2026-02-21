@@ -222,7 +222,7 @@
 		- For half of first year, trouble in trusting colleagues and weakness in delegation contributing to detachment and low efficiency at work.
 		- Later, I managed to work things out much smoother with supportive teammates of a similar age especially when over half of seniors left the company.
 		- That was the first time I felt like I could make good friends at workspace rather than only transactional teamworks
-		- Friendship sustained even after we all left the same company.
+		- Friendship sustained and stilleven after we all left the same company.
 	- [[2017]]
 		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
