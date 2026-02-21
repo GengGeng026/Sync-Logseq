@@ -92,7 +92,7 @@
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
 			- 8 Dec 2015, she interpreted this as poor self-control and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
-			- Since then, I began heavier reliance on digital reminders and multiple daily alarms, however, those behaviour ended up generating more tension.
+			- Since then, I began heavier reliance on digital reminders and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
