@@ -243,6 +243,6 @@
 		  于来到》MV, CNY 2015 [[project]])
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
 	- 2014
-		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
+		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
-		- Storyboard Artist, Editor & DoP (《我的小時代》MV — Catherine 梁佩颖 )
+		- Storyboard Artist, Editor & DirectoroP (《我的小時代》MV — Catherine 梁佩颖 )
