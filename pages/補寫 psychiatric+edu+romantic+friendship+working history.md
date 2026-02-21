@@ -49,7 +49,7 @@
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
 		- Early School Years
 			- Recalled persistent forgetfulness since adolescence (misplacing items, forgetting time).
-			- Shower over 1 hour each
+			- Shower over 1 hour every time
 - # Romantic History
 	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
