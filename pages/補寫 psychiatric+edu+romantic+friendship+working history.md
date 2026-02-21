@@ -242,7 +242,7 @@
 		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
 		  于来到》MV, CNY 2015 [[project]])
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
-		- Since 2013, there was the second and last time I made the same mistake of crossing the line of s short film director, however, she tried to talk to me assertively over the situation, then
+		- Since 2013, there was the second and last time I made the same mistake of crossing the line of s short film director, however, she tried to talk to me assertively over the situation, then I learnt from my uns
 	- 2014
 		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
