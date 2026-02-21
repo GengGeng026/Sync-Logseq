@@ -190,6 +190,7 @@
 		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
+		- I had so many moments of emotional distress whenever unexpected things
 	- 23 June 2022 - January 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
@@ -242,6 +243,7 @@
 		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
 		  于来到》MV, CNY 2015 [[project]])
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+		- Following 2013, there was the second and last time I made the same mistake of crossing the director's line in a in-house mini production,  despite that, she tried to talk to me assertively over the situation, I then realised and learnt from my reluctance to accept imperfection and difficulties to obey by the authority like leader's instructions.
 	- 2014
 		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
