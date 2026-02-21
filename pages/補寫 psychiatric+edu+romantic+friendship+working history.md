@@ -248,7 +248,7 @@
 		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
 	- 2012
 		- Promoter at MATTA Travel Fair, at Mid Valley Mall exhibition hall for [[5]] Days
-		- Only recalled many times I run into toilet
+		- Only recalled many times I run into toilet as the place was too cro
 	- 2011
 		- Cashier in Tunas Manja Supermarket
 		- Very first full time job while waiting for SPM result announcement
