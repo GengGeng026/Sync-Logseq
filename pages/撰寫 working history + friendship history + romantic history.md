@@ -82,7 +82,8 @@
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			-
+			- **08 Sep 2016**
+				- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
@@ -109,8 +110,6 @@
 			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
 			- 29 July 2015, first time she bought me a new wallet as a birthday gift
 			- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
-		- **08 Sep 2016**
-			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 		- [[10]] May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 		- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
 		- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
