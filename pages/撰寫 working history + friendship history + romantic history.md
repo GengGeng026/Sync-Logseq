@@ -81,7 +81,7 @@
 			- Disclosure of depression diagnosis and medication was negatively [[received]].
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist, Dr. Francis Low Chee Chan
-			- Later, she began accompanying her friend to psychiatric consultations
+			- Later, she began accompanying her friend to psychiatric consultations on 24 Jul [[2017]]
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- **08 Sep 2016**
