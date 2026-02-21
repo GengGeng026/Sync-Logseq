@@ -29,15 +29,15 @@
 		- **06 Sep 2016**
 		  Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 		  Expressed need for emotional support; discussion led to disagreement regarding medication use.
-		- **08 Sep 2016**
-		  First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
-		- **24 Jul 2017**
-		  Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
-		- **18 Jul 2020 (11:00–12:00 PM)**
-		  Second session with Clinical Psychologist Joo Chien “JC” Chong.
-		  On the same day (evening), mutually and peacefully ended 5-year relationship.
-		- Post-breakup:
-		  Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+	- **08 Sep 2016**
+	  First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
+	- **24 Jul 2017**
+	  Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
+	- **18 Jul 2020 (11:00–12:00 PM)**
+	  Second session with Clinical Psychologist Joo Chien “JC” Chong.
+	  On the same day (evening), mutually and peacefully ended 5-year relationship.
+	- Post-breakup:
+	  Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
 	- # Educational History
 		- 2000
 		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
