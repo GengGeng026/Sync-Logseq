@@ -97,7 +97,7 @@
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
-			- Attempted reconnection through particishared religious community activities.
+			- Attempted reconnection through participating shared religious community activities, low-key
 			- Gradual withdrawal from active roles and eventually region-level participation.
 			- Prolonged mourning period; required significant time to stabilise emotionally.
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
