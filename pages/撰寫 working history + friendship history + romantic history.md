@@ -53,7 +53,8 @@
 	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
-		- 2015: Noted early reassurance-seeking behaviour — interpreted events (e.g., partner's family jokes about future kinship) as confirmation of hoped-for long-term belonging, reinforcing efforts to please and secure relationship.
+		- 2015:
+			- Noted early reassurance-seeking behaviour — interpreted events (e.g., partner's family jokes about future kinship) as confirmation of hoped-for long-term belonging, reinforcing efforts to please and secure relationship.
 		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
 		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
 		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
