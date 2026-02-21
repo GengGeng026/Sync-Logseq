@@ -92,7 +92,7 @@
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
 			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
-			- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
+			- 8 Dec 2015
 			- I began heavy reliance on digital reminders and multiple daily alarms.
 		- By [[10]] June 2020:
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
