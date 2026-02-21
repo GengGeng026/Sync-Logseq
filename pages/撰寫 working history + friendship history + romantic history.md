@@ -1,46 +1,46 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
-	- **8 Oct 2001**
-		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
-	- **29 Sep 2015**
-		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
-		- Full physical record
-		  collapsed:: true
-			- 29 Sep 2015
-			  logseq.order-list-type:: number
-			- 27 Oct 2015
-			  logseq.order-list-type:: number
-			- 16 Jan 2016
-			  logseq.order-list-type:: number
-			- 25 Feb 2016
-			  logseq.order-list-type:: number
-			- 2 Apr 2016
-			  logseq.order-list-type:: number
-			- 10 May 2016
-			  logseq.order-list-type:: number
-			- 17 May 2016
-			  logseq.order-list-type:: number
-			- 12 Jul 2016  10:00
-			  logseq.order-list-type:: number
-			- 6 Sep 2016 11:00
-			  logseq.order-list-type:: number
-			- 27 Jun 2017 (Tue)
-			  logseq.order-list-type:: number
-			- 04 Jul 2017 (Tue)
-			  logseq.order-list-type:: number
-	- **Before 19 Jan 2016**
-		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
-	- **06 Sep 2016**
-		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-	- **24 Jul [[2017]]**
-		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
-	- **04 Jul 2020**
-		- Last visited Dr. Francis Low Chee Chan
-	- **19 Jun 2020**
-		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
-	- **18 Jul 2020 (11:00–12:00 PM)**
-		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
-		-
+		- **8 Oct 2001**
+			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
+		- **29 Sep 2015**
+			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
+			- Full physical record
+			  collapsed:: true
+				- 29 Sep 2015
+				  logseq.order-list-type:: number
+				- 27 Oct 2015
+				  logseq.order-list-type:: number
+				- 16 Jan 2016
+				  logseq.order-list-type:: number
+				- 25 Feb 2016
+				  logseq.order-list-type:: number
+				- 2 Apr 2016
+				  logseq.order-list-type:: number
+				- 10 May 2016
+				  logseq.order-list-type:: number
+				- 17 May 2016
+				  logseq.order-list-type:: number
+				- 12 Jul 2016  10:00
+				  logseq.order-list-type:: number
+				- 6 Sep 2016 11:00
+				  logseq.order-list-type:: number
+				- 27 Jun 2017 (Tue)
+				  logseq.order-list-type:: number
+				- 04 Jul 2017 (Tue)
+				  logseq.order-list-type:: number
+		- **Before 19 Jan 2016**
+			- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
+		- **06 Sep 2016**
+			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
+		- **24 Jul [[2017]]**
+			- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
+		- **04 Jul 2020**
+			- Last visited Dr. Francis Low Chee Chan
+		- **19 Jun 2020**
+			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
+		- **18 Jul 2020 (11:00–12:00 PM)**
+			- Second session with Clinical Psychologist Joo Chien “JC” Chong.
+			-
 	- # Educational History
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 			- Small church-run kindergarten, not formally digitised/registered.
