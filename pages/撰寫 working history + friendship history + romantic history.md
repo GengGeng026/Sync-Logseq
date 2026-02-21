@@ -73,7 +73,7 @@
 			- Relationship resumed both times through my effort to reconcile.
 			- Final separation: 18 Jul 2020 (mutual, peaceful, without initiating breakup), following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone.
 		- ## **Partner-Supported Involvement & Relationship Tension**
-		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
+		- Pre-relationship audiological assessment (SISI, Lüscher Test, audiometry Sibelmed W50):
 			- Mild right-sided hypoacusis reported;
 			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
 			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
