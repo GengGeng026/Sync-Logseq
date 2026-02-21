@@ -146,8 +146,9 @@
 			- Feelings of shame and avoidance contributing to withdrawal
 		-
 	- Phei Yong, Male
-		- Met during university (TAR UMT) years via religious student housing and Buddhist youth Soka Gakkai Malaysia while we both also studied in  for 4 years
-		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
+		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
+		- 2012
+			- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
 		- He and I first participated in Campus 2nd Biggest event audition back in 2012, then [[Astro]] chinese TV programme Host contest back in 2013, followed by campus Chinese debate contest, anti-nuclear weapon exhibition, silent mob performance, etc.
 		- Since we also had a lot of interest in common, not only mastering the ceremonies, but we also spend time together writing songs, appreciating films, arts and culture events, etc
 		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. With his extensive connections, we produced an Group Singing MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong had became MYFM DJ after winning the champion of 'Be My Star DJ'.
