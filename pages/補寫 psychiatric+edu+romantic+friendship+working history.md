@@ -141,7 +141,7 @@
 		- Later in 2022
 			- he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
 		- May 2023
-			- Failure in securing the job offer in PurpleCane due to delayed submission of 532 pages of New Digital Marketing Optimisation Strategy Project Proposal.
+			- Failure in securing the job offer in PurpleCane due to ghosting and delayed submission of 532 pages of New Digital Marketing Optimisation Strategy Project Proposal.
 			- Started pulling away from this relationship following the end of our business collaboration, unresolved repayment    of owing him those money though there has been several times he said there's no hurry to pay it back
 			- Feelings of shame and avoidance contributing to withdrawal
 		-
