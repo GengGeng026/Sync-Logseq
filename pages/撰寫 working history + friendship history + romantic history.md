@@ -84,7 +84,7 @@
 			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
 		- **08 Sep 2016**
 			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
-			- She was there for me
+			- She was there for me.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
