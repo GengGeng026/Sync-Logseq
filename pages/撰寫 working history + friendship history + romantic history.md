@@ -1,11 +1,14 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
 		- **8 Oct 2001**
-			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
+			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh
+			- Second consultations: 17 Feb 2012
+			- Third consulatation: [[16]] Mar 2012
+			- Total consultations: 3
 		- **29 Sep 2015**
 			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
-			- Full physical record
-			  collapsed:: true
+			- Total consultations: 11 - 15
+			- Full physical records
 				- 29 Sep 2015
 				  logseq.order-list-type:: number
 				- 27 Oct 2015
@@ -28,13 +31,9 @@
 				  logseq.order-list-type:: number
 				- 04 Jul 2017 (Tue)
 				  logseq.order-list-type:: number
-		- **Before 19 Jan 2016**
-			- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 		- **06 Sep 2016**
 			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-		- **24 Jul [[2017]]**
-			- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
-		- **04 Jul 2020**
+		- **04 Jul 2017**
 			- Last visited Dr. Francis Low Chee Chan
 		- **19 Jun 2020**
 			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
@@ -73,15 +72,15 @@
 			- Relationship resumed both times through my effort to reconcile.
 			- Final separation: 18 Jul 2020 (mutual, peaceful, without initiating breakup), following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone.
 		- ## **Partner-Supported Involvement & Relationship Tension**
-		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
+		- Pre-relationship audiological assessment (SISI, Lüscher Test, audiometry Sibelmed W50):
 			- Mild right-sided hypoacusis reported;
 			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
 			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
 		- Early stage of relationship:
-			- Disclosure of depression diagnosis and medication was negatively [[received]].
+			- **Before 19 Jan 2016**, disclosure of depression diagnosis and medication was negatively [[received]].
 			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
-			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
+			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to consult the same psychiatrist I was seeing.
 		- **08 Sep 2016**
 			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
 			- She kept me company while she was still studying her Degree.
@@ -91,20 +90,15 @@
 				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
-			- 8 Dec 2015, she interpreted this as poor self-control and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
+			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
 			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
-			- Attempted reconnection through shared religious community activities.
+			- Attempted reconnection through participating shared religious community activities, low-key
 			- Gradual withdrawal from active roles and eventually region-level participation.
 			- Prolonged mourning period; required significant time to stabilise emotionally.
-			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
-			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
-		-
-		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
-		- Before getting in the relationship, to make sure my listening problem could be healed, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal. However, such test result implies my fear and troubles hearing people was caused by my low self-esteem rather than medical issues.
 	-
 - # Friendship History
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
