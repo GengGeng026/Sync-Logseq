@@ -6,7 +6,7 @@
 			- Third consulatation: [[16]] Mar 2012
 			- Total consultations: 3
 		- **29 Sep 2015**
-			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, sleep dis)
+			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, sleep disturbance)
 			- Total consultations: 11 - 15
 			- Full physical records
 				- 29 Sep 2015
