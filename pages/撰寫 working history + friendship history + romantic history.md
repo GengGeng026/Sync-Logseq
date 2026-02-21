@@ -5,7 +5,6 @@
 		- **29 Sep 2015**
 			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
 			- Full physical record
-			  collapsed:: true
 				- 29 Sep 2015
 				  logseq.order-list-type:: number
 				- 27 Oct 2015
