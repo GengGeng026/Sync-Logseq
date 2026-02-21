@@ -45,7 +45,7 @@
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 			- Small church-run kindergarten, not formally digitised/registered.
 			- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches
-			- Grandmother clarified deferral enrollment t later than average kids due to emotional instability led to physical violence from me to the assets, and eventually from teacher to me, since then it took me only a year until primary school.
+			- Grandmother clarified deferral enrolment t later than average kids due to emotional instability led to physical violence from me to the assets, and eventually from teacher to me, since then it took me only a year until primary school.
 			- The top student with good memory from my batch in our high-school times (2010-2012) once claimed that during a year in kindergarten, he was always interrupted and even his belongings was snatched by me. This information helped me recalled back my earlier memory was not happy at all as I could easily get into physical fight anytime with other kids without knowing any reasons or how I was becoming that terribly bad.
 - # Romantic History
 	- My very first and ex-girlfriend
