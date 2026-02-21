@@ -25,6 +25,7 @@
 			  logseq.order-list-type:: number
 			- 04 Jul 2017 (Tue)
 			  logseq.order-list-type:: number
+	-
 		- then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
 	- Before 19 Jan 2015
 		- First disclosed diagnosed depression and psychiatric medication use to then-girlfriend. Disclosure was not well received; advised to stop medication.
