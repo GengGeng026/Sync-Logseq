@@ -4,7 +4,7 @@
 			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh
 			- Second consultations: 17 Feb 2012
 			- Third consulatation: [[16]] Mar 2012
-			- Total consul
+			- Total consultations: 3
 		- **29 Sep 2015**
 			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
 			- Full physical record
