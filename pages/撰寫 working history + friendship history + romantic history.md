@@ -74,13 +74,13 @@
 		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
 		- He and I first participated in Campus 2nd Biggest event audition back in 2012, then [[Astro]] chinese TV programme Host contest back in 2013, followed by campus Chinese debate contest, anti-nuclear weapon exhibition, silent mob performance, etc.
 		- Since we also had a lot of interest in common, not only mastering the ceremonies, but we also spend time together writing songs, appreciating films, arts and culture events, etc
-		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. WIth , we produced a MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong also had became MYFM DJ after winning the champion of 'Be My Star DJ'.
+		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. With his extensive connections, we produced an Group Singing MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong had became MYFM DJ after winning the champion of 'Be My Star DJ'.
 		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2014
 		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
-		-
+		- Later, we started playing and making music, including participating Gurney Paragon mall CNY song contest
 		-
 - # Working History
 	- P/S:
