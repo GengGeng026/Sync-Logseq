@@ -146,6 +146,7 @@
 			- Feelings of shame and avoidance contributing to withdrawal
 		-
 	- Phei Yong, Male
+		- 2012
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
 		- 2012 - 2014
