@@ -1,8 +1,11 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
-	- 8 Oct 2001
-		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012;
-			- [[WhatsApp]] [[chat history]] shows 19 Jan 2016 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
+	- **8 Oct 2001**
+		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
+	- **29 Sep 2015**
+		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
+		- Full physical record
+		  collapsed:: true
 			- 29 Sep 2015
 			  logseq.order-list-type:: number
 			- 27 Oct 2015
@@ -25,29 +28,25 @@
 			  logseq.order-list-type:: number
 			- 04 Jul 2017 (Tue)
 			  logseq.order-list-type:: number
-	- 29 Sep 2015
-		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
-	- Before 19 Jan 2016
-		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well received; advised to stop medication.
+	- **Before 19 Jan 2016**
+		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 	- **06 Sep 2016**
 		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-		  Expressed need for emotional support; discussion led to disagreement regarding medication use.
-	- **08 Sep 2016**
-		- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
+	- **04 Jul 2020**
+		- Last visited Dr. Francis Low Chee Chan
+	- **19 Jun 2020**
+		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
-		  On the same day (evening), mutually and peacefully ended 5-year relationship.
-	- Post-breakup:
-		- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+		-
 	- # Educational History
-		- 2000
-		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
-		  ｜
-		- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
-		- Clarified from my grandmother I continued kindergarten later than average kids due to emotional instability led to physical violence from me to the assets, and eventually from teacher to me, since then it took me only a year until primary school.
-		- The top student with good memory from my batch in our high-school times (2010-2012) once claimed that during a year in kindergarten, he was always interrupted and even his belongings was snatched by me. This information helped me recalled back my earlier memory was not happy at all as I could easily get into physical fight anytime with other kids without knowing any reasons or how I was becoming that terribly bad.
+		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
+			- Small church-run kindergarten, not formally digitised/registered.
+			- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches
+			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
+			- The top student with good memory from my batch in our high-school times (2010-2012) once claimed that during a year in kindergarten, he was always interrupted and even his belongings was snatched by me. This information helped me recalled back my earlier memory was not happy at all as I could easily get into physical fight anytime with other kids without knowing any reasons or how I was becoming that terribly bad.
 - # Romantic History
 	- My very first and ex-girlfriend
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
@@ -69,6 +68,8 @@
 			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
 			- 29 July 2015, first time she bought me a new wallet as a birthday gift
 			- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
+		- **08 Sep 2016**
+			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 		- [[10]] May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 		- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
 		- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
