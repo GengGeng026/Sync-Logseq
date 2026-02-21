@@ -107,13 +107,21 @@
 			- Prolonged mourning period; required significant time to stabilise emotionally.
 	-
 - # Friendship History
-	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
+	- Early pattern:
+		- Maintained few close friendships.
+		- Tended to rely on others initiating contact to sustain connection.
+		- Difficulty maintaining long-term relational consistency without shared structured activities (projects, religious community, work).
+		- ---
 	- Jian Li, male
-		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class
-		- We started becoming friends since the day we exchanged a secret from each other, that was the first time I told him my only imaginary friend, a mouse which talked to me everyday.
-		- We were both fat, even fatter than average children
-		- this relationship didn't last longer and ended up we didn't talk anymore  since 2006 until few years later.
-		- 2007, we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
+		- 2005
+			- Became close friends in SJK(C) Cukai through exchange of personal secrets.
+			- that was the first time I told him my only imaginary friend, a mouse which talked to me everyday.
+			- We were both fat, even fatter than average children
+		- 2006
+			- Lost contact after primary school graduation.
+		- 2007
+			- Physical conflict occurred during school bus period (secondary school).
+			- He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through smarter preparation strategies for PMR.
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
 		- We both only met again in 2014, until mid 2018 we initiated a seasonal non-profit [[project]] '心意' productions including annual CNY MV, epidemic prevention awareness, online singing classes, suspended since 2022 due to coach conflict of interest. He's the one who played the most significant role in organising, leading and transforming the team from 4 core members up to [[10]] committees and less than 50 volunteers, and from nonprofit to social enterprise. By working closely with such highly cohsice team, I managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
