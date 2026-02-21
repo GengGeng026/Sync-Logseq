@@ -1,4 +1,4 @@
-- P/S: Clarification about my **past psychiatric history** and Educational History
+- P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Psychiatric History
 	- Physical appointment card shows 8 Oct 2001 was my first visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
 		- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
@@ -29,7 +29,7 @@
 		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
 		  ｜
 		- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
-		-
+		- Clarified
 - # Romantic History
 	- My very first and ex-girlfriend
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
@@ -39,8 +39,9 @@
 			- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 			- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
 			- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest (mid 2017), she first claimed we were not a good match while she was still studying as I just started working; later, after she had entered the workforce been a while (since mid 2018), she said we might need some time off. Each time I tried my best to work things out with her and it helped no matter through time apart and took initiative to reconnect with each other, until we drifted apart and I worn myself out.
-			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support of her trusted friend, I once tried and wished to get back her by joining as many as Soka Gakkai activities she had been active
 			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
+			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
+			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		- 24 Feb 2019, we
 		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
