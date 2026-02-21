@@ -181,13 +181,13 @@
 		- Mid 2023
 			- After the incident, Johnathan had once visited my living place and attempted reconciliation.
 			- Initially, he expressed his apology by realising his personal matters led to earlier preventable consequences. However, his next act made me literally felt disappointed, which he claimed the only value he chose to reconnect is because he still regarded me as a friend otherwise he wouldn't take the initiative or gave me 'chances' to collaborate again.
-			- His intention helped me being more aware that the end of our collaboration is more worthy rather than holding on those transactional opportunities especially that was the period I have been burnout and sticking with [[Therapy]] with JC.
+			- His intention helped me being aware that the end of our collaboration is more worthy rather than holding on unequal relationship and transactional opportunities especially during the period I have been burnout and sticking with [[Therapy]] with JC.
 		- Since then, I choose to keep it to myself with more time and space until currently.
 		-
 - # Working History
-	- P/S:
-		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
-		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
+	- Current Status
+		- Jobless since 13 December 2023
+		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
 	- 23 June 2022 - January 2023
@@ -204,9 +204,8 @@
 		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
 		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
-		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition
-		  Planners Sdn Bhd)
-		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition Planners Sdn Bhd)
+		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores in [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- 2019
 		- Emcee a.k.a Master of Ceremony  ( Emerging Untainted - An inspiration from the Lotus Sutra ｜ Arts Exhibition Opening Ceremony )
 		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
@@ -214,6 +213,7 @@
 		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》CNY MV, Seasonal [[project]] 心意制作 )
 	- 2018 - 2019
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
 		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- 2016 - 2018
