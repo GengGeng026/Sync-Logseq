@@ -1,7 +1,7 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
 	- 8 Oct 2001
-		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012; then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
+		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012;
 			- [[WhatsApp]] [[chat history]] shows 19 Jan 2015 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
 			- 29 Sep 2015
 			  logseq.order-list-type:: number
@@ -25,6 +25,7 @@
 			  logseq.order-list-type:: number
 			- 04 Jul 2017 (Tue)
 			  logseq.order-list-type:: number
+		- then first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong since 29 Sep 2015;
 	- Before 19 Jan 2015
 		- First disclosed diagnosed depression and psychiatric medication use to then-girlfriend. Disclosure was not well received; advised to stop medication.
 	- **06 Sep 2016**
