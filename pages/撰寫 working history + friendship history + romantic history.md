@@ -83,7 +83,7 @@
 			- overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
-			- Encouraged to stop medication.
+			- She encouraged me to discontinue medication.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
