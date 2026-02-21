@@ -75,11 +75,12 @@
 			- Final separation: 18 Jul 2020 (mutual, peaceful).
 		- ## **Medication & Relationship Tension**
 		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
-			- mild right-sided hypoacusis reported;
-			- overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
+			- Mild right-sided hypoacusis reported;
+			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
+			- It reflects
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
-			- She expressed concerns and encouraged me to discontinue medication as it didn't help me sleep better.
+			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- Mixed support over time;
