@@ -120,6 +120,7 @@
 		- 2006
 			- Lost contact after primary school graduation.
 		- 2007
+			- Physical conflict occurred during school bus period (secondary school).
 			- we had our very first physical conflict in a same school bus. He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair
 		- 2009, that was first time we got closer, performed unplugged singing on the stage and thanks to him I then managed to secure a place in the science stream through smarter preparation strategies for PMR.
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
