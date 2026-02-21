@@ -130,6 +130,7 @@
 		- 2014 - 2018
 			- Met again in 2014
 			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018.
+			- From 4 core members up to [[10]] committees and less than 50 volunteers
 			- Produced annual CNY MV, epidemic prevention awareness, online singing classes,
 			- Later transitioned into small-scale social enterprise collaboration
 			- suspended since 2022 due to coach conflict of interest. He's the one who played the most significant role in organising, leading and transforming the team from 4 core members up to [[10]] committees and less than 50 volunteers, and from nonprofit to social enterprise. By working closely with such highly cohsice team, I managed to unleash my full potential from what I learnt from Astro, Wedding Film Industries and talent in song-writing.
