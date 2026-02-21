@@ -216,8 +216,6 @@
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Managed to produce a comedy short film
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related since I was so anxious of my privacy leaking or judgemental idle talk might influence the relationship I valued
-		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
-		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
