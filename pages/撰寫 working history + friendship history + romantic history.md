@@ -64,6 +64,12 @@
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		- Attachment & Psychological Patterns
 			- Psychological testing (2020):
+				- Attachment style: Preoccupied
+				- Primary love language: Quality Time
+			- Pattern observed:
+			- High need for reassurance
+			- Repeated attempts to repair relationship after partner-initiated breakups
+			- Difficulty disengaging despite emotional exhaustion
 			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
 		- 24 Feb 2019, we
 		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
