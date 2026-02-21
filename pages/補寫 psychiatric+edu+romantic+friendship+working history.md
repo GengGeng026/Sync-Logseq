@@ -247,6 +247,6 @@
 	- 2013
 		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
 	- 2012
-		- Promoter at MATTA
+		- Promoter at MATTA Travel Fair
 	- 2011
 		- Cashier in Tunas Manja Supermarket
