@@ -190,7 +190,7 @@
 		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
-		- I had so many moments of emotional
+		- I had so many moments of emotional distress whenever
 	- 23 June 2022 - January 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
 		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
