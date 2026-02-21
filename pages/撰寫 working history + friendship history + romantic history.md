@@ -40,6 +40,7 @@
 		- **4 Jul 2020**
 			- First session with Clinical Psychologist Joo Chien “JC” Chong.
 			-
+		-
 	- # Educational History
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 			- Small church-run kindergarten, not formally digitised/registered.
