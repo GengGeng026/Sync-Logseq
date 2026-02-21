@@ -93,8 +93,8 @@
 				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
-			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
-			- I began heavy reliance on digital reminders and multiple daily alarms.
+		- I began heavy reliance on digital reminders and multiple daily alarms.
+		- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
