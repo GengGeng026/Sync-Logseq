@@ -155,7 +155,8 @@
 		- Maintained supportive friendship through shared artistic and organisational involvement.
 		- Provided professional encouragement and collaboration opportunities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
-		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. With his extensive connections, we produced an Group Singing MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong had became MYFM DJ after winning the champion of 'Be My Star DJ'.
+		- 2015
+			- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. With his extensive connections, we produced an Group Singing MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong had became MYFM DJ after winning the champion of 'Be My Star DJ'.
 		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
 		-
 	- Johnathan, Male
