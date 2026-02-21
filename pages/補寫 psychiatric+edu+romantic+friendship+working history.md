@@ -150,7 +150,7 @@
 		- 2012 - 2015
 			- Participated in competition together.
 			- Auditioned for Astro-related TV host opportunity.
-			- Organised campus Chinese debate competition, guided exhibition fanti-nuclear weapons exhibition, executed silent mob performance, etc.
+			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
 		- Maintained supportive friendship through shared artistic and organisational involvement.
 		- Provided professional encouragement and collaboration opportunities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
