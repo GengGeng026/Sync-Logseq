@@ -56,7 +56,7 @@
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
 		- Entered relationship formally in mid-2015;
-			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance before we left.
+			- despite her's verbal agreement, I experienced pervasive insecurity and sought additional confirmation before ending the date to ensure I had heard correctly. Noted strong self-doubt at that time.
 		- Noted my early reassurance-seeking behaviour
 			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
 		-
@@ -83,19 +83,19 @@
 			- **Before 19 Jan 2016**, disclosure of depression diagnosis and medication was negatively [[received]].
 			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
-			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to consult the same psychiatrist I was seeing.
+			- From initial opposition to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to consult the same psychiatrist I was seeing.
 		- **08 Sep 2016**
 			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
 			- She kept me company while she was still studying her Degree.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
-				- 23 May 2016 — third time losing wallet (felt shame);
-				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
-				- 3 Jul 2015 — first self-lost wallet during a date.
+				- 15 Oct 2023 ─ fourth recorded wallet loss.
+				- 23 May 2016 ─ third time losing wallet (felt shame);
+				- 10 Sep 2015 ─ lost wallet she had purchased for me after long day;
+				- 3 Jul 2015 ─ first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
-			- Time-blindness
-				- ### 9 Aug 2015
-				- Disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as meaningful experience by self but viewed as inefficient by partner.
+			- Blindness in time and physical distance
+				- **9 Aug 2015**, disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as normal experience by self but viewed as inefficient, insane and torturing by her.
 			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
 			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
