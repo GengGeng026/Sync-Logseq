@@ -198,7 +198,6 @@
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2021
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
-		-
 		- Content [[producer]], Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal [[project]] 心意制作 )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
@@ -234,18 +233,22 @@
 		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
 		  《淡淡的忧伤》 )
-		- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
+		- DoP ( 5K Color Me Run [[2]].0 Marathon, 2016 )
 		- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
 		  Ceremony / Panel Discussion & Appreciation Night, 2016)
 		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
 	- 2015
 		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
 		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
-		  于来到》MV, CNY 2015 [[project]]) (2015)
+		  于来到》MV, CNY 2015 [[project]])
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
 	- 2014
-		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
-		  ( 2014 )
+		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
-		- Storyboard Artist, Editor & DoP (《我的小時代》MV — Catherine 梁佩颖 )
-		  ( 2013 )
+		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
+	- 2012
+		- Promoter at MATTA Travel Fair for [[5]] Days
+	- 2011
+		- Cashier in Tunas Manja Supermarket
+		- Very first full time job while waiting for SPM result announcement
+		- Made so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slowness in breaking bank notes,
