@@ -71,7 +71,7 @@
 			- **Mid 2017:** First breakup initiated by partner (mismatch in life stage: she studying, I working).
 			- **Mid 2018:** Second breakup (partner suggested time apart).
 			- Relationship resumed both times through my effort to reconcile.
-			- Final separation: 18 Jul 2020 (mutual, peaceful).
+			- Final separation: 18 Jul 2020 (mutual, peaceful) following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 		- ## **Medication & Relationship Tension**
 		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
 			- Mild right-sided hypoacusis reported;
