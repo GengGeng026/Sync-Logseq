@@ -6,7 +6,7 @@
 			- Third consulatation: [[16]] Mar 2012
 			- Total consultations: 3
 		- **29 Sep 2015**
-			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
+			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, [[Sleep]] disturbance)
 			- Total consultations: 11 - 15
 			- Full physical records
 				- 29 Sep 2015
@@ -37,9 +37,9 @@
 			- Last visited Dr. Francis Low Chee Chan
 		- **19 Jun 2020**
 			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
-		- **18 Jul 2020 (11:00–12:00 PM)**
-			- Second session with Clinical Psychologist Joo Chien “JC” Chong.
-			-
+		- **4 Jul 2020**
+			- First session with Clinical Psychologist Joo Chien “JC” Chong.
+		-
 	- # Educational History
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 			- Small church-run kindergarten, not formally digitised/registered.
@@ -47,6 +47,9 @@
 			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
 			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and fight.
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
+		- Early School Years
+			- Recalled persistent forgetfulness since adolescence (misplacing items, forgetting time).
+			- Shower over 1 hour every time
 			-
 - # Romantic History
 	- ## **Relationship Overview**
@@ -90,6 +93,9 @@
 				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
+			- Time-blindness
+				- ### 9 Aug 2015
+				- Disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as meaningful experience by self but viewed as inefficient by partner.
 			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
 			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
