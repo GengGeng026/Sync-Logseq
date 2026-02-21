@@ -102,9 +102,6 @@
 			- Prolonged mourning period; required significant time to stabilise emotionally.
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
-		-
-		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
-		- Before getting in the relationship, to make sure my listening problem could be healed, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal. However, such test result implies my fear and troubles hearing people was caused by my low self-esteem rather than medical issues.
 	-
 - # Friendship History
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
