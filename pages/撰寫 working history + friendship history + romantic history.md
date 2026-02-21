@@ -2,7 +2,7 @@
 	- # Past Psychiatric History
 	- 8 Oct 2001
 		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012;
-			- [[WhatsApp]] [[chat history]] shows 19 Jan 2016 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before first visited Consultant Psychiatrist Dr. Ng Chong Guan on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
+			- [[WhatsApp]] [[chat history]] shows 19 Jan 2016 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before  on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
 			- 29 Sep 2015
 			  logseq.order-list-type:: number
 			- 27 Oct 2015
@@ -36,6 +36,8 @@
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
 	- **19 Jun 2020**
 		- Last visited Dr. Francis Low Chee Chan
+	- **19 Jun 2020**
+		-
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
 		  On the same day (evening), mutually and peacefully ended 5-year relationship.
