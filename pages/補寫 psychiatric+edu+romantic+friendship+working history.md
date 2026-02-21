@@ -246,9 +246,11 @@
 		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
 		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
+		- Very first time of realising my own mistake of overstepping director's boundary when the time I was being told
 	- 2012
-		- Promoter at MATTA Travel Fair for [[5]] Days
+		- Promoter at MATTA Travel Fair, at Mid Valley Mall exhibition hall for [[5]] Days
+		- Only recalled so many times I escaped to toilet for a while as the place was too crowded with people
 	- 2011
 		- Cashier in Tunas Manja Supermarket
 		- Very first full time job while waiting for SPM result announcement
-		- Made so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slowness in breaking bank notes,
+		- Learnt from so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slow-wittedness in breaking bank notes, clumsy movements in bagging items, anxiety of counting the cash and coins wrongly, etc.
