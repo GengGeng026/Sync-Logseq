@@ -4,6 +4,7 @@
 		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
 	- **29 Sep 2015**
 		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
+		- fu
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
 		- 27 Oct 2015
@@ -39,6 +40,7 @@
 		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
+		-
 	- # Educational History
 		- 2000
 		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
