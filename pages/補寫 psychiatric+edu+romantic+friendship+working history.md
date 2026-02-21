@@ -146,22 +146,31 @@
 			- Feelings of shame and avoidance contributing to withdrawal
 		-
 	- Phei Yong, Male
-		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
-		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
-		- 2012 - 2015
+		- 2012
+			- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
+			- Friendship sustained through structured joint activities rather than spontaneous social bonding.
+		- 2012 - 2014
 			- Auditioned for Astro-related TV host opportunity.
 			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
-			-
+			- Organised religious exchange meets across states, annual reunions and retreats
 		- 2015
 			- he came and showed his support whilst my music partner, Johnathan and I reached the grand final of 2015 CNY [[song]] contest in Penang island.
 			- With his extensive connections, we produced an group singing music videos for the same [[song]] '终于来到 Finally' and got it broadcasted through radio station whilst Phei Yong had became MYFM contract DJ after winning the champion of 'Be My Star DJ'.
 		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of his handwritten calligraphy '益其所不能' as my 21st birthday gift. I value those words and encouragement.
 		-
 	- Johnathan, Male
-		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2014
-		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
-		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY [[song]] contest back in 2015, publish our duet [[YouTube]] channel in 2018
-		- 2020 onwards, we got wider media coverage through being featured in [[Astro]] TV shows, TV2 Mandarin News, online interviews, formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
+		- 2014
+			- Met through mutual friend and Penang bridge II marathon.
+			- First time showed him my recorded DEMOs when I heard he also made his own music.
+			- Hit it off right away.
+		- 2015 - 2019
+			- Frequent collaboration in songwriting, competitions and performances.
+			- Participated 2015 Penang Gurney Paragon mall CNY [[song]] contest
+			- Published our duet [[YouTube]] channel in 2018
+		- 2020 - 2021
+			- Expanded cooperation into media exposure and commercial projects.
+			- Featured in [[Astro]] TV singing contest 'Classics Alive', TV2 Mandarin News, online interviews
+			- Formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
 		- Later in 2021, we initiated an independent [[song]] critiques award wining contest '我要讲评 I Wanna Comment' online with participants from music industry insiders, produced [[Branding]] jingle and corporate [[song]] '萤火 Fireflies' for Malaysia operation center of FanShu (formerly Fan Deng Reading), a major player in the Chinese knowledge-sharing and personal development digital market.
 		- By end of Sep 2021, we and XINYI(心意) team managed to transform from non-profit collaboration into social enterprise online which enrolled up for 20 students talent classes for 'Your Singing Style (YSS)'
 		- However, nearly close to end of 2022, no matter joint-venture collaboration with different parties and between only both of us, were forced to terminate due to conflict of interest statement amongst partners and personal accountability and credit issues from Johnathan that pissed off many partners. Luckily, the core committees managed to execute prompt emergency crisis handling, Jonathan and I were then peacefully drifted apart without any financial entanglement in our ex-company.
