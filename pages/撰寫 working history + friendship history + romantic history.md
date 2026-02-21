@@ -1,7 +1,8 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
 		- **8 Oct 2001**
-			- First consultation: visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
+			- visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh
+			- First consultation: , followed by 17 Feb 2012 and [[16]] Mar 2012
 		- **29 Sep 2015**
 			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
 			-
