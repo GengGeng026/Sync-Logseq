@@ -33,6 +33,7 @@
 - # Romantic History
 	- My very first and ex-girlfriend
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
+		-
 		- Formally and peacefully said goodbye to each other without initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 			- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 			- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
@@ -53,7 +54,6 @@
 		- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
 		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
 		- Before getting in the relationship, to make sure my listening problem could be healed, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal. However, such test result implies my fear and troubles hearing people was caused by my low self-esteem rather than medical issues.
-		- First met before 13 June 2014; be in relationship on 15 May 2015
 - # Friendship History
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
 	- Jian Li, male
