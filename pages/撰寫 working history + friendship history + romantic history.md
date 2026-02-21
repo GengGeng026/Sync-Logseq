@@ -82,6 +82,7 @@
 			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
+			- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time
 		- **08 Sep 2016**
 			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
 			- She kept me company while she was still studying her Degree.
@@ -92,7 +93,7 @@
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
 			- 8 Dec 2015, she interpreted this as poor self-control and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
-			- Since then, I began heavier reliance on digital reminders and multiple daily alarms, however, those behaviours ended up generating more tension.
+			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
