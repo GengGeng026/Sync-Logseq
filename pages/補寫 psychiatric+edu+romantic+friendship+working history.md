@@ -94,7 +94,7 @@
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
 			- Time-blindness
-				- **9 Aug 2015**, disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as normal experience by self but viewed as inefficient, torturing by her.
+				- **9 Aug 2015**, disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as normal experience by self but viewed as inefficient, insane and torturing by her.
 			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
 			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
