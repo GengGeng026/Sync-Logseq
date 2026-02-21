@@ -54,7 +54,7 @@
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
 		- Entered relationship formally in mid-2015;
-			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance of her acceptance be
+			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance of her acceptance
 		- Noted my early reassurance-seeking behaviour
 			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
 		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
