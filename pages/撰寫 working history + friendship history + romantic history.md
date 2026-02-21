@@ -39,6 +39,7 @@
 			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
 		- **4 Jul 2020**
 			- First session with Clinical Psychologist Joo Chien “JC” Chong.
+		- 18 Jul 2025
 			-
 		-
 	- # Educational History
