@@ -240,7 +240,7 @@
 	- 2015
 		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
 		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
-		  于来到》MV, CNY 2015 [[project]]) (2015)
+		  于来到》MV, CNY 2015 [[project]])
 		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
 	- 2014
 		- Set Decorator & Lighting Assistant & BTS DoP (《假面》MV — Shio 郭修彧 )
