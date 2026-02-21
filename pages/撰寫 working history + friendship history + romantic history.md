@@ -1,46 +1,46 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
-	- **8 Oct 2001**
-		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
-	- **29 Sep 2015**
-		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
-		- Full physical record
-		  collapsed:: true
-			- 29 Sep 2015
-			  logseq.order-list-type:: number
-			- 27 Oct 2015
-			  logseq.order-list-type:: number
-			- 16 Jan 2016
-			  logseq.order-list-type:: number
-			- 25 Feb 2016
-			  logseq.order-list-type:: number
-			- 2 Apr 2016
-			  logseq.order-list-type:: number
-			- 10 May 2016
-			  logseq.order-list-type:: number
-			- 17 May 2016
-			  logseq.order-list-type:: number
-			- 12 Jul 2016  10:00
-			  logseq.order-list-type:: number
-			- 6 Sep 2016 11:00
-			  logseq.order-list-type:: number
-			- 27 Jun 2017 (Tue)
-			  logseq.order-list-type:: number
-			- 04 Jul 2017 (Tue)
-			  logseq.order-list-type:: number
-	- **Before 19 Jan 2016**
-		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
-	- **06 Sep 2016**
-		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-	- **24 Jul [[2017]]**
-		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
-	- **04 Jul 2020**
-		- Last visited Dr. Francis Low Chee Chan
-	- **19 Jun 2020**
-		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
-	- **18 Jul 2020 (11:00–12:00 PM)**
-		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
-		-
+		- **8 Oct 2001**
+			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
+		- **29 Sep 2015**
+			- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
+			- Full physical record
+			  collapsed:: true
+				- 29 Sep 2015
+				  logseq.order-list-type:: number
+				- 27 Oct 2015
+				  logseq.order-list-type:: number
+				- 16 Jan 2016
+				  logseq.order-list-type:: number
+				- 25 Feb 2016
+				  logseq.order-list-type:: number
+				- 2 Apr 2016
+				  logseq.order-list-type:: number
+				- 10 May 2016
+				  logseq.order-list-type:: number
+				- 17 May 2016
+				  logseq.order-list-type:: number
+				- 12 Jul 2016  10:00
+				  logseq.order-list-type:: number
+				- 6 Sep 2016 11:00
+				  logseq.order-list-type:: number
+				- 27 Jun 2017 (Tue)
+				  logseq.order-list-type:: number
+				- 04 Jul 2017 (Tue)
+				  logseq.order-list-type:: number
+		- **Before 19 Jan 2016**
+			- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
+		- **06 Sep 2016**
+			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
+		- **24 Jul [[2017]]**
+			- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
+		- **04 Jul 2020**
+			- Last visited Dr. Francis Low Chee Chan
+		- **19 Jun 2020**
+			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
+		- **18 Jul 2020 (11:00–12:00 PM)**
+			- Second session with Clinical Psychologist Joo Chien “JC” Chong.
+			-
 	- # Educational History
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
 			- Small church-run kindergarten, not formally digitised/registered.
@@ -50,18 +50,20 @@
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
 			-
 - # Romantic History
-	- **Relationship Overview**
+	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
+		- 2015:
+			- Noted early reassurance-seeking behaviour — interpreted events (e.g., partner's family jokes about future kinship) as confirmation of hoped-for long-term belonging, reinforcing efforts to please and secure relationship.
 		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
 		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
 		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 			- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
-			- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
+			-
 			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
-		- **Attachment & Psychological [[patterns]]**
+		- ## **Attachment & Psychological [[patterns]]**
 			- Psychological testing (2020):
 				- Attachment style: Preoccupied
 				- Primary love language: Quality Time
@@ -70,19 +72,29 @@
 				- Repeated attempts to repair relationship after partner-initiated breakups
 				- Difficulty disengaging despite emotional exhaustion
 			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
-		- **Breakup Pattern**
+		- ## **Breakup Pattern**
 			- **Mid 2017:** First breakup initiated by partner (mismatch in life stage: she studying, I working).
 			- **Mid 2018:** Second breakup (partner suggested time apart).
 			- Relationship resumed both times through my effort to reconcile.
 			- Final separation: 18 Jul 2020 (mutual, peaceful).
-		- ## Medication & Relationship Tension
+		- ## **Medication & Relationship Tension**
+		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
+			- mild right-sided hypoacusis reported;
+			- overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
-			- Encouraged to stop medication.
+			- She encouraged me to discontinue medication.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
-		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
+		- Recurrent forgetfulness (examples): 23 May 2016 — third time losing wallet (felt shame); 10 Sep 2015 — lost wallet she had purchased for me after long day; 3 Jul 2015 — first self-lost wallet during a date. Partner interpreted this as poor self-control and shared informational material (e.g., memory/self-control articles) as an attempt to help.
+		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
+		- After breakup:
+			- Attempted reconnection through shared religious community activities.
+			- Gradual withdrawal from active roles and eventually region-level participation.
+			- Prolonged mourning period; required significant time to stabilise emotionally.
+		- 24 Jul [[2017]]
+			- she began accompanying her friend to psychiatric consultations; this coincided with a shift in my expectations — I initially hoped counselling could salvage the relationship, but treatment evolved into individual [[Therapy]] focused on my recovery.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 		- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
 			- Earlier than 19 Jan 2015, the action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
