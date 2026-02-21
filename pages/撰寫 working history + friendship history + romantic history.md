@@ -81,20 +81,18 @@
 			- Disclosure of depression diagnosis and medication was negatively [[received]].
 			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
-			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
-		- 2016 onward:
-			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- **08 Sep 2016**
-				- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
-				- She provided in-person support.
+			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
+		- **08 Sep 2016**
+			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
+			- She kept me company while she was still studying her Degree.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
 				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 				- 3 Jul 2015 — first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
-			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
-			- I began heavy reliance on digital reminders and multiple daily alarms.
+			- 8 Dec 2015, she interpreted this as poor self-control and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
+			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
 		- By [[10]] June 2020:
 			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
@@ -105,17 +103,6 @@
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		-
-		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
-		- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
-			- Earlier than 19 Jan 2015, the action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
-		- 23 May 2016, it was third time I lost my wallet that I felt ashamed how should I tell her; fourth time on 15 Oct 2023
-			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
-			- 29 July 2015, first time she bought me a new wallet as a birthday gift
-			- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
-		- [[10]] May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
-		- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
-		- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
-		- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
 		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
 		- Before getting in the relationship, to make sure my listening problem could be healed, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal. However, such test result implies my fear and troubles hearing people was caused by my low self-esteem rather than medical issues.
 	-
