@@ -34,7 +34,7 @@
 		  Expressed need for emotional support; discussion led to disagreement regarding medication use.
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
-	- **19 Jun 2020**
+	- **04 Jul 2020**
 		- Last visited Dr. Francis Low Chee Chan
 	- **19 Jun 2020**
 		- first visited Consultant Psychiatrist Dr. Ng Chong Guan
