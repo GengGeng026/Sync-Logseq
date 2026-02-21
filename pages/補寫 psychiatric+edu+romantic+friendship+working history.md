@@ -89,10 +89,10 @@
 			- She kept me company while she was still studying her Degree.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
-				- 15 Oct 2023 _
-				- 23 May 2016 — third time losing wallet (felt shame);
-				- 10 Sep 2015 — lost wallet she had purchased for me after long day;
-				- 3 Jul 2015 — first self-lost wallet during a date.
+				- 15 Oct 2023
+				- 23 May 2016 ── third time losing wallet (felt shame);
+				- 10 Sep 2015 ─ lost wallet she had purchased for me after long day;
+				- 3 Jul 2015 ─ first self-lost wallet during a date.
 			- Verbal commitments forgotten the next day
 			- Blindness in time and physical distance
 				- **9 Aug 2015**, disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as normal experience by self but viewed as inefficient, insane and torturing by her.
