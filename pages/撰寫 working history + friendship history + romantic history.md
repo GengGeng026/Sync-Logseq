@@ -103,10 +103,6 @@
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		-
-			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
-			- 29 July 2015, first time she bought me a new wallet as a birthday gift
-			- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
-		-
 		- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
 		- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
 		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
