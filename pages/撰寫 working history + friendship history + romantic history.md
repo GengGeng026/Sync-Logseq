@@ -79,9 +79,9 @@
 			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively [[received]].
-			- She expressed her concerns while knowing my psychiatrist advised me to resume
+			- She expressed her concerns while knowing my psychiatrist, Dr. Francis Low Chee Chan advised me to resume
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
-			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist, Dr. Francis Low Chee Chan then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
+			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- **08 Sep 2016**
