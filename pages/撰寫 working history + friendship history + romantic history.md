@@ -2,7 +2,6 @@
 	- # Past Psychiatric History
 	- 8 Oct 2001
 		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012;
-			- [[WhatsApp]] [[chat history]] shows 19 Jan 2016 was first time my girlfriend and I started talking about it; 04 Jul [[2017]] was my latest visit before  on 19 Jun 2020 then Clinical Psychologist, Joo Chien 'JC' Chong on 4 Jul 2020
 			- 29 Sep 2015
 			  logseq.order-list-type:: number
 			- 27 Oct 2015
