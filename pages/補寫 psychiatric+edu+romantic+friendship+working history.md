@@ -205,7 +205,7 @@
 		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
 	- 2019 - 2020
 		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition Planners Sdn Bhd)
-		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores in [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
 	- 2019
 		- Emcee a.k.a Master of Ceremony  ( Emerging Untainted - An inspiration from the Lotus Sutra ｜ Arts Exhibition Opening Ceremony )
 		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
