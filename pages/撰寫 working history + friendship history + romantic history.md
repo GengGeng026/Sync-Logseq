@@ -91,8 +91,8 @@
 			- Verbal commitments forgotten the next day
 			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
 			- I began heavy reliance on digital reminders and multiple daily alarms.
-		- By [[10]] June 2020
-			- she voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
+		- By [[10]] June 2020:
+			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
