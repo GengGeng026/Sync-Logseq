@@ -108,9 +108,9 @@
 	-
 - # Friendship History
 	- Early pattern:
-	- Maintained few close friendships.
-	- Tended to rely on others initiating contact to sustain connection.
-	- Difficulty maintaining long-term relational consistency without shared structured activities (projects, religious community, work).
+		- Maintained few close friendships.
+		- Tended to rely on others initiating contact to sustain connection.
+		- Difficulty maintaining long-term relational consistency without shared structured activities (projects, religious community, work).
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
 	- Jian Li, male
 		- 2005, we were from the same primary school, SJK(C) Chukai but studying in different class
