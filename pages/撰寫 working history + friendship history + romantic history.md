@@ -82,7 +82,7 @@
 		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
 		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY [[song]] contest back in 2015, publish our duet [[YouTube]] channel in 2018
 		- 2020 onwards, we got wider media coverage through being featured in [[Astro]] TV shows, TV2 Mandarin News, online interviews, formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
-		- Later,
+		- Later, we organized independent award
 		-
 - # Working History
 	- P/S:
