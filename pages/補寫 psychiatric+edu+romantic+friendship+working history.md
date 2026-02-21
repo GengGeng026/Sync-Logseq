@@ -212,6 +212,7 @@
 		- Temporary Floral Assistant ( Scentales, 2019 )
 		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》CNY MV, Seasonal [[project]] 心意制作 )
 	- 2018 - 2019
+		- Emcee a.k.a Master of Ceremony for Festive Gala
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
 		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
 		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
