@@ -35,7 +35,7 @@
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
 	- **19 Jun 2020**
-		-
+		- Last visited
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
 		  On the same day (evening), mutually and peacefully ended 5-year relationship.
