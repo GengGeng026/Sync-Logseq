@@ -233,7 +233,7 @@
 		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
 		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
 		  《淡淡的忧伤》 )
-		- Director of Photographer ( DoP ) ( 5K Color Me Run [[2]].0 Marathon, 2016 )
+		- DoP ( 5K Color Me Run [[2]].0 Marathon, 2016 )
 		- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
 		  Ceremony / Panel Discussion & Appreciation Night, 2016)
 		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
