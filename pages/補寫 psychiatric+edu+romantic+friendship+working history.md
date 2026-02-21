@@ -147,7 +147,7 @@
 		-
 	- Phei Yong, Male
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
-		- 2012 -
+		- 2012 - 2015
 			- Participated in competition together.
 		-
 			- Auditioned for Astro-related TV host opportunity.
