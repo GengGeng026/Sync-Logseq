@@ -212,15 +212,15 @@
 		- Temporary Floral Assistant ( Scentales, 2019 )
 		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》CNY MV, Seasonal [[project]] 心意制作 )
 	- 2018 - 2019
+		- Freelance Emcee a.k.a Master of Ceremony for indoor spring festive gala
 		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
-		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related in any working experience since I was so scared of my privacy leaking or judgemental idle talk might influence the relationship I value
-		- Content Producer, Editor, Singer-Songwriter ( 《听世界の声音》
-		  《321回家去》《红魔法》《乖乖待在家里头》MV, Seasonal Project 心意制作 )
+		- Managed to produce a comedy short film '千方百計搞定你'
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related since I was so anxious of my privacy leaking or judgemental idle talk might influence the relationship I valued
 	- 2016 - 2018
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- [[2017]]
-		- Emcee a.k.a Master of Ceremony for wedding ROM in
+		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - [[2017]]
 		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
