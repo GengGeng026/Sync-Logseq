@@ -84,8 +84,8 @@
 		- 2020 onwards, we got wider media coverage through being featured in [[Astro]] TV shows, TV2 Mandarin News, online interviews, formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
 		- Later in 2021, we initiated an independent [[song]] critiques award wining contest '我要讲评 I Wanna Comment' online with participants from music industry insiders, produced [[Branding]] jingle and corporate [[song]] '萤火 Fireflies' for Malaysia operation center of FanShu (formerly Fan Deng Reading), a major player in the Chinese knowledge-sharing and personal development digital market.
 		- By end of Sep 2021, we and XINYI(心意) team managed to transform from non-profit collaboration into social enterprise online which enrolled up for 20 students talent classes for 'Your Singing Style (YSS)'
-		- However, nearly close to end of 2022, no matter joint-venture collaboration with different parties and between only both of us, were forced to terminated due to conflict of interest statement amongst and personal accountability issues from . Luckily, the core committees managed to execute prompt emergency crisis handling.
-		-
+		- However, nearly close to end of 2022, no matter joint-venture collaboration with different parties and between only both of us, were forced to terminate due to conflict of interest statement amongst partners and personal accountability and credit issues from Johnathan that pissed off many partners. Luckily, the core committees managed to execute prompt emergency crisis handling, Jonathan and I were then peacefully drifted apart without any financial entanglement in our ex-company.
+		- After the incident, Johnathan had once visited my living place and tried to reconnect. For the beginning, he expressed his apology by realising the
 - # Working History
 	- P/S:
 		- Fact-checking shows my jobless status started since 13 December 2023 ── present, total in nearly 3 years and 2 months, rather I remembered wrongly 5 years.
