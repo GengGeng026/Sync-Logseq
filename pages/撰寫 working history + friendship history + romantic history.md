@@ -32,7 +32,6 @@
 		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 	- **06 Sep 2016**
 		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
-		  Expressed need for emotional support; discussion led to disagreement regarding medication use.
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
 	- **04 Jul 2020**
