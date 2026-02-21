@@ -79,7 +79,7 @@
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge 2013
-		- That was first time I tried to be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he is a music [[producer]]
+		- That was first time I tried to be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he i
 		-
 - # Working History
 	- P/S:
