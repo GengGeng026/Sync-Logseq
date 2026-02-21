@@ -57,8 +57,7 @@
 			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance before we left.
 		- Noted my early reassurance-seeking behaviour
 			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
-		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
-			-
+		-
 		- ## **Attachment & Psychological [[patterns]]**
 			- Psychological testing (2020):
 				- Attachment style: Preoccupied
@@ -72,17 +71,20 @@
 			- **Mid 2017:** First breakup initiated by partner (mismatch in life stage: she studying, I working).
 			- **Mid 2018:** Second breakup (partner suggested time apart).
 			- Relationship resumed both times through my effort to reconcile.
-			- Final separation: 18 Jul 2020 (mutual, peaceful).
-		- ## **Medication & Relationship Tension**
+			- Final separation: 18 Jul 2020 (mutual, peaceful, without initiating breakup), following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone.
+		- ## **Partner-Supported Involvement & Relationship Tension**
 		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
-			- mild right-sided hypoacusis reported;
-			- overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
+			- Mild right-sided hypoacusis reported;
+			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
+			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
 		- Early stage of relationship:
-			- Disclosure of depression diagnosis and medication was negatively received.
-			- She encouraged me to discontinue medication as it
+			- Disclosure of depression diagnosis and medication was negatively [[received]].
+			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
+			- From reluctance to acceptance towards my condition, there was once and only memory she accompanied me to consultation with my psychiatrist, Dr. Francis Low Chee Chan
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- Mixed support over time;
+			- **08 Sep 2016**
+				- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). She provided in-person support.
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
@@ -109,8 +111,6 @@
 			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
 			- 29 July 2015, first time she bought me a new wallet as a birthday gift
 			- 3 Jul 2015, first time I lost my own wallet in a cinema during dating
-		- **08 Sep 2016**
-			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 		- [[10]] May 2016, she expressed her support and compliment to me when I shared with her a screenshot about I took initiative to greet my mother belated birthday for the first time after several years without contact.
 		- 8 Dec 2015, for the first time, my girlfriend inferred that my overall lack of self-control had caused my forgetfulness of our verbal agreements, and she sent me a Zhihu Q&A about poor self-control and a memory disorder encyclopedia entry to support this view, framing her actions as an effort to help me address this issue.
 		- 29 Aug 2015, a conversation about means of transport reflected clash of values between us where the destination where I'ver never been before took me 45 walking distance and 3 hours in overall made me feel worth it while that kind of actions seemed to her was inefficient, time-consuming and suffered.
