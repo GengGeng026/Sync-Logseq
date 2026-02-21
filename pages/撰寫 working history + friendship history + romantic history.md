@@ -28,7 +28,7 @@
 	- 29 Sep 2015
 		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
 	- Before 19 Jan 2016
-		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well received; advised to stop medication.
+		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 	- **06 Sep 2016**
 		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 		  Expressed need for emotional support; discussion led to disagreement regarding medication use.
@@ -36,6 +36,8 @@
 		- First suspension (with pay) from post-graduate job (Assistant Director @ Astro). Partner provided in-person support.
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
+	- **19 Jun 2020**
+	-
 	- **18 Jul 2020 (11:00–12:00 PM)**
 		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
 		  On the same day (evening), mutually and peacefully ended 5-year relationship.
