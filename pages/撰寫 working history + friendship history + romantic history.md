@@ -37,8 +37,8 @@
 			- Last visited Dr. Francis Low Chee Chan
 		- **19 Jun 2020**
 			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
-		- **18 Jul 2020 (11:00–12:00 PM)**
-			- Second session with Clinical Psychologist Joo Chien “JC” Chong.
+		- **4 Jul 2020**
+			- First session with Clinical Psychologist Joo Chien “JC” Chong.
 			-
 	- # Educational History
 		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
