@@ -147,19 +147,15 @@
 		-
 	- Phei Yong, Male
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
-		- 2012 -
-			- Participated in competition together.
-		-
-			- Auditioned for Astro-related TV host opportunity.
-			- Participated and organised campus Chinese debate competition, guided anti-nuclear weapon exhibition, executed silent mob performance, etc.
-			-
-		- Maintained supportive friendship through shared artistic and organisational involvement.
-		- Provided professional encouragement and collaboration opportunities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
+		- 2012 - 2015
+			- Auditioned for Astro-related TV host opportunity.
+			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
+			-
 		- 2015
 			- he came and showed his support whilst my music partner, Johnathan and I reached the grand final of 2015 CNY [[song]] contest in Penang island.
 			- With his extensive connections, we produced an group singing music videos for the same [[song]] '终于来到 Finally' and got it broadcasted through radio station whilst Phei Yong had became MYFM contract DJ after winning the champion of 'Be My Star DJ'.
-		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
+		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of his handwritten calligraphy '益其所不能' as my 21st birthday gift. I value those words and encouragement.
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2014
