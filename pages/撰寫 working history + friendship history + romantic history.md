@@ -82,6 +82,7 @@
 		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
 		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY [[song]] contest back in 2015, publish our duet [[YouTube]] channel in 2018
 		- 2020 onwards, we got wider media coverage through being featured in [[Astro]] TV shows, TV2 Mandarin News, online interviews, formally started business, struck very first deal of producing up to 6 hours audio [[book]] about mastering business equity, financial health, and company culture.
+			-
 		- Later in 2021, we initiated an independent [[song]] critiques award wining contest '我要讲评 I Wanna Comment' online with participants from music industry insiders, produced [[Branding]] jingle and corporate [[song]] '萤火 Fireflies' for Malaysia operation center of FanShu (formerly Fan Deng Reading), a major player in the Chinese knowledge-sharing and personal development digital market.
 		- Nearly the end of ,
 		-
