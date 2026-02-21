@@ -89,7 +89,6 @@
 			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
 		- Recurrent forgetfulness (examples):
 			- 23 May 2016 — third time losing wallet (felt shame);
-			-
 			- 10 Sep 2015 — lost wallet she had purchased for me after long day;
 			- 3 Jul 2015 — first self-lost wallet during a date.
 			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
