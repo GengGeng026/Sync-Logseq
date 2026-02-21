@@ -251,4 +251,4 @@
 	- 2011
 		- Cashier in Tunas Manja Supermarket
 		- Very first full time job while waiting for SPM result announcement
-		- made so many mistakes such
+		- Made so many mistakes such as
