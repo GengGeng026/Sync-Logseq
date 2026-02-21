@@ -1,8 +1,8 @@
 - P/S: Clarification about my **Past Psychiatric History** and **Educational History**
 	- # Past Psychiatric History
-	- 8 Oct 2001
+	- **8 Oct 2001**
 		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
-	- 29 Sep 2015
+	- **29 Sep 2015**
 		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
 		- 29 Sep 2015
 		  logseq.order-list-type:: number
@@ -26,7 +26,7 @@
 		  logseq.order-list-type:: number
 		- 04 Jul 2017 (Tue)
 		  logseq.order-list-type:: number
-	- Before 19 Jan 2016
+	- **Before 19 Jan 2016**
 		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 	- **06 Sep 2016**
 		- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
