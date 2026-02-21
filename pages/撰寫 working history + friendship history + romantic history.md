@@ -103,7 +103,6 @@
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		-
-		- and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
 			- Earlier than 19 Jan 2015, the action of first time telling her my diagnosed depression and psychiatric medications was resented, and I was advised to stop.
 		- 23 May 2016, it was third time I lost my wallet that I felt ashamed how should I tell her; fourth time on 15 Oct 2023
 			- 10 Sep 2015, I lost the wallet she bought for me after a long day driving
