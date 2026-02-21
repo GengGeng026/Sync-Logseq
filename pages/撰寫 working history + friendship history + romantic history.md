@@ -29,7 +29,8 @@
 		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
 		  ｜
 		- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches, as this was a small, church-run kindergarten that was never independently registered or digitized, and is historically associated with [[Kemaman]] Presbyterian Church at Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
-		- Clarified
+		- Clarified from my grandmother I continued kindergarten later than average kids due to emotional instability led to physical violence from me to the assets, and eventually from teacher to me, since then it took me only a year until primary school.
+		- The top student from my batch in our high-school times (2010-2012) once claimed that he was always interrupted and even
 - # Romantic History
 	- My very first and ex-girlfriend
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
