@@ -67,10 +67,12 @@
 				- Attachment style: Preoccupied
 				- Primary love language: Quality Time
 			- Pattern observed:
-			- High need for reassurance
-			- Repeated attempts to repair relationship after partner-initiated breakups
-			- Difficulty disengaging despite emotional exhaustion
+				- High need for reassurance
+				- Repeated attempts to repair relationship after partner-initiated breakups
+				- Difficulty disengaging despite emotional exhaustion
 			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+		- Breakup Pattern
+			-
 		- 24 Feb 2019, we
 		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
