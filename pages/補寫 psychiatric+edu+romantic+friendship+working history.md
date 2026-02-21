@@ -181,7 +181,7 @@
 		- Mid 2023
 			- After the incident, Johnathan had once visited my living place and attempted reconciliation.
 			- Initially, he expressed his apology by realising his personal matters led to earlier preventable consequences. However, his next act made me literally felt disappointed, which he claimed the only value he chose to reconnect is because he still regarded me as a friend otherwise he wouldn't take the initiative or gave me 'chances' to collaborate again.
-			- His intention helped me being more aware that the end of our collaboration is more worthy rather than holding on unequal   transactional opportunities especially that was the period I have been burnout and sticking with [[Therapy]] with JC.
+			- His intention helped me being more aware that the end of our collaboration is more worthy rather than holding on unequal relationship  transactional opportunities especially that was the period I have been burnout and sticking with [[Therapy]] with JC.
 		- Since then, I choose to keep it to myself with more time and space until currently.
 		-
 - # Working History
