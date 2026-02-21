@@ -220,7 +220,7 @@
 		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
 		  ( Enya Mareine Vision Studio, 2016 - 2018 )
 	- [[2017]]
-		- E
+		- Emcee a.k.a Master of Ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
 	- 2016 - [[2017]]
 		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
