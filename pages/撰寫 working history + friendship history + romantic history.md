@@ -79,7 +79,7 @@
 		-
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge 2013
-		- That was first time I tried to strike up a conversation in a public space and be cheeky and by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music.
+		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music.
 		-
 		-
 - # Working History
