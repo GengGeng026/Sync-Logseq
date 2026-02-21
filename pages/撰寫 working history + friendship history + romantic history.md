@@ -75,7 +75,7 @@
 			- **Mid 2018:** Second breakup (partner suggested time apart).
 			- Relationship resumed both times through my effort to reconcile.
 			- Final separation: 18 Jul 2020 (mutual, peaceful).
-		- ## Medication & Relationship Tension
+		- ## **Medication & Relationship Tension**
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
 			- Encouraged to stop medication.
