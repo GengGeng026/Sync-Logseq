@@ -246,4 +246,5 @@
 		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
 	- 2013
 		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
-	-
+	- 2011
+		- Cashier in Tunas Manja Supermarket
