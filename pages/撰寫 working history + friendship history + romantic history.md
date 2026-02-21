@@ -82,7 +82,6 @@
 			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 			- From initial resistance to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to psychiatric consultations.
-			- , first time I expressed it's been long time without her accompanied me for revisit since very last time
 		- **08 Sep 2016**
 			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
 			- She kept me company while she was still studying her Degree.
