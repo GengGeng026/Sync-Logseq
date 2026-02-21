@@ -48,6 +48,7 @@
 			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
 			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and fight.
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
+			-
 - # Romantic History
 	- My very first and ex-girlfriend
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
