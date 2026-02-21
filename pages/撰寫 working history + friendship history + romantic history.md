@@ -50,7 +50,7 @@
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
 			-
 - # Romantic History
-	- My very first and ex-girlfriend
+	- Relationship Overview
 		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
 		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
 		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
