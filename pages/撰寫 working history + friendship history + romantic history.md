@@ -32,7 +32,8 @@
 				- 04 Jul 2017 (Tue)
 				  logseq.order-list-type:: number
 		- **Before 19 Jan 2016**
-			- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
+			- First disclosed diagnosed depression and psychiatric medication use to girlfriend.
+			- Disclosure was not well [[received]]; advised to stop medication.
 		- **06 Sep 2016**
 			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
 		- **24 Jul [[2017]]**
