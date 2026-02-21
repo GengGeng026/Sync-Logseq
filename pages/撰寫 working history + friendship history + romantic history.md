@@ -82,7 +82,7 @@
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
 			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
-		- ## Identity, Withdrawal & Post-Breakup Adjustment
+		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
 			- Gradual withdrawal from active roles and eventually region-level participation.
