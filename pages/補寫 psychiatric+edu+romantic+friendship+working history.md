@@ -129,7 +129,7 @@
 		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
 		- 2014 - 2018
 			- Met again in 2014
-			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018.
+			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018 while we were working in different industries.
 		- 2019 - 2022
 			- Continued collaboration in creative / business-related attempts.
 			- Produced annual CNY music videos, epidemic prevention awareness, online singing classes, etc.
@@ -138,8 +138,12 @@
 			- Managed to unleash my full potential from what I learnt from [[Astro]], Wedding Film Industries and talent in [[song]]-writing.
 			- suspended since 2022 due to coach conflict of interest.
 			- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
-		- Later in 2022, he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
-		- Following the end of our business collaboration and then my failure in securing the job offer in PurpleCane, from May 2023 onwards, there has been no contact between us until now as I feel ashamed of owing him those money though there has been several times he said there's no hurry to pay it back.
+		- Later in 2022
+			- he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
+		- May 2023
+			- Failure in securing the job offer in PurpleCane due to ghosting and delayed submission of 532 pages of New Digital Marketing Optimisation Strategy Project Proposal.
+			- Started pulling away from this relationship following the end of our business collaboration and unresolved repayment of owing him those money though there has been several times he said there's no hurry to pay it back
+			- Feelings of shame and avoidance contributing to withdrawal
 		-
 	- Phei Yong, Male
 		- We first met at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in TAR UMT for 4 years
