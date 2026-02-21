@@ -79,6 +79,7 @@
 			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
+			- She
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
