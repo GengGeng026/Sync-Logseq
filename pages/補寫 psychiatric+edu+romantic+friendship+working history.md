@@ -146,7 +146,7 @@
 			- Feelings of shame and avoidance contributing to withdrawal
 		-
 	- Phei Yong, Male
-		- Met during university (TAR UMT) years at student houses under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in  for 4 years
+		- Met during university (TAR UMT) years via religious student housing under same Buddhist organization, Soka Gakkai Malaysia while we both also studied in  for 4 years
 		- He was from Psychology Counselling, however, he had been talented in broadcasting, which was my field, and entertainment industry as his success today in Malaysia tells the truth.
 		- He and I first participated in Campus 2nd Biggest event audition back in 2012, then [[Astro]] chinese TV programme Host contest back in 2013, followed by campus Chinese debate contest, anti-nuclear weapon exhibition, silent mob performance, etc.
 		- Since we also had a lot of interest in common, not only mastering the ceremonies, but we also spend time together writing songs, appreciating films, arts and culture events, etc
