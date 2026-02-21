@@ -191,7 +191,7 @@
 	- 2018 - 2022
 		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
 		- I had so many moments of emotional distress whenever unexpected things occurred during start-up.
-		- There were times I insisted my parter to follow the [[patterns]] of my desired online [[Meeting]]: he had to accept invitation in advance on his own [[Calendar]] so that I will be notified and aware he wouldn't be late or stood me up.
+		- There were times I insisted my parter to follow the [[patterns]] of my desired online [[Meeting]]: he had to accept my invitation in advance on his own [[Calendar]] so that I will be notified and aware he wouldn't be late or stood me up.
 		- There was once a conflict occurred, I once spilled out all my thoughts and anger uncontrollably for over an hour while my partner listened quietly and eventually he gave me a quick hug which felt weird, however, I was then feeling calmed out of no where.
 	- 23 June 2022 - January 2023
 		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
