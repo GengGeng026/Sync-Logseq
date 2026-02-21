@@ -250,4 +250,4 @@
 		- Promoter at MATTA Travel Fair for [[5]] Days
 	- 2011
 		- Cashier in Tunas Manja Supermarket
-		- First full time job while waiting for national announcement of SPM result
+		- First full time job while waiting for SPM result announcement
