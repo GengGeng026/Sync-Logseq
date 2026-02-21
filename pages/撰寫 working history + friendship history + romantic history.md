@@ -78,7 +78,7 @@
 		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of Chinese calligraphy '益其所不能' as my 21st birthday gift. I value these best wishes as well as encouragement and still kept them until today.
 		-
 	- Johnathan, Male
-		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2013
+		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2014
 		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
 		-
 		-
