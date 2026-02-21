@@ -34,10 +34,10 @@
 	- **24 Jul [[2017]]**
 		- Partner accompanied her friend to consult the same psychiatrist I was seeing (Dr. Francis Low).
 	- **18 Jul 2020 (11:00–12:00 PM)**
-	  Second session with Clinical Psychologist Joo Chien “JC” Chong.
-	  On the same day (evening), mutually and peacefully ended 5-year relationship.
+		- Second session with Clinical Psychologist Joo Chien “JC” Chong.
+		  On the same day (evening), mutually and peacefully ended 5-year relationship.
 	- Post-breakup:
-	  Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+		- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
 	- # Educational History
 		- 2000
 		  Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church)
