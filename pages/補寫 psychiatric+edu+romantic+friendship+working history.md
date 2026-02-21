@@ -148,7 +148,7 @@
 	- Phei Yong, Male
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
-		- 2012 - 2015
+		- 2012 - 2014
 			- Auditioned for Astro-related TV host opportunity.
 			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
 			- Organised religious exchange meets across states, annual reunions and retreats
