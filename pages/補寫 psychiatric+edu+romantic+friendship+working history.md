@@ -147,7 +147,6 @@
 		-
 	- Phei Yong, Male
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
-		- Maintained supportive friendship through shared artistic and organisational involvement.
 		- Friendship sustained through structured joint activities rather than spontaneous social bonding.
 		- 2012 - 2015
 			- Participated in competition together.
