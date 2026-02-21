@@ -77,7 +77,7 @@
 		- Pre-relationship audiological assessment (SISI, audiometry Sibelmed W50):
 			- Mild right-sided hypoacusis reported;
 			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
-			- It reflects my low
+			- It reflects my low self-esteem and interpersonal
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
