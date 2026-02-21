@@ -82,7 +82,7 @@
 			- She encouraged me to discontinue medication.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
+			- Mixed support over time;
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
@@ -91,6 +91,7 @@
 			- Verbal commitments forgotten the next day
 			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
 			- I began heavy reliance on digital reminders and multiple daily alarms.
+		- by 10 June 2020 she voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
