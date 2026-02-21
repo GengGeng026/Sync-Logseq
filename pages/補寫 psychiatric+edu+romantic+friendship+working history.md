@@ -174,9 +174,14 @@
 			- First initiated an independent [[song]] critiques award wining online contest '我要讲评 I Wanna Comment' with participants from music industry insiders
 			- Produced [[Branding]] jingle and corporate [[song]] '萤火 Fireflies' for Malaysia operation centre of FanShu (formerly Fan Deng Reading), a major player in the Chinese knowledge-sharing and personal development digital market.
 		- By end of Sep 2021
-			- Team XINYI(心意) and we transformed non-profit collaboration into social enterprise, enrolled up for 20 students for 'Your Singing Style (YSS)' online classes
-		- However, nearly close to end of 2022, no matter joint-venture collaboration with different parties and between only both of us, were forced to terminate due to conflict of interest statement amongst partners and personal accountability and credit issues from Johnathan that pissed off many partners. Luckily, the core committees managed to execute prompt emergency crisis handling, Jonathan and I were then peacefully drifted apart without any financial entanglement in our ex-company.
-		- After the incident, back in mid of 2023, Johnathan had once visited my living place and tried to reconnect. For the beginning, he expressed his apology by realising his personal matters led to earlier preventable consequences. However, his next act made me literally felt disappointed, which he claimed the only value he chose to reconnect is because he still regarded me as a friend or else he wouldn't take the initiative or gave me 'chances' to collaborate again. His intention helped me being more aware the end of our collaboration is more worth rather than holding on those transactional opportunities especially that was the period I have been burnout and sticking with [[Therapy]] with JC.
+			- Team XINYI(心意) and we transformed non-profit collaboration into social enterprise, enrolled up for 20 students for 'Your Singing Style (YSS)' online talent class.
+		- 2022 - 2023
+			- Joint-venture collaboration with different parties and business between both of us, were forced to terminate due to conflict of interest statement and personal accountability and credit issues origin from Jonathan.
+			- The core committees managed to execute prompt emergency crisis handling, Jonathan and I were then peacefully drifted apart without any financial entanglement related to our ex-company.
+		- Mid 2023
+			- After the incident, Johnathan had once visited my living place and attempted reconciliation.
+			- Initially, he expressed his apology by realising his personal matters led to earlier preventable consequences. However, his next act made me literally felt disappointed, which he claimed the only value he chose to reconnect is because he still regarded me as a friend otherwise he wouldn't take the initiative or gave me 'chances' to collaborate again.
+			- His intention helped me being more aware that the end of our collaboration is more worthy rather than holding on those transactional opportunities especially that was the period I have been burnout and sticking with [[Therapy]] with JC.
 		- Since then, I choose to keep it to myself with more time and space until currently.
 		-
 - # Working History
