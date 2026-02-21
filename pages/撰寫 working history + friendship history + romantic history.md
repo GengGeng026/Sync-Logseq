@@ -57,8 +57,7 @@
 			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance before we left.
 		- Noted my early reassurance-seeking behaviour
 			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
-		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
-			-
+		-
 		- ## **Attachment & Psychological [[patterns]]**
 			- Psychological testing (2020):
 				- Attachment style: Preoccupied
