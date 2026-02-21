@@ -251,4 +251,4 @@
 	- 2011
 		- Cashier in Tunas Manja Supermarket
 		- Very first full time job while waiting for SPM result announcement
-		- Made so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slowliness
+		- Made so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slowliness in
