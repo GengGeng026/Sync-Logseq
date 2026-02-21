@@ -86,8 +86,7 @@
 			- She encouraged me to discontinue medication.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
-			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
+			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
