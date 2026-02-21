@@ -50,7 +50,7 @@
 			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
 			-
 - # Romantic History
-	- Relationship Overview
+	- **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
 		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
@@ -71,7 +71,7 @@
 				- Repeated attempts to repair relationship after partner-initiated breakups
 				- Difficulty disengaging despite emotional exhaustion
 			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
-		- Breakup Pattern
+		- **Breakup Pattern**
 			-
 		- 24 Feb 2019, we
 		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
