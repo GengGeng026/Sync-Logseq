@@ -149,7 +149,7 @@
 		- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
 		- 2012
 			- Participated in competition together.
-			-
+		- 2013
 			- participated in auditions and competitions together (eg. 2013 [[Astro]] chinese TV programme Host contest back in 2013, followed by campus Chinese debate contest, anti-nuclear weapon exhibition, silent mob performance, etc.
 		- Since we also had a lot of interest in common, not only mastering the ceremonies, but we also spend time together writing songs, appreciating films, arts and culture events, etc
 		- Out of campus, he came along and showed his support whilst my music partner, Johnathan and I reach the grand final of 2015 CNY [[song]] contest in Penang island. With his extensive connections, we produced an Group Singing MV for the same song '终于来到 FInally' and got it broadcasted through radio station whilst Phei Yong had became MYFM DJ after winning the champion of 'Be My Star DJ'.
