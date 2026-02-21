@@ -130,7 +130,7 @@
 		- 2014 - 2018
 			- Met again in 2014
 			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018.
-		-
+		- 2019 - 2022
 			- Expanded from initially 4 core members up to [[10]] committees and less than 50 volunteers.
 			- Produced annual CNY MV, epidemic prevention awareness, online singing classes,
 			- Later transitioned into small-scale social enterprise collaboration
