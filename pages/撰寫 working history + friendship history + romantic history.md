@@ -4,29 +4,30 @@
 		- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh, followed by 17 Feb 2012 and [[16]] Mar 2012
 	- **29 Sep 2015**
 		- first visit Consultant Psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong
-		- fu
-		- 29 Sep 2015
-		  logseq.order-list-type:: number
-		- 27 Oct 2015
-		  logseq.order-list-type:: number
-		- 16 Jan 2016
-		  logseq.order-list-type:: number
-		- 25 Feb 2016
-		  logseq.order-list-type:: number
-		- 2 Apr 2016
-		  logseq.order-list-type:: number
-		- 10 May 2016
-		  logseq.order-list-type:: number
-		- 17 May 2016
-		  logseq.order-list-type:: number
-		- 12 Jul 2016  10:00
-		  logseq.order-list-type:: number
-		- 6 Sep 2016 11:00
-		  logseq.order-list-type:: number
-		- 27 Jun 2017 (Tue)
-		  logseq.order-list-type:: number
-		- 04 Jul 2017 (Tue)
-		  logseq.order-list-type:: number
+		- Full physical record
+		  collapsed:: true
+			- 29 Sep 2015
+			  logseq.order-list-type:: number
+			- 27 Oct 2015
+			  logseq.order-list-type:: number
+			- 16 Jan 2016
+			  logseq.order-list-type:: number
+			- 25 Feb 2016
+			  logseq.order-list-type:: number
+			- 2 Apr 2016
+			  logseq.order-list-type:: number
+			- 10 May 2016
+			  logseq.order-list-type:: number
+			- 17 May 2016
+			  logseq.order-list-type:: number
+			- 12 Jul 2016  10:00
+			  logseq.order-list-type:: number
+			- 6 Sep 2016 11:00
+			  logseq.order-list-type:: number
+			- 27 Jun 2017 (Tue)
+			  logseq.order-list-type:: number
+			- 04 Jul 2017 (Tue)
+			  logseq.order-list-type:: number
 	- **Before 19 Jan 2016**
 		- First disclosed diagnosed depression and psychiatric medication use to girlfriend. Disclosure was not well [[received]]; advised to stop medication.
 	- **06 Sep 2016**
