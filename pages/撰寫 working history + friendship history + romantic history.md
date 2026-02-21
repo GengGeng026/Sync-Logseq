@@ -46,20 +46,42 @@
 			- Small church-run kindergarten, not formally digitised/registered.
 			- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches
 			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
-			- The top student with good memory from my batch in our high-school times (2010-2012) once claimed that during a year in kindergarten, he was always interrupted and even his belongings was snatched by me. This information helped me recalled back my earlier memory was not happy at all as I could easily get into physical fight anytime with other kids without knowing any reasons or how I was becoming that terribly bad.
+			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and fight.
+			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
+			-
 - # Romantic History
-	- My very first and ex-girlfriend
-		- Lasted [[5]] Years ( 15 May 2015 ─ 18 Jul 2020 )
+	- **Relationship Overview**
+		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
+		- First met before formal relationship (13 June 2014 period) through religious student housing context.
 		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
 		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
 		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
 			- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 			- Before that, few tests for both me and my girlfriend were suggested by JC when first I told him the purposes, and the result showed my attachment stye was [[pre-occupied attachment]] while my primary love language is [[Quality Time]], nevertheless, I would no longer have chances to know hers and understand deeper what made our relationship been slow fading.
-			- We had an on-again, off-again thing for 3 years as she initiated a break up for twice. For the earliest (mid 2017), she first claimed we were not a good match while she was still studying as I just started working; later, after she had entered the workforce been a while (since mid 2018), she said we might need some time off. Each time I tried my best to work things out with her and it helped no matter through time apart and took initiative to reconnect with each other, until we drifted apart and I worn myself out.
 			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
-		- 24 Feb 2019, we
+		- **Attachment & Psychological [[patterns]]**
+			- Psychological testing (2020):
+				- Attachment style: Preoccupied
+				- Primary love language: Quality Time
+			- Pattern observed:
+				- High need for reassurance
+				- Repeated attempts to repair relationship after partner-initiated breakups
+				- Difficulty disengaging despite emotional exhaustion
+			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+		- **Breakup Pattern**
+			- **Mid 2017:** First breakup initiated by partner (mismatch in life stage: she studying, I working).
+			- **Mid 2018:** Second breakup (partner suggested time apart).
+			- Relationship resumed both times through my effort to reconcile.
+			- Final separation: 18 Jul 2020 (mutual, peaceful).
+		- ## Medication & Relationship Tension
+		- Early stage of relationship:
+			- Disclosure of depression diagnosis and medication was negatively received.
+			- Encouraged to stop medication.
+		- 2016 onward:
+			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
+			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
 		- 24 Jul 2017, she kept her friend company while first visiting the same psychiatrist, Dr Francis Low that I had been visiting.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
 		- 06 Sep 2016, first time I expressed it's been long time without her accompanied me for revisit since very last time and I was told taking those medicine not good for overall over the discussion about insomnia led to worse performance during working hours, while telling her the truth of retaking SSRI antidepressants - 5mg Lexapro prescribed and advised by Psychiatrist, Dr. Francis Low Chee Chan
@@ -76,6 +98,7 @@
 		- 28 Aug 2015, for the first time an international news, which reported unarrested suspects, the [[grey]] Wolves of Turkey with links to terrorism in 2015 Bangkok bombing have escaped to Malaysia, revealed her heightened concern of my personal safety on the next day schedule whilst lesser awareness in me started fuelled my stressfulness following by unconscious comparison. It then brought up a consensus about our relationship when any care from either of us had become a pressure might wouldn't last.
 		- She remembered 21 Jul 2015 was my dad's death first anniversary while her awareness and caring she showed made me feel warm.
 		- Before getting in the relationship, to make sure my listening problem could be healed, I previously sought hearing evaluation ( SISI Test and Lüscher Test ) and audiometry report Sibelmed W50 diagnosed my right ear with slight hypoacusis while left ear is normal. However, such test result implies my fear and troubles hearing people was caused by my low self-esteem rather than medical issues.
+	-
 - # Friendship History
 	- [[P]]/S: Before university times, I've only very few good friends and any friendship didn't develop deeper since I couldn't easily bond with nearly anyone unless they also took initiative and get to know me
 	- Jian Li, male
