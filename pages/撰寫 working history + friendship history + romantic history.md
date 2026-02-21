@@ -82,7 +82,7 @@
 			- She expressed concerns and encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- Mixed support over time;
+			-
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
