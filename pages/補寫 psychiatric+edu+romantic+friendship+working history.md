@@ -198,6 +198,7 @@
 		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
 	- 2021
 		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
+		-
 		- Content [[producer]], Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal [[project]] 心意制作 )
 	- 2020
 		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
@@ -222,7 +223,7 @@
 		- For half of first year, trouble in trusting colleagues and weakness in delegation contributing to detachment and low efficiency at work.
 		- Later, I managed to work things out much smoother with supportive teammates of a similar age especially when over half of seniors left the company.
 		- That was the first time I felt like I could make good friends at workspace rather than only transactional teamworks
-		- Friendship sustained even after we all left the same company.
+		- Friendship sustained and still helping each other when in need even after we all left the same company.
 	- [[2017]]
 		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
 		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
