@@ -53,16 +53,12 @@
 	- ## **Relationship Overview**
 		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
 		- First met before formal relationship (13 June 2014 period) through religious student housing context.
-		- 2015:
-			- Noted early reassurance-seeking behaviour — interpreted events (e.g., partner's family jokes about future kinship) as confirmation of hoped-for long-term belonging, reinforcing efforts to please and secure relationship.
-		- Before 13 June 2014, first met her along with her family  while I was being her tour guide for early viewing before moving in different student house under same religion; be in serious relationship on 15 May 2015, following out of pure panic before the end of seeing each other, I verbally 'double-confimed' with her about her acceptance of being my girlfriend.
-		- I felt lucky that his father once made a joke before some religious members that I was his future son-in-law and I also thought we could be families in the latter days.
+		- Entered relationship formally in mid-2015;
+			- despite her's verbal agreement, I experienced pervasive insecurity and sought reassurance before we left.
+		- Noted my early reassurance-seeking behaviour
+			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
 		- Formally and peacefully said goodbye to each other without neither any of us initiating a break up at night, [[KFC]] restaurant, following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone on 18 Jul 2020  11:00 - 12:00 PM.
-			- Following the break-up, what was once [[2]] purposes had eventually become one ─ seeking clinical psychological [[Therapy]] for depression rather than only  psychiatric medication and saving our dying relationship through relationship [[Therapy]], eventually ended up being my mental health recovery journey alone.
 			-
-			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
-			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
-			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		- ## **Attachment & Psychological [[patterns]]**
 			- Psychological testing (2020):
 				- Attachment style: Preoccupied
@@ -83,10 +79,10 @@
 			- overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
 		- Early stage of relationship:
 			- Disclosure of depression diagnosis and medication was negatively received.
-			- She encouraged me to discontinue medication.
+			- She encouraged me to discontinue medication as it
 		- 2016 onward:
 			- Tension surrounding psychiatric treatment and insomnia-related work impairment.
-			- Mixed support over time; by 10 June 2020 she voluntarily offered accompaniment to clinic visit.
+			- Mixed support over time;
 		- Recurrent forgetfulness (examples):
 			- Lost wallet incidents
 				- 23 May 2016 — third time losing wallet (felt shame);
@@ -95,11 +91,15 @@
 			- Verbal commitments forgotten the next day
 			- She interpreted this as poor self-control and shared informational material (e.g., memory disorder/self-control [[articles]]) as an attempt to help.
 			- I began heavy reliance on digital reminders and multiple daily alarms.
+		- By [[10]] June 2020:
+			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
 		- After breakup:
 			- Attempted reconnection through shared religious community activities.
 			- Gradual withdrawal from active roles and eventually region-level participation.
 			- Prolonged mourning period; required significant time to stabilise emotionally.
+			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
+			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
 		- 24 Jul [[2017]]
 			- she began accompanying her friend to psychiatric consultations; this coincided with a shift in my expectations — I initially hoped counselling could salvage the relationship, but treatment evolved into individual [[Therapy]] focused on my recovery.
 		- 08 Sep 2016, first time I was suspended with pay from my first post-graduate job, Director Assistant @[[Astro]], she kept me company while she was not yet graduated from her Degree.
