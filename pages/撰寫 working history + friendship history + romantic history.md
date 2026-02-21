@@ -62,7 +62,8 @@
 			- Further back in time, from skepticism towards I first started taking psychiatric prescription, then I first asked for her company, until she had come to be willing to learn more, [[10]] June 2020 was the first time she voluntarily offered to be there for me/ asked whether did I need her "teman" me for first visiting Linda & Ng Clinic ( formerly Tan & Ng Clinic )
 			- It took me double the time and efforts to mourn and accept the end of this relationship. In the middle of time, with support and help from her trusted friend, I once wished we could get back together and tried joining low key as many as Soka Gakkai activities like online discussion meets she had been active, until I gradually withdraw from active departments, roles, and eventually the entire region.
 			  I was aware I hope she is free and joyful even though I would not be around anymore; instead, I needed more time to keep myself company while praying for our own happiness.
-		- **Attachment & Psychological Patterns**
+		- ---
+		- **Attachment & Psychological [[patterns]]**
 			- Psychological testing (2020):
 				- Attachment style: Preoccupied
 				- Primary love language: Quality Time
