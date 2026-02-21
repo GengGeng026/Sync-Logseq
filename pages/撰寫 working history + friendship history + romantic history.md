@@ -80,7 +80,8 @@
 	- Johnathan, Male
 		- We first met in a bus with group with people participating Marathon at Penang Bridge back in 2014
 		- That was first time I tried to strike up a conversation in a public space and be cheeky by showing him face-to-face some of my recorded DEMOs after I heard from our mutual friend he also made his own music. Then, we hit it off right away.
-		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY song contest back in 2015, publish our duet Youtube channel in 2018, struck very first deal of producing up to 6 hours audio book with  in 2020,
+		- Since then, we started our journey of making music together, from participating Gurney Paragon mall CNY [[song]] contest back in 2015, publish our duet [[YouTube]] channel in 2018
+		- 2020struck very first deal of producing up to 6 hours audio book with  in 2020,
 		-
 - # Working History
 	- P/S:
