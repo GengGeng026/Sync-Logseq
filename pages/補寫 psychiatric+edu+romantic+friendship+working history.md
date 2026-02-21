@@ -132,7 +132,7 @@
 			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018.
 		- 2019 - 2022
 			- Continued collaboration in creative / business-related attempts.
-			- Produced annual CNY music videos, epidemic prevention awareness, online singing classes,
+			- Produced annual CNY music videos, epidemic prevention awareness, online singing classes, etc.
 			- Expanded from initially 4 core members up to [[10]] committees and less than 50 volunteers.
 			- Later transitioned into small-scale social enterprise collaboration
 			- Managed to unleash my full potential from what I learnt from [[Astro]], Wedding Film Industries and talent in [[song]]-writing.
