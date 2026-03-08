@@ -30,7 +30,9 @@
 	- 《 [[彩虹的家]] 》｜ 【[[天天好天]]】[[插曲]]  by [[Stephanie]] &
 	  logseq.order-list-type:: number
 	  id:: 6976eb5c-a59e-4a18-8222-8342bfa40206
-	- 《  》by  
+	- 《 [[撞]] 》by  [[火箭少女101]]
+	  logseq.order-list-type:: number
+	- 《  》by
 	  logseq.order-list-type:: number
 	- 《  》by
 	  logseq.order-list-type:: number
