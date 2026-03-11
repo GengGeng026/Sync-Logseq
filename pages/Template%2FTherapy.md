@@ -8,9 +8,8 @@
 		  
 		  Session Number:: 
 		  
-		  Therapist:: 
-		  
-		  ## **Body & Safety**
+		  Therapist::
+		- ## **Body & Safety**
 		  
 		  Body Safety Score (0-10):: 
 		  
