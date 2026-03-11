@@ -16,7 +16,7 @@
 		  
 		  Immediate Physical Sensations:: 
 		  
-		  **Key Interaction Signals**
+		  ## **Key Interaction Signals**
 		  
 		  Emotional Mirroring (therapist reflected feelings):: 
 		  
@@ -41,7 +41,6 @@
 		  **## Hypothesis Check**
 		  
 		  Current Impression::
-		- ##
 	- A = Therapist interaction style likely stable
 	- B = Relationship may need more time to warm up
 	- Undetermined
