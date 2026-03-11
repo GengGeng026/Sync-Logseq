@@ -2,7 +2,7 @@
   template:: TherapySession
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] Log** #[[Therapy]]
-		- **# Therapy Session Reflection Template**
+		- # **Therapy Session Reflection Template**
 		  
 		  Date:: 
 		  
@@ -10,13 +10,13 @@
 		  
 		  Therapist:: 
 		  
-		  **## Body & Safety**
+		  ## **Body & Safety**
 		  
 		  Body Safety Score (0-10):: 
 		  
 		  Immediate Physical Sensations:: 
 		  
-		  **## Key Interaction Signals**
+		  ## **Key Interaction Signals**
 		  
 		  Emotional Mirroring (therapist reflected feelings):: 
 		  
