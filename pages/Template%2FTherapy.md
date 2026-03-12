@@ -10,9 +10,8 @@
 		  
 		  Body-Safety-Score-(0-10):: 
 		  
-		  Immediate Physical Sensations:: 
-		  
-		  ## **Key Interaction Signals**
+		  Immediate Physical Sensations::
+		- ## **Key Interaction Signals**
 		  
 		  Emotional Mirroring (therapist reflected feelings):: 
 		  
