@@ -8,7 +8,7 @@
 		  Therapist::
 		- ## **Body & Safety**
 		  
-		  body-safety-score(0-10):: 
+		  Body-Safety-Score-0-10:: 
 		  
 		  Immediate Physical Sensations::
 		- ## **Key Interaction Signals**
