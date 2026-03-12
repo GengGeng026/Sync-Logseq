@@ -13,13 +13,12 @@
 		- ## **Key Interaction Signals**
 		  
 		  Emotional-Mirroring-<therapist-reflected-feelings>:: 
-		  Understanding-Check-<therapist-clarified meaning):: 
-		  
+		  Understanding-Check-<therapist-clarified-meaning>:: 
 		  Rephrasing Effort (therapist tried another way to explain):: 
 		  
 		  Natural Interaction Moment:: 
 		  
-		  **## Moment That Stood Out**
+		  ## **Moment That Stood Out**
 		  
 		  Description:: 
 		  
