@@ -3,6 +3,8 @@
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] Log** #[[Therapy]]
 		- # **Therapy Session Reflection [[Template]]**
+		  Date::
+			- Date::
 			- Session-Number::
 			- Therapist::
 		- ## **Body & Safety**
