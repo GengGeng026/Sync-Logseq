@@ -2,30 +2,20 @@
   template:: TherapySession
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] Log** #[[Therapy]]
-		- # **Therapy Session Reflection Template**
-		  
-		  Date:: 
-		  
-		  Session Number:: 
-		  
+		- # **Therapy Session Reflection [[Template]]**
+		  Date::
+		  Session-Number::
 		  Therapist::
 		- ## **Body & Safety**
 		  
-		  Body Safety Score (0-10):: 
-		  
-		  Immediate Physical Sensations:: 
-		  
-		  ## **Key Interaction Signals**
-		  
-		  Emotional Mirroring (therapist reflected feelings):: 
-		  
-		  Understanding Check (therapist clarified meaning):: 
-		  
-		  Rephrasing Effort (therapist tried another way to explain):: 
-		  
-		  Natural Interaction Moment:: 
-		  
-		  **## Moment That Stood Out**
+		  body-safety-score<0─10>:: 
+		  Immediate-Physical-Sensations::
+		- ## **Key Interaction Signals**
+		  Emotional-Mirroring-<therapist-reflected-feelings>:: 
+		  Understanding-Check-<therapist-clarified-meaning>:: 
+		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
+		  Natural-Interaction-Moment::
+		- ## **Moment That Stood Out**
 		  
 		  Description:: 
 		  
