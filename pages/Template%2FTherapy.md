@@ -4,7 +4,7 @@
 	- **<%TIME%> | [[Therapy]] Log** #[[Therapy]]
 		- # **Therapy Session Reflection [[Template]]**
 			- Date::
-			- Session Number::
+			- Session-Number::
 			- Therapist::
 		- ## **Body & Safety**
 		  
