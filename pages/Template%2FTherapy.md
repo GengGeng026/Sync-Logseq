@@ -5,9 +5,7 @@
 		- # **Therapy Session Reflection Template**
 		  
 		  Date:: 
-		  
 		  Session Number:: 
-		  
 		  Therapist::
 		- ## **Body & Safety**
 		  
