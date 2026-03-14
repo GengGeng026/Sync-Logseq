@@ -16,9 +16,9 @@
 			- 當時你的身體有什麼感覺？
 				- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
 					- body-sensation::
-		- ## **Key Interaction Signals**
-		- emotional-mirroring::
+		- ## **互動訊號**
 			- 諮商師是否反映了我的情緒
+		- emotional-mirroring::
 		- understanding-check::
 			- 諮商師是否確認自己是否理解我的意思
 		- rephrasing-effort::
