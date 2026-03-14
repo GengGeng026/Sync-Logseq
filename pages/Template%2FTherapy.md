@@ -12,10 +12,15 @@
 		- 即時身體感::
 			- 例如：呼吸、胸口、肩膀、肌肉緊張度
 		- ## **Key Interaction Signals**
-		  Emotional-Mirroring-<therapist-reflected-feelings>::
-		  Understanding-Check-<therapist-clarified-meaning>::
-		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>::
-		  Natural-Interaction-Moment::
+		  :
+		- emotional-mirroring::
+		  諮商師是否反映了我的情緒
+		- understanding-check::
+		  諮商師是否確認自己是否理解我的意思
+		- rephrasing-effort::
+		  諮商師是否嘗試用另一種方式重新表達
+		- natural-interaction-moment::
+		  是否出現自然或真實的互動瞬間
 		- ## **Moment That Stood Out**
 		  Description::
 		- ## **My Strongest Feeling (1 sentence)**
