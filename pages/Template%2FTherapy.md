@@ -20,14 +20,15 @@
 		  Feeling Summary::
 		- ## **Observation**
 		  Did the “distance / glass feeling” change during the session?::
-			- ## **Hypothesis Check**
-			  Current Impression::
-			  A. [[therapist]] interaction style likely stable
+		- ## **Hypothesis Check**
+		  Current Impression::
+			- A. [[therapist]] interaction style likely stable
 			  B) Relationship may need more time to warm up
 			  C) Undetermined
-				- ## **Next Step Decision**
-				  Next Step::
-				  A) Continue observing
-				  B) Try expressing my needs in session
-				  C) Discuss adjustment with therapist
-				  D) Consider transfer
+		- ## **Next Step Decision**
+			- Next Step::
+			-
+			- Continue observing
+			  B) Try expressing my needs in session
+			  C) Discuss adjustment with therapist
+			  D) Consider transfer
