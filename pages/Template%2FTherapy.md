@@ -37,7 +37,7 @@
 		- ## **目前假設**
 			- Current Impression::
 				- A = 諮商師互動風格較固定
-				  B = Relationship may need more time to warm up
+				  B = 關係還在暖身
 				- C = Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
