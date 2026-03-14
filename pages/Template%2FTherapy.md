@@ -8,8 +8,8 @@
 		  Therapist::
 		- ## **Body & Safety**
 		  body-safety-score::
-		   
-		  Immediate-Physical-Sensations::
+			- 0–[[10]] 分（0 = 非常不安全，[[10]] = 非常自在）
+		- Immediate-Physical-Sensations::
 		- ## **Key Interaction Signals**
 		  Emotional-Mirroring-<therapist-reflected-feelings>::
 		  Understanding-Check-<therapist-clarified-meaning>::
