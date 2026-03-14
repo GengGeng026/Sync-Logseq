@@ -7,7 +7,6 @@
 		  Session-Number::
 		  Therapist::
 		- ## **Body & Safety**
-		  
 		  body-safety-score<0─10>:: 
 		  Immediate-Physical-Sensations::
 		- ## **Key Interaction Signals**
@@ -15,27 +14,21 @@
 		  Understanding-Check-<therapist-clarified-meaning>:: 
 		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
 		  Natural-Interaction-Moment::
-			- 1
-			-
-		-
-		- s
-		-
-		-
-			-
-			-
-			-
+		- ## **Moment That Stood Out**
+		  Description:: 
+		- ## **My Strongest Feeling (1 sentence)**
+		  Feeling Summary:: 
+		- ## **Observation**
+		  Did the “distance / glass feeling” change during the session?:: 
+		- ## **Hypothesis Check**
+		  Current Impression::
 			- A = [[therapist]] interaction style likely stable
-	- B = Relationship may need more time to warm up
-	- Undetermined
+			- B = Relationship may need more time to warm up
+			- Undetermined
 	  
-	  **## Next Step Decision**
-	  
-	  Next Step::
-	- Continue observing
-	- Try expressing my needs in session
-	- Discuss adjustment with therapist
-	- Consider transfer
--
--
--
--
+	  	- **## Next Step Decision**
+		  Next Step::
+		- Continue observing
+		- Try expressing my needs in session
+		- Discuss adjustment with therapist
+		- Consider transfer
