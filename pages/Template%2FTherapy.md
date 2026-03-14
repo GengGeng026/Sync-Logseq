@@ -41,7 +41,7 @@
 				- C = 尚未確定
 		- ## **下一步**
 			- Next Step::
-				- A = Continue observing
+				- A = 持續觀察 Continue observing
 				  B = Try expressing my needs in session
 				  C = Discuss adjustment with [[therapist]]
 				  D = Consider transfer
