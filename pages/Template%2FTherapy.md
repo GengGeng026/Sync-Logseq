@@ -13,15 +13,6 @@
 	- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
-	- ## **身體與安全感**
-		- 現在回想 session，你的身體安全感是幾分 ？
-			- body-safety-score::
-				- 0–[[10]] 分
-				  0 = 非常不安全
-				  [[10]] = 非常自在
-		- 當時你的身體有什麼感覺 ？
-			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
-				- body-sensation::
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
@@ -31,6 +22,15 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
+	- ## **身體與安全感**
+		- 回想 session，你的身體安全感是幾分 ？
+			- body-safety-score::
+				- 0–[[10]] 分
+				  0 = 非常不安全
+				  [[10]] = 非常自在
+		- 當時你的身體有什麼感覺 ？
+			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
+				- body-sensation::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **距離感觀察**
