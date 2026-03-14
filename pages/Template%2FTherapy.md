@@ -34,7 +34,7 @@
 		- ## **距離感觀察**
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
 			- distance-change::
-		- ## **Hypothesis Check**
+		- ## **目前假設**
 			- Current Impression:: #abc
 				- [[therapist]] interaction style likely stable
 				- Relationship may need more time to warm up
