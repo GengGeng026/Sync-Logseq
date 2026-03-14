@@ -18,7 +18,7 @@
 		- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
-		- 諮商師是否確認自己是否理解我的意思 ？
+		- 她是否確認自己是否理解我的意思 ？
 			- understanding-check::
 		- 諮商師是否嘗試用另一種方式重新表達 ？
 			- rephrasing-effort::
