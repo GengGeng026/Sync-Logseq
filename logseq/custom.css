@@ -42,12 +42,30 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
-div[data-refs-self*="abc"] + .block-children-container ol {
-  list-style-type: lower-alpha !important;
+/* 针对带有 #abc 标签的块，将其子节点变为 a. b. c. 样式 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children {
+  counter-reset: abc-counter; /* 初始化计数器 */
 }
-.ls-block[data-refs-self*="abc"] > .block-children-container > .block-children {
-  list-style-type: lower-alpha !important;
+
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block {
+  counter-increment: abc-counter; /* 每一行增加 1 */
 }
+
+/* 隐藏原始圆点，显示字母 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
+  content: counter(abc-counter, lower-alpha) "."; /* 使用小写字母 */
+  font-size: 14px;
+  margin-left: -5px;
+  color: var(--ls-primary-text-color);
+  font-weight: bold;
+}
+
+/* 隐藏原本的实心圆点 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet {
+  background-color: transparent !important;
+  border: none !important;
+}
+
 
 :root {
   --fht-footer-text: var(--ls-page-inline-code-color);
