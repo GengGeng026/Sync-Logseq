@@ -27,7 +27,6 @@
 			  C) Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
-				-
 				- Continue observing
 				- B) Try expressing my needs in session
 				- C) Discuss adjustment with [[therapist]]

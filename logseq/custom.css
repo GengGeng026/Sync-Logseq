@@ -42,29 +42,42 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
-/* 针对带有 #abc 标签的块，将其子节点变为 a. b. c. 样式 */
-div[data-refs-self*="abc"] > .block-children-container > .block-children {
-  counter-reset: abc-counter; /* 初始化计数器 */
+/* --- 基础逻辑：自动层级切换 --- */
+
+/* 第一层：默认数字 1. 2. 3. */
+.ls-type-number > .block-children-container > .block-children {
+  counter-reset: level1;
+}
+.ls-type-number > .block-children-container > .block-children > .ls-block {
+  counter-increment: level1;
+}
+.ls-type-number > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
+  content: counter(level1) ".";
 }
 
-div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block {
-  counter-increment: abc-counter; /* 每一行增加 1 */
+/* 第二层：自动变字母 a. b. c. */
+.ls-type-number .ls-type-number > .block-children-container > .block-children {
+  counter-reset: level2-alpha;
+}
+.ls-type-number .ls-type-number > .block-children-container > .block-children > .ls-block {
+  counter-increment: level2-alpha;
+}
+.ls-type-number .ls-type-number > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
+  content: counter(level2-alpha, lower-alpha) ".";
 }
 
-/* 隐藏原始圆点，显示字母 */
+/* --- 特例处理：强制切换第一层为字母 --- */
+
+/* 如果你在父块输入 #abc，强制其子块（哪怕是第一层）也显示为字母 */
 div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
-  content: counter(abc-counter, lower-alpha) "."; /* 使用小写字母 */
-  font-size: 14px;
-  margin-left: -5px;
-  color: var(--ls-primary-text-color);
-  font-weight: bold;
+  content: counter(level1, lower-alpha) "." !important;
 }
 
-/* 隐藏原本的实心圆点 */
-div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet {
-  background-color: transparent !important;
-  border: none !important;
+/* 隐藏 #abc 标签防止碍眼 */
+a.tag[data-ref="abc"] {
+  display: none !important;
 }
+
 
 
 :root {
