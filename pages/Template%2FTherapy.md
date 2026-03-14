@@ -1,7 +1,7 @@
 - Therapy Session
   template:: TherapySession
   template-including-parent:: true
-	- **<%TIME%> | [[Therapy]] Log** #[[Therapy]]
+	- **<%TIME%> | [[Therapy]] L諮商記錄** #[[Therapy]]
 		- # **Therapy Session Reflection [[Template]]**
 		  Date::
 		  Session-Number::
