@@ -1,5 +1,5 @@
 - Therapy Session
-  template:: TherapySession
+  template:: therapy-template-full
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
