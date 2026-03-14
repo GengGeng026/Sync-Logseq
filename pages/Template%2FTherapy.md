@@ -1,3 +1,12 @@
+## **身體與安全感**
+	- 現在回想 session，你的身體安全感是幾分 ？
+		- body-safety-score::
+			- 0–[[10]] 分
+			  0 = 非常不安全
+			  [[10]] = 非常自在
+	- 當時你的身體有什麼感覺 ？
+		- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
+			- body-sensation::
 - **[[Therapy]] 諮商記錄**
   id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
   template:: therapy-template-full
@@ -8,15 +17,7 @@
   template-including-parent:: true  
   session-number::  #
   Therapist:: [[Valerie Tan Jin Wen]]
-	- ## **身體與安全感**
-		- 現在回想 session，你的身體安全感是幾分 ？
-			- body-safety-score::
-				- 0–[[10]] 分
-				  0 = 非常不安全
-				  [[10]] = 非常自在
-		- 當時你的身體有什麼感覺 ？
-			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
-				- body-sensation::
+	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
 		- 對方是否確認自己是否理解我的意思 ？
@@ -25,7 +26,6 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
-	- ## **互動訊號**
 	- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
