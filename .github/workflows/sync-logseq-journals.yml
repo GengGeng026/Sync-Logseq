@@ -10,3 +10,14 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Python script
+        env:
+          NOTION_API_KEY: $ secrets.NOTION_API_KEY 
+        run: |
+          python scripts/sync_logseq_journals.py
