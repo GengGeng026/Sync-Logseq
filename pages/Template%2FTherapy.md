@@ -27,8 +27,8 @@
 			  C) Undetermined
 		- ## **Next Step Decision**
 			- Next Step::
-				-
-			- Continue observing
-			  B) Try expressing my needs in session
-			  C) Discuss adjustment with therapist
-			  D) Consider transfer
+				- Continue observing
+				  logseq.order-list-type:: number
+				  B) Try expressing my needs in session
+				  C) Discuss adjustment with therapist
+				  D) Consider transfer
