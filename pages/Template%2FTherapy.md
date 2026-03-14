@@ -50,8 +50,11 @@
 				  B = 表達需要
 				  C = 討論調整
 				  D = 考慮轉介
-- Therapy Session (Lite)
-  template:: therapy-template-lite
+-
+	- Therapy Session (Lite)
+	  template:: therapy-template-lite
+	  template-version:: 1.0
+	  template-type:: therapy-session-lite
 	- **<%TIME%> | [[Therapy]]**
 		- 第幾次 session？
 		  session-number::
