@@ -4,6 +4,10 @@
   time:: <%TIME%>
   Therapist:: [[Valerie Tan Jin Wen]]
   session-number::  #
+	- template:: therapy-template-full
+	  template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
+	  template-type:: therapy-session
+	  template-including-parent:: true
 	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
@@ -43,10 +47,6 @@
 			  B = 表達需要
 			  C = 討論調整
 			  D = 考慮轉介
-- template:: therapy-template-full
-  template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
-  template-type:: therapy-session
-  template-including-parent:: true
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
