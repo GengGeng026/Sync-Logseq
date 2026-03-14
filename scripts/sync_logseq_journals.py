@@ -145,7 +145,7 @@ def build_source_path(journal_file: Path) -> str:
 
 
 def build_mirror_title(date_str: str) -> str:
-    return f"Logseq Mirror\uff5c{date_str}"
+    return f"Logseq Mirror｜{date_str}"
 
 
 def build_original_title(date_str: str) -> str:
@@ -552,18 +552,16 @@ def main():
     print(f"Database: {db_title}")
 
     changed_files_env = os.getenv("CHANGED_FILES", "").strip().rstrip(",")
-if changed_files_env:
-    journal_files = [
-        Path(f) for f in changed_files_env.split(",")
-        if f.strip() and JOURNAL_FILE_RE.match(Path(f.strip()).name)
-    ]
-    journal_files.sort()
-    print(f"Running in incremental mode: {len(journal_files)} changed file(s).\n")
-else:
-    journal_files = get_all_journal_files()
-    print(f"Running in full-scan mode: {len(journal_files)} file(s).\n")
-    
-    print(f"Found {len(journal_files)} journal file(s).\n")
+    if changed_files_env:
+        journal_files = [
+            Path(f) for f in changed_files_env.split(",")
+            if f.strip() and JOURNAL_FILE_RE.match(Path(f.strip()).name)
+        ]
+        journal_files.sort()
+        print(f"Running in incremental mode: {len(journal_files)} changed file(s).\n")
+    else:
+        journal_files = get_all_journal_files()
+        print(f"Running in full-scan mode: {len(journal_files)} file(s).\n")
 
     results = {"created": 0, "updated": 0, "skipped": 0, "error": 0}
 
