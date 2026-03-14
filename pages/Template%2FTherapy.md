@@ -1,10 +1,13 @@
-- Therapy Session
+- Therapy Session (Full)
+  id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
   template:: therapy-template-full
+  template-version:: 1.0
+  template-type:: therapy-session
+  template-created:: <% today %>
   template-including-parent:: true
-  collapsed:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
-		  Date:: 
+		  Date:: <% today %>  
 		  session-number::  #
 		  Therapist:: Valerie Tan Jin Wen
 		- ## **身體與安全感**
@@ -48,9 +51,13 @@
 				  D = 考慮轉介
 - Therapy Session (Lite)
   template:: therapy-template-lite
+  template-version:: 1.0
+  template-type:: therapy-session
+  template-created:: <% today %>
 	- **<%TIME%> | [[Therapy]]**
 		- 第幾次 session？
-		  session-number::
+		  session-number:: #
+		  Therapist:: Valerie Tan Jin Wen
 		- 今天最突出的 moment？
 		  moment::
 		- 一句話感受
