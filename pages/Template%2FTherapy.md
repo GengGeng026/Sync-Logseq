@@ -7,9 +7,9 @@
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
-		  Date:: <% today %>+  
+		  Date:: <% today %>  
 		  session-number::  #
-		  Therapist:: Valerie Tan Jin Wen
+		  Therapist:: [[Valerie Tan Jin Wen]]
 		- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
@@ -53,11 +53,12 @@
   template:: therapy-template-lite
   template-version:: 1.0
   template-type:: therapy-session
-  template-created:: <% today %>
+  template-created:: [[Sat, 14-03-2026]] 22:29
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
+	  collapsed:: true
 		- 第幾次 session？
 		  session-number:: #
-		  Therapist:: Valerie Tan Jin Wen
+		  Therapist:: [[Valerie Tan Jin Wen]]
 		- 今天最突出的 moment？
 		  moment::
 		- 一句話感受
