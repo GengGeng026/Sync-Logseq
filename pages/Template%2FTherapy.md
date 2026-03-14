@@ -21,10 +21,10 @@
 		- ## **Observation**
 		  Did the “distance / glass feeling” change during the session?::
 		- ## **Hypothesis Check**
-		  Current Impression:: #abc
-			- [[therapist]] interaction style likely stable
-			- Relationship may need more time to warm up
-			- Undetermined
+			- Current Impression:: #abc
+				- [[therapist]] interaction style likely stable
+				- Relationship may need more time to warm up
+				- Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
 				- Continue observing
