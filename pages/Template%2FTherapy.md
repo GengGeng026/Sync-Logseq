@@ -17,7 +17,6 @@
 		- 當時你的身體有什麼感覺 ？
 			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
 				- body-sensation::
-		- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
 		- 對方是否確認自己是否理解我的意思 ？
@@ -26,9 +25,10 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
+	- ## **互動訊號**
+	- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
-	- ## **今天最重要的一刻**
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **敘事記錄（自由書寫）**
