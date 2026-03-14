@@ -1,12 +1,15 @@
 import json
 import os
 import re
+from pathlib import Path
 
 import requests
 
 NOTION_API_KEY = os.getenv("NOTION_API_KEY")
 NOTION_LOGSEQ_MIRROR_DATABASE_URL = os.getenv("NOTION_LOGSEQ_MIRROR_DATABASE_URL")
 NOTION_VERSION = "2022-06-28"
+JOURNALS_DIR = Path("journals")
+JOURNAL_FILE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.md$")
 
 
 def normalize_notion_id(raw_id: str) -> str:
@@ -70,6 +73,24 @@ def summarize_row(row: dict) -> dict:
     }
 
 
+def get_latest_journal_file() -> Path:
+    if not JOURNALS_DIR.exists():
+        raise FileNotFoundError("journals directory does not exist in the repository checkout")
+
+    candidates = sorted(
+        path for path in JOURNALS_DIR.iterdir() if path.is_file() and JOURNAL_FILE_RE.match(path.name)
+    )
+
+    if not candidates:
+        raise FileNotFoundError("No date-named journal markdown files were found in journals/")
+
+    return candidates[-1]
+
+
+def build_source_path(journal_file: Path) -> str:
+    return f"repo:journals/{journal_file.name}"
+
+
 def main():
     if not NOTION_API_KEY:
         print("NOTION_API_KEY is missing")
@@ -84,6 +105,11 @@ def main():
 
     database_id = extract_notion_id_from_url(NOTION_LOGSEQ_MIRROR_DATABASE_URL)
     print("Parsed database ID:", database_id)
+
+    latest_journal_file = get_latest_journal_file()
+    target_source_path = build_source_path(latest_journal_file)
+    print("Latest journal file:", latest_journal_file.as_posix())
+    print("Target source path:", target_source_path)
 
     headers = get_headers()
 
@@ -103,25 +129,35 @@ def main():
     database_title = get_title_text(database_payload.get("title", []))
     print("Resolved database title:", database_title)
 
+    query_payload = {
+        "page_size": 10,
+        "filter": {
+            "property": "Source Path",
+            "rich_text": {
+                "equals": target_source_path
+            }
+        }
+    }
+
     query_response = requests.post(
         f"https://api.notion.com/v1/databases/{database_id}/query",
         headers=headers,
-        json={"page_size": 5},
+        json=query_payload,
         timeout=30,
     )
 
-    print("Database query HTTP status:", query_response.status_code)
+    print("Source-path query HTTP status:", query_response.status_code)
     if query_response.status_code != 200:
-        print("Database query response body:")
+        print("Source-path query response body:")
         print(query_response.text)
         return
 
     query_payload = query_response.json()
     results = query_payload.get("results", [])
-    print("Rows returned:", len(results))
+    print("Matched rows:", len(results))
 
     summaries = [summarize_row(row) for row in results]
-    print("Row summaries:")
+    print("Matched row summaries:")
     print(json.dumps(summaries, ensure_ascii=False, indent=2))
 
 
