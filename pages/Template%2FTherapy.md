@@ -10,7 +10,7 @@
 		  body-safety-score::
 			- 0–[[10]] 分（0 = 非常不安全，[[10]] = 非常自在）
 		- 即時身體感::
-			- 即時身體感受
+			- 例如：呼吸、胸口、肩膀、肌肉緊張度
 		- ## **Key Interaction Signals**
 		  Emotional-Mirroring-<therapist-reflected-feelings>::
 		  Understanding-Check-<therapist-clarified-meaning>::
