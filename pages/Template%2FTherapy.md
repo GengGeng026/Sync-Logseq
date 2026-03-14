@@ -4,7 +4,7 @@
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- # **基本資訊**
 		  Date::
-		  Session編號::
+		  session-number::
 		  Therapist::
 		- ## **Body & Safety**
 		  body-safety-score::
