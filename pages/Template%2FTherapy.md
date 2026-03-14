@@ -28,13 +28,13 @@
     
 		- ## **Hypothesis Check**
 		  Current Impression::
-			- A = [[therapist]] interaction style likely stable
-			- B = Relationship may need more time to warm up
-			- Undetermined
+			A) [[therapist]] interaction style likely stable
+			B) Relationship may need more time to warm up
+			C) Undetermined
 	  
 	  	- ## **Next Step Decision**
 		  Next Step::
-			- Continue observing
-			- Try expressing my needs in session
-			- Discuss adjustment with therapist
-			- Consider transfer
+			A) Continue observing
+			B) Try expressing my needs in session
+			C) Discuss adjustment with therapist
+			D) Consider transfer
