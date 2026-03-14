@@ -32,19 +32,16 @@
 		- ## **敘事記錄（自由書寫）**
 		- 在這裡寫下完整 session 過程
 		- ## **距離感觀察**
-		- Did-the-“distance/glass-feeling”-change-during-the-session::
-		- ## **Hypothesis Check**
-			- Current Impression:: #abc
-				- [[therapist]] interaction style likely stable
-				- Relationship may need more time to warm up
-				- Undetermined
-		- ## **Next Step Decision**
-			- Next Step:: #abc
-				- Continue observing
-				  logseq.order-list-type:: number
-				- Try expressing my needs in session
-				  logseq.order-list-type:: number
-				- Discuss adjustment with [[therapist]]
-				  logseq.order-list-type:: number
-				- Consider transfer
-				  logseq.order-list-type:: number
+		- 今天 session 中「毛玻璃距離感」有改變嗎？
+			- distance-change::
+		- ## **目前假設**
+			- current-impression::
+				- A = 諮商師互動風格較固定
+				  B = 關係還在暖身
+				- C = 尚未確定
+		- ## **下一步**
+			- next-step::
+				- A = 持續觀察
+				  B = 表達需要
+				  C = 討論調整
+				  D = 考慮轉介
