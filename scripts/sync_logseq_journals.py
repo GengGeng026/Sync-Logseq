@@ -551,7 +551,18 @@ def main():
     db_title = get_title_text(db_payload.get("title", []))
     print(f"Database: {db_title}")
 
+    changed_files_env = os.getenv("CHANGED_FILES", "").strip().rstrip(",")
+if changed_files_env:
+    journal_files = [
+        Path(f) for f in changed_files_env.split(",")
+        if f.strip() and JOURNAL_FILE_RE.match(Path(f.strip()).name)
+    ]
+    journal_files.sort()
+    print(f"Running in incremental mode: {len(journal_files)} changed file(s).\n")
+else:
     journal_files = get_all_journal_files()
+    print(f"Running in full-scan mode: {len(journal_files)} file(s).\n")
+    
     print(f"Found {len(journal_files)} journal file(s).\n")
 
     results = {"created": 0, "updated": 0, "skipped": 0, "error": 0}
