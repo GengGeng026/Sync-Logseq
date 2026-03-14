@@ -6,6 +6,7 @@ template-type:: therapy-session
 template-including-parent:: true  
 session-number::  #
 Therapist:: [[Valerie Tan Jin Wen]]
+time-
 
 	- **[[Therapy]] 諮商記錄**
 		- <%TIME%>
