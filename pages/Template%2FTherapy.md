@@ -3,11 +3,11 @@
   template:: therapy-template-full
   template-version:: 1.0
   template-type:: therapy-session
-  template-created:: <% today %>
+  template-created:: [[Sat, 14-03-2026]] 22:29 
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
-		  Date:: <% today %>  
+		  Date:: <% today %>+  
 		  session-number::  #
 		  Therapist:: Valerie Tan Jin Wen
 		- ## **身體與安全感**
@@ -54,7 +54,7 @@
   template-version:: 1.0
   template-type:: therapy-session
   template-created:: <% today %>
-	- **<%TIME%> | [[Therapy]]**
+	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- 第幾次 session？
 		  session-number:: #
 		  Therapist:: Valerie Tan Jin Wen
