@@ -4,8 +4,8 @@
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- # **基本資訊**
 		  Date:: 
-		  session-number:: 
-		  Therapist::
+		  session-number::  
+		  Therapist:: Valerie Tan Jin Wen
 		- ## **Body & Safety**
 		  body-safety-score::
 			- 0–[[10]] 分（0 = 非常不安全，[[10]] = 非常自在）
