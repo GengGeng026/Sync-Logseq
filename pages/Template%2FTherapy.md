@@ -27,7 +27,8 @@
 			  C) Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
-				- Continue observing
+				- Continue observing 
+				  logseq.order-list-type:: number
 				- Try expressing my needs in session
 				- C) Discuss adjustment with [[therapist]]
 				- D) Consider transfer
