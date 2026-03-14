@@ -16,10 +16,8 @@
 		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
 		  Natural-Interaction-Moment::
 		- ## **Moment That Stood Out**
-		  
-		  Description:: 
-		  
-		  **## My Strongest Feeling (1 sentence)**
+		  Description::
+		- ## **My Strongest Feeling (1 sentence)**
 		  
 		  Feeling Summary:: 
 		  
