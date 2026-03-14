@@ -22,7 +22,7 @@
 			- understanding-check::
 		- 對方是否嘗試重新表達來幫助理解 ？
 			- rephrasing-effort::
-		- 是否出現自然或真實的互動瞬間 ？
+		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
 		- ## **Moment That Stood Out**
 		  Description::
