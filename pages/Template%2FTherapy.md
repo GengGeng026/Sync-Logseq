@@ -33,7 +33,7 @@
 		- 在這裡寫下完整 session 過程
 		- ## **距離感觀察**
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
-			-
+			- distance-change::
 		- ## **Hypothesis Check**
 			- Current Impression:: #abc
 				- [[therapist]] interaction style likely stable
