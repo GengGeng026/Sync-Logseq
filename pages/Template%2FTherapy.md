@@ -38,7 +38,7 @@
 			- Current Impression::
 				- A = 諮商師互動風格較固定
 				  B = 關係還在暖身
-				- C = Undetermined
+				- C = 尚未確定
 		- ## **Next Step Decision**
 			- Next Step:: #abc
 				- Continue observing
