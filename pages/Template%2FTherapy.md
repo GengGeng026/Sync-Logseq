@@ -51,7 +51,6 @@
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
-	  collapsed:: true
 		- 第幾次 session？
 		  session-number:: #
 		  Therapist:: [[Valerie Tan Jin Wen]]
