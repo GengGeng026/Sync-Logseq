@@ -2,7 +2,7 @@
   template:: TherapySession
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] L諮商記錄** #[[Therapy]]
-		- # **Therapy Session Reflection [[Template]]**
+		- # **基本資訊**
 		  Date::
 		  Session-Number::
 		  Therapist::
