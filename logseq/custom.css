@@ -42,43 +42,36 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
-/* --- 基础逻辑：自动层级切换 --- */
-
-/* 第一层：默认数字 1. 2. 3. */
-.ls-type-number > .block-children-container > .block-children {
-  counter-reset: level1;
-}
-.ls-type-number > .block-children-container > .block-children > .ls-block {
-  counter-increment: level1;
-}
-.ls-type-number > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
-  content: counter(level1) ".";
+/* 1. 在包含 #abc 的块的子容器中重置计数器 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children {
+  counter-reset: letter-list;
 }
 
-/* 第二层：自动变字母 a. b. c. */
-.ls-type-number .ls-type-number > .block-children-container > .block-children {
-  counter-reset: level2-alpha;
-}
-.ls-type-number .ls-type-number > .block-children-container > .block-children > .ls-block {
-  counter-increment: level2-alpha;
-}
-.ls-type-number .ls-type-number > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
-  content: counter(level2-alpha, lower-alpha) ".";
+/* 2. 针对每一个子块，强制增加计数器 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block {
+  counter-increment: letter-list;
 }
 
-/* --- 特例处理：强制切换第一层为字母 --- */
-
-/* 如果你在父块输入 #abc，强制其子块（哪怕是第一层）也显示为字母 */
+/* 3. 在原本圆点的位置显示字母 */
 div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
-  content: counter(level1, lower-alpha) "." !important;
+  content: counter(letter-list, lower-alpha) ".";
+  position: absolute;
+  width: 20px;
+  left: -5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: var(--ls-link-text-color); /* 字母颜色 */
 }
 
-/* 隐藏 #abc 标签防止碍眼 */
-a.tag[data-ref="abc"] {
+/* 4. 隐藏原本的小圆点 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet {
+  visibility: hidden;
+}
+
+/* 5. 额外修正：如果该块不小心开启了原生数字列表，强制隐藏其原生数字 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number {
   display: none !important;
 }
-
-
 
 :root {
   --fht-footer-text: var(--ls-page-inline-code-color);
