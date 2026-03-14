@@ -31,11 +31,11 @@
 		- 當時你的身體有什麼感覺 ？
 			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
 				- body-sensation::
-	- ## **一句話總結今天的感受**
-	  Feeling-Summary::
 	- ## **距離感觀察**
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
 			- distance-change::
+	- ## **一句話總結今天的感受**
+	  Feeling-Summary::
 	- ## **目前假設**
 		- current-impression::
 			- A = 諮商師互動風格較固定
