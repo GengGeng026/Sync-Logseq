@@ -1,8 +1,3 @@
-template:: therapy-template-full
-template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
-template-type:: therapy-session
-template-including-parent:: true
-
 - **[[Therapy]] 諮商記錄**
   id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
   date::  <% today %>
@@ -48,6 +43,10 @@ template-including-parent:: true
 			  B = 表達需要
 			  C = 討論調整
 			  D = 考慮轉介
+- template:: therapy-template-full
+  template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
+  template-type:: therapy-session
+  template-including-parent:: true
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
