@@ -21,14 +21,17 @@
 		- ## **Observation**
 		  Did the “distance / glass feeling” change during the session?::
 		- ## **Hypothesis Check**
-		  Current Impression::
-			- A. [[therapist]] interaction style likely stable
-			  B) Relationship may need more time to warm up
-			  C) Undetermined
+		  Current Impression:: #abc
+			- [[therapist]] interaction style likely stable
+			  Relationship may need more time to warm up
+			  Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
 				- Continue observing
 				  logseq.order-list-type:: number
 				- Try expressing my needs in session
-				- C) Discuss adjustment with [[therapist]]
-				- D) Consider transfer
+				  logseq.order-list-type:: number
+				- Discuss adjustment with [[therapist]]
+				  logseq.order-list-type:: number
+				- Consider transfer
+				  logseq.order-list-type:: number
