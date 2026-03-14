@@ -27,7 +27,7 @@
 		- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
-		- ## **My Strongest Feeling (1 sentence)**
+		- ## **一句話總結今天的感受**
 		  Feeling-Summary::
 		- ## **Observation**
 		  Did-the-“distance/glass-feeling”-change-during-the-session::
