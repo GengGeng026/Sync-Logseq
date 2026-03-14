@@ -18,7 +18,7 @@ jobs:
 
       - name: Run Python script
         env:
-          NOTION_API_KEY: $ secrets.NOTION_API_KEY 
-          NOTION_LOGSEQ_MIRROR_DATABASE_URL: $ secrets.NOTION_LOGSEQ_MIRROR_DATABASE_URL 
+          NOTION_API_KEY: ${{secrets.NOTION_API_KEY}} 
+          NOTION_LOGSEQ_MIRROR_DATABASE_URL: ${{secrets.NOTION_LOGSEQ_MIRROR_DATABASE_URL}}
         run: |
           python scripts/sync_logseq_journals.py
