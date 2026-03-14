@@ -5,6 +5,7 @@
   template-type:: therapy-session
   template-created:: <% today %>
   template-including-parent:: true
+  collapsed:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
 		  Date:: <% today %>  
