@@ -1,9 +1,9 @@
 - Therapy Session
-  template:: therapy-template-full
+  template:: TherapySession
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
-		  Date:: <%DATE%>
+		  Date:: 
 		  session-number::  #
 		  Therapist:: Valerie Tan Jin Wen
 		- ## **身體與安全感**
