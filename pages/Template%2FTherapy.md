@@ -8,6 +8,15 @@
   template-including-parent:: true  
   session-number::  #
   Therapist:: [[Valerie Tan Jin Wen]]
+	- ## **身體與安全感**
+		- 現在回想 session，你的身體安全感是幾分 ？
+			- body-safety-score::
+				- 0–[[10]] 分
+				  0 = 非常不安全
+				  [[10]] = 非常自在
+		- 當時你的身體有什麼感覺 ？
+			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
+				- body-sensation::
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
@@ -38,15 +47,6 @@
 			  B = 表達需要
 			  C = 討論調整
 			  D = 考慮轉介
-- ## **身體與安全感**
-	- 現在回想 session，你的身體安全感是幾分 ？
-		- body-safety-score::
-			- 0–[[10]] 分
-			  0 = 非常不安全
-			  [[10]] = 非常自在
-	- 當時你的身體有什麼感覺 ？
-		- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
-			- body-sensation::
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
