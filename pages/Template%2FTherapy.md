@@ -29,13 +29,13 @@
 		- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
-		- 在這裡寫下完整 session 過程
-		- 今天 session 中「毛玻璃距離感」有改變嗎？
-			- distance-change::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **敘事記錄（自由書寫）**
+		- 在這裡寫下完整 session 過程
 	- ## **距離感觀察**
+		- 今天 session 中「毛玻璃距離感」有改變嗎？
+			- distance-change::
 	- ## **目前假設**
 		- current-impression::
 			- A = 諮商師互動風格較固定
