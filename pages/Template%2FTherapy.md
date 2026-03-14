@@ -19,7 +19,7 @@
 		- ## **My Strongest Feeling (1 sentence)**
 		  Feeling-Summary::
 		- ## **Observation**
-		  Did-the-“distance / glass feeling”-change-during-the-session?::
+		  Did-the-"distance-glass-feeling-change"-during-the-session::
 		- ## **Hypothesis Check**
 			- Current Impression:: #abc
 				- [[therapist]] interaction style likely stable
