@@ -73,22 +73,26 @@ div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-b
   display: none !important;
 }
 
-/* 彻底隐藏属性行，让笔记保持绝对干净，像没装插件一样 */
-[data-block-list-style-type] > .block-properties {
+/* 1. 彻底隐藏属性行，让页面看起来没有脏数据 */
+div[data-block-list-style-type] > .block-properties {
   display: none !important;
 }
 
-/* 确保字母列表能从 a 开始（防止显示为 0） */
+/* 2. 修正显示逻辑，确保切换到字母时正确显示 a. b. c. */
 .ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block {
-  counter-increment: alpha-list-counter;
+  counter-increment: alpha-counter;
 }
+
 .ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number::before {
-  content: counter(alpha-list-counter, lower-alpha) ".";
+  content: counter(alpha-counter, lower-alpha) ".";
   font-size: 14px;
 }
+
+/* 隐藏插件生成的原始数字 */
 .ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number {
   font-size: 0;
 }
+
 
 
 :root {

@@ -23,8 +23,8 @@
 		- ## **Hypothesis Check**
 		  Current Impression:: #abc
 			- [[therapist]] interaction style likely stable
-			  Relationship may need more time to warm up
-			  Undetermined
+			- Relationship may need more time to warm up
+			- Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
 				- Continue observing
