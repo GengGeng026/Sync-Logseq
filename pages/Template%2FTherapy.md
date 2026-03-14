@@ -1,10 +1,10 @@
-- Therapy Session (Full)
-  id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
-  template:: therapy-template-full
-  template-version:: 1.0
-  template-type:: therapy-session
-  template-created:: [[Sat, 14-03-2026]] 22:29 
-  template-including-parent:: true
+id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
+template:: therapy-template-full
+template-version:: 1.0
+template-type:: therapy-session
+template-created:: [[Sat, 14-03-2026]] 22:29 
+template-including-parent:: true
+
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 	  collapsed:: true
 		- ## **基本資訊**
