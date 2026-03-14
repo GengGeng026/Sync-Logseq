@@ -10,10 +10,10 @@
 		  body-safety-score<0─10>:: 
 		  Immediate-Physical-Sensations::
 		- ## **Key Interaction Signals**
-		  Emotional-Mirroring-<therapist-reflected-feelings>:: 
-		  Understanding-Check-<therapist-clarified-meaning>:: 
-		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
-		  Natural-Interaction-Moment::
+    		Emotional-Mirroring-<therapist-reflected-feelings>::
+    		Understanding-Check-<therapist-clarified-meaning>::
+    		Rephrasing-Effort-<therapist-tried-another-way-to-explain>::
+    		Natural-Interaction-Moment::
 		- ## **Moment That Stood Out**
 		  Description:: 
 		- ## **My Strongest Feeling (1 sentence)**
@@ -27,8 +27,8 @@
 			- Undetermined
 	  
 	  	- **## Next Step Decision**
-		  Next Step::
-		- Continue observing
-		- Try expressing my needs in session
-		- Discuss adjustment with therapist
-		- Consider transfer
+			  Next Step::
+				- Continue observing
+				- Try expressing my needs in session
+				- Discuss adjustment with therapist
+				- Consider transfer
