@@ -29,24 +29,24 @@
 		- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
-		- ## **一句話總結今天的感受**
-		  Feeling-Summary::
-		- ## **敘事記錄（自由書寫）**
 		- 在這裡寫下完整 session 過程
-		- ## **距離感觀察**
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
 			- distance-change::
-		- ## **目前假設**
-			- current-impression::
-				- A = 諮商師互動風格較固定
-				  B = 關係還在暖身
-				  C = 尚未確定
-		- ## **下一步**
-			- next-step::
-				- A = 持續觀察
-				  B = 表達需要
-				  C = 討論調整
-				  D = 考慮轉介
+	- ## **一句話總結今天的感受**
+	  Feeling-Summary::
+	- ## **敘事記錄（自由書寫）**
+	- ## **距離感觀察**
+	- ## **目前假設**
+		- current-impression::
+			- A = 諮商師互動風格較固定
+			  B = 關係還在暖身
+			  C = 尚未確定
+	- ## **下一步**
+		- next-step::
+			- A = 持續觀察
+			  B = 表達需要
+			  C = 討論調整
+			  D = 考慮轉介
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
