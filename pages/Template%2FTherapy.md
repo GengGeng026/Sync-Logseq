@@ -20,7 +20,7 @@
 			- emotional-mirroring::
 		- 對方是否確認自己是否理解我的意思 ？
 			- understanding-check::
-		- 對方是否嘗試用另一種方式重新表達 ？
+		- 對方是否嘗試重新表達來幫助理解 ？
 			- rephrasing-effort::
 		- 是否出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
