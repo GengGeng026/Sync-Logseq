@@ -53,7 +53,8 @@
 - Therapy Session (Lite)
   template:: therapy-template-lite
   template-version:: 1.0
-  template-type:: therapy-session-lite
+  template-type:: therapy-session
+  template-created:: <% today %>
 	- **<%TIME%> | [[Therapy]]**
 		- 第幾次 session？
 		  session-number::
