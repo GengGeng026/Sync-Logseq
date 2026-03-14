@@ -32,7 +32,8 @@
 		- ## **敘事記錄（自由書寫）**
 		- 在這裡寫下完整 session 過程
 		- ## **距離感觀察**
-		- Did-the-“distance/glass-feeling”-change-during-the-session::
+		- 今天 session 中「毛玻璃距離感」有改變嗎？
+			-
 		- ## **Hypothesis Check**
 			- Current Impression:: #abc
 				- [[therapist]] interaction style likely stable
