@@ -12,7 +12,6 @@
 		- 即時身體感::
 			- 例如：呼吸、胸口、肩膀、肌肉緊張度
 		- ## **Key Interaction Signals**
-		  :
 		- emotional-mirroring::
 		  諮商師是否反映了我的情緒
 		- understanding-check::
