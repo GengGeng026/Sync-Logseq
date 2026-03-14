@@ -24,7 +24,7 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
-		- ## **Moment That Stood Out**
+		- ## **今天最重要的一刻**
 		  Description::
 		- ## **My Strongest Feeling (1 sentence)**
 		  Feeling-Summary::
