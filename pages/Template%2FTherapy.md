@@ -3,7 +3,7 @@
   template:: therapy-template-full
   template-version:: 1.0
   template-type:: therapy-session
-  template-created::
+  template-created:: <% today %>
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
