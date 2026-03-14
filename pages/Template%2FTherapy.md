@@ -17,8 +17,11 @@
 		  Natural-Interaction-Moment::
 		- ## **Moment That Stood Out**
 		  Description::
+		- s
 		-
-	- A = [[therapist]] interaction style likely stable
+		-
+			-
+			- A = [[therapist]] interaction style likely stable
 	- B = Relationship may need more time to warm up
 	- Undetermined
 	  
