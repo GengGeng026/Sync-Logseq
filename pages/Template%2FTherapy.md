@@ -1,15 +1,13 @@
-- Therapy Session (Full)
-  id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
-  template:: therapy-template-full
-  template-version:: 1.0
-  template-type:: therapy-session
-  template-created:: [[Sat, 14-03-2026]] 22:29 
-  template-including-parent:: true
+id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
+template:: therapy-template-full
+template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
+template-type:: therapy-session
+template-including-parent:: true
+Date:: <% today %>  
+session-number::  #
+Therapist:: [[Valerie Tan Jin Wen]]
+
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
-		- ## **基本資訊**
-		  Date:: <% today %>  
-		  session-number::  #
-		  Therapist:: [[Valerie Tan Jin Wen]]
 		- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
@@ -49,11 +47,9 @@
 				  B = 表達需要
 				  C = 討論調整
 				  D = 考慮轉介
-- Therapy Session (Lite)
-  template:: therapy-template-lite
-  template-version:: 1.0
+- template:: therapy-template-lite
+  template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
-  template-created:: [[Sat, 14-03-2026]] 22:29
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 	  collapsed:: true
 		- 第幾次 session？
