@@ -2,7 +2,7 @@
   template:: TherapySession
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
-		- # **基本資訊**
+		- ## 基本資訊**
 		  Date:: 
 		  session-number::  #
 		  Therapist:: Valerie Tan Jin Wen
