@@ -15,22 +15,16 @@
 		  Understanding-Check-<therapist-clarified-meaning>:: 
 		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
 		  Natural-Interaction-Moment::
-		- ## **Moment That Stood Out**
-		  
-		  Description:: 
-		  
-		  **## My Strongest Feeling (1 sentence)**
-		  
-		  Feeling Summary:: 
-		  
-		  **## Observation**
-		  
-		  Did the “distance / glass feeling” change during the session?:: 
-		  
-		  **## Hypothesis Check**
-		  
-		  Current Impression::
-	- A = Therapist interaction style likely stable
+			- 1
+			-
+		-
+		- s
+		-
+		-
+			-
+			-
+			-
+			- A = [[therapist]] interaction style likely stable
 	- B = Relationship may need more time to warm up
 	- Undetermined
 	  
@@ -41,4 +35,7 @@
 	- Try expressing my needs in session
 	- Discuss adjustment with therapist
 	- Consider transfer
+-
+-
+-
 -
