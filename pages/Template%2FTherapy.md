@@ -8,9 +8,7 @@
   template-including-parent:: true  
   session-number::  #
   Therapist:: [[Valerie Tan Jin Wen]]
-	-
-		- <%TIME%>
-		- ## **身體與安全感**
+	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
 				- 0–[[10]] 分
