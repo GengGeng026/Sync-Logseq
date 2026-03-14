@@ -27,6 +27,7 @@
 			  C) Undetermined
 		- ## **Next Step Decision**
 			- Next Step::
+				- render:: ol
 				- Continue observing
 				- B) Try expressing my needs in session
 				- C) Discuss adjustment with [[therapist]]
