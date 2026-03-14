@@ -10,6 +10,9 @@
   template-including-parent:: true
 	- ## **敘事（簡述）**
 		- 在這裡寫下完整 session 過程
+	- ## **今天最重要的一刻**
+		- 那個 moment 發生了什麼事 ？
+			- moment-description::
 	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
@@ -28,9 +31,6 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
-	- ## **今天最重要的一刻**
-		- 那個 moment 發生了什麼事 ？
-			- moment-description::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **距離感觀察**
