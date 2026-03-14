@@ -412,7 +412,10 @@ def notion_archive_block(block_id: str, headers: dict) -> None:
 def notion_replace_children(page_id: str, headers: dict, children: list[dict]) -> None:
     existing_children = notion_list_children(page_id, headers)
     for child in existing_children:
-        notion_archive_block(child["id"], headers)
+        try:
+            notion_archive_block(child["id"], headers)
+        except Exception as exc:
+            print(f"  Warning: could not delete block {child['id']}: {exc}")
 
     if children:
         notion_append_children(page_id, headers, children)
