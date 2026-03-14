@@ -6,7 +6,7 @@
   session-number::  #
   template:: therapy-template-full
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
-  template-type:: therapy-session
+  
   template-including-parent:: true
 	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
