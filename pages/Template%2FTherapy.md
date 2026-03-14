@@ -17,6 +17,9 @@
 		  Natural-Interaction-Moment::
 		- ## **Moment That Stood Out**
 		  Description::
+		  collapsed:: true
+			- 1
+			-
 		-
 		- s
 		-
