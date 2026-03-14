@@ -13,3 +13,16 @@
   :result-transform (fn [result] (reverse result))
   }
   #+END_QUERY
+- ## Key Insights
+  
+  #+BEGIN_QUERY
+  {:title "Therapy Insights"
+  :query [
+   :find (pull ?b [*])
+   :where
+   [?b :block/content ?c]
+   [(clojure.string/includes? ?c "Insight")]
+  ]
+  }
+  #+END_QUERY
+-
