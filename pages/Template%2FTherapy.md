@@ -1,6 +1,7 @@
 - Therapy Session
   template:: therapy-template-full
   template-including-parent:: true
+  collapsed:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
 		  Date:: 
@@ -45,4 +46,18 @@
 				  B = 表達需要
 				  C = 討論調整
 				  D = 考慮轉介
--
+- Therapy Session (Lite)
+  template:: therapy-template-lite
+	- **<%TIME%> | [[Therapy]]**
+		- 第幾次 session？
+		  session-number::
+		- 今天最突出的 moment？
+		  moment::
+		- 一句話感受
+		  feeling::
+		- 身體安全感（0–10）
+		  body-safety-score::
+		- 我的觀察
+		  observation::
+		- 下一步
+		  next-step::
