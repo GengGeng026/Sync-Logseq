@@ -26,10 +26,9 @@
 			  B) Relationship may need more time to warm up
 			  C) Undetermined
 		- ## **Next Step Decision**
-			- Next Step::
+			- Next Step:: #abc
 				- Continue observing
 				  logseq.order-list-type:: number
-					- Try expressing my needs in session
-					  logseq.order-list-type:: number
+				- Try expressing my needs in session
 				- C) Discuss adjustment with [[therapist]]
 				- D) Consider transfer
