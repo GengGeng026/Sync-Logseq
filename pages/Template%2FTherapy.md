@@ -42,6 +42,6 @@
 		- ## **下一步**
 			- Next Step::
 				- A = 持續觀察 Continue observing
-				  B = Try expressing my needs in session
-				  C = Discuss adjustment with [[therapist]]
+				  B = 表達需要 Try expressing my needs in session
+				  C = 討論Discuss adjustment with [[therapist]]
 				  D = Consider transfer
