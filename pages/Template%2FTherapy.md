@@ -26,9 +26,9 @@
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
-		- ## **今天最重要的一刻**
 		- 那個 moment 發生了什麼事 ？
 			- moment-description::
+	- ## **今天最重要的一刻**
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **敘事記錄（自由書寫）**
