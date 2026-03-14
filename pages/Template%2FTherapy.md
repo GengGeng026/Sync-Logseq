@@ -54,7 +54,7 @@
   template:: therapy-template-lite
   template-version:: 1.0
   template-type:: therapy-session
-  template-created:: <% today %>
+  template-created:: [[Sat, 14-03-2026]] 22:29
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 	  collapsed:: true
 		- 第幾次 session？
