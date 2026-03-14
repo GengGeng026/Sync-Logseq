@@ -41,10 +41,8 @@
 				- C = 尚未確定
 		- ## **下一步**
 			- Next Step::
-				- Continue observing
-				  logseq.order-list-type:: number
-				- Try expressing my needs in session
-				  logseq.order-list-type:: number
+				- A = Continue observing
+				  BTry expressing my needs in session
 				- Discuss adjustment with [[therapist]]
 				  logseq.order-list-type:: number
 				- Consider transfer
