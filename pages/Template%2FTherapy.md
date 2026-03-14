@@ -8,7 +8,7 @@
   template:: therapy-template-full
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-including-parent:: true
-	- ## **敘事記錄（自由書寫）**
+	- ## **敘事（簡述）**
 		- 在這裡寫下完整 session 過程
 	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
