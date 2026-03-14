@@ -35,12 +35,12 @@
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
 			- distance-change::
 		- ## **目前假設**
-			- Current Impression::
+			- Current-Impression::
 				- A = 諮商師互動風格較固定
 				  B = 關係還在暖身
 				- C = 尚未確定
 		- ## **下一步**
-			- Next Step::
+			- next-step::
 				- A = 持續觀察
 				  B = 表達需要
 				  C = 討論調整
