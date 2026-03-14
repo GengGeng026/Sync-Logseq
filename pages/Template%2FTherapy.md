@@ -39,8 +39,8 @@
 				- A = 諮商師互動風格較固定
 				  B = 關係還在暖身
 				- C = 尚未確定
-		- ## **Next Step Decision**
-			- Next Step:: #abc
+		- ## **下一步**
+			- Next Step::
 				- Continue observing
 				  logseq.order-list-type:: number
 				- Try expressing my needs in session
