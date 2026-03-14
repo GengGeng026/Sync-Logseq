@@ -3,7 +3,7 @@
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- # **基本資訊**
-		  Date::
+		  Date:: [[Sun, 08-03-2026]] 
 		  session-number::
 		  Therapist::
 		- ## **Body & Safety**
