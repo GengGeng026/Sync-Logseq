@@ -42,23 +42,26 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
-/* 彻底隐藏属性行，让笔记保持绝对干净，像没装插件一样 */
-[data-block-list-style-type] > .block-properties {
+/* 隐藏插件生成的样式属性，让界面保持绝对干净 */
+div[data-block-list-style-type] > .block-properties {
   display: none !important;
 }
 
-/* 确保字母列表能从 a 开始（防止显示为 0） */
-.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block {
-  counter-increment: alpha-list-counter;
+/* 强制修正：确保字母列表不会显示为 0 */
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children {
+  counter-reset: section;
 }
-.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number::before {
-  content: counter(alpha-list-counter, lower-alpha) ".";
-  font-size: 14px;
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block {
+  counter-increment: section;
 }
 .ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number {
-  font-size: 0;
+  font-size: 0; /* 隐藏原生数字 */
 }
-
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number::before {
+  content: counter(section, lower-alpha) ".";
+  font-size: 1rem; /* 显示字母 */
+  margin-right: 4px;
+}
 
 :root {
   --fht-footer-text: var(--ls-page-inline-code-color);
