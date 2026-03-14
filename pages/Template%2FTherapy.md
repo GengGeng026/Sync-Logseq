@@ -42,8 +42,6 @@
 		- ## **下一步**
 			- Next Step::
 				- A = Continue observing
-				  BTry expressing my needs in session
-				- Discuss adjustment with [[therapist]]
-				  logseq.order-list-type:: number
-				- Consider transfer
-				  logseq.order-list-type:: number
+				  B = Try expressing my needs in session
+				  C = Discuss adjustment with [[therapist]]
+				  D = Consider transfer
