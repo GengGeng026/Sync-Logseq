@@ -19,7 +19,7 @@
 		- rephrasing-effort::
 			- 諮商師是否嘗試用另一種方式重新表達
 		- natural-interaction-moment::
-		  是否出現自然或真實的互動瞬間
+			- 是否出現自然或真實的互動瞬間
 		- ## **Moment That Stood Out**
 		  Description::
 		- ## **My Strongest Feeling (1 sentence)**
