@@ -30,8 +30,8 @@
 		- ## **一句話總結今天的感受**
 		  Feeling-Summary::
 		- ## **敘事記錄（自由書寫）**
-		- 在這裡寫下完整 session
-		- ## **Observation**
+		- 在這裡寫下完整 session 過程
+		- ## **距離感觀察**
 		  Did-the-“distance/glass-feeling”-change-during-the-session::
 		- ## **Hypothesis Check**
 			- Current Impression:: #abc
