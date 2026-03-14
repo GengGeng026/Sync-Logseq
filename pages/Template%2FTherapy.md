@@ -15,9 +15,6 @@
 		  Understanding-Check-<therapist-clarified-meaning>:: 
 		  Rephrasing-Effort-<therapist-tried-another-way-to-explain>:: 
 		  Natural-Interaction-Moment::
-		- ## **Moment That Stood Out**
-		  Description::
-		  collapsed:: true
 			- 1
 			-
 		-
