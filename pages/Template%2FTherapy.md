@@ -9,7 +9,8 @@
 		- ## **Body & Safety**
 		  body-safety-score::
 			- 0–[[10]] 分（0 = 非常不安全，[[10]] = 非常自在）
-		- Immediate-Physical-Sensations::
+		- 即時身體感::
+			- 即時身體感受
 		- ## **Key Interaction Signals**
 		  Emotional-Mirroring-<therapist-reflected-feelings>::
 		  Understanding-Check-<therapist-clarified-meaning>::
