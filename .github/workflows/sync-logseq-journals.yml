@@ -16,6 +16,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
       - name: Run Python script
         env:
           NOTION_API_KEY: ${{secrets.NOTION_API_KEY}} 
