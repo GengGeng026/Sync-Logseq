@@ -42,6 +42,13 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
+div[data-refs-self*="abc"] + .block-children-container ol {
+  list-style-type: lower-alpha !important;
+}
+.ls-block[data-refs-self*="abc"] > .block-children-container > .block-children {
+  list-style-type: lower-alpha !important;
+}
+
 :root {
   --fht-footer-text: var(--ls-page-inline-code-color);
   --fht-hightlight: var(--ls-page-mark-bg-color);
