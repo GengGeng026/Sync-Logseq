@@ -8,11 +8,11 @@
 		  Therapist:: Valerie Tan Jin Wen
 		- ## **身體與安全感**
 			- 現在回想 session，你的身體安全感是幾分？
-				- body-safety-score::
-				  
-				  0–[[10]] 分
+				- 0–[[10]] 分
 				  0 = 非常不安全
 				  [[10]] = 非常自在）
+				  
+				  body-safety-score::
 			-
 			- 當時你的身體有什麼感覺？
 				- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
