@@ -29,6 +29,7 @@
 			- moment-description::
 		- ## **一句話總結今天的感受**
 		  Feeling-Summary::
+		- 敘事記錄（自由書寫）
 		- ## **Observation**
 		  Did-the-“distance/glass-feeling”-change-during-the-session::
 		- ## **Hypothesis Check**
