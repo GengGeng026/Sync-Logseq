@@ -26,9 +26,8 @@
 			  B) Relationship may need more time to warm up
 			  C) Undetermined
 		- ## **Next Step Decision**
-			- Next Step::
-				-
+			- Next Step:: #abc
 				- Continue observing
-				- B) Try expressing my needs in session
+				- Try expressing my needs in session
 				- C) Discuss adjustment with [[therapist]]
 				- D) Consider transfer
