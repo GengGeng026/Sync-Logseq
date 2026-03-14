@@ -1,6 +1,9 @@
 name: Sync Logseq Journals to Notion Mirror
 
 on:
+  push:
+    paths:
+      - 'journals/**'
   workflow_dispatch:
 
 jobs:
@@ -10,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,7 +28,7 @@ jobs:
 
       - name: Run Python script
         env:
-          NOTION_API_KEY: ${{secrets.NOTION_API_KEY}} 
-          NOTION_LOGSEQ_MIRROR_DATABASE_URL: ${{secrets.NOTION_LOGSEQ_MIRROR_DATABASE_URL}}
+          NOTION_API_KEY: $ secrets.NOTION_API_KEY 
+          NOTION_LOGSEQ_MIRROR_DATABASE_URL: $ secrets.NOTION_LOGSEQ_MIRROR_DATABASE_URL 
         run: |
           python scripts/sync_logseq_journals.py
