@@ -1,4 +1,4 @@
-- Therapy Session
+- Therapy Session (Full)
   template:: therapy-template-full
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
