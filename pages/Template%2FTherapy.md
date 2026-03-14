@@ -25,8 +25,8 @@
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
 		- ## **今天最重要的一刻**
-		-
-		- Description::
+		- 那個 moment 發生了什麼事 ？
+			- Description::
 		- ## **My Strongest Feeling (1 sentence)**
 		  Feeling-Summary::
 		- ## **Observation**
