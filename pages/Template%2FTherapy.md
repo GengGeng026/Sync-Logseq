@@ -58,7 +58,7 @@
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- 第幾次 session？
 		  session-number:: #
-		  Therapist:: Valerie Tan Jin Wen
+		  Therapist:: [[Valerie Tan Jin Wen]]
 		- 今天最突出的 moment？
 		  moment::
 		- 一句話感受
