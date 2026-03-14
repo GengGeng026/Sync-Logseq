@@ -7,7 +7,7 @@
 		  session-number::  #
 		  Therapist:: Valerie Tan Jin Wen
 		- ## **身體與安全感**
-		  現在回想 session，你的身體安全感是幾分？
+			- 現在回想 session，你的身體安全感是幾分？
 			- body-safety-score::
 			- 0–[[10]] 分（0 = 非常不安全，[[10]] = 非常自在）
 		- 即時身體感::
