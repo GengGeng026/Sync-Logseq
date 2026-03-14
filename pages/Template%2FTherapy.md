@@ -9,7 +9,7 @@
 		- ## **基本資訊**
 		  Date:: <% today %>+  
 		  session-number::  #
-		  Therapist:: Valerie Tan Jin Wen
+		  Therapist:: [[Valerie Tan Jin Wen]]
 		- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
