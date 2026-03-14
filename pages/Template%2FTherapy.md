@@ -6,6 +6,7 @@
   template-created:: [[Sat, 14-03-2026]] 22:29 
   template-including-parent:: true
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
+	  collapsed:: true
 		- ## **基本資訊**
 		  Date:: <% today %>+  
 		  session-number::  #
@@ -55,6 +56,7 @@
   template-type:: therapy-session
   template-created:: <% today %>
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
+	  collapsed:: true
 		- 第幾次 session？
 		  session-number:: #
 		  Therapist:: [[Valerie Tan Jin Wen]]
