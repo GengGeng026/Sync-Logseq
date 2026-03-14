@@ -22,6 +22,8 @@
 		-
 		-
 			-
+			-
+			-
 			- A = [[therapist]] interaction style likely stable
 	- B = Relationship may need more time to warm up
 	- Undetermined
