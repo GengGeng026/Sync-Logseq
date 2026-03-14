@@ -36,9 +36,9 @@
 			- distance-change::
 		- ## **目前假設**
 			- Current Impression::
-			  [[therapist]] interaction style likely stable
-				- Relationship may need more time to warm up
-				- Undetermined
+				- A = [[therapist]] interaction style likely stable
+				  B = Relationship may need more time to warm up
+				- C = Undetermined
 		- ## **Next Step Decision**
 			- Next Step:: #abc
 				- Continue observing
