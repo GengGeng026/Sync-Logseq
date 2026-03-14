@@ -54,7 +54,7 @@
   template-version:: 1.0
   template-type:: therapy-session
   template-created:: <% today %>
-	- **<%TIME%> | [[Therapy]]**
+	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- 第幾次 session？
 		  session-number:: #
 		  Therapist:: Valerie Tan Jin Wen
