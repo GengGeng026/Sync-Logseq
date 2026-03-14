@@ -36,7 +36,7 @@
 			- distance-change::
 		- ## **目前假設**
 			- Current Impression::
-				- A = 
+				- A = 諮商師互動風格較固定
 				  B = Relationship may need more time to warm up
 				- C = Undetermined
 		- ## **Next Step Decision**
