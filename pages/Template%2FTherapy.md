@@ -8,6 +8,8 @@
   template:: therapy-template-full
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-including-parent:: true
+	- ## **敘事記錄（自由書寫）**
+		- 在這裡寫下完整 session 過程
 	- ## **身體與安全感**
 		- 現在回想 session，你的身體安全感是幾分 ？
 			- body-safety-score::
@@ -31,8 +33,6 @@
 			- moment-description::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
-	- ## **敘事記錄（自由書寫）**
-		- 在這裡寫下完整 session 過程
 	- ## **距離感觀察**
 		- 今天 session 中「毛玻璃距離感」有改變嗎？
 			- distance-change::
