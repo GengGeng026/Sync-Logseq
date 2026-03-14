@@ -23,7 +23,7 @@
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
 	- ## **身體與安全感**
-		- 回想 session，你的身體安全感是幾分 ？
+		- Overall session，你的身體安全感是幾分 ？
 			- body-safety-score::
 				- 0–[[10]] 分
 				  0 = 非常不安全
