@@ -1,8 +1,8 @@
 - Therapy Session (Full)
   id:: 69b56b95-4e4c-44bd-b94c-ec14b70f511a
   template:: therapy-template-full
+  template-version:: 1.0
   template-including-parent:: true
-  template
 	- **<%TIME%> | [[Therapy]] 諮商記錄**
 		- ## **基本資訊**
 		  Date:: <% today %>  
