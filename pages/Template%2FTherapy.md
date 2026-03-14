@@ -7,7 +7,8 @@
 		  Session編號::
 		  Therapist::
 		- ## **Body & Safety**
-		  body-safety-score<0─10>:: 
+		  body-safety-score::
+		   
 		  Immediate-Physical-Sensations::
 		- ## **Key Interaction Signals**
 		  Emotional-Mirroring-<therapist-reflected-feelings>::
