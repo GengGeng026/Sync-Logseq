@@ -15,7 +15,7 @@
 	- ## **今天最重要的一刻**
 	  > 那個 moment 為何令我有感覺 ？
 		- moment-description::
-			-
+			- logseq.order-list-type:: number
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
