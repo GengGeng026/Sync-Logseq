@@ -23,17 +23,19 @@
 			- understanding-check::
 		- 對方是否嘗試重新表達來幫助理解我 ？
 			- rephrasing-effort::
-		- 有沒有出現自然或真實的互動瞬間 ？
+		- 曾有出現過自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
 	- ## **身體與安全感**
 		- Overall session，你的身體安全感是幾分 ？
+		  logseq.order-list-type:: number
 			- body-safety-score::
 				- 0–[[10]] 分
 				  0 = 非常不安全
 				  [[10]] = 非常自在
 		- 當時你的身體有什麼感覺 ？
-			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
-				- body-sensation::
+		  logseq.order-list-type:: number
+		  > 例如：呼吸、胸口、肩膀、肌肉緊張度
+			- body-sensation::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **初步覺察**
