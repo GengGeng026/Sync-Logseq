@@ -39,9 +39,6 @@
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **初步覺察**
-		-
-			- distance-change::
-	- ## **初步覺察**
 	  > eg. 今天 session 中「毛玻璃距離感」有改變嗎？
 	- ## **目前假設**
 		- current-impression::
