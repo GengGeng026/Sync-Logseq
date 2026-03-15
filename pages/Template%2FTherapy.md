@@ -23,7 +23,7 @@
 			- understanding-check::
 		- 對方是否嘗試重新表達來幫助理解我 ？
 			- rephrasing-effort::
-		- 有沒有出現自然或真實的互動瞬間 ？
+		- 曾有出現過自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
 	- ## **身體與安全感**
 		- Overall session，你的身體安全感是幾分 ？
