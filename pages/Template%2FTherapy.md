@@ -13,8 +13,9 @@
 		- ### 背景
 		- ### 當下發生了什麼（客觀事件）
 	- ## **今天最重要的一刻**
-		-
-			- moment-description::
+	  > 那個 moment 為何令我有感覺 ？
+		- moment-description::
+			-
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
