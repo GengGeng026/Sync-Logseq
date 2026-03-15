@@ -29,9 +29,9 @@
 		- Overall session，你的身體安全感是幾分 ？
 		  logseq.order-list-type:: number
 			- body-safety-score::
-				- 0–[[10]] 分
-				  0 = 非常不安全
-				  [[10]] = 非常自在
+			  > 0–[[10]] 分
+			  0 = 非常不安全
+			  [[10]] = 非常自在
 		- 當時你的身體有什麼感覺 ？
 		  logseq.order-list-type:: number
 		  > 例如：呼吸、胸口、肩膀、肌肉緊張度
@@ -39,19 +39,18 @@
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **初步覺察**
-		- 今天 session 中「毛玻璃距離感」有改變嗎？
-			- distance-change::
+	  > eg. 今天 session 中「毛玻璃距離感」有改變嗎？
 	- ## **目前假設**
 		- current-impression::
-			- A = 諮商師互動風格較固定
-			  B = 關係還在暖身
-			  C = 尚未確定
+		  > A = 諮商師互動風格較固定
+		  B = 關係還在暖身
+		  C = 尚未確定
 	- ## **下一步**
 		- next-step::
-			- A = 持續觀察
-			  B = 表達需要
-			  C = 討論調整
-			  D = 考慮轉介
+		  > A = 持續觀察
+		  B = 表達需要
+		  C = 討論調整
+		  D = 考慮轉介
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
