@@ -35,8 +35,7 @@
 		- 當時你的身體有什麼感覺 ？
 		  logseq.order-list-type:: number
 		  > 例如：呼吸、胸口、肩膀、肌肉緊張度
-			- ##### 例如：呼吸、胸口、肩膀、肌肉緊張度
-				- body-sensation::
+			- body-sensation::
 	- ## **一句話總結今天的感受**
 	  Feeling-Summary::
 	- ## **初步覺察**
