@@ -18,12 +18,19 @@
 			- logseq.order-list-type:: number
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
+		  logseq.order-list-type:: number
 			- emotional-mirroring::
+			  logseq.order-list-type:: number
 		- 對方是否確認自己是否理解我的意思 ？
+		  logseq.order-list-type:: number
 			- understanding-check::
+			  logseq.order-list-type:: number
 		- 對方是否嘗試重新表達來幫助理解我 ？
+		  logseq.order-list-type:: number
 			- rephrasing-effort::
+			  logseq.order-list-type:: number
 		- 曾有出現過自然或真實的互動瞬間 ？
+		  logseq.order-list-type:: number
 			- natural-interaction-moment::
 	- ## **身體與安全感**
 		- Overall session，你的身體安全感是幾分 ？
