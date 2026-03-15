@@ -48,10 +48,10 @@
 		  C = 尚未確定
 	- ## **下一步**
 		- next-step::
-			- A = 持續觀察
-			  B = 表達需要
-			  C = 討論調整
-			  D = 考慮轉介
+		  > A = 持續觀察
+		  B = 表達需要
+		  C = 討論調整
+		  D = 考慮轉介
 - template:: therapy-template-lite
   template-version:: 1.0  ( [[Sat, 14-03-2026]] 22:29 )
   template-type:: therapy-session
