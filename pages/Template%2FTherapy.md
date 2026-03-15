@@ -1,4 +1,4 @@
-- **[[Therapy]] 諮商記錄**
+- **[[Therapy]] [[諮商覆盤]]**
   
   date::  <% today %>
   time:: <%TIME%>
