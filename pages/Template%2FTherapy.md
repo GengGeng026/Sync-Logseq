@@ -13,14 +13,15 @@
 		- ### 背景
 		- ### 當下發生了什麼（客觀事件）
 	- ## **今天最重要的一刻**
-		- 那個 moment 發生了什麼事 ？
-			- moment-description::
+	  > 那個 moment 為何令我有感覺 ？
+		- moment-description::
+			- logseq.order-list-type:: number
 	- ## **互動訊號**
 		- 諮商師是否反映了我的情緒 ？
 			- emotional-mirroring::
 		- 對方是否確認自己是否理解我的意思 ？
 			- understanding-check::
-		- 對方是否嘗試重新表達來幫助理解 ？
+		- 對方是否嘗試重新表達來幫助理解我 ？
 			- rephrasing-effort::
 		- 有沒有出現自然或真實的互動瞬間 ？
 			- natural-interaction-moment::
