@@ -42,6 +42,59 @@ opacity: .90;  /* or whatever */
 color: silver !important;
 }
 
+/* 1. 在包含 #abc 的块的子容器中重置计数器 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children {
+  counter-reset: letter-list;
+}
+
+/* 2. 针对每一个子块，强制增加计数器 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block {
+  counter-increment: letter-list;
+}
+
+/* 3. 在原本圆点的位置显示字母 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet-container::before {
+  content: counter(letter-list, lower-alpha) ".";
+  position: absolute;
+  width: 20px;
+  left: -5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: var(--ls-link-text-color); /* 字母颜色 */
+}
+
+/* 4. 隐藏原本的小圆点 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .bullet {
+  visibility: hidden;
+}
+
+/* 5. 额外修正：如果该块不小心开启了原生数字列表，强制隐藏其原生数字 */
+div[data-refs-self*="abc"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number {
+  display: none !important;
+}
+
+/* 1. 彻底隐藏属性行，让页面看起来没有脏数据 */
+div[data-block-list-style-type] > .block-properties {
+  display: none !important;
+}
+
+/* 2. 修正显示逻辑，确保切换到字母时正确显示 a. b. c. */
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block {
+  counter-increment: alpha-counter;
+}
+
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number::before {
+  content: counter(alpha-counter, lower-alpha) ".";
+  font-size: 14px;
+}
+
+/* 隐藏插件生成的原始数字 */
+.ls-type-number[data-block-list-style-type="lower-alpha"] > .block-children-container > .block-children > .ls-block > div > .items-center .lst-number {
+  font-size: 0;
+}
+
+
+
 :root {
   --fht-footer-text: var(--ls-page-inline-code-color);
   --fht-hightlight: var(--ls-page-mark-bg-color);

@@ -1,0 +1,45 @@
+name: Sync Logseq Journals to Notion Mirror
+
+on:
+  push:
+    paths:
+      - 'journals/**'
+  workflow_dispatch:
+
+jobs:
+  sync-logseq-journals:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Get changed journal files
+        id: changed
+        run: |
+          if [ "${{github.event_name}}" = "workflow_dispatch" ]; then
+            echo "CHANGED_FILES=" >> "$GITHUB_ENV"
+          else
+            FILES=$(git diff --name-only --diff-filter=ACMR HEAD~1 HEAD -- 'journals/*.md' | tr '\n' ',')
+            echo "CHANGED_FILES=$FILES" >> "$GITHUB_ENV"
+          fi
+
+      - name: Run Python script
+        env:
+          NOTION_API_KEY: ${{secrets.NOTION_API_KEY}} 
+          NOTION_LOGSEQ_MIRROR_DATABASE_URL: ${{secrets.NOTION_LOGSEQ_MIRROR_DATABASE_URL}} 
+          CHANGED_FILES: ${{env.CHANGED_FILES}} 
+        run: |
+          python scripts/sync_logseq_journals.py
