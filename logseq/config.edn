@@ -167,4 +167,4 @@
  :editor/logical-outdenting? true
  :editor/preferred-pasting-file? true
  :feature/enable-timetracking? false}
- :media/dirs ["~/Sync-Logseq/assets/"]
+ ;;  :media/dirs ["~/Sync-Logseq/assets/"]
