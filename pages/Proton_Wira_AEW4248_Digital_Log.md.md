@@ -1,15 +1,13 @@
 title:: Proton_Wira_AEW4248_Digital_Log.md
 
 - # **[[Proton Wira 1.5GLi (M)]] (AEW4248) 數位化維護檔案**
-  
-  ## **🚗 車輛基本資料**
+- ## **🚗 車輛基本資料**
 - **車款**: [[Proton Wira]] 1.5GLi (M) 手排
 - **引擎型號**: [[4G15P]] (Mitsubishi 4G15 系列)
 - **出廠年份**: [[2003]] 年
 - **車牌**: [[AEW4248]]
 - **常去車廠**: [[Auto Star Car Care Centre]] (Seksyen 8, PJ)
-  
-  **## 🛢️ 引擎保養 (Engine Oil & Filter)**
+- **## 🛢️ 引擎保養 (Engine Oil & Filter)**
 - **維護策略與花費**:
 	- **自購材料 + 支付工錢 (DIY)**: 最有保障的防坑策略。材料成本約 [[RM 70]]，合理工錢 (Upah) 範圍為 [[RM 25]] - [[RM 35]]。總開銷控制在 [[RM 110]] 以內。
 - **引擎油 (Engine Oil)**:
