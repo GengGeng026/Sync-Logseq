@@ -7,6 +7,7 @@ title:: Proton_Wira_AEW4248_Digital_Log.md
 	- **出廠年份**: [[2003]] 年
 	- **車牌**: [[AEW4248]]
 	- **常去車廠**: [[Auto Star Car Care Centre]] (Seksyen 8, PJ)
+	-
 - ## **🛢️ 引擎保養 (Engine Oil & Filter)**
   id:: 69e373d9-d40b-4fdf-ad12-64f9ae3976a8
 - **維護策略與花費**:
@@ -23,6 +24,7 @@ title:: Proton_Wira_AEW4248_Digital_Log.md
 	- **合理價位**: [[RM 10]] - [[RM 15]]。
 	- **推薦品牌**: [[Bosch]] (黑罐) 或 [[APM]] (紅罐)。
 	- ⚠️ **避險指南**: 切忌購買低於 RM [[5]] 且無品牌的 "[[Proton]] Replacement Parts" 劣質白罐 (常省略旁通閥設計，易引發斷油)，同時避開新款車用的 "Small [[Type]]" (如 PW811577，過濾量不足)。
+	-
 - ## **🛞 輪胎與輪圈 (Tyre & Rim)**
 	- **標準車胎規格**: `[[195/55R15]]`
 	- **輪胎保養與更換邏輯**:
@@ -45,6 +47,7 @@ title:: Proton_Wira_AEW4248_Digital_Log.md
 			- 對漏風軟化的15吋 Sports Rim 進行了修復 (Repair Rim，價格 [[RM 100]])。
 			- 含 Balancing 及 Alignment 人工費 [[RM 80]]。總價 [[RM 550]]。
 			- ⚠️ **單據 ([[Receipt]]) 維權鐵則**: 要求老闆必須在手寫單據清楚標註**輪胎品牌、型號、尺寸及安裝細節 (Balancing & Alignment)**，這是往後若有「起瘤 (Bengkak)」時發動 [[warranty]] 的唯一有效籌碼。
+			-
 - ## **💡 人性與交涉策略的心理實踐**
 - **與熟屬車廠老闆 (Towkay) 的交涉法**:
 	- **「咨詢顧問」位格切換**: 在貨比三家前先向老闆請教「隔壁那家輪胎店 OK 嗎？預算 RM 200 能換什麼？」，給足面子並讓他成為協助您的「專家」，防他將你當水魚也能掌握市場客觀行情。
