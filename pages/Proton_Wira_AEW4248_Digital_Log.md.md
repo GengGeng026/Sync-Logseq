@@ -1,6 +1,6 @@
 title:: Proton_Wira_AEW4248_Digital_Log.md
 
-- **# [[Proton Wira 1.5GLi (M)]] (AEW4248) 數位化維護檔案**
+- # ** [[Proton Wira 1.5GLi (M)]] (AEW4248) 數位化維護檔案**
   
   **## 🚗 車輛基本資料**
 - **車款**: [[Proton Wira]] 1.5GLi (M) 手排
