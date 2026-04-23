@@ -1,12 +1,9 @@
 - ​**電話號碼：** +603-26155555 (分機 1382)
 - ### ​📞 修正後的「無懈可擊」溝通範例
 	- ​為了規避你自己提到的「挖坑」風險，建議你採取這個版本：
-		- > ​"Hello, saya mahu buat **appointment** di Mentari HKL. Saya adalah **existing case** daripada private center dan saya mempunyai **full Assessment Report** yang mengesahkan **diagnosis OCPD**."
-		  
-		  >
-		  
-		  ​（如果對方問起轉介信）：
-		  > "Laporan saya telah diselia (supervised) oleh **Registered Clinical Psychologist**. Saya juga sudah buat **MyMinda** di MySejahtera dan **score** saya adalah **moderately severe**. Boleh saya emelkan laporan ini untuk urusan **appointment**?"
+		- > ​"Hello, saya mahu buat **[[appointment]]** di Mentari HKL. Saya adalah **existing case** daripada private center dan saya mempunyai **full Assessment Report** yang mengesahkan **diagnosis [[OCPD]]**."
+	- ​如果對方問起轉介信：
+		- > "Laporan saya telah diselia (supervised) oleh **Registered Clinical Psychologist**. Saya juga sudah buat **MyMinda** di MySejahtera dan **score** saya adalah **moderately severe**. Boleh saya emelkan laporan ini untuk urusan **appointment**?"
 		  
 		  >
 	- ### ​💡 你可以準備的「心理預案」：
