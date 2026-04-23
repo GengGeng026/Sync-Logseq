@@ -1,6 +1,8 @@
 - ​**電話號碼：** +603-26155555 (分機 1382)
   id:: 69ea918a-297b-45c7-9476-7f7f80bd0246
 - ### ​📞 修正後的「無懈可擊」溝通範例
+  id:: 4aa21271-798c-4ad8-bad1-b3d3cd95f1ca
+  collapsed:: true
 	- ​為了規避你自己提到的「挖坑」風險，建議你採取這個版本：
 		- > "Hello, saya mahu buat **[[appointment]]** di Mentari HKL. Saya adalah **existing case** daripada private center dan saya mempunyai **full Assessment Report** yang mengesahkan **diagnosis [[OCPD]]**."
 		- ​
