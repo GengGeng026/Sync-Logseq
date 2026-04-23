@@ -7,7 +7,7 @@
 		- ​
 	- 如果對方問起轉介信）：
 		- > "Laporan saya telah diselia (supervised) oleh **Registered Clinical Psychologist**. Saya juga sudah buat **MyMinda** di MySejahtera dan **score** saya adalah **moderately severe**. Boleh saya emelkan laporan ini untuk urusan **[[appointment]]**?"
-			-
+			- ![2026-04-24-06-11-17.jpeg](../assets/2026-04-24-06-11-17.jpeg)
 		-
 	- ### ​💡 你可以準備的「心理預案」：
 		- ​**EMAIL 傳送**：
