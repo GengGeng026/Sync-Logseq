@@ -7,9 +7,12 @@
 	  
 	  ​（如果對方問起轉介信）：
 	  > "Laporan saya telah diselia (supervised) oleh **Registered Clinical Psychologist**. Saya juga sudah buat **MyMinda** di MySejahtera dan **score** saya adalah **moderately severe**. Boleh saya emelkan laporan ini untuk urusan **appointment**?"
+	  
+	  >
 	- ### ​💡 你可以準備的「心理預案」：
 		- ​**EMAIL 傳送**：
 			- 如果對方覺得電話講不清楚，他們通常會叫你把報告 Email 給他們。這對你來說是好事，因為書面文字比口頭溝通更精確。
+			-
 		- ​**不需過度解釋**：
 			- 如果接線員顯得不耐煩，那是他們的體制問題，不是你的報告不夠好。你只需重複關鍵詞：
 				- **"Diagnosis OCPD"**
@@ -18,6 +21,7 @@
 				  logseq.order-list-type:: number
 				- **"MyMinda Moderate Severe"**
 				  logseq.order-list-type:: number
+				-
 - ### ​📞 針對 Mentari HKL 的撥打指南
 	- ​**第一階段：切入預約 (The Initial Request)**
 	  
@@ -30,6 +34,8 @@
 	  
 	  ​如果對方問你有沒有 'referral letter'（轉介信），或者說不收新個案時，請堅定但客氣地這麼說：
 	  > ​"Saya faham, tapi **status** mental health saya sekarang memang memerlukan **professional support** yang lebih 'intensive' di peringkat **community rehabilitation**, bukan sekadar **outpatient** biasa. Boleh saya tahu, adakah saya perlu 'walk-in' ke **Klinik Kesihatan** dulu untuk dapatkan **written documentation** (轉介信), atau Mentari HKL boleh terus **schedule** satu **initial assessment** untuk saya?"
+	  
+	  >
 	- ### ​💡 為何這樣說能幫你避「坑」？
 		- ​**利用官方數據（Official Data）**：
 			- 提及 MyMinda 的中重度結果（Moderately Severe） 會讓接線員意識到你的個案具備一定的緊急性，這比提及一個陌生的私人諮商師名字更具說服力。
