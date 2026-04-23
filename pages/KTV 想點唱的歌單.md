@@ -34,7 +34,7 @@
 	  logseq.order-list-type:: number
 	- 《 [[菊花臺]] 》by [[周杰倫]]
 	  logseq.order-list-type:: number
-	- 《  》by
+	- 《 [[聽見下雨的聲音]] 》by [[魏茹韻]]
 	  logseq.order-list-type:: number
 	- 《  》by
 	  logseq.order-list-type:: number
