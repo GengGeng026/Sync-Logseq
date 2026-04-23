@@ -32,6 +32,8 @@
 	  id:: 6976eb5c-a59e-4a18-8222-8342bfa40206
 	- 《 [[撞]] 》by  [[火箭少女101]]
 	  logseq.order-list-type:: number
+	- 《 [[菊花臺]] 》by [[周杰倫]]
+	  logseq.order-list-type:: number
 	- 《  》by
 	  logseq.order-list-type:: number
 	- 《  》by
