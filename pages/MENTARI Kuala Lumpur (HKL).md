@@ -1,2 +1,2 @@
 - 接線員 [[Ms. Shidah]] 的移動電話： [[+60137242438]]
-- [[Hospital Kuala Lumpur]] +6032615555
+- [[Hospital Kuala Lumpur]] 熱線： [[+6032615555]]
