@@ -24,6 +24,7 @@
 				  logseq.order-list-type:: number
 				-
 - ### ​📞 針對 Mentari HKL 的撥打指南
+  collapsed:: true
 	- ​**第一階段：切入預約 (The Initial Request)**
 	  
 	  ​當接線員接聽後，你可以直接用這段話：
