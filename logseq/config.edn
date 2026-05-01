@@ -161,7 +161,7 @@
  :ui/show-brackets? false
  :journal/page-title-format "E, dd-MM-yyyy"
  :journal/file-name-format "yyyy-MM-dd"
- :favorites ["react hot module reloading" "jsplay"]
+ :favorites ["Omnivore" "react hot module reloading" "jsplay"]
  :graph/settings {:builtin-pages? false, :journal? false}
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? true

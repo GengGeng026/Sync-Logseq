@@ -1,0 +1,260 @@
+- P/S: Clarification about my **Past Psychiatric History** and **Educational History**
+	- # Past Psychiatric History
+		- **8 Oct 2001**
+			- First visit Dr. Marvin Chong Swee Woon at Hospital Fatimah Ipoh
+			- Second consultations: 17 Feb 2012
+			- Third consulatation: [[16]] Mar 2012
+			- Total consultations: 3
+		- **29 Sep 2015**
+			- First consulted psychiatrist, Dr. Francis Low Chee Chan at Specialist Clinic Au Yong for depressive symptoms (low mood, reduced motivation, [[Sleep]] disturbance)
+			- Total consultations: 11 - 15
+			- Full physical records
+				- 29 Sep 2015
+				  logseq.order-list-type:: number
+				- 27 Oct 2015
+				  logseq.order-list-type:: number
+				- 16 Jan 2016
+				  logseq.order-list-type:: number
+				- 25 Feb 2016
+				  logseq.order-list-type:: number
+				- 2 Apr 2016
+				  logseq.order-list-type:: number
+				- 10 May 2016
+				  logseq.order-list-type:: number
+				- 17 May 2016
+				  logseq.order-list-type:: number
+				- 12 Jul 2016  10:00
+				  logseq.order-list-type:: number
+				- 6 Sep 2016 11:00
+				  logseq.order-list-type:: number
+				- 27 Jun 2017 (Tue)
+				  logseq.order-list-type:: number
+				- 04 Jul 2017 (Tue)
+				  logseq.order-list-type:: number
+		- **06 Sep 2016**
+			- Resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
+		- **04 Jul 2017**
+			- Last visited Dr. Francis Low Chee Chan
+		- **19 Jun 2020**
+			- first visited Consultant Psychiatrist Dr. Ng Chong Guan
+		- **4 Jul 2020**
+			- First session with Clinical Psychologist Joo Chien “JC” Chong.
+		-
+	- # Educational History
+		- 2000 ─ Yong Khang Kindergarten ([[Kemaman]] Presbyterian Church) Jalan Jakar, Kampung Jakar, 24000 Chukai, Terengganu, Malaysia.
+			- Small church-run kindergarten, not formally digitised/registered.
+			- Neither “Rong Guang Kindergarten”, “Yong Khang Kindergarten” nor its Chinese name 榮光幼稚園 yields any verifiable online matches
+			- Grandmother clarified delay enrolment due to emotional instability and physical aggression (toward objects and peers).
+			- Peer later in our high-school era (2010-2012) recalled my disruptive and aggressive behaviours during that period ─ often interrupted other kids, snatched their belongings and fight.
+			- My memory of kindergarten period associated with frequent physical conflicts and poor emotional regulation without knowing reasons.
+		- Early School Years
+			- Recalled persistent forgetfulness since adolescence (misplacing items, forgetting time).
+			- Shower over 1 hour every time
+			-
+- # Romantic History
+	- ## **Relationship Overview**
+		- **Duration:** 15 May 2015 – 18 Jul 2020 (5 years)
+		- First met before formal relationship (13 June 2014 period) through religious student housing context.
+		- Entered relationship formally in mid-2015;
+			- despite her's verbal agreement, I experienced pervasive insecurity and sought additional confirmation before ending the date to ensure I had heard correctly. Noted strong self-doubt at that time.
+		- Noted my early reassurance-seeking behaviour
+			- her family jokes about future kinship as confirmation of hoped-for long-term [[belonging]], reinforcing efforts to please and secure relationship.
+		-
+		- ## **Attachment & Psychological [[patterns]]**
+			- Psychological testing (2020):
+				- Attachment style: Preoccupied
+				- Primary love language: Quality Time
+			- Pattern observed:
+				- High need for reassurance
+				- Repeated attempts to repair relationship after partner-initiated breakups
+				- Difficulty disengaging despite emotional exhaustion
+			- Shifted purpose of therapy from relationship preservation + medication management to individual depression treatment and long-term psychological recovery.
+		- ## **Breakup Pattern**
+			- **Mid 2017:** First breakup initiated by partner (mismatch in life stage: she studying, I working).
+			- **Mid 2018:** Second breakup (partner suggested time apart).
+			- Relationship resumed both times through my effort to reconcile.
+			- Final separation: 18 Jul 2020 (mutual, peaceful, without initiating breakup), following 2nd session with Clinical Psychologist, Joo Chien 'JC' Chong alone.
+		- ## **Partner-Supported Involvement & Relationship Tension**
+		- Pre-relationship audiological assessment (SISI, Lüscher Test, audiometry Sibelmed W50):
+			- Mild right-sided hypoacusis reported;
+			- Overall interpretation at the time suggested hearing tests did not fully explain communication difficulties
+			- It reflected my low self-esteem and self-doubt rather than primary auditory deficit
+		- Early stage of relationship:
+			- **Before 19 Jan 2016**, disclosure of depression diagnosis and medication was negatively [[received]].
+			- She expressed her concerns while knowing of me resumed SSRI (5mg Lexapro) prescribed by Dr. Francis Low Chee Chan due to insomnia and deteriorating work performance.
+			- She encouraged me to discontinue medication as it didn't help me [[Sleep]] better.
+			- From initial opposition to increasing acceptance of my psychiatric treatment, there was once and only time before 06 Sep 2016 she accompanied me to consultation with my psychiatrist then few years later (24 Jul [[2017]]) she began accompanying her friend to consult the same psychiatrist I was seeing.
+		- **08 Sep 2016**
+			- First suspension (with pay) from post-graduate job (Assistant Director @ Astro).
+			- She kept me company while she was still studying her Degree.
+		- Recurrent forgetfulness (examples):
+			- Lost wallet incidents
+				- 15 Oct 2023 ─ fourth recorded wallet loss.
+				- 23 May 2016 ─ third time losing wallet (felt shame);
+				- 10 Sep 2015 ─ lost wallet she had purchased for me after long day;
+				- 3 Jul 2015 ─ first self-lost wallet during a date.
+			- Verbal commitments forgotten the next day
+			- Blindness in time and physical distance
+				- **9 Aug 2015**, disagreement regarding transport choice; chose 45-minute walk (3 hours total journey) to unfamiliar destination, perceived as normal experience by self but viewed as inefficient, insane and torturing by her.
+			- 8 Dec 2015, she interpreted this as poor self-control, hypo-amnesia and shared informational material (e.g., memory disorder encyclopedia entry/self-control [[articles]]) as an attempt to help.
+			- Since then, I began heavier reliance on digital [[Reminders]] and multiple daily alarms, however, those behaviours ended up generating more tension.
+		- By [[10]] June 2020:
+			- She voluntarily offered accompaniment to clinic visit at  Linda & Ng Clinic ( formerly Tan & Ng Clinic )
+		- ## **Identity, Withdrawal & Post-Breakup Adjustment**
+		- After breakup:
+			- Attempted reconnection through participating shared religious community activities, low-key
+			- Gradual withdrawal from active roles and eventually region-level participation.
+			- Prolonged mourning period; required significant time to stabilise emotionally.
+	-
+- # Friendship History
+	- Early pattern:
+		- Maintained few close friendships.
+		- Tended to rely on others initiating contact to sustain connection.
+		- Difficulty maintaining long-term relational consistency without shared structured activities (projects, religious community, work).
+		- ---
+	- Jian Li, male
+		- 2005
+			- Became close friends in SJK(C) Cukai through exchange of personal secrets.
+			- that was the first time I told him my only imaginary friend, a mouse which talked to me everyday.
+			- We were both fat, even fatter than average children
+		- 2006
+			- Lost contact after primary school graduation.
+		- 2007
+			- Physical conflict occurred during school bus period (secondary school).
+			- He punched me in the nose as he claimed I first splashed the water on him when I was running my fingers through my hair but I wasn't aware
+		- 2009
+			- Reconnected and resumed friendship.
+			- Participated together in school performances and creative collaborations.
+			- With his shared information, managed to secure a place in the science stream through smarter preparation strategies for PMR.
+		- Until we both graduated from secondary school, we had been classmates. Not only we won third prize for 'Star Talent' with an hour talk show though he once insisted to quit the manipulative practices, we also enjoyed amused our classmates with funny sketches that set the whole room in a roar whilst the classes next door were also caught attention.
+		- 2014 - 2018
+			- Met again in 2014
+			- co-initiated seasonal non-profit [[project]] '心意' since mid 2018 while we were working in different industries.
+		- 2019 - 2022
+			- Continued collaboration in creative / business-related attempts.
+			- Produced annual CNY music videos, epidemic prevention awareness, online singing classes, etc.
+			- Expanded from initially 4 core members up to [[10]] committees and less than 50 volunteers.
+			- Later transitioned into small-scale social enterprise collaboration
+			- Managed to unleash my full potential from what I learnt from [[Astro]], Wedding Film Industries and talent in [[song]]-writing.
+			- suspended since 2022 due to coach conflict of interest.
+			- In the middle of time, he also took me into new field of pioneer think-thank, INSAP, out of my production field
+		- Later in 2022
+			- he facilitated a business collaboration for TikTok Productions amongst me, him and a Certified Financial Planner (CFP). To help our business grow, nearly half of the supplementary filming equipments were invested by him.
+		- May 2023
+			- Failure in securing the job offer in PurpleCane due to ghosting and delayed submission of 532 pages of New Digital Marketing Optimisation Strategy Project Proposal.
+			- Started pulling away from this relationship following the end of our business collaboration and unresolved repayment though there has been several times he said there's no hurry to pay it back
+			- Feelings of shame and avoidance contributing to withdrawal
+		-
+	- Phei Yong, Male
+		- 2012
+			- Met during university (TAR UMT) years via religious student housing and Buddhist youth activities.
+			- Friendship sustained through structured joint activities rather than spontaneous social bonding.
+		- 2012 - 2014
+			- Auditioned for Astro-related TV host opportunity.
+			- Organised campus Chinese debate competition, guided exhibition for anti-nuclear weapons, executed silent mob performance, etc.
+			- Organised religious exchange meets across states, annual reunions and retreats
+		- 2015
+			- he came and showed his support whilst my music partner, Johnathan and I reached the grand final of 2015 CNY [[song]] contest in Penang island.
+			- With his extensive connections, we produced an group singing music videos for the same [[song]] '终于来到 Finally' and got it broadcasted through radio station whilst Phei Yong had became MYFM contract DJ after winning the champion of 'Be My Star DJ'.
+		- Before we both graduated, earlier he first wrote me a little umbrella with phrases of '勿动摇自身方向，勿质疑自身潜力'; later followed by a scroll of his handwritten calligraphy '益其所不能' as my 21st birthday gift. I value those words and encouragement.
+		-
+	- Johnathan, Male
+		- 2014
+			- Met through mutual friend and Penang bridge II marathon.
+			- First time showed him my recorded DEMOs when I heard he also made his own music.
+			- Hit it off right away.
+		- 2015 - 2019
+			- Frequent collaboration in songwriting, competitions and performances.
+			- Participated 2015 Penang Gurney Paragon mall CNY [[song]] contest
+			- Published our duet [[YouTube]] channel in 2018
+		- 2020 - 2021
+			- Expanded cooperation into media exposure and commercial projects.
+			- Featured in [[Astro]] TV singing contest 'Classics Alive', TV2 Mandarin News, online interviews
+			- Formally started business and struck very first deal of producing a Malaysian [[book]] of Records-certified audio [[book]] "Corporate Doctor: Awakening Your Corporate DNA" about mastering business equity, financial health, and company culture.
+			- First initiated an independent [[song]] critiques award wining online contest '我要讲评 I Wanna Comment' with participants from music industry insiders
+			- Produced [[Branding]] jingle and corporate [[song]] '萤火 Fireflies' for Malaysia operation centre of FanShu (formerly Fan Deng Reading), a major player in the Chinese knowledge-sharing and personal development digital market.
+		- By end of Sep 2021
+			- Team XINYI(心意) and we transformed non-profit collaboration into social enterprise, enrolled up for 20 students for 'Your Singing Style (YSS)' online talent class.
+		- 2022 - 2023
+			- Joint-venture collaboration with different parties and business between both of us, were forced to terminate due to conflict of interest statement and personal accountability and credit issues origin from Jonathan.
+			- The core committees managed to execute prompt emergency crisis handling, Jonathan and I were then peacefully drifted apart without any financial entanglement related to our ex-company.
+		- Mid 2023
+			- After the incident, Johnathan had once visited my living place and attempted reconciliation.
+			- Initially, he expressed his apology by realising his personal matters led to earlier preventable consequences. However, his next act made me literally felt disappointed, which he claimed the only value he chose to reconnect is because he still regarded me as a friend otherwise he wouldn't take the initiative or gave me 'chances' to collaborate again.
+			- His intention helped me being aware that the end of our collaboration is more worthy rather than holding on unequal relationship and transactional opportunities especially during the period I have been burnout and sticking with [[Therapy]] with JC.
+		- Since then, I choose to keep it to myself with more time and space until currently.
+		-
+- # Working History
+	- Current Status
+		- Jobless since 13 December 2023
+		- Nearly [[2]] years and [[2]] months, rather I remembered wrongly [[5]] years.
+	- 2018 - 2022
+		- Junior Marketing Executive, Content [[producer]], Creative Director & Singer- songwriter (Viwork Productions Enterprise, 2018 - 2022)
+		- I had so many moments of emotional distress whenever unexpected things occurred during start-up.
+		- There were times I insisted my parter to follow the [[patterns]] of my desired online [[Meeting]]: he had to accept my invitation in advance on his own [[Calendar]] so that I will be notified or aware he wouldn't be late or stood me up.
+		- There was once a conflict occurred, I once spilled out all my thoughts and anger uncontrollably for over an hour while my partner listened quietly and eventually he gave me a quick hug which felt weird, however, I was then feeling calmed out of no where.
+	- 23 June 2022 - January 2023
+		- Freelance Content Producer, Screenplay Writer, Copywriter, Wardrobe Stylist, Video Director & Editor, Cinematographer.
+		- Towards [[client]]'s image rebranding, my partner assisted in researching, fact-checking and content strategies whilst I then repackaged those studies and professional knowledge through production skills, eventually produced as serial products of personal finance literacy throughout client's TikTok.
+		- Following successful pitch since 17 June 2022; [[project]] had ended up being on hold indefinitely upon mutual agreeement before final approval secured after the third reading ( 15 December ) for Malaysia's Budget 2022 and the end of national political crisis.
+		- After that, I had totally gone off the grid and was no longer reachable at my contact number or through partners.
+		- Due to success for annual CNY sequel programs throughout 2019 - 2022 in collaboration with mutual friends led to our first time business collaboration and my very first [[client]] after financial services industry after corporate music industry.
+	- 2021
+		- Creative Director, Singer-Songwriter & Editor ( Lion Group Properties｜Resilion Residence 住呢度 'Stay Here' MV Commercial Advertisement )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《听世界の声音》MV, Seasonal [[project]] 心意制作 )
+	- 2020
+		- Contract Interviewer cum Assistant Researcher, at Institute for Strategic Analysis & Policy Research (INSAP)
+		- Content [[producer]], Editor, Singer-Songwriter ( 《乖乖待在家里头》2020 M'sia MCO Epidemic Prevention MV, Seasonal [[project]] 心意制作 )
+		- Content Producer, Editor, Singer-Songwriter ( 《红魔法》CNY MV, Seasonal Project 心意制作 )
+	- 2019 - 2020
+		- Lotus's Malaysia ( formerly TESCO ) Facilitator, (MEP [[Meeting]] & Exhibition Planners Sdn Bhd)
+		- Partner with [[2]] corporate event Emcees aka Masters of Ceremony, in collaboration with MEP [[Meeting]] & Exhibition Planners Sdn Bhd, providing training for all front-end employees across Tesco stores in [[KL]] and [[Selangor]] by making the Tesco Clubcard Handbook interactive and easier to implement and spread.
+	- 2019
+		- Emcee a.k.a Master of Ceremony  ( Emerging Untainted - An inspiration from the Lotus Sutra ｜ Arts Exhibition Opening Ceremony )
+		- Director, Screenplay, Editor & Colourist ( 黑龍 Black Dragon 《BobaTea You Can’t Drink》Commercial Advertisement ) ( 2019 )
+		- Temporary Floral Assistant ( Scentales, 2019 )
+		- Content [[producer]], Editor, Singer-Songwriter ( 《321回家去》CNY MV, Seasonal [[project]] 心意制作 )
+	- 2018 - 2019
+		- Freelance Emcee a.k.a Master of Ceremony for indoor spring festive gala
+		- Content [[producer]] & Digital Marketing Strategist ( Finspark, 2018 - 2019 )
+		- Produce content such as comedy short film 《千方百计搞定你》 in [[order]] to attract target audience for financial course enrolment.
+		- Cautiously connected with any colleagues on social media or talked about anything other than jobs related since I was so anxious of my privacy leaking or judgemental idle talk might influence the relationship I valued
+	- 2016 - 2018
+		- Wedding film director, [[cinematographer]], Editor, Photographer, Colorist & Consultant
+		  ( Enya Mareine Vision Studio, 2016 - 2018 )
+		- For half of first year, trouble in trusting colleagues and weakness in delegation contributing to detachment and low efficiency at work.
+		- Later, I managed to work things out much smoother with supportive teammates of a similar age especially when over half of seniors left the company.
+		- That was the first time I felt like I could make good friends at workspace rather than only transactional teamworks
+		- Friendship sustained and still helping each other when in need even after we all left the same company.
+	- [[2017]]
+		- Freelance Emcee a.k.a Master of Ceremony for ROM ceremony
+		- Director, Production Designer, [[Art]] Director, DoP, Editor, Dubbing Artist ( #LOVESTORY wedding short film ) ( Oct - Dec [[2017]] )
+	- 2016 - [[2017]]
+		- First Assist DoP, Production Assistant ( 《我们不再小》MV ) ( Nov 2016 - Feb
+		  [[2017]] )
+	- 2016
+		- 《[[Astro]]新秀大赛2016》Assistant Director ( [[Astro]], 2016 )
+		- Storyboard Artist, First Assist DoP & Walker-on ( CEO Model Studio Portraits :
+		  《淡淡的忧伤》 )
+		- DoP ( 5K Color Me Run [[2]].0 Marathon, 2016 )
+		- Director of Photography & Offline Editor of (INTI International University & Colleges’ Graduation
+		  Ceremony / Panel Discussion & Appreciation Night, 2016)
+		- Online Editor, Colorist & Voiceover (VO) (PSC [[App]] Publicity Film, 2016)
+	- 2015
+		- Wardrobe Assistant & Production Assistant (‘Ola Bola’ - The Movie, 2015)
+		- Director, Content Creator, Director of Photography, Editor, Singer, Songwriter & Composer (《终
+		  于来到》MV, CNY 2015 [[project]])
+		- Intern Editor and DoP ( Bertcomm Media & Productions Sdn Bhd, 2015)
+		- Following 2013, there was the second and last time I made the same mistake of crossing the director's line in a in-house mini production,  despite that, she tried to talk to me assertively over the situation, I then realised and learnt from my reluctance to accept imperfection and difficulties to obey by the authority like leader's instructions.
+	- 2014
+		- Set Decorator & Lighting Assistant & Behing-The-Scene DoP (《假面》MV — Shio 郭修彧 )
+	- 2013
+		- Storyboard Artist, Editor & Director of Photography (《我的小時代》MV — Catherine 梁佩颖 )
+		- Very first time of realising my own mistake of overstepping director's boundary when the time I was being told
+	- 2012
+		- Promoter at MATTA Travel Fair, at Mid Valley Mall exhibition hall for [[5]] Days
+		- Only recalled so many times I escaped to toilet for a while as the place was too crowded with people
+	- 2011
+		- Cashier in Tunas Manja Supermarket
+		- Very first full time job while waiting for SPM result announcement
+		- Learnt from so many repeated mistakes such as typing wrong barcode while items were failed to be scanned, slow-wittedness in breaking bank notes, clumsy movements in bagging items, anxiety of counting the cash and coins wrongly, etc.

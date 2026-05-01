@@ -1,0 +1,12 @@
+- #[[📅 Resonance Calendar]]
+	- Type: #book
+	- Categories: #Article #Video
+	- Status: TODO
+	- Date: [[Sun, 2023/06/11]]
+	- Date Read:
+	- Author:
+	- Source:
+	- Status: #[[✅ Edit Later]]
+	- Keywords:
+	- Goals:
+	- #[[📑 Literature Notes]]
