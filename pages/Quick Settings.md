@@ -1,0 +1,2 @@
+- 適用於 [[Airscreen]] 作爲 [[screen mirroring/casting 投映]]
+- 重新安裝於 [[Tue, 02-06-2026]]
