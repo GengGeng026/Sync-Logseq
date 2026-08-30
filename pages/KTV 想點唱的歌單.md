@@ -32,10 +32,6 @@
 	  id:: 6976eb5c-a59e-4a18-8222-8342bfa40206
 	- 《 [[撞]] 》by  [[火箭少女101]]
 	  logseq.order-list-type:: number
-	- 《 [[菊花臺]] 》by [[周杰倫]]
-	  logseq.order-list-type:: number
-	- 《 [[聽見下雨的聲音]] 》by [[魏茹韻]]
-	  logseq.order-list-type:: number
 	- 《  》by
 	  logseq.order-list-type:: number
 	- 《  》by
@@ -56,9 +52,9 @@
 - [[日文]][[曲目]]
 	- 《 [[悪魔の子 （惡魔之子）]] 》｜ 動漫【 [[進擊的巨人]] 】[[S2]] [[Part 2]] [[ED]]  by  [[Ai Higuchi]]
 	  logseq.order-list-type:: number
-	- 《 [[No Man's World]] 》｜ 動漫【 [[Dr.STONE]] 】 [[S4]] [[ED2]]  by  [[音羽 Otoha]]
+	- 《 [[No Man's World]] 》｜ 動漫【 [[《 Dr.STONE 》]] 】 [[S4]] [[ED2]]  by  [[音羽 Otoha]]
 	  logseq.order-list-type:: number
-	- 《 [[Suki ni Shinayo (Do Whatever You Like]] 》｜ 動漫【 [[Dr.STONE]] 】 by [[Anly]]
+	- 《 [[Suki ni Shinayo (Do Whatever You Like]] 》｜ 動漫【 [[《 Dr.STONE 》]] 】 by [[Anly]]
 	  logseq.order-list-type:: number
 	- 《  》by
 	- 《  》by
