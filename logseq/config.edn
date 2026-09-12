@@ -166,5 +166,5 @@
  :zotero/settings-v2 {"default" {:type-id ""}}
  :editor/logical-outdenting? true
  :editor/preferred-pasting-file? true
- :feature/enable-timetracking? false}
+ :feature/enable-timetracking? true}
  ;;  :media/dirs ["~/Sync-Logseq/assets/"]
