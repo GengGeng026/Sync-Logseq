@@ -15,6 +15,7 @@
   }
   #+END_QUERY
 - ## Key Insights
+  query-table:: true
   
   #+BEGIN_QUERY
   {:title "Therapy Insights"
