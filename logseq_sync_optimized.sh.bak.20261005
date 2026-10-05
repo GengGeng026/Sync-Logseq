@@ -56,15 +56,6 @@ cleanup_git_lock() {
     return 0
 }
 
-# 清理卡住的 rebase（防止孤兒狀態殘留）
-cleanup_stale_rebase() {
-    if [ -d "$REPO_DIR/.git/rebase-merge" ] || [ -d "$REPO_DIR/.git/rebase-apply" ]; then
-        log "🧹 偵測到卡住的 rebase，自動 abort 並清除狀態目錄"
-        git rebase --abort 2>/dev/null || true
-        rm -rf "$REPO_DIR/.git/rebase-merge" "$REPO_DIR/.git/rebase-apply" 2>/dev/null || true
-    fi
-}
-
 # 智能重試機制
 retry_with_cleanup() {
     local cmd="$1"
@@ -105,7 +96,6 @@ cd "$REPO_DIR" || exit 1
 # 啟動時清理：確保沒有因上次異常中斷而殘留的鎖
 rmdir "$RUN_LOCK" 2>/dev/null || true
 cleanup_git_lock
-cleanup_stale_rebase
 manage_log_size "$LOG_FILE"
 
 # 分支自偵測 (可由 LOGSEQ_SYNC_BRANCH 環境變數覆蓋)
@@ -152,7 +142,6 @@ sync_repo() {
     
     # 清理可能存在的舊 lock（在任何 Git 操作前）
     cleanup_git_lock
-    cleanup_stale_rebase
     
     # 使用智能重試機制執行 checkout
     if ! retry_with_cleanup "git checkout '$BRANCH'"; then
@@ -179,7 +168,6 @@ sync_repo() {
             log "📥 成功拉取遠端更新"
         else
             log "⚠️ 拉取失敗或超時，執行 hard reset 到 origin/$BRANCH"
-            cleanup_stale_rebase  # 先 abort 卡住的 rebase，避免狀態目錄殘留
             cleanup_git_lock  # 確保 reset 前沒有 lock
             retry_with_cleanup "timeout '$GIT_TIMEOUT' git fetch --all"
             retry_with_cleanup "timeout '$GIT_TIMEOUT' git reset --hard 'origin/$BRANCH'"
