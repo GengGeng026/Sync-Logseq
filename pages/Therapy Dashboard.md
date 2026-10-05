@@ -1,5 +1,6 @@
 # Therapy Dashboard
 - ## Recent Sessions
+  query-table:: true
   
   #+BEGIN_QUERY
   {:title "Latest Therapy Sessions"
