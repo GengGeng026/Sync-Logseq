@@ -67,12 +67,9 @@ yarn-error.log*
 # *.zip
 # *.tar.gz
 .logs/
-<<<<<<< main
-=======
 .sync_debounce
 .sync_debounce_v2
 
 assets/*.mp4
 assets/*.mov
 assets/*.zip
->>>>>>> origin/main
