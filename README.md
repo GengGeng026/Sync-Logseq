@@ -22,7 +22,7 @@
 
 ```bash
 # 檢查 LaunchAgent 狀態
-launchctl list com.logseq.sync
+launchctl list com.logseq.sync.v2
 
 # 檢查進程狀態
 ps aux | grep logseq_sync_optimized | grep -v grep
@@ -36,7 +36,7 @@ cat error.log
 
 ### 核心組件
 
-1. **LaunchAgent**: `~/Library/LaunchAgents/com.logseq.sync.plist`
+1. **LaunchAgent**: `~/Library/LaunchAgents/com.logseq.sync.v2.plist`
    - 負責自動啟動和進程管理
    - 系統重啟後自動恢復
    - 進程崩潰後自動重啟
@@ -59,7 +59,7 @@ cat error.log
 
 ## 🔧 LaunchAgent 配置
 
-**文件位置**: `~/Library/LaunchAgents/com.logseq.sync.plist`
+**文件位置**: `~/Library/LaunchAgents/com.logseq.sync.v2.plist`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -67,7 +67,7 @@ cat error.log
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.logseq.sync</string>
+    <string>com.logseq.sync.v2</string>
     <key>ProgramArguments</key>
     <array>
         <string>/Users/mac/Documents/Sync-Logseq/logseq_sync_optimized.sh</string>
@@ -150,10 +150,10 @@ sync_repo() {
 ### 1. 創建 LaunchAgent
 ```bash
 # 複製配置文件到正確位置
-cp com.logseq.sync.plist ~/Library/LaunchAgents/
+cp com.logseq.sync.v2.plist ~/Library/LaunchAgents/
 
 # 加載服務
-launchctl load ~/Library/LaunchAgents/com.logseq.sync.plist
+launchctl load ~/Library/LaunchAgents/com.logseq.sync.v2.plist
 ```
 
 ### 2. 確保腳本權限
@@ -164,7 +164,7 @@ chmod +x logseq_sync_optimized.sh
 ### 3. 驗證運行狀態
 ```bash
 # 檢查服務狀態
-launchctl list com.logseq.sync
+launchctl list com.logseq.sync.v2
 
 # 檢查日誌
 tail -f sync.log
@@ -181,8 +181,8 @@ tail -f sync.log
    chmod +x logseq_sync_optimized.sh
    
    # 重新加載服務
-   launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist
-   launchctl load ~/Library/LaunchAgents/com.logseq.sync.plist
+   launchctl unload ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+   launchctl load ~/Library/LaunchAgents/com.logseq.sync.v2.plist
    ```
 
 2. **Git 推送失敗**
@@ -328,7 +328,7 @@ read confirmation
 ---
 
 **維護建議**：
-- 定期檢查 `launchctl list com.logseq.sync` 確保服務運行
+- 定期檢查 `launchctl list com.logseq.sync.v2` 確保服務運行
 - 偶爾查看 `sync.log` 了解同步狀態
 - 系統更新後驗證服務是否正常啟動
 
@@ -342,7 +342,7 @@ read confirmation
 - 同步腳本：REPO_DIR/logseq_sync_optimized.sh（已含：fswatch 監聽、本地/遠端雙觸發、去抖動、互斥鎖、過期鎖自清、日誌分離）
 - 日誌：REPO_DIR/.logs/sync.log（不觸發監聽）
 - 鎖與戳：REPO_DIR/.sync_run.lockdir、REPO_DIR/.last_sync、REPO_DIR/.sync_debounce（.sync_debounce 已被忽略）
-- 啟動項：~/Library/LaunchAgents/com.logseq.sync.plist（唯一入口）
+- 啟動項：~/Library/LaunchAgents/com.logseq.sync.v2.plist（唯一入口）
 - .gitignore（關鍵規則已加入）：.logs/、.sync_debounce、assets/*.mp4、assets/*.mov、assets/*.zip
 
 ### 1) 必備依賴
@@ -350,7 +350,7 @@ read confirmation
   - brew install fswatch
   - which fswatch → 確保在 /usr/local/bin 或 /opt/homebrew/bin
 
-### 2) 正確的 LaunchAgent（~/Library/LaunchAgents/com.logseq.sync.plist）
+### 2) 正確的 LaunchAgent（~/Library/LaunchAgents/com.logseq.sync.v2.plist）
 複製以下內容（若使用非 mac 帳戶或路徑，請對應修改）
 
 ```xml
@@ -359,7 +359,7 @@ read confirmation
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.logseq.sync</string>
+  <string>com.logseq.sync.v2</string>
 
   <key>ProgramArguments</key>
   <array>
@@ -399,14 +399,14 @@ read confirmation
 
 啟用方式（擇一，建議使用 load -w 單一路徑）：
 - 單一路徑（推薦）：
-  - chmod 644 ~/Library/LaunchAgents/com.logseq.sync.plist
-  - launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist 2>/dev/null
-  - launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
-  - launchctl list | grep com.logseq.sync
+  - chmod 644 ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+  - launchctl unload ~/Library/LaunchAgents/com.logseq.sync.v2.plist 2>/dev/null
+  - launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+  - launchctl list | grep com.logseq.sync.v2
 - 另一種（不與上法混用）：
-  - launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.logseq.sync.plist
-  - launchctl enable gui/$(id -u)/com.logseq.sync
-  - launchctl kickstart -k gui/$(id -u)/com.logseq.sync
+  - launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+  - launchctl enable gui/$(id -u)/com.logseq.sync.v2
+  - launchctl kickstart -k gui/$(id -u)/com.logseq.sync.v2
 
 ### 3) 腳本中的關鍵點（logseq_sync_optimized.sh）
 - 自動偵測分支（可由 LOGSEQ_SYNC_BRANCH 覆蓋）
@@ -469,9 +469,9 @@ chmod +x .git/hooks/pre-commit
 pkill -f logseq_sync_optimized.sh || true
 cd ~/Documents/Sync-Logseq
 rm -rf .sync_run.lockdir .sync_lock .git/index.lock .sync_debounce
-launchctl unload ~/Library/LaunchAgents/com.logseq.sync.plist
-launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
-launchctl list | grep com.logseq.sync
+launchctl unload ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+launchctl list | grep com.logseq.sync.v2
 ps aux | grep -E 'logseq_sync_optimized.sh|fswatch' | grep -v grep
 ```
 
@@ -493,9 +493,9 @@ tail -n 100 ~/Documents/Sync-Logseq/.logs/sync.log
 2. 將倉庫放到 /Users/mac/Documents/Sync-Logseq
 3. 確認 .gitignore 已含：.logs/、.sync_debounce、assets/*.mp4、assets/*.mov、assets/*.zip
 4. 放置 logseq_sync_optimized.sh 並設為可執行：chmod 755
-5. 放置 com.logseq.sync.plist（如上）並：chmod 644
-6. 啟用：launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.plist
-7. 驗證：launchctl list | grep com.logseq.sync；tail -n 100 ~/.logs/sync.log
+5. 放置 com.logseq.sync.v2.plist（如上）並：chmod 644
+6. 啟用：launchctl load -w ~/Library/LaunchAgents/com.logseq.sync.v2.plist
+7. 驗證：launchctl list | grep com.logseq.sync.v2；tail -n 100 ~/.logs/sync.log
 8. 在 GitHub 上做一次小提交，60 秒內應看到本地拉取與推送
 
 > 小貼士：可透過 LOGSEQ_SYNC_BRANCH 選擇同步分支；LOGSEQ_PULL_INTERVAL 調整輪詢秒數；LOGSEQ_DEBOUNCE_GAP 調整本地事件聚合時間。
