@@ -29,6 +29,20 @@
 
 > 手機腳本內必須用實體絕對路徑，勿用 `~/storage/shared` 軟連結寫法。
 
+### 1.1 排障索引（症狀 → 對接章節）
+| 看到的症狀 | 對接章節 | 首要動作 |
+|---|---|---|
+| 錄音/大檔 push 被 GitHub 拒絕（>100MB） | 第 4 節 | 確認 `.gitattributes` 已登記副檔名並提交 |
+| 新端 clone 後錄音打不開、檔案是指標 | 第 4 節 | `git lfs install` → `git lfs pull origin main` |
+| 錄音已進 assets，但沒寫進今日日記 | 第 3.4、5 節 | 查腳本路徑/副檔名/忽略清單/`.md` 去重 |
+| 日記出現 `<<<<<<<` 衝突標記、同步每輪即停 | 第 6.2、6.3 節 | 清標記 → `git add` → 合併提交 → 推送 |
+| 想確認兩端是否對齊 | 第 6.1 節 | `git fetch` + 對齊計數應為 `0 0` |
+| 提示 `post-merge` hook was ignored | 第 4 節備註 | `chmod +x .git/hooks/post-merge` |
+| Mac 同步服務沒在跑 | 第 2.3 節 | 檢查 plist 載入、腳本權限、fswatch |
+| Notion 鏡像沒更新 | 第 10 節 | 查 Actions 日誌與兩個 Secrets |
+| 新機重建雙端 | 第 8 節 | 按 Mac / 手機步驟部署 |
+| 準備執行刪除或危險操作 | 第 9 節 | 先讀安全底線，確認路徑與備份 |
+
 ## 2. Mac 端配置
 
 ### 2.1 LaunchAgent plist
