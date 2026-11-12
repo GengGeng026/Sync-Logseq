@@ -99,10 +99,13 @@ tail -n 100 /Users/mac/Documents/Sync-Logseq/.logs/sync.log
 ## 3. 手機端鏈路（Termux + Tasker + FolderSync）
 
 ### 3.1 腳本目錄
-`/data/data/com.termux/files/home/.termux/tasker/`
-- `sync.sh`：Git 同步
-- `auto_log_oneshot.sh`：錄音歸檔進日記
-- `.auto_log_ignore`：忽略清單（每行一個檔名，`#` 註解）
+- **運行原件**（手機 Termux 本地）：`/data/data/com.termux/files/home/.termux/tasker/`
+  - `sync.sh`：Git 同步
+  - `auto_log_oneshot.sh`：錄音歸檔進日記
+  - `.auto_log_ignore`：忽略清單（每行一個檔名，`#` 註解）
+- **倉庫備份副本**：`scripts/android/`（隨倉庫入庫，重建時從這裡取回；修改手機原件後需同步副本並提交）。
+
+> 手機端無獨立日誌文件：同步失敗看 Tasker 失敗通知；排查時在手機 Termux 手動跑 `sync.sh`，直接看終端輸出。
 
 ### 3.2 Tasker Profiles
 | Profile | 觸發 | 任務 |
