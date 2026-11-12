@@ -21,6 +21,7 @@ backup_old_scripts/
 *.backup
 *.tmp
 *.bak
+*.bak-*
 
 # 腳本生成的臨時文件
 *.sh.tmp

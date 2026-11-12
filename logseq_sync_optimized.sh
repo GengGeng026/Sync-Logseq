@@ -172,20 +172,26 @@ sync_repo() {
 
     log "🧭 本地 HEAD: ${local_head:0:12}, 遠端 HEAD: ${remote_head:0:12}"
 
-    # 只有當遠端有更新時才執行 pull
+    # 只有當遠端有更新時才執行合併（普通 merge；不 rebase、不硬重置覆蓋本地）
     if [ -n "$remote_head" ] && [ "$local_head" != "$remote_head" ]; then
-        # 使用 rebase 策略並帶重試機制
-        if retry_with_cleanup "timeout '$GIT_TIMEOUT' git pull origin '$BRANCH' --rebase --autostash"; then
-            log "📥 成功拉取遠端更新"
+        if retry_with_cleanup "timeout '$GIT_TIMEOUT' git merge --no-edit 'origin/$BRANCH'"; then
+            log "📥 已合併遠端更新"
+            # 合併成功後拉取 LFS 物件
+            retry_with_cleanup "timeout '$GIT_TIMEOUT' git lfs pull origin '$BRANCH'" || log "⚠️ LFS pull 失敗，保留本地狀態"
         else
-            log "⚠️ 拉取失敗或超時，執行 hard reset 到 origin/$BRANCH"
-            cleanup_stale_rebase  # 先 abort 卡住的 rebase，避免狀態目錄殘留
-            cleanup_git_lock  # 確保 reset 前沒有 lock
-            retry_with_cleanup "timeout '$GIT_TIMEOUT' git fetch --all"
-            retry_with_cleanup "timeout '$GIT_TIMEOUT' git reset --hard 'origin/$BRANCH'"
+            # 拉取/合併失敗：保留本地工作區不動，等待人工處理，不執行 reset --hard
+            log "⚠️ 拉取或合併失敗，保留本地工作區不動，等待人工處理"
+            cleanup_stale_rebase
         fi
     else
         log "✅ 本地已是最新，無需拉取"
+    fi
+
+    # 存在未解決衝突時，本次不進入自動提交，等待人工處理
+    if git diff --name-only --diff-filter=U | grep -q .; then
+        log "⛔ 存在未解決衝突，跳過本次自動提交，等待人工處理"
+        touch "$LAST_SYNC_TS"
+        return 0
     fi
 
     # 使用重試機制執行 add
@@ -203,10 +209,12 @@ sync_repo() {
     if ! git diff --cached --quiet; then
         if retry_with_cleanup "git commit -m 'Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')'"; then
             log "📝 本地變更已提交"
+            # 先傳 LFS 物件，再傳提交（不強制推送）
+            retry_with_cleanup "timeout '$GIT_TIMEOUT' git lfs push origin '$BRANCH'" || log "⚠️ LFS push 失敗"
             if retry_with_cleanup "timeout '$GIT_TIMEOUT' git push origin '$BRANCH'"; then
                 log "📤 成功推送至遠端"
             else
-                log "⚠️ 推送失敗或超時"
+                log "⚠️ 推送失敗或超時（不強制推送）"
             fi
         fi
     else
