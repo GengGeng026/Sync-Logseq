@@ -499,3 +499,148 @@ tail -n 100 ~/Documents/Sync-Logseq/.logs/sync.log
 8. 在 GitHub 上做一次小提交，60 秒內應看到本地拉取與推送
 
 > 小貼士：可透過 LOGSEQ_SYNC_BRANCH 選擇同步分支；LOGSEQ_PULL_INTERVAL 調整輪詢秒數；LOGSEQ_DEBOUNCE_GAP 調整本地事件聚合時間。
+---
+
+## 附錄E：Git LFS 錄音接管（2026-11-13 落地）
+
+### 背景與症狀
+- 手機端錄音（m4a/aac/mp3/opus/ogg）體積大，普通 Git 追蹤後推送被 GitHub 100MB 限制擋下，自動提交無法上遠端。
+- 只在手機端跑 `git lfs install` 不能解決問題：它只初始化本地過濾器，不會把規則寫進倉庫；新端 clone 後仍不知道哪些檔案要走 LFS。
+
+### 根因與解法
+- 規則必須寫進倉庫根目錄 `.gitattributes` 並提交，所有端共用：
+
+```gitattributes
+*.m4a filter=lfs diff=lfs merge=lfs -text
+*.aac filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.opus filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+```
+
+- 歷史已被普通 Git 追蹤的錄音，在**不改寫歷史、不強制推送**前提下，於索引層轉為 LFS 指標（工作區實體檔案大小不變）：
+
+```bash
+cd <倉庫目錄>
+git add --renormalize '*.mp3'
+git commit -m "chore: LFS 接管 mp3，補 opus/ogg 規則"
+git lfs push origin main
+git push origin main
+```
+
+- 新端克隆後補齊 LFS 物件：
+
+```bash
+git lfs install
+git lfs pull origin main
+```
+
+### 核對命令
+```bash
+git lfs ls-files | wc -l                 # LFS 追蹤檔案數
+git lfs ls-files | grep -i test          # 查特定錄音是否在 LFS
+# LFS 指標檔應含三行：version https://git-lfs... / oid sha256:... / size ...
+```
+
+### 注意
+- `.gitattributes` 必須隨倉庫提交；只在本地 track 不提交，clone 後規則會丟失。
+- 舊歷史裡已進普通 Git 的大檔，renormalize 只改索引與之後的提交，不回溯改寫舊提交。
+
+---
+
+## 附錄F：手機端（Android Termux + Tasker + FolderSync）鏈路
+
+### 路徑（實體絕對路徑，腳本內勿用 `~/storage` 軟連結寫法）
+- 倉庫：`/data/data/com.termux/files/home/storage/shared/Documents/Sync-Logseq`
+- Tasker 腳本目錄：`/data/data/com.termux/files/home/.termux/tasker/`
+- 遠端（手機 HTTPS）：`https://github.com/GengGeng026/Sync-Logseq.git`
+- 遠端（Mac SSH）：`git@github.com:GengGeng026/Sync-Logseq.git`
+
+### 自動鏈路
+錄音 APP → FolderSync 複製到 `assets/` → assets 變動觸發 `auto_log_oneshot.sh`（聚合新錄音寫入今日日記）→ journals 變動觸發 `sync.sh`（提交推送）。
+
+### Tasker Profiles
+| Profile | 觸發 | 任務 |
+|---|---|---|
+| AutoPull/Push Github when Open/Close Logs.. | 打開 / 離開 Logseq | Git Sync → `sync.sh` |
+| /journals modified | journals 目錄 Modify | Git Sync → `sync.sh` |
+| Auto-Pull Github every 15 min | 每 15 分鐘定時 | Git Sync → `sync.sh` |
+| /assets modified → VoiceSync | assets 目錄 Modify | `auto_log_oneshot.sh` |
+
+FolderSync 任務 `SD CARD: Voice Recorder > assets`：來源 SD 卡錄音目錄，目的地倉庫 `assets/`。
+
+### 手機 Git 同步腳本 `sync.sh` 流程
+1. `git fetch origin main`
+2. 查未解衝突（`diff-filter=U`）：有則即停退出，不自動 add/commit
+3. `git add .`；無暫存改動則跳過提交
+4. `git merge --no-edit origin/main`（普通合併，不 rebase、不硬重置）
+5. `git lfs pull origin main`
+6. 再查衝突：有則跳過提交與推送
+7. `git lfs push` → `git push origin main`
+
+原則：普通合併、衝突即停、無改動不提交、LFS 先拉後推、不強制推送、不硬重置。
+
+### 錄音歸檔腳本 `auto_log_oneshot.sh`
+- 只取當天 mtime 的副檔名：m4a / aac / mp3 / opus / ogg。
+- 先比對忽略清單 `~/.termux/tasker/.auto_log_ignore`（每行一個檔名，`#` 註解），命中跳過。
+- 再全歷史 `journals/*.md` 去重（只比對 `.md`，不讀 `.bak` 備份）。
+- 寫入今日日記：空行分隔 → `- HH:MM [[quick capture]]: #voice-memo` 父節點 → 每檔 `  - **純名**` 與 `    - ![檔名](../assets/檔名)`。
+
+### 手機端核對命令
+```bash
+cd /data/data/com.termux/files/home/storage/shared/Documents/Sync-Logseq
+git status -sb
+git rev-list --left-right --count main...origin/main   # 0 0 即對齊
+git lfs ls-files | wc -l
+```
+
+---
+
+## 附錄G：2026-11-13 故障時間線與排查記錄
+
+1. **大錄音推不上遠端**：超過 GitHub 100MB 限制；手機端單獨 `git lfs install` 無效。根因是 `.gitattributes` 未登記錄音副檔名。補齊 m4a/aac/mp3/opus/ogg LFS 規則，舊 mp3 用 renormalize 轉 LFS，不改寫歷史、不強推。
+2. **錄音不再自動寫日記**：
+   - 腳本倉庫路徑指向已不存在的舊目錄 `~/Documents/logseq-termux`；改為實體絕對路徑。
+   - 舊腳本只抓 m4a；補上 aac/mp3/opus/ogg。
+   - 去重被日記 `.bak-*` 備份干擾（grep 把備份也算「已有條目」）；改為只比對 `*.md`。
+   - 補回 `SAVEIFS=$IFS` 保存/還原分隔符。
+3. **歷史存量音頻被誤補進今日日記**：6 個當天 mtime、歷史日記無全名的舊錄音，被當成新待寫條目。已從今日日記移除；檔名寫入 `.auto_log_ignore` 永久跳過。檔案仍在 assets/LFS、日記無條目，是否補回歷史日期由人工決定，腳本不自動補寫。
+4. **雙端同日改同一日記 → 合併衝突**：處理流程見附錄 H。
+
+---
+
+## 附錄H：雙端對齊核對與衝突處理流程
+
+### 對齊核對（兩端各跑一次）
+```bash
+cd <倉庫目錄>
+git fetch origin main
+git status -sb
+git rev-list --left-right --count main...origin/main   # 左=本地領先 右=遠端領先；0 0 即對齊
+git --no-pager log --oneline -5
+git lfs ls-files | wc -l
+```
+
+### 出現 `both modified` / 未解衝突時
+1. 先看衝突段：`grep -n '<<<<<<<\|=======\|>>>>>>>' journals/日期.md`
+2. 在編輯器裡保留兩邊應留的內容，刪除 `<<<<<<<` / `=======` / `>>>>>>>` 標記。
+3. 標記為已解決（關鍵步驟，腳本不會代做）：
+   ```bash
+   git add journals/日期.md
+   ```
+4. 確認暫存只有該檔：`git --no-pager diff --cached --stat`
+5. 完成合併提交：`git commit --no-edit`
+6. 推 LFS 與普通提交：
+   ```bash
+   git lfs push origin main
+   git push origin main
+   ```
+7. 另一端 fetch 後對齊；必要時 `git lfs pull origin main` 補齊錄音物件。
+
+### 為什麼解完衝突不會立刻自動提交
+`sync.sh` 第一步先查 U 狀態，且檢查在 `git add` 之前；只要沒 `git add`，git 索引仍算未解衝突，每輪觸發都會即停。手動 add 不會再產生日記變更事件，Tasker 不會因此重跑；需等下一次定時/開關 App 觸發，或手動跑一次 `sync.sh`。
+
+### 安全底線
+- 不強制推送（不用 `git push --force`）覆蓋遠端歷史。
+- 未完整備份前不刪本地檔案。
+- 衝突期間不自動 add 衝突檔，避免把未核對內容提交進去。
