@@ -15,6 +15,7 @@ DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (�
 MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
 GIT_TIMEOUT="${LOGSEQ_GIT_TIMEOUT:-30}"         # Git 操作超時時間 (秒)
 MAX_LOCK_AGE="${LOGSEQ_MAX_LOCK_AGE:-120}"      # Git index.lock 最大存活時間 (秒)
+QUIET_GAP="${LOGSEQ_QUIET_GAP:-15}"             # 本機改動靜置多久後才提交 (秒)，避免編輯中途被搶提交
 
 # --- 初始化 ---
 mkdir -p "$LOG_DIR"
@@ -121,6 +122,30 @@ list_large_files() {
         size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f" 2>/dev/null)
         [ "${size:-0}" -gt "$MAX_FILE_SIZE" ] && printf '%s\0' "$f"
     done
+}
+
+# 衝突檢查：標記已被清空的文件自動暫存；仍含衝突標記則返回 1，要求暫停
+# 用戶只需在編輯器裡刪掉衝突標記並保存，無需手動 git add
+stage_resolved_conflicts() {
+    local conflict_files f remaining
+    conflict_files=$(git diff --name-only --diff-filter=U)
+    [ -z "$conflict_files" ] && return 0
+
+    remaining=""
+    for f in $conflict_files; do
+        if [ -f "$f" ] && grep -qE '^(<{7}|>{7})[[:space:]]' "$f"; then
+            remaining="$remaining $f"
+        else
+            git add -- "$f" 2>/dev/null && log "✅ 衝突標記已清除，自動暫存: $f"
+        fi
+    done
+
+    if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
+        log "⛔ 仍有未解決衝突:${remaining}，暫停自動同步，等待手動修復"
+        return 1
+    fi
+    log "✅ 衝突已全部解決"
+    return 0
 }
 
 # 核心同步函數
