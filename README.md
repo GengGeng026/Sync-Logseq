@@ -131,14 +131,14 @@ tail -n 100 /Users/mac/Documents/Sync-Logseq/.logs/sync.log
 
 ### 3.3 sync.sh 流程
 1. `git fetch origin main`
-2. 查未解衝突（`diff-filter=U`）：有則即停退出，不自動 add/commit
+2. 衝突接管（`stage_resolved_conflicts`）：標記已清空的文件自動 `git add`；仍含 `<<<<<<<`/`>>>>>>>` 標記則暫停退出，不自動 add/commit
 3. `git add .`；無暫存改動則跳過提交
 4. `git merge --no-edit origin/main`（普通合併，不 rebase、不硬重置）
 5. `git lfs pull origin main`
-6. 再查衝突：有則跳過提交與推送
+6. 再次衝突接管：已清空則自動暫存，仍有標記則跳過提交與推送
 7. `git lfs push` → `git push origin main`
 
-原則：普通合併、衝突即停、無改動不提交、LFS 先拉後推、不強制推送、不硬重置。
+原則：普通合併、標記清空後自動暫存、未解則暫停、無改動不提交、LFS 先拉後推、不強制推送、不硬重置。
 
 ### 3.4 auto_log_oneshot.sh 歸檔規則
 - 只取當天 mtime 的副檔名：m4a / aac / mp3 / opus / ogg。
@@ -230,7 +230,7 @@ git lfs ls-files | wc -l
 - 舊版：衝突檢查在 `git add` 之前，沒手動 `git add` 就一直算未解，每輪即停。
 - 新版 Mac 腳本：`stage_resolved_conflicts()` 逐檔檢查標記是否還在；標記已清空就自動 `git add`，全部清空後過 `QUIET_GAP` 靜置緩衝才提交。用戶只需在編輯器改完存檔，不用手敲 add/commit/push。
 - 仍含標記的文件留在未解狀態，本輪暫停自動寫操作，等繼續編輯。
-- 手機 `sync.sh` 維持保守邏輯：查 U 狀態有衝突即停退出，不自動 add/commit。
+- 手機 `sync.sh` 同樣內建 `stage_resolved_conflicts()`：標記清空自動暫存、未解則暫停；差異是手機為一次性腳本，沒有 Mac 那 15 秒靜置緩衝。
 
 ### 6.4 網絡與 DNS 瞬時故障（外部環境，非倉庫損壞）
 **判讀**：報錯形如 `Could not resolve host: github.com`、`Failed to connect`、fetch 超時。這是手機當下 DNS 解析或網絡連通問題，腳本邏輯、倉庫檔案、路徑均完好。GitHub 站點是否在線，可用另一台設備或雲主機對照 `curl` 判斷。
