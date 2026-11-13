@@ -127,18 +127,15 @@ list_large_files() {
 # 衝突檢查：標記已被清空的文件自動暫存；仍含衝突標記則返回 1，要求暫停
 # 用戶只需在編輯器裡刪掉衝突標記並保存，無需手動 git add
 stage_resolved_conflicts() {
-    local conflict_files f remaining
-    conflict_files=$(git diff --name-only --diff-filter=U)
-    [ -z "$conflict_files" ] && return 0
-
+    local f remaining
     remaining=""
-    for f in $conflict_files; do
+    while IFS= read -r -d '' f; do
         if [ -f "$f" ] && grep -qE '^(<{7}|>{7})[[:space:]]' "$f"; then
             remaining="$remaining $f"
         else
             git add -- "$f" 2>/dev/null && log "✅ 衝突標記已清除，自動暫存: $f"
         fi
-    done
+    done < <(git diff --name-only --diff-filter=U -z)
 
     if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
         log "⛔ 仍有未解決衝突:${remaining}，暫停自動同步，等待手動修復"
