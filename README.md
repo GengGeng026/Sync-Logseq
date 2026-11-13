@@ -217,6 +217,25 @@ git lfs ls-files | wc -l
 ### 6.3 為什麼解完衝突不會立刻自動提交
 `sync.sh` 先查 U 狀態，且檢查在 `git add` 之前；沒 `git add` 就仍算未解衝突，每輪觸發都即停。手動 add 不會再產生日記變更事件，Tasker 不會因此重跑；需等下一次定時/開關 App 觸發，或手動跑一次 `sync.sh`。
 
+### 6.4 網絡與 DNS 瞬時故障（外部環境，非倉庫損壞）
+**判讀**：報錯形如 `Could not resolve host: github.com`、`Failed to connect`、fetch 超時。這是手機當下 DNS 解析或網絡連通問題，腳本邏輯、倉庫檔案、路徑均完好。GitHub 站點是否在線，可用另一台設備或雲主機對照 `curl` 判斷。
+
+**先測連通**（Termux 未裝 dnsutils，不用 `nslookup`）：
+```bash
+curl -sS -m 10 https://github.com -o /dev/null -w "HTTP %{http_code}, IP %{remote_ip}\n"
+```
+- 返回 `HTTP 200/301/302` + 真實 IP：DNS 與網絡已恢復。
+- 仍報 `Could not resolve host`：DNS 未通，切 Wi-Fi/移動數據後重試。
+- 卡住到超時：網絡被掐，檢查手機網絡/VPN/信號。
+
+**處理**：網絡恢復後跑 `bash ~/.termux/tasker/sync.sh` 補推；本地積壓改動會在該輪 fetch→merge→push 自動補齊。
+
+**數據安全**：錄音歸檔先在本地倉庫提交、音頻進本地 LFS 緩存，推送只是最後一步；推送失敗不丟素材，下一輪定時任務（或手動跑腳本）在網絡恢復後自動補推。
+
+**易混區分**：
+- Termux 軟件鏡像報 `429 Too Many Requests`、`pkg install` 失敗、倉庫 not signed：這是軟件源限流/校驗問題，**與 GitHub 同步鏈路無關**；需要裝工具時用 `termux-change-repo` 換鏡像。
+- `nslookup` 屬於 dnsutils，未安裝時用上面的 `curl` 測試，不必為此強行裝包。
+
 ## 7. 大型檔案與忽略規則（不改歷史）
 
 `.gitignore` 關鍵規則：
