@@ -37,6 +37,7 @@
 | 錄音已進 assets，但沒寫進今日日記 | 第 3.4、5 節 | 查腳本路徑/副檔名/忽略清單/`.md` 去重 |
 | 日記出現 `<<<<<<<` 衝突標記、同步每輪即停 | 第 6.2、6.3 節 | 清標記 → `git add` → 合併提交 → 推送 |
 | 想確認兩端是否對齊 | 第 6.1 節 | `git fetch` + 對齊計數應為 `0 0` |
+| `Could not resolve host: github.com` / fetch 超時 / 連不上 | 第 6.4 節 | `curl` 測連通；切網絡或稍後重試，恢復後跑 sync.sh 補推 |
 | 提示 `post-merge` hook was ignored | 第 4 節備註 | `chmod +x .git/hooks/post-merge` |
 | Mac 同步服務沒在跑 | 第 2.3 節 | 檢查 plist 載入、腳本權限、fswatch |
 | Notion 鏡像沒更新 | 第 10 節 | 查 Actions 日誌與兩個 Secrets |
