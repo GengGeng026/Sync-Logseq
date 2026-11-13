@@ -37,6 +37,7 @@
 | 錄音已進 assets，但沒寫進今日日記 | 第 3.4、5 節 | 查腳本路徑/副檔名/忽略清單/`.md` 去重 |
 | 日記出現 `<<<<<<<` 衝突標記、同步每輪即停 | 第 6.2、6.3 節 | 清標記存檔，等腳本自動接管；兜底再手動 add |
 | 解完衝突很快被「遠端反彈」覆蓋、push 被 non-fast-forward 拒、本地與遠端分叉 | 第 6.5、6.2 節 | 停手不要 force；先看對齊計數，普通合併後推送 |
+| push 報 `cannot lock ref ... is at <新> but expected <舊>` | 第 6.5 節 | 基線過期，重跑同步腳本即可，不需 force |
 | 想確認兩端是否對齊 | 第 6.1 節 | `git fetch` + 對齊計數應為 `0 0` |
 | `Could not resolve host: github.com` / fetch 超時 / 連不上 | 第 6.4 節 | `curl` 測連通；切網絡或稍後重試，恢復後跑 sync.sh 補推 |
 | 提示 `post-merge` hook was ignored | 第 4 節備註 | `chmod +x .git/hooks/post-merge` |
@@ -269,6 +270,11 @@ curl -sS -m 10 https://github.com -o /dev/null -w "HTTP %{http_code}, IP %{remot
 - 衝突未解期間，腳本凍結自動 Git 寫操作；只在編輯器裡改，標記清空後由腳本自動接管收尾。
 - 不要在分叉未理清時反覆手動 push；先 `git fetch` 看對齊計數（6.1），確認本地基線。
 - 若日誌反覆出現 `index.lock` 或 `local changes would be overwritten`，先停掉重試、保留工作區，按 6.2 處理，不要靠 force push 解圍。
+
+**另一種 push 被拒：基線過期（非分叉、非衝突）**
+- 報錯形如 `cannot lock ref 'refs/heads/main': is at <新tip> but expected <舊tip>`。本端 fetch 之後、push 之前，另一端又推了新提交，遠端 tip 前進，本地拿舊基線去推被拒。
+- 處理：重跑一次同步腳本（`fetch` → 合併最新遠端 → 普通 push）即可；這不是內容衝突，不需要 force。
+- 與 non-fast-forward 分叉的區別：後者本地有基於舊歷史的獨立提交，需先合併；前者只是基線快照過期，重跑同步自動追上。
 
 ## 7. 大型檔案與忽略規則（不改歷史）
 
