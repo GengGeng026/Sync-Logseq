@@ -82,8 +82,10 @@
 ```
 
 ### 2.2 腳本關鍵點（logseq_sync_optimized.sh）
-- 參數（可被 plist 環境變數覆蓋）：`PULL_INTERVAL` 預設 15（plist 設 60）、`DEBOUNCE_GAP=2`、`MAX_FILE_SIZE=100000000`（100MB）、`GIT_TIMEOUT=30`、`MAX_LOCK_AGE=120`。
-- 流程：清理 rebase 殘留 → `git fetch` → 遠端有更新才 `merge --no-edit`（普通合併，不 rebase、不硬重置）→ `lfs pull` → 查未解衝突即停 → `add -A`（>100MB 移出索引）→ 有暫存改動才 commit（訊息 `Auto-sync: 日期`）→ `lfs push` → `git push`。
+- 參數（可被 plist 環境變數覆蓋）：`PULL_INTERVAL` 預設 15（plist 設 60）、`DEBOUNCE_GAP=2`、`MAX_FILE_SIZE=100000000`（100MB）、`GIT_TIMEOUT=30`、`MAX_LOCK_AGE=120`、`QUIET_GAP` 預設 15（env `LOGSEQ_QUIET_GAP` 覆蓋，編輯靜置秒數）。
+- 流程：清理 rebase 殘留 → `git checkout` → `git fetch` → **預檢衝突** → 遠端有更新才 `merge --no-edit`（普通合併，不 rebase、不硬重置）→ **merge 失敗即中斷**（不帶傷進入提交）→ merge 後複查衝突 → **編輯靜置緩衝** → `add -A`（>100MB 移出索引）→ 有暫存改動才 commit（訊息 `Auto-sync: 日期`）→ `lfs push` → `git push`（普通推送，不 force）。
+- 衝突處理：`stage_resolved_conflicts()` 在 fetch 後、merge 後各檢查一次；標記已清空的文件自動 `git add` 接管，仍含 `<<<<<<<` / `>>>>>>>` 標記則本輪暫停，不進入 add/commit。
+- 靜置緩衝：改動文件在 `QUIET_GAP` 秒內仍被修改，本輪先不提交，留待下一輪，避免編輯中途被搶提交。
 - 日誌：`.logs/sync.log`（自動修剪上限 1000 行）；stdout/stderr 進 `launchd_stdout.log` / `launchd_stderr.log`。
 
 ### 2.3 啟用與驗證
@@ -188,6 +190,7 @@ git lfs ls-files | grep -i test
    - 補回 `SAVEIFS=$IFS` 保存/還原分隔符。
 3. **歷史存量音頻被誤補進今日日記**：6 個當天 mtime、歷史日記無全名的舊錄音被當成新待寫條目。已從日記移除，檔名寫入 `.auto_log_ignore` 永久跳過。檔案仍在 assets/LFS、日記無條目；是否補回歷史日期由人工決定，腳本不自動補寫。
 4. **雙端同日改同一日記 → 合併衝突**：處理見第 6 節。
+5. **merge 失敗後未中斷，本地與遠端反覆分叉（2026-11-13 晚）**：舊版 Mac 腳本在 `git merge` 被 index.lock 連擋、或被 `local changes would be overwritten` 中止後，流程沒有 `return`，照常 `git add -A` 並連續提交；fswatch 監聽子進程與 60 秒輪詢並發觸發，搶同一倉庫產生鎖。本地提交基於舊基線，push 全部 non-fast-forward 被拒，分叉越積越多；手動解出的正確內容被後續自動提交與並發事件反覆覆蓋，最終只能 `git push --force` 頂掉遠端，把手機提交（含一條 141MB 錄音實體）擠出 main。根因與修復見第 6.5 節。
 
 ## 6. 雙端對齊核對與衝突處理
 
