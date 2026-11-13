@@ -276,6 +276,16 @@ curl -sS -m 10 https://github.com -o /dev/null -w "HTTP %{http_code}, IP %{remot
 - 處理：重跑一次同步腳本（`fetch` → 合併最新遠端 → 普通 push）即可；這不是內容衝突，不需要 force。
 - 與 non-fast-forward 分叉的區別：後者本地有基於舊歷史的獨立提交，需先合併；前者只是基線快照過期，重跑同步自動追上。
 
+### 6.6 腳本版本與變更記錄
+
+| 日期時間 | 提交 | 端 / 腳本 | 變更 |
+|---|---|---|---|
+| 2026-11-13 20:20 | `5cb0989d7` | Mac `logseq_sync_optimized.sh` | 衝突未解決時中斷自動提交；標記清空後 `stage_resolved_conflicts()` 自動暫存；提交前 15 秒靜置緩衝 |
+| 2026-11-13 21:05 | `72835499e` | 手機 `scripts/android/sync.sh` | 補上對稱的衝突自動接管：標記清空自動暫存、未解則暫停；差異為手機一次性腳本，無 Mac 的 15 秒靜置緩衝 |
+
+- 兩端共用同一套衝突判讀規則：`git diff --name-only --diff-filter=U -z` 列出未解文件，`grep -qE '^(<{7}|>{7})[[:space:]]'` 判斷標記是否還在。
+- 回溯某端當下行為時，先對照本表的提交時間與 hash，再 `git show <hash>` 查看腳本差異。
+
 ## 7. 大型檔案與忽略規則（不改歷史）
 
 `.gitignore` 關鍵規則：
