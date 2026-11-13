@@ -15,6 +15,7 @@ DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (�
 MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
 GIT_TIMEOUT="${LOGSEQ_GIT_TIMEOUT:-30}"         # Git 操作超時時間 (秒)
 MAX_LOCK_AGE="${LOGSEQ_MAX_LOCK_AGE:-120}"      # Git index.lock 最大存活時間 (秒)
+QUIET_GAP="${LOGSEQ_QUIET_GAP:-15}"             # 本機改動靜置多久後才提交 (秒)，避免編輯中途被搶提交
 
 # --- 初始化 ---
 mkdir -p "$LOG_DIR"
@@ -123,6 +124,27 @@ list_large_files() {
     done
 }
 
+# 衝突檢查：標記已被清空的文件自動暫存；仍含衝突標記則返回 1，要求暫停
+# 用戶只需在編輯器裡刪掉衝突標記並保存，無需手動 git add
+stage_resolved_conflicts() {
+    local f remaining
+    remaining=""
+    while IFS= read -r -d '' f; do
+        if [ -f "$f" ] && grep -qE '^(<{7}|>{7})[[:space:]]' "$f"; then
+            remaining="$remaining $f"
+        else
+            git add -- "$f" 2>/dev/null && log "✅ 衝突標記已清除，自動暫存: $f"
+        fi
+    done < <(git diff --name-only --diff-filter=U -z)
+
+    if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
+        log "⛔ 仍有未解決衝突:${remaining}，暫停自動同步，等待手動修復"
+        return 1
+    fi
+    log "✅ 衝突已全部解決"
+    return 0
+}
+
 # 核心同步函數
 sync_repo() {
     # 使用目錄作為互斥鎖，防止多個同步任務同時執行
@@ -160,10 +182,16 @@ sync_repo() {
         cleanup_git_lock  # 再次确保没有锁
         git checkout -B "$BRANCH" >> "$LOG_FILE" 2>&1
     fi
-    
+
     # Fetch with retry
     if ! retry_with_cleanup "timeout '$GIT_TIMEOUT' git fetch origin"; then
         log "⚠️ Fetch 超時或失敗"
+    fi
+
+    # 预检：若已處於衝突態，先看標記是否已被用戶清空；未解決則本輪直接暫停，不 merge、不提交
+    if ! stage_resolved_conflicts; then
+        touch "$LAST_SYNC_TS"
+        return 0
     fi
 
     local local_head remote_head
@@ -179,19 +207,33 @@ sync_repo() {
             # 合併成功後拉取 LFS 物件
             retry_with_cleanup "timeout '$GIT_TIMEOUT' git lfs pull origin '$BRANCH'" || log "⚠️ LFS pull 失敗，保留本地狀態"
         else
-            # 拉取/合併失敗：保留本地工作區不動，等待人工處理，不執行 reset --hard
-            log "⚠️ 拉取或合併失敗，保留本地工作區不動，等待人工處理"
+            # 拉取/合併失敗：保留本地工作區不動，中斷本輪自動提交（不 reset、不強推）
+            log "⚠️ 拉取或合併失敗，保留本地工作區不動，中斷本輪自動提交（不 reset、不強推）"
             cleanup_stale_rebase
+            touch "$LAST_SYNC_TS"
+            return 0
         fi
     else
         log "✅ 本地已是最新，無需拉取"
     fi
 
-    # 存在未解決衝突時，本次不進入自動提交，等待人工處理
-    if git diff --name-only --diff-filter=U | grep -q .; then
-        log "⛔ 存在未解決衝突，跳過本次自動提交，等待人工處理"
+    # merge 後再次確認衝突是否都已解決；未解決則暫停，不進入自動提交
+    if ! stage_resolved_conflicts; then
         touch "$LAST_SYNC_TS"
         return 0
+    fi
+
+    # 編輯靜置檢查：改動文件若最近 QUIET_GAP 秒內仍被修改，本輪先不提交，留待下一輪
+    local newest_mtime now quiet_age
+    newest_mtime=$(git ls-files -m -o --exclude-standard -z | xargs -0 stat -f %m 2>/dev/null | sort -n | tail -1)
+    if [ -n "$newest_mtime" ]; then
+        now=$(date +%s)
+        quiet_age=$((now - newest_mtime))
+        if [ "$quiet_age" -lt "$QUIET_GAP" ]; then
+            log "⏳ 檔案仍在編輯中 (${quiet_age}s < ${QUIET_GAP}s)，靜置後下一輪再提交"
+            touch "$LAST_SYNC_TS"
+            return 0
+        fi
     fi
 
     # 使用重試機制執行 add
