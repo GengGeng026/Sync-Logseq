@@ -175,7 +175,7 @@ git lfs ls-files | grep -i test
 > 不要直接 `cat` / 打開 `assets/` 裡的錄音二進制：控制字符會刷屏、弄亂終端標題。核對檔案用 `git lfs ls-files`、`ls -l assets/`，確認內容用 Logseq 播放。
 > renormalize 只改索引與之後的提交，不回溯改寫舊提交；`.gitattributes` 不提交的話，clone 後規則會丟失。
 >
-> 若 pull/merge 提示 `.git/hooks/post-merge` hook was ignored（未設可執行）：`chmod +x .git/hooks/post-merge`，其餘 lfs 鉤子一併補權限。此鉤子只負責 merge 後自動補 LFS 物件；同步腳本已顯式 `git lfs pull`，未補權限也不會缺物件。`.git/hooks/` 不隨倉庫同步，每端本地各自安裝。
+> 若提示某個 `.git/hooks/*` hook was ignored（未設可執行，post-commit / post-merge / pre-push 同類）：`chmod +x .git/hooks/post-checkout .git/hooks/post-commit .git/hooks/post-merge .git/hooks/pre-push 2>/dev/null`。這些鉤子多為 LFS 輔助；同步腳本已顯式 `git lfs pull` / `git lfs push`，未補權限也不會缺物件。`.git/hooks/` 不隨倉庫同步，每端本地各自安裝。
 
 ## 5. 2026-11-13 故障時間線
 
