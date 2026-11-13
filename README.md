@@ -35,7 +35,8 @@
 | 錄音/大檔 push 被 GitHub 拒絕（>100MB） | 第 4 節 | 確認 `.gitattributes` 已登記副檔名並提交 |
 | 新端 clone 後錄音打不開、檔案是指標 | 第 4 節 | `git lfs install` → `git lfs pull origin main` |
 | 錄音已進 assets，但沒寫進今日日記 | 第 3.4、5 節 | 查腳本路徑/副檔名/忽略清單/`.md` 去重 |
-| 日記出現 `<<<<<<<` 衝突標記、同步每輪即停 | 第 6.2、6.3 節 | 清標記 → `git add` → 合併提交 → 推送 |
+| 日記出現 `<<<<<<<` 衝突標記、同步每輪即停 | 第 6.2、6.3 節 | 清標記存檔，等腳本自動接管；兜底再手動 add |
+| 解完衝突很快被「遠端反彈」覆蓋、push 被 non-fast-forward 拒、本地與遠端分叉 | 第 6.5、6.2 節 | 停手不要 force；先看對齊計數，普通合併後推送 |
 | 想確認兩端是否對齊 | 第 6.1 節 | `git fetch` + 對齊計數應為 `0 0` |
 | `Could not resolve host: github.com` / fetch 超時 / 連不上 | 第 6.4 節 | `curl` 測連通；切網絡或稍後重試，恢復後跑 sync.sh 補推 |
 | 提示 `post-merge` hook was ignored | 第 4 節備註 | `chmod +x .git/hooks/post-merge` |
@@ -205,20 +206,30 @@ git lfs ls-files | wc -l
 ```
 
 ### 6.2 出現 `both modified` / 未解衝突時
+
+**預設方式（新 Mac 腳本，不用手敲 git）**
 1. 看衝突段：`grep -n '<<<<<<<\|=======\|>>>>>>>' journals/日期.md`
-2. 編輯器保留兩邊應留內容，刪除 `<<<<<<<` / `=======` / `>>>>>>>` 標記。
-3. 標記已解決（關鍵步驟，腳本不會代做）：`git add journals/日期.md`
-4. 確認暫存只有該檔：`git --no-pager diff --cached --stat`
-5. 完成合併提交：`git commit --no-edit`
-6. 推 LFS 與普通提交：
+2. 在 Logseq / 編輯器裡保留兩邊應留內容，刪除 `<<<<<<<` / `=======` / `>>>>>>>` 標記，存檔。
+3. 腳本下一輪偵測到標記已清空，會自動 `git add` 接管；過 `QUIET_GAP` 靜置緩衝後自動提交、推 LFS 與普通提交。接管期間不要重複編輯同一檔，避免靜置計時重新開始。
+4. 對齊核對見 6.1；另一端必要時 `git lfs pull origin main` 補齊錄音物件。
+
+**兜底：手動走 git（自動接管沒生效時）**
+1. 編輯器刪標記存檔後：`git add journals/日期.md`
+2. 確認暫存只有該檔：`git --no-pager diff --cached --stat`
+3. 完成合併提交：`git commit --no-edit`
+4. 先合併遠端再普通推送（不可跳過 pull 直接 push）：
    ```bash
+   git pull --no-edit origin main
    git lfs push origin main
    git push origin main
    ```
-7. 另一端 fetch 後對齊；必要時 `git lfs pull origin main` 補齊錄音物件。
+> 無論哪條路，都不使用 `git push --force`；force 會頂掉遠端已有提交，見第 9 節與 6.5 節。
 
-### 6.3 為什麼解完衝突不會立刻自動提交
-`sync.sh` 先查 U 狀態，且檢查在 `git add` 之前；沒 `git add` 就仍算未解衝突，每輪觸發都即停。手動 add 不會再產生日記變更事件，Tasker 不會因此重跑；需等下一次定時/開關 App 觸發，或手動跑一次 `sync.sh`。
+### 6.3 解完衝突後腳本怎麼接管
+- 舊版：衝突檢查在 `git add` 之前，沒手動 `git add` 就一直算未解，每輪即停。
+- 新版 Mac 腳本：`stage_resolved_conflicts()` 逐檔檢查標記是否還在；標記已清空就自動 `git add`，全部清空後過 `QUIET_GAP` 靜置緩衝才提交。用戶只需在編輯器改完存檔，不用手敲 add/commit/push。
+- 仍含標記的文件留在未解狀態，本輪暫停自動寫操作，等繼續編輯。
+- 手機 `sync.sh` 維持保守邏輯：查 U 狀態有衝突即停退出，不自動 add/commit。
 
 ### 6.4 網絡與 DNS 瞬時故障（外部環境，非倉庫損壞）
 **判讀**：報錯形如 `Could not resolve host: github.com`、`Failed to connect`、fetch 超時。這是手機當下 DNS 解析或網絡連通問題，腳本邏輯、倉庫檔案、路徑均完好。GitHub 站點是否在線，可用另一台設備或雲主機對照 `curl` 判斷。
@@ -238,6 +249,26 @@ curl -sS -m 10 https://github.com -o /dev/null -w "HTTP %{http_code}, IP %{remot
 **易混區分**：
 - Termux 軟件鏡像報 `429 Too Many Requests`、`pkg install` 失敗、倉庫 not signed：這是軟件源限流/校驗問題，**與 GitHub 同步鏈路無關**；需要裝工具時用 `termux-change-repo` 換鏡像。
 - `nslookup` 屬於 dnsutils，未安裝時用上面的 `curl` 測試，不必為此強行裝包。
+
+### 6.5 分叉事故根因、修復與預防（2026-11-13 晚）
+
+**現象**：雙端同日改同一日記，Mac 端出現衝突；手動刪標記保留正確內容後，改動很快被「遠端反彈」覆蓋，只能爭分奪秒 `git push --force` 才保住。
+
+**根因（不是遠端主動覆蓋本地，而是本地腳本把自己逼成分叉）**
+1. **merge 失敗後流程未中斷**：舊腳本 `git merge` 被 index.lock 連擋、或被 `local changes would be overwritten` 中止後，`else` 分支只記日誌、沒有 `return`，流程繼續往下 `git add -A` 並提交。這些提交基於舊基線，push 全部 non-fast-forward 被拒，本地與遠端越岔越遠。
+2. **衝突檢測覆蓋不全**：只認 `<<<<<<<` 標記與 U 狀態；merge 被「本地改動會被覆蓋」中止、尚未進入標記階段時，檢測不到而放行，繼續自動提交。
+3. **並發搶同一倉庫**：fswatch 監聽子進程與 60 秒輪詢同時觸發，反覆搶 index.lock；重試邏輯把非鎖錯誤也當鎖問題反覆重試，加劇分叉。
+
+**修復（已上線，提交 `5cb0989d7`）**
+- merge 失敗分支：記日誌、清 rebase 殘留、更新時間戳後 `return 0` 中斷本輪，**不再 add/commit**；工作區改動原樣保留。
+- `stage_resolved_conflicts()`：fetch 後、merge 後兩次檢查；標記已清空自動暫存接管，仍含標記則暫停所有自動寫操作。
+- `QUIET_GAP` 靜置緩衝：改動文件在緩衝窗內仍被修改，本輪先不提交，留待下一輪，避免編輯中途被搶提交。
+- 腳本全程無 `reset --hard`、無 `checkout --theirs`、無 `git clean`、無 force push。
+
+**預防要點**
+- 衝突未解期間，腳本凍結自動 Git 寫操作；只在編輯器裡改，標記清空後由腳本自動接管收尾。
+- 不要在分叉未理清時反覆手動 push；先 `git fetch` 看對齊計數（6.1），確認本地基線。
+- 若日誌反覆出現 `index.lock` 或 `local changes would be overwritten`，先停掉重試、保留工作區，按 6.2 處理，不要靠 force push 解圍。
 
 ## 7. 大型檔案與忽略規則（不改歷史）
 
@@ -291,7 +322,8 @@ git commit -m "chore: ignore large media and internal files"
 - `fix_webhook_data.py`：歷史一次性工具，日常同步不依賴。
 
 ## 9. 安全底線
-- 不強制推送（不用 `git push --force`）覆蓋遠端歷史。
+- **不強制推送：本倉庫不用 `git push --force`，也不用 `--force-with-lease`** 覆蓋遠端歷史。普通分叉先用 `git pull --no-edit` 合併遠端，再普通 push。
+- force push 的實際後果（本次事故已驗證）：頂掉遠端 tip 後，被跳過的提交及其引入的 LFS 實體引用一併丟失；實體可能在遠端 LFS 存儲保留一段時間，但其他端無法經 main 引用取回，只能從 dangling 提交、本地 LFS 緩存或原始錄製端找回。本次一條 141MB 錄音被擠出 main，事後靠指針 oid 從遠端 LFS 重新拉回，屬僥倖；對象被回收後即無法恢復。
 - 未完整備份前不刪本地檔案。
 - 衝突期間不自動 add 衝突檔，避免把未核對內容提交進去。
 - 執行任何刪除腳本前：路徑用絕對路徑、先搜 `rm -rf` 等危險命令、確認變數已正確展開、先在安全環境測試、刪除前二次確認目標路徑。
