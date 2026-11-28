@@ -14,7 +14,7 @@ PULL_INTERVAL="${LOGSEQ_PULL_INTERVAL:-15}"      # 定時輪詢間隔 (秒)
 DEBOUNCE_GAP="${LOGSEQ_DEBOUNCE_GAP:-2}"        # 檔案變更去抖動間隔 (秒)
 MAX_FILE_SIZE="${LOGSEQ_MAX_FILE_SIZE:-100000000}" # 忽略的大檔案閾值 (100MB)
 GIT_TIMEOUT="${LOGSEQ_GIT_TIMEOUT:-30}"         # Git 操作超時時間 (秒)
-MAX_LOCK_AGE="${LOGSEQ_MAX_LOCK_AGE:-120}"      # Git index.lock 最大存活時間 (秒)
+MAX_LOCK_AGE="${LOGSEQ_MAX_LOCK_AGE:-300}"      # Git index.lock 最大存活時間 (秒)
 QUIET_GAP="${LOGSEQ_QUIET_GAP:-15}"             # 本機改動靜置多久後才提交 (秒)，避免編輯中途被搶提交
 
 # --- 初始化 ---
@@ -37,16 +37,25 @@ manage_log_size() {
     fi
 }
 
-# 清理卡住的 Git index.lock
+# 偵測目前是否有 git / git-lfs 子進程正在運作（避免誤刪正在使用的 index.lock）
+git_busy() {
+    pgrep -f 'git[[:space:]]+(fetch|merge|pull|push|commit|rebase|lfs|add|checkout|status|diff|rev-parse|reset)' >/dev/null 2>&1
+}
+
+# 清理卡住的 Git index.lock（先確認無 git 進程在跑，再按年齡判斷是否過期）
 cleanup_git_lock() {
     if [ -f "$GIT_INDEX_LOCK" ]; then
+        if git_busy; then
+            log "⏳ Git 進程正在運作，index.lock 保留中，不清除"
+            return 1
+        fi
         local now lock_mtime lock_age
         now=$(date +%s)
         lock_mtime=$(stat -f %m "$GIT_INDEX_LOCK" 2>/dev/null || echo 0)
         lock_age=$((now - lock_mtime))
-        
+
         if [ "$lock_age" -gt "$MAX_LOCK_AGE" ]; then
-            log "🧹 偵測到過期的 Git index.lock (age=${lock_age}s)，自動清除"
+            log "🧹 偵測到過期的 Git index.lock (age=${lock_age}s，無 Git 進程)，自動清除"
             rm -f "$GIT_INDEX_LOCK"
             return 0
         else
@@ -66,36 +75,40 @@ cleanup_stale_rebase() {
     fi
 }
 
-# 智能重試機制
+# 智能重試機制：只把「本次指令」的輸出拿來判斷是否為 index.lock，避免被歷史日誌誤導
 retry_with_cleanup() {
     local cmd="$1"
     local max_retries=3
     local retry_count=0
-    
+    local out
+
     while [ $retry_count -lt $max_retries ]; do
-        if eval "$cmd" >> "$LOG_FILE" 2>&1; then
+        out=$(eval "$cmd" 2>&1)
+        echo "$out" >> "$LOG_FILE"
+        if [ $? -eq 0 ]; then
             return 0
         fi
-        
-        # 檢查是否是 index.lock 問題
-        if grep -q "index.lock" "$LOG_FILE" 2>/dev/null; then
+
+        # 只檢查本次輸出是否為 index.lock 問題
+        if echo "$out" | grep -q "index.lock"; then
             retry_count=$((retry_count + 1))
-            log "⚠️ 嘗試 $retry_count/$max_retries: Git 操作失敗，檢查 index.lock..."
-            
+            log "⚠️ 嘗試 $retry_count/$max_retries: Git 操作遇到 index.lock..."
+
             if cleanup_git_lock; then
                 log "🔄 已清理 index.lock，重試中..."
                 sleep 2
                 continue
             else
-                log "⏸️ index.lock 仍在使用中，等待 5 秒..."
+                log "⏳ index.lock 仍在使用中，等待 5 秒..."
                 sleep 5
             fi
         else
-            # 非 lock 相關錯誤，直接失敗
+            # 非 lock 相關錯誤（如本地改動擋住 merge、衝突），不重試清鎖
+            log "⚠️ Git 操作失敗（非鎖定問題），不重試清鎖"
             return 1
         fi
     done
-    
+
     log "❌ 重試 $max_retries 次後仍失敗"
     return 1
 }
@@ -145,6 +158,45 @@ stage_resolved_conflicts() {
     return 0
 }
 
+# merge 前：把「已靜置夠久」的本地改動先提交，避免未提交改動擋住 merge
+# 仍在編輯中的檔案本輪不動，等下一輪靜置後再合併
+commit_settled_changes() {
+    local changed newest_mtime now quiet_age large_files
+
+    changed=$(git ls-files -m -o --exclude-standard)
+    [ -z "$changed" ] && return 0
+
+    # 静置檢查：最新改動若仍在編輯保護期內，本輪不提交、不 merge
+    newest_mtime=$(git ls-files -m -o --exclude-standard -z | xargs -0 stat -f %m 2>/dev/null | sort -n | tail -1)
+    if [ -n "$newest_mtime" ]; then
+        now=$(date +%s)
+        quiet_age=$((now - newest_mtime))
+        if [ "$quiet_age" -lt "$QUIET_GAP" ]; then
+            log "⏳ 尚有檔案仍在編輯中 (${quiet_age}s < ${QUIET_GAP}s)，本輪先不提交、不合併，待靜置後下一輪處理"
+            return 1
+        fi
+    fi
+
+    retry_with_cleanup "git add -A"
+
+    # 檢查並取消暫存過大的檔案
+    large_files=$(list_large_files)
+    if [ -n "$large_files" ]; then
+        printf '%s' "$large_files" | xargs -0 -I{} git reset -q HEAD -- "{}"
+        log "⛔ 跳過超大檔案: $(printf '%s' "$large_files" | tr '\0' ' ')"
+    fi
+
+    if ! git diff --cached --quiet; then
+        if retry_with_cleanup "git commit -m 'Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')'"; then
+            log "📝 本地已靜置變更已提交（merge 前）"
+        else
+            log "⚠️ 本地變更提交失敗，保留工作區不動"
+            return 1
+        fi
+    fi
+    return 0
+}
+
 # 核心同步函數
 sync_repo() {
     # 使用目錄作為互斥鎖，防止多個同步任務同時執行
@@ -171,11 +223,11 @@ sync_repo() {
     trap 'rmdir "$RUN_LOCK" 2>/dev/null || true' RETURN
 
     log "🎯 [核心同步] 開始..."
-    
+
     # 清理可能存在的舊 lock（在任何 Git 操作前）
     cleanup_git_lock
     cleanup_stale_rebase
-    
+
     # 使用智能重試機制執行 checkout
     if ! retry_with_cleanup "git checkout '$BRANCH'"; then
         # 如果分支不存在，创建它
@@ -194,6 +246,12 @@ sync_repo() {
         return 0
     fi
 
+    # merge 前：先把已靜置好的本地改動提交，避免未提交改動擋住 merge
+    if ! commit_settled_changes; then
+        touch "$LAST_SYNC_TS"
+        return 0
+    fi
+
     local local_head remote_head
     local_head=$(git rev-parse HEAD 2>/dev/null || echo "N/A")
     remote_head=$(timeout "$GIT_TIMEOUT" git ls-remote origin -h "refs/heads/$BRANCH" | cut -f1)
@@ -207,8 +265,12 @@ sync_repo() {
             # 合併成功後拉取 LFS 物件
             retry_with_cleanup "timeout '$GIT_TIMEOUT' git lfs pull origin '$BRANCH'" || log "⚠️ LFS pull 失敗，保留本地狀態"
         else
-            # 拉取/合併失敗：保留本地工作區不動，中斷本輪自動提交（不 reset、不強推）
-            log "⚠️ 拉取或合併失敗，保留本地工作區不動，中斷本輪自動提交（不 reset、不強推）"
+            # 區分「衝突」與「其他失敗」：衝突保留標記供手動解，其餘保留工作區不動（不 reset、不強推）
+            if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
+                log "⚠️ 合併發生衝突，衝突標記已保留；請在 Logseq 中逐段解決並儲存，解決前暫停自動提交與推送"
+            else
+                log "⚠️ 拉取或合併失敗，保留本地工作區不動（不 reset、不強推）；本地未提交改動待靜置後下一輪重試"
+            fi
             cleanup_stale_rebase
             touch "$LAST_SYNC_TS"
             return 0
